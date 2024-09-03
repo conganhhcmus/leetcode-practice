@@ -1,1 +1,23 @@
 # leetcode-practice
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/conganhhcmus/1)
+
+NOTE: These projects are for practice purposes only.
+
+[![LeetCode](https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png)](https://leetcode.com)
+
+
+## Description
+All the contest/practice solutions on LeetCode that I attended.
+
+## Detail
+#### Practice
+- [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/1945.%20Sum%20of%20Digits%20of%20String%20After%20Convert/Solution.cs)
+
+#### Contest
+
+
+## Contact Me
+- [Facebook](https://www.facebook.com/conganhhcmus)
+- [Instagram](https://www.instagram.com/conganhhcmus)
+- [Mail](mailto:conganhhcmus@gmail.com)
+- [Youtube](https://www.youtube.com/channel/UCExh5J_fK931tesMCry6_pw?view_as=subscriber)
