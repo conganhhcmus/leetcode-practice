@@ -11,7 +11,8 @@ All the contest/practice solutions on LeetCode that I attended.
 
 ## Detail
 #### Practice
-- [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/1945.%20Sum%20of%20Digits%20of%20String%20After%20Convert/Solution.cs)
+- [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
+- [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/1945/Solution.cs)
 
 #### Contest
 
