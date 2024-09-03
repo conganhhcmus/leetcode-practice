@@ -11,6 +11,7 @@ All the contest/practice solutions on LeetCode that I attended.
 
 ## Detail
 #### Practice
+- [1. Two Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/1/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/1945/Solution.cs)
 
