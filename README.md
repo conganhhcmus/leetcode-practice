@@ -18,6 +18,9 @@ All the contest/practice solutions on LeetCode that I attended.
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/2022/Solution.cs)
 
 #### Contest
+##### Weekly Contest 413
+- [3274. Check if Two Chessboard Squares Have the Same Color](https://github.com/conganhhcmus/leetcode-practice/blob/main/3274/Solution.cs)
+- [3275. K-th Nearest Obstacle Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/3275/Solution.cs)
 
 
 ## Contact Me
