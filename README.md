@@ -15,6 +15,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [2. Add Two Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/2/Solution.cs)
 - [3. Longest Substring Without Repeating Characters](https://github.com/conganhhcmus/leetcode-practice/blob/main/3/Solution.cs)
 - [4. Median of Two Sorted Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/4/Solution.cs)
+- [5. Longest Palindromic Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/5/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/1945/Solution.cs)
