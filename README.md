@@ -18,6 +18,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [5. Longest Palindromic Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/5/Solution.cs)
 - [6. Zigzag Conversion](https://github.com/conganhhcmus/leetcode-practice/blob/main/6/Solution.cs)
 - [7. Reverse Integer](https://github.com/conganhhcmus/leetcode-practice/blob/main/7/Solution.cs)
+- [8. String to Integer (atoi)](https://github.com/conganhhcmus/leetcode-practice/blob/main/8/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/26/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
