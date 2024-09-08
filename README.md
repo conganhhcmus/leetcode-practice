@@ -20,6 +20,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [7. Reverse Integer](https://github.com/conganhhcmus/leetcode-practice/blob/main/7/Solution.cs)
 - [8. String to Integer (atoi)](https://github.com/conganhhcmus/leetcode-practice/blob/main/8/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/26/Solution.cs)
+- [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/725/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
 - [1367. Linked List in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/1367/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
