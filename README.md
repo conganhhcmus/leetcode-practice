@@ -19,6 +19,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [6. Zigzag Conversion](https://github.com/conganhhcmus/leetcode-practice/blob/main/6/Solution.cs)
 - [7. Reverse Integer](https://github.com/conganhhcmus/leetcode-practice/blob/main/7/Solution.cs)
 - [8. String to Integer (atoi)](https://github.com/conganhhcmus/leetcode-practice/blob/main/8/Solution.cs)
+- [9. Palindrome Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/9/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/26/Solution.cs)
 - [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/725/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
