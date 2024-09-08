@@ -36,6 +36,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [3274. Check if Two Chessboard Squares Have the Same Color](https://github.com/conganhhcmus/leetcode-practice/blob/main/3274/Solution.cs)
 - [3275. K-th Nearest Obstacle Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/3275/Solution.cs)
 - [3276. Select Cells in Grid With Maximum Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/3276/Solution.cs)
+- [3277. Maximum XOR Score Subarray Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/3277/Solution.cs)
 
 
 ## Contact Me
