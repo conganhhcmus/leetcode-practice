@@ -24,6 +24,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/725/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
 - [1367. Linked List in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/1367/Solution.cs)
+- [1514. Path with Maximum Probability](https://github.com/conganhhcmus/leetcode-practice/blob/main/1514/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/1945/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/2022/Solution.cs)
