@@ -32,8 +32,9 @@ All the contest/practice solutions on LeetCode that I attended.
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/2022/Solution.cs)
 - [2028. Find Missing Observations](https://github.com/conganhhcmus/leetcode-practice/blob/main/2028/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/2220/Solution.cs)
-- [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/2807/Solution.cs)
 - [2326. Spiral Matrix IV](https://github.com/conganhhcmus/leetcode-practice/blob/main/2326/Solution.cs)
+- [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/conganhhcmus/leetcode-practice/blob/main/2419/Solution.cs)
+- [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/2807/Solution.cs)
 - [3217. Delete Nodes From Linked List Present in Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/3217/Solution.cs)
 
 
