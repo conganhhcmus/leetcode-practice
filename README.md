@@ -25,6 +25,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
 - [1310. XOR Queries of a Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/1310/Solution.cs)
+- [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/1371/Solution.cs)
 - [1514. Path with Maximum Probability](https://github.com/conganhhcmus/leetcode-practice/blob/main/1514/Solution.cs)
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
