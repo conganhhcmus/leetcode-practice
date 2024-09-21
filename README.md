@@ -32,6 +32,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [241. Different Ways to Add Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/241/Solution.cs)
 - [283. Move Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/283/Solution.cs)
 - [350. Intersection of Two Arrays II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/350/Solution.cs)
+- [386. Lexicographical Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/386/Solution.cs)
 - [539. Minimum Time Difference](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/539/Solution.cs)
 - [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/725/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/874/Solution.cs)
