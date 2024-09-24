@@ -26,6 +26,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/122/Solution.cs)
 - [179. Largest Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/179/Solution.cs)
 - [189. Rotate Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/189/Solution.cs)
+- [241. Different Ways to Add Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/241/Solution.cs)
 - [539. Minimum Time Difference](https://github.com/conganhhcmus/leetcode-practice/blob/main/539/Solution.cs)
 - [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/725/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
