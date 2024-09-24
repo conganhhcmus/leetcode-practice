@@ -18,6 +18,8 @@ All the contest/practice solutions on LeetCode that I attended.
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/1700/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/1945/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/2022/Solution.cs)
+- [2028. Find Missing Observations](https://github.com/conganhhcmus/leetcode-practice/blob/main/2028/Solution.cs)
+
 
 #### Contest
 ##### Weekly Contest 413
