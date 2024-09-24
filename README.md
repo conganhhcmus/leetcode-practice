@@ -24,6 +24,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [11. Container With Most Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/11/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/26/Solution.cs)
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
+- [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
 - [179. Largest Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/179/Solution.cs)
 - [189. Rotate Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/189/Solution.cs)
 - [217. Contains Duplicate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/217/Solution.cs)
