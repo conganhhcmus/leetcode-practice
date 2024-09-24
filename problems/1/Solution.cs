@@ -1,4 +1,4 @@
-namespace Practice_1;
+namespace Problem_1;
 public class Solution
 {
     public static void Execute()

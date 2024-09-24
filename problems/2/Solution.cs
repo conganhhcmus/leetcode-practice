@@ -1,4 +1,4 @@
-namespace Practice_2;
+namespace Problem_2;
 public class ListNode
 {
     public int val;

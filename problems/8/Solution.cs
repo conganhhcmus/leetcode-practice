@@ -1,4 +1,4 @@
-namespace Practice_8;
+namespace Problem_8;
 
 public class Solution
 {

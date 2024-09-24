@@ -1,4 +1,4 @@
-namespace Practice_725;
+namespace Problem_725;
 
 public class ListNode
 {
