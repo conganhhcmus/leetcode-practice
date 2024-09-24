@@ -27,6 +27,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
 - [179. Largest Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/179/Solution.cs)
 - [189. Rotate Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/189/Solution.cs)
+- [214. Shortest Palindrome](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/214/Solution.cs)
 - [217. Contains Duplicate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/217/Solution.cs)
 - [241. Different Ways to Add Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/241/Solution.cs)
 - [283. Move Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/283/Solution.cs)
