@@ -28,7 +28,7 @@ All the contest/practice solutions on LeetCode that I attended.
 - [539. Minimum Time Difference](https://github.com/conganhhcmus/leetcode-practice/blob/main/539/Solution.cs)
 - [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/725/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
-- [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/874/Solution.cs)
+- [884. Uncommon Words from Two Sentences](https://github.com/conganhhcmus/leetcode-practice/blob/main/884/Solution.cs)
 - [1310. XOR Queries of a Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/1310/Solution.cs)
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/1371/Solution.cs)
 - [1514. Path with Maximum Probability](https://github.com/conganhhcmus/leetcode-practice/blob/main/1514/Solution.cs)
