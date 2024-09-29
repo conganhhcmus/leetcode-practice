@@ -21,16 +21,16 @@ public class MyCalendar
         mySorted.Add(start, new Pair(start, end));
 
         var pos = mySorted.IndexOfKey(start);
-        Pair? prevVal = null;
-        Pair? nextVal = null;
+        Pair prevVal = null;
+        Pair nextVal = null;
         if (pos - 1 >= 0)
         {
-            prevVal = (Pair?)mySorted.GetByIndex(pos - 1);
+            prevVal = (Pair)mySorted.GetByIndex(pos - 1);
         }
 
         if (pos + 1 < mySorted.Count)
         {
-            nextVal = (Pair?)mySorted.GetByIndex(pos + 1);
+            nextVal = (Pair)mySorted.GetByIndex(pos + 1);
         }
 
         if ((prevVal is not null && prevVal.end > start)
@@ -50,7 +50,7 @@ public class Solution
     {
         string[] events = ["MyCalendar", "book", "book", "book"];
         int[][] times = [[], [10, 20], [15, 25], [20, 30]];
-        MyCalendar? myCalendar = null;
+        MyCalendar myCalendar = null;
         List<string> ans = [];
 
         for (int i = 0; i < events.Length; i++)
