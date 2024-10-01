@@ -33,6 +33,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [238. Product of Array Except Self](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/238/Solution.cs)
 - [241. Different Ways to Add Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/241/Solution.cs)
 - [283. Move Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/283/Solution.cs)
+- [334. Increasing Triplet Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/334/Solution.cs)
 - [345. Reverse Vowels of a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/345/Solution.cs)
 - [350. Intersection of Two Arrays II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/350/Solution.cs)
 - [386. Lexicographical Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/386/Solution.cs)
