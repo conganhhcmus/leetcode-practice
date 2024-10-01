@@ -40,6 +40,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [392. Is Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/392/Solution.cs)
 - [432. All O`one Data Structure](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/432/Solution.cs)
 - [440. K-th Smallest in Lexicographical Order](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/440/Solution.cs)
+- [443. String Compression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/443/Solution.cs)
 - [539. Minimum Time Difference](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/539/Solution.cs)
 - [605. Can Place Flowers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/605/Solution.cs)
 - [641. Design Circular Deque](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/641/Solution.cs)
