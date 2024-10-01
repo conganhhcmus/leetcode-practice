@@ -36,6 +36,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [345. Reverse Vowels of a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/345/Solution.cs)
 - [350. Intersection of Two Arrays II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/350/Solution.cs)
 - [386. Lexicographical Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/386/Solution.cs)
+- [392. Is Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/392/Solution.cs)
 - [432. All O`one Data Structure](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/432/Solution.cs)
 - [440. K-th Smallest in Lexicographical Order](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/440/Solution.cs)
 - [539. Minimum Time Difference](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/539/Solution.cs)
