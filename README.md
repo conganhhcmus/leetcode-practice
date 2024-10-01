@@ -51,6 +51,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1371/Solution.cs)
 - [1381. Design a Stack With Increment Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1381/Solution.cs)
 - [1431. Kids With the Greatest Number of Candies](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1431/Solution.cs)
+- [1497. Check If Array Pairs Are Divisible by k](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1497/Solution.cs)
 - [1514. Path with Maximum Probability](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1514/Solution.cs)
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1700/Solution.cs)
