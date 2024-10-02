@@ -57,6 +57,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1431. Kids With the Greatest Number of Candies](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1431/Solution.cs)
 - [1497. Check If Array Pairs Are Divisible by k](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1497/Solution.cs)
 - [1514. Path with Maximum Probability](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1514/Solution.cs)
+- [1679. Max Number of K-Sum Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1679/Solution.cs)
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1700/Solution.cs)
 - [1768. Merge Strings Alternately](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1768/Solution.cs)
