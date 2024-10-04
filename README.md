@@ -50,6 +50,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [731. My Calendar II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/731/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/874/Solution.cs)
 - [884. Uncommon Words from Two Sentences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/884/Solution.cs)
+- [1004. Max Consecutive Ones III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1004/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1071/Solution.cs)
 - [1310. XOR Queries of a Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1310/Solution.cs)
 - [1331. Rank Transform of an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1331/Solution.cs)
