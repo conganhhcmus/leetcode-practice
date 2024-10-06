@@ -66,6 +66,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1679. Max Number of K-Sum Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1679/Solution.cs)
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1700/Solution.cs)
+- [1732. Find the Highest Altitude](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1732/Solution.cs)
 - [1768. Merge Strings Alternately](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1768/Solution.cs)
 - [1813. Sentence Similarity III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1813/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1894/Solution.cs)
