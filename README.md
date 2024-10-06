@@ -74,6 +74,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1945/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2022/Solution.cs)
 - [2028. Find Missing Observations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2028/Solution.cs)
+- [2215. Find the Difference of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2220/Solution.cs)
 - [2326. Spiral Matrix IV](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2326/Solution.cs)
 - [2416. Sum of Prefix Scores of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2416/Solution.cs)
