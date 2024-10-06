@@ -79,6 +79,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2215. Find the Difference of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2220/Solution.cs)
 - [2326. Spiral Matrix IV](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2326/Solution.cs)
+- [2352. Equal Row and Column Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2352/Solution.cs)
 - [2416. Sum of Prefix Scores of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2416/Solution.cs)
 - [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2419/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)
