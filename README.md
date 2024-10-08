@@ -76,6 +76,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1813. Sentence Similarity III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1813/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1894/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1945/Solution.cs)
+- [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1963/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2022/Solution.cs)
 - [2028. Find Missing Observations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2028/Solution.cs)
 - [2215. Find the Difference of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2215/Solution.cs)
