@@ -23,6 +23,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [10. Regular Expression Matching](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/10/Solution.cs)
 - [11. Container With Most Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/11/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/26/Solution.cs)
+- [104. Maximum Depth of Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/104/Solution.cs)
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
 - [151. Reverse Words in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/151/Solution.cs)
