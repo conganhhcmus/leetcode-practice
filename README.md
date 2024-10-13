@@ -56,6 +56,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [729. My Calendar I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/729/Solution.cs)
 - [731. My Calendar II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/731/Solution.cs)
 - [735. Asteroid Collision](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/735/Solution.cs)
+- [872. Leaf-Similar Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/872/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/874/Solution.cs)
 - [884. Uncommon Words from Two Sentences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/884/Solution.cs)
 - [921. Minimum Add to Make Parentheses Valid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/921/Solution.cs)
