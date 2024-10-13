@@ -1,44 +1,18 @@
 namespace Problem_2;
-public class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        this.val = val;
-        this.next = next;
-    }
 
-    public ListNode SetNext(ListNode node)
-    {
-        this.next = node;
-        return node;
-    }
-}
+using Helpers.ListNode;
+
 public class Solution
 {
     public static void Execute()
     {
+        var l1 = ListNodeHelper.CreateListFromArray([1, 8]);
+        var l2 = ListNodeHelper.CreateListFromArray([0]);
+
         var solution = new Solution();
-        var l1 = new ListNode(1);
-        l1
-            .SetNext(new ListNode(8));
-
-        var l2 = new ListNode(0);
-        // l2
-        //     .SetNext(new ListNode(9))
-        //     .SetNext(new ListNode(9))
-        //     .SetNext(new ListNode(9));
-
         var res = solution.AddTwoNumbers(l1, l2);
-        var str = "";
-        while (res != null)
-        {
-            str += $"{res.val}";
-            res = res.next;
-            if (res != null) str += ",";
-        }
-        Console.WriteLine($"[{str}]");
+
+        ListNodeHelper.PrintList(res);
     }
 
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)

@@ -1,69 +1,19 @@
 namespace Problem_1367;
 
-public class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        this.val = val;
-        this.next = next;
-    }
-}
-
-public class TreeNode
-{
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
-    {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
-
+using Helpers.TreeNode;
+using Helpers.ListNode;
 
 public class Solution
 {
     public static void Execute()
     {
         var solution = new Solution();
-        int[] headArr = [10, 10, 4, 9, 9, 4, 2, 2, 9, 9, 5];
-        int?[] rootArr = [10, 10, 9, 4, 7, 6, 10, 10, 9, 6, 4, 8, 8, 9, 2, null, 2, null, 9, null, null, null, null, null, 9, 1, 7, null, null, null, null, 7, 4, 4, 6, null, null, 6, null, null, null, null, null, 9, 6, null, 2, 4, 8, null, 5, 2, null, null, null, 2, null, null, null, null, 3, 8, 2, null, 5, 4, 9, null, null, 6, null, 1, 3, null, null, 8, 9, null, 9, null, null, null, 5, null, null, 1, 1, null, null, 5, null, null, null, null, null, null, null, 7];
 
-        ListNode tmpList = new();
-        var head = tmpList;
-        foreach (int num in headArr)
-        {
-            tmpList.next = new ListNode(num);
-            tmpList = tmpList.next;
-        }
+        var head = ListNodeHelper.CreateListFromArray([10, 10, 4, 9, 9, 4, 2, 2, 9, 9, 5]);
 
-        var tmpTree = new TreeNode[rootArr.Length];
-        for (int i = 0; i < rootArr.Length; i++)
-        {
-            if (rootArr[i] is not null)
-            {
-                tmpTree[i] = new TreeNode(rootArr[i].Value);
-            }
-        }
+        var root = TreeNodeHelper.CreateTreeFromArray([10, 10, 9, 4, 7, 6, 10, 10, 9, 6, 4, 8, 8, 9, 2, null, 2, null, 9, null, null, null, null, null, 9, 1, 7, null, null, null, null, 7, 4, 4, 6, null, null, 6, null, null, null, null, null, 9, 6, null, 2, 4, 8, null, 5, 2, null, null, null, 2, null, null, null, null, 3, 8, 2, null, 5, 4, 9, null, null, 6, null, 1, 3, null, null, 8, 9, null, 9, null, null, null, 5, null, null, 1, 1, null, null, 5, null, null, null, null, null, null, null, 7]);
 
-        var last = 0;
-        for (int i = 0; i < tmpTree.Length && last + 2 < tmpTree.Length; i++)
-        {
-            if (tmpTree[i] is not null)
-            {
-                tmpTree[i].left = tmpTree[last + 1];
-                tmpTree[i].right = tmpTree[last + 2];
-                last += 2;
-            }
-        }
-
-        var root = tmpTree[0];
-
-        Console.WriteLine(solution.IsSubPath(head.next, root));
+        Console.WriteLine(solution.IsSubPath(head, root));
     }
 
     public bool IsSubPath(ListNode head, TreeNode root)

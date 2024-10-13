@@ -1,53 +1,24 @@
 namespace Problem_725;
 
-public class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        this.val = val;
-        this.next = next;
-    }
-}
+using Helpers.ListNode;
 
 public class Solution
 {
     public static void Execute()
     {
-        var solution = new Solution();
-        int[] headArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
         int k = 3;
-        var tmpHead = new ListNode();
-        var head = tmpHead;
+        var head = ListNodeHelper.CreateListFromArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
-        foreach (var num in headArr)
-        {
-            tmpHead.next = new ListNode(num);
-            tmpHead = tmpHead.next;
-        }
+        ListNodeHelper.PrintList(head.next);
 
-        PrintListNode(head.next);
-
-        var res = solution.SplitListToParts(head.next, k);
+        var solution = new Solution();
+        var res = solution.SplitListToParts(head, k);
         foreach (var node in res)
         {
-            PrintListNode(node);
+            ListNodeHelper.PrintList(node);
         }
     }
 
-    private static void PrintListNode(ListNode node)
-    {
-        var tmpList = node;
-        List<int> output = [];
-        while (tmpList is not null)
-        {
-            output.Add(tmpList.val);
-            tmpList = tmpList.next;
-        }
-
-        Console.WriteLine($"[{string.Join(", ", output)}]");
-    }
 
     public ListNode[] SplitListToParts(ListNode head, int k)
     {

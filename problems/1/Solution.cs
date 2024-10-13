@@ -3,7 +3,7 @@ public class Solution
 {
     public static void Execute()
     {
-        var nums = new[] { 2, 7, 11, 15 };
+        int[] nums = [2, 7, 11, 15];
         var target = 9;
         var solution = new Solution();
 
@@ -20,13 +20,13 @@ public class Solution
             {
                 if (nums[p1] + nums[p2] == target)
                 {
-                    return new[] { p1, p2 };
+                    return [p1, p2];
                 }
                 p2++;
             }
             p1++;
             p2 = p1 + 1;
         }
-        return new[] { p1, p2 };
+        return [p1, p2];
     }
 }

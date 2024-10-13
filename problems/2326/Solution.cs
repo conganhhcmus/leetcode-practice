@@ -1,46 +1,21 @@
 namespace Problem_2326;
 
-public class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        this.val = val;
-        this.next = next;
-    }
-}
+using Helpers.ListNode;
+using Helpers.Array;
 
 public class Solution
 {
     public static void Execute()
     {
-        var solution = new Solution();
         int m = 3;
         int n = 5;
-        int[] headArr = [3, 0, 2, 6, 8, 1, 7, 9, 4, 2, 5, 5, 0];
+        var head = ListNodeHelper.CreateListFromArray([3, 0, 2, 6, 8, 1, 7, 9, 4, 2, 5, 5, 0]);
 
-        var tmpNode = new ListNode();
-        var head = tmpNode;
-        foreach (var num in headArr)
-        {
-            tmpNode.next = new ListNode(num);
-            tmpNode = tmpNode.next;
-        }
-
+        var solution = new Solution();
         var res = solution.SpiralMatrix(m, n, head.next);
-        Print2DArray(res);
+        ArrayHelper.Print2DArray(res);
     }
-    private static void Print2DArray(int[][] array)
-    {
-        string[] rows = new string[array.Length];
-        for (int i = 0; i < array.Length; i++)
-        {
-            rows[i] = $"[{string.Join(",", array[i])}]";
-        }
 
-        Console.WriteLine($"[{string.Join(",", rows)}]");
-    }
     public int[][] SpiralMatrix(int m, int n, ListNode head)
     {
         int[][] res = new int[m][];
