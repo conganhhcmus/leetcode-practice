@@ -71,6 +71,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1371/Solution.cs)
 - [1381. Design a Stack With Increment Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1381/Solution.cs)
 - [1431. Kids With the Greatest Number of Candies](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1431/Solution.cs)
+- [1448. Count Good Nodes in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1448/Solution.cs)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1456/Solution.cs)
 - [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1493/Solution.cs)
 - [1497. Check If Array Pairs Are Divisible by k](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1497/Solution.cs)
