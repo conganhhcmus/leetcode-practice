@@ -70,6 +70,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1310. XOR Queries of a Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1310/Solution.cs)
 - [1331. Rank Transform of an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1331/Solution.cs)
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1371/Solution.cs)
+- [1372. Longest ZigZag Path in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1372/Solution.cs)
 - [1381. Design a Stack With Increment Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1381/Solution.cs)
 - [1431. Kids With the Greatest Number of Candies](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1431/Solution.cs)
 - [1448. Count Good Nodes in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1448/Solution.cs)
