@@ -32,6 +32,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [206. Reverse Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/206/Solution.cs)
 - [214. Shortest Palindrome](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/214/Solution.cs)
 - [217. Contains Duplicate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/217/Solution.cs)
+- [236. Lowest Common Ancestor of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/236/Solution.cs)
 - [238. Product of Array Except Self](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/238/Solution.cs)
 - [241. Different Ways to Add Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/241/Solution.cs)
 - [283. Move Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/283/Solution.cs)

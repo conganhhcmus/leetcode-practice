@@ -16,6 +16,8 @@ public static class TreeNodeHelper
 {
     public static TreeNode CreateTreeFromArray(int?[] array)
     {
+        if (array.Length == 2) return new TreeNode(array[0].Value, new TreeNode(array[1].Value), null);
+
         var tmpTree = new TreeNode[array.Length];
         for (int i = 0; i < array.Length; i++)
         {
