@@ -69,6 +69,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [962. Maximum Width Ramp](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/962/Solution.cs)
 - [1004. Max Consecutive Ones III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1004/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1071/Solution.cs)
+- [1161. Maximum Level Sum of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1161/Solution.cs)
 - [1207. Unique Number of Occurrences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1207/Solution.cs)
 - [1310. XOR Queries of a Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1310/Solution.cs)
 - [1331. Rank Transform of an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1331/Solution.cs)
