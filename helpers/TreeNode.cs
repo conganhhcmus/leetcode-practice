@@ -40,4 +40,21 @@ public static class TreeNodeHelper
 
         return tmpTree[0];
     }
+
+    public static int[] BFSTraversal(TreeNode root)
+    {
+        if (root is null) return [];
+        List<int> result = [];
+        Queue<TreeNode> queue = [];
+        queue.Enqueue(root);
+
+        while (queue.Count > 0)
+        {
+            var currentNode = queue.Dequeue();
+            result.Add(currentNode.val);
+            if (currentNode.right != null) queue.Enqueue(currentNode.right);
+            if (currentNode.left != null) queue.Enqueue(currentNode.left);
+        }
+        return [.. result];
+    }
 }
