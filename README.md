@@ -50,6 +50,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [443. String Compression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/443/Solution.cs)
 - [450. Delete Node in a BST](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/450/Solution.cs)
 - [539. Minimum Time Difference](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/539/Solution.cs)
+- [547. Number of Provinces](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/547/Solution.cs)
 - [567. Permutation in String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/567/Solution.cs)
 - [605. Can Place Flowers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/605/Solution.cs)
 - [632. Smallest Range Covering Elements from K Lists](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/632/Solution.cs)
