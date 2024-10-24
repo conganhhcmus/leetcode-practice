@@ -101,6 +101,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1768. Merge Strings Alternately](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1768/Solution.cs)
 - [1813. Sentence Similarity III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1813/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1894/Solution.cs)
+- [1926. Nearest Exit from Entrance in Maze](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1926/Solution.cs)
 - [1942. The Number of the Smallest Unoccupied Chair](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1942/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1945/Solution.cs)
 - [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1963/Solution.cs)
