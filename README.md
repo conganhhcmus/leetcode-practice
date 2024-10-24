@@ -70,6 +70,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [884. Uncommon Words from Two Sentences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/884/Solution.cs)
 - [921. Minimum Add to Make Parentheses Valid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/921/Solution.cs)
 - [933. Number of Recent Calls](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/933/Solution.cs)
+- [951. Flip Equivalent Binary Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/951/Solution.cs)
 - [962. Maximum Width Ramp](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/962/Solution.cs)
 - [1004. Max Consecutive Ones III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1004/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1071/Solution.cs)
