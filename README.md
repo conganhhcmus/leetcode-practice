@@ -72,6 +72,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [933. Number of Recent Calls](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/933/Solution.cs)
 - [951. Flip Equivalent Binary Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/951/Solution.cs)
 - [962. Maximum Width Ramp](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/962/Solution.cs)
+- [994. Rotting Oranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/994/Solution.cs)
 - [1004. Max Consecutive Ones III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1004/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1071/Solution.cs)
 - [1106. Parsing A Boolean Expression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1106/Solution.cs)
