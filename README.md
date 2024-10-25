@@ -77,6 +77,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1106. Parsing A Boolean Expression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1106/Solution.cs)
 - [1161. Maximum Level Sum of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1161/Solution.cs)
 - [1207. Unique Number of Occurrences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1207/Solution.cs)
+- [1233. Remove Sub-Folders from the Filesystem](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1233/Solution.cs)
 - [1310. XOR Queries of a Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1310/Solution.cs)
 - [1331. Rank Transform of an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1331/Solution.cs)
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1371/Solution.cs)
