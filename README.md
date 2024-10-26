@@ -120,6 +120,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2406. Divide Intervals Into Minimum Number of Groups](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2406/Solution.cs)
 - [2416. Sum of Prefix Scores of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2416/Solution.cs)
 - [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2419/Solution.cs)
+- [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2458/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2583/Solution.cs)
