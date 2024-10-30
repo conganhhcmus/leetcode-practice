@@ -99,6 +99,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1590. Make Sum Divisible by P](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1590/Solution.cs)
 - [1593. Split a String Into the Max Number of Unique Substrings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1593/Solution.cs)
 - [1657. Determine if Two Strings Are Close](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1657/Solution.cs)
+- [1671. Minimum Number of Removals to Make Mountain Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1671/Solution.cs)
 - [1679. Max Number of K-Sum Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1679/Solution.cs)
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1700/Solution.cs)
