@@ -27,6 +27,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
 - [151. Reverse Words in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/151/Solution.cs)
+- [162. Find Peak Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/162/Solution.cs)
 - [179. Largest Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/179/Solution.cs)
 - [189. Rotate Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/189/Solution.cs)
 - [199. Binary Tree Right Side View](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/199/Solution.cs)
