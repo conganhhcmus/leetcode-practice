@@ -111,6 +111,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1926. Nearest Exit from Entrance in Maze](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1926/Solution.cs)
 - [1942. The Number of the Smallest Unoccupied Chair](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1942/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1945/Solution.cs)
+- [1957. Delete Characters to Make Fancy String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1957/Solution.cs)
 - [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1963/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2022/Solution.cs)
 - [2028. Find Missing Observations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2028/Solution.cs)
