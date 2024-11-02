@@ -133,6 +133,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2458/Solution.cs)
 - [2462. Total Cost to Hire K Workers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2462/Solution.cs)
 - [2463. Minimum Total Distance Traveled](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2463/Solution.cs)
+- [2490. Circular Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2490/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)
 - [2501. Longest Square Streak in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2501/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
