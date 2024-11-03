@@ -69,6 +69,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [731. My Calendar II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/731/Solution.cs)
 - [735. Asteroid Collision](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/735/Solution.cs)
 - [746. Min Cost Climbing Stairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/746/Solution.cs)
+- [796. Rotate String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/796/Solution.cs)
 - [841. Keys and Rooms](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/841/Solution.cs)
 - [872. Leaf-Similar Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/872/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/874/Solution.cs)
