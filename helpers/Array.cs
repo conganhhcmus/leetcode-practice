@@ -12,4 +12,15 @@ public static class ArrayHelper
 
         Console.WriteLine($"[{string.Join(",", rows)}]");
     }
+
+    public static void Print2DArray(IList<IList<int>> array)
+    {
+        string[] rows = new string[array.Count];
+        for (int i = 0; i < array.Count; i++)
+        {
+            rows[i] = $"[{string.Join(",", array[i])}]";
+        }
+
+        Console.WriteLine($"[{string.Join(",", rows)}]");
+    }
 }
