@@ -31,6 +31,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [162. Find Peak Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/162/Solution.cs)
 - [179. Largest Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/179/Solution.cs)
 - [189. Rotate Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/189/Solution.cs)
+- [198. House Robber](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/198/Solution.cs)
 - [199. Binary Tree Right Side View](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/199/Solution.cs)
 - [206. Reverse Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/206/Solution.cs)
 - [214. Shortest Palindrome](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/214/Solution.cs)
