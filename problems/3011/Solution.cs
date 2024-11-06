@@ -1,45 +1,27 @@
-using System.Runtime.Intrinsics.Arm;
-
 namespace Problem_3011;
 
 public class Solution
 {
     public static void Execute()
     {
-        int[] nums = [8, 4, 2, 30, 15];
+        int[] nums = [3, 16, 8, 4, 2];
         var solution = new Solution();
         Console.WriteLine(solution.CanSortArray(nums));
     }
     public bool CanSortArray(int[] nums)
     {
-        int CountBitSet(int n)
+        int cached = 0;
+        int maxPrev = 0;
+        int max = 0;
+        for (int i = 0; i < nums.Length; i++)
         {
-            int count = 0;
-            while (n > 0)
+            if (int.PopCount(nums[i]) != cached)
             {
-                count += n & 1;
-                n >>= 1;
+                maxPrev = max;
+                cached = int.PopCount(nums[i]);
             }
-            return count;
-        }
-        int n = nums.Length;
-        int[] dp = new int[n];
-
-        for (int i = 0; i < n; i++)
-        {
-            dp[i] = CountBitSet(nums[i]);
-        }
-
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = 0; j < n - 1; j++)
-            {
-                if (nums[j] > nums[j + 1])
-                {
-                    if (dp[j] != dp[j + 1]) return false;
-                    (nums[j], nums[j + 1]) = (nums[j + 1], nums[j]);
-                }
-            }
+            if (maxPrev > nums[i]) return false;
+            max = Math.Max(max, nums[i]);
         }
 
         return true;
