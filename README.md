@@ -128,6 +128,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2130. Maximum Twin Sum of a Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2130/Solution.cs)
 - [2215. Find the Difference of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2220/Solution.cs)
+- [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2275/Solution.cs)
 - [2300. Successful Pairs of Spells and Potions](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2300/Solution.cs)
 - [2326. Spiral Matrix IV](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2326/Solution.cs)
 - [2336. Smallest Number in Infinite Set](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2336/Solution.cs)
