@@ -116,6 +116,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1732. Find the Highest Altitude](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1732/Solution.cs)
 - [1768. Merge Strings Alternately](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1768/Solution.cs)
 - [1813. Sentence Similarity III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1813/Solution.cs)
+- [1829. Maximum XOR for Each Query](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1829/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1894/Solution.cs)
 - [1926. Nearest Exit from Entrance in Maze](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1926/Solution.cs)
 - [1942. The Number of the Smallest Unoccupied Chair](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1942/Solution.cs)
