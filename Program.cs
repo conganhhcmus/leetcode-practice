@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        Problem_3133.Solution.Execute();
+        Problem_1143.Solution.Execute();
 
         //Contest_413_Q1.Solution.Execute();
         //Contest_413_Q2.Solution.Execute();

@@ -89,6 +89,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1071. Greatest Common Divisor of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1071/Solution.cs)
 - [1106. Parsing A Boolean Expression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1106/Solution.cs)
 - [1137. N-th Tribonacci Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1137/Solution.cs)
+- [1143. Longest Common Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1143/Solution.cs)
 - [1161. Maximum Level Sum of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1161/Solution.cs)
 - [1207. Unique Number of Occurrences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1207/Solution.cs)
 - [1233. Remove Sub-Folders from the Filesystem](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1233/Solution.cs)
