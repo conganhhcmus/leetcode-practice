@@ -67,6 +67,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [649. Dota2 Senate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/649/Solution.cs)
 - [670. Maximum Swap](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/670/Solution.cs)
 - [700. Search in a Binary Search Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/700/Solution.cs)
+- [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/714/Solution.cs)
 - [724. Find Pivot Index](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/724/Solution.cs)
 - [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/725/Solution.cs)
 - [729. My Calendar I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/729/Solution.cs)
