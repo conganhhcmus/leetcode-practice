@@ -25,6 +25,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [17. Letter Combinations of a Phone Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/17/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/26/Solution.cs)
 - [62. Unique Paths](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/62/Solution.cs)
+- [72. Edit Distance](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/72/Solution.cs)
 - [104. Maximum Depth of Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/104/Solution.cs)
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
