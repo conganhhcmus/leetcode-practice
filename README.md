@@ -152,6 +152,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
 - [2542. Maximum Subsequence Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2542/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2583/Solution.cs)
+- [2601. Prime Subtraction Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2601/Solution.cs)
 - [2641. Cousins in Binary Tree II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2641/Solution.cs)
 - [2684. Maximum Number of Moves in a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2648/Solution.cs)
 - [2696. Minimum String Length After Removing Substrings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2696/Solution.cs)
