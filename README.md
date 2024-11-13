@@ -154,6 +154,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2501. Longest Square Streak in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2501/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
 - [2542. Maximum Subsequence Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2542/Solution.cs)
+- [2563. Count the Number of Fair Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2563/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2583/Solution.cs)
 - [2601. Prime Subtraction Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2601/Solution.cs)
 - [2641. Cousins in Binary Tree II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2641/Solution.cs)
