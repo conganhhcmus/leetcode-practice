@@ -156,6 +156,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2416. Sum of Prefix Scores of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2416/Solution.cs)
 - [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2419/Solution.cs)
 - [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2458/Solution.cs)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2461/Solution.cs)
 - [2462. Total Cost to Hire K Workers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2462/Solution.cs)
 - [2463. Minimum Total Distance Traveled](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2463/Solution.cs)
 - [2490. Circular Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2490/Solution.cs)
