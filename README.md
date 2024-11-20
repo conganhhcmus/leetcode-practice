@@ -164,6 +164,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2490. Circular Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2490/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)
 - [2501. Longest Square Streak in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2501/Solution.cs)
+- [2516. Take K of Each Character From Left and Right](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2516/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
 - [2542. Maximum Subsequence Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2542/Solution.cs)
 - [2563. Count the Number of Fair Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2563/Solution.cs)
