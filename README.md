@@ -97,6 +97,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [994. Rotting Oranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/994/Solution.cs)
 - [1004. Max Consecutive Ones III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1004/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1071/Solution.cs)
+- [1072. Flip Columns For Maximum Number of Equal Rows](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1072/Solution.cs)
 - [1106. Parsing A Boolean Expression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1106/Solution.cs)
 - [1137. N-th Tribonacci Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1137/Solution.cs)
 - [1143. Longest Common Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1143/Solution.cs)
