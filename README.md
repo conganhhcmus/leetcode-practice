@@ -143,6 +143,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1945/Solution.cs)
 - [1957. Delete Characters to Make Fancy String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1957/Solution.cs)
 - [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1963/Solution.cs)
+- [1975. Maximum Matrix Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1975/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2022/Solution.cs)
 - [2028. Find Missing Observations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2028/Solution.cs)
 - [2044. Count Number of Maximum Bitwise-OR Subsets](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2044/Solution.cs)
