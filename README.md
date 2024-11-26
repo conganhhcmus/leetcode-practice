@@ -184,6 +184,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2707. Extra Characters in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2707/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2807/Solution.cs)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2914/Solution.cs)
+- [2924. Find Champion II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2924/Solution.cs)
 - [2938. Separate Black and White Balls](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2938/Solution.cs)
 - [3011. Find if Array Can Be Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3011/Solution.cs)
 - [3043. Find the Length of the Longest Common Prefix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3043/Solution.cs)
