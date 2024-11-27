@@ -193,6 +193,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3133. Minimum Array End](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3133/Solution.cs)
 - [3163. String Compression III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3163/Solution.cs)
 - [3217. Delete Nodes From Linked List Present in Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3217/Solution.cs)
+- [3243. Shortest Distance After Road Addition Queries I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3243/Solution.cs)
 - [3254. Find the Power of K-Size Subarrays I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3254/Solution.cs)
 
 
