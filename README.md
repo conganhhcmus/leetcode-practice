@@ -37,6 +37,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
 - [151. Reverse Words in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/151/Solution.cs)
 - [162. Find Peak Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/162/Solution.cs)
+- [169. Majority Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/169/Solution.cs)
 - [179. Largest Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/179/Solution.cs)
 - [189. Rotate Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/189/Solution.cs)
 - [198. House Robber](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/198/Solution.cs)
