@@ -33,6 +33,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [80. Remove Duplicates from Sorted Array II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/80/Solution.cs)
 - [88. Merge Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/88/Solution.cs)
 - [104. Maximum Depth of Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/104/Solution.cs)
+- [121. Best Time to Buy and Sell Stock](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/121/Solution.cs)
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
 - [151. Reverse Words in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/151/Solution.cs)
