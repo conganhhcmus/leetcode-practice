@@ -28,6 +28,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [36. Valid Sudoku](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/36/Solution.cs)
 - [37. Sudoku Solver](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/37/Solution.cs)
 - [50. Pow(x, n)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/50/Solution.cs)
+- [55. Jump Game](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/55/Solution.cs)
 - [62. Unique Paths](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/62/Solution.cs)
 - [72. Edit Distance](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/72/Solution.cs)
 - [80. Remove Duplicates from Sorted Array II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/80/Solution.cs)
