@@ -156,6 +156,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2064. Minimized Maximum of Products Distributed to Any Store](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2064/Solution.cs)
 - [2070. Most Beautiful Item for Each Query](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2070/Solution.cs)
 - [2095. Delete the Middle Node of a Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2095/Solution.cs)
+- [2097. Valid Arrangement of Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2097/Solution.cs)
 - [2130. Maximum Twin Sum of a Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2130/Solution.cs)
 - [2215. Find the Difference of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2220/Solution.cs)
