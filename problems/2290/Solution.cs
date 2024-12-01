@@ -1,6 +1,8 @@
 
 namespace Problem_2290;
-using Helpers.Deque;
+
+using Helpers;
+using Structures;
 
 public class Solution
 {

@@ -1,7 +1,7 @@
 namespace Problem_2326;
 
-using Helpers.ListNode;
-using Helpers.Array;
+using Helpers;
+using Structures;
 
 public class Solution
 {

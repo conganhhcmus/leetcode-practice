@@ -1,6 +1,8 @@
 namespace Problem_2097;
 
-using Helpers.Array;
+using Helpers;
+using Structures;
+
 public class Solution
 {
     public static void Execute()

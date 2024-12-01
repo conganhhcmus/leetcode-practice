@@ -1,15 +1,6 @@
-namespace Helpers.ListNode;
+namespace Helpers;
 
-public class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        this.val = val;
-        this.next = next;
-    }
-}
+using Structures;
 
 public static class ListNodeHelper
 {

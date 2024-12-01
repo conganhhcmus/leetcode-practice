@@ -1,8 +1,8 @@
-namespace Helpers.Deque;
+namespace Structures;
 
 public class Deque<T>
 {
-    private LinkedList<T> list = new LinkedList<T>();
+    private readonly LinkedList<T> list = new();
 
     public void AddFirst(T item) => list.AddFirst(item);
     public void AddLast(T item) => list.AddLast(item);

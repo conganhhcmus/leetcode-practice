@@ -1,4 +1,4 @@
-namespace Helpers.Array;
+namespace Helpers;
 
 public static class ArrayHelper
 {
