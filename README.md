@@ -212,6 +212,11 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3276. Select Cells in Grid With Maximum Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/413/3276/Solution.cs)
 - [3277. Maximum XOR Score Subarray Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/413/3277/Solution.cs)
 
+##### Weekly Contest 426
+- [3370. Smallest Number With All Set Bits](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3370/Solution.cs)
+- [3371. Identify the Largest Outlier in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3371/Solution.cs)
+- [3372. Maximize the Number of Target Nodes After Connecting Trees I](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3372/Solution.cs)
+- [3373. Maximize the Number of Target Nodes After Connecting Trees II](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3373/Solution.cs)
 
 ## Contact Me
 - [Facebook](https://www.facebook.com/conganhhcmus)

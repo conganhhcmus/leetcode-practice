@@ -1,4 +1,4 @@
-namespace Contest_413_Q3;
+namespace Problem_3276;
 
 public class Solution
 {

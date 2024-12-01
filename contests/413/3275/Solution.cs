@@ -1,4 +1,4 @@
-namespace Contest_413_Q2;
+namespace Problem_3275;
 public class Solution
 {
     public static void Execute()
