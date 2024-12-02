@@ -218,6 +218,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3364. Minimum Positive Sum Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3364/Solution.cs)
 - [3365. Rearrange K Substrings to Form Target String](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3365/Solution.cs)
 - [3366. Minimum Array Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3366/Solution.cs)
+- [3367. Maximize Sum of Weights after Edge Removals](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3367/Solution.cs)
 
 ##### Weekly Contest 426
 - [3370. Smallest Number With All Set Bits](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3370/Solution.cs)

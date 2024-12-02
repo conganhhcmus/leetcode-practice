@@ -2,6 +2,6 @@
 {
     private static void Main(string[] args)
     {
-        Problem_45.Solution.Execute();
+        Problem_3367.Solution.Execute();
     }
 }
