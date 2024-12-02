@@ -1,5 +1,3 @@
-using System.Runtime.Intrinsics.X86;
-
 namespace Problem_1318;
 
 public class Solution

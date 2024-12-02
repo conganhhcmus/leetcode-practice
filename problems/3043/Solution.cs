@@ -1,5 +1,3 @@
-using System.Globalization;
-
 namespace Problem_3043;
 
 public class Solution

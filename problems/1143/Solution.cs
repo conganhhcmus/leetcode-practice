@@ -1,7 +1,4 @@
 namespace Problem_1143;
-
-using Helpers;
-using Structures;
 public class Solution
 {
     public static void Execute()

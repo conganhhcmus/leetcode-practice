@@ -1,7 +1,6 @@
 namespace Problem_2097;
 
 using Helpers;
-using Structures;
 
 public class Solution
 {

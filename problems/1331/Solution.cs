@@ -1,5 +1,3 @@
-using System.Collections.Immutable;
-
 namespace Problem_1331;
 
 public class Solution

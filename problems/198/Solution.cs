@@ -1,5 +1,4 @@
 namespace Problem_198;
-
 public class Solution
 {
     public static void Execute()

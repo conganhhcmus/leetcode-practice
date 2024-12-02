@@ -205,26 +205,20 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3217. Delete Nodes From Linked List Present in Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3217/Solution.cs)
 - [3243. Shortest Distance After Road Addition Queries I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3243/Solution.cs)
 - [3254. Find the Power of K-Size Subarrays I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3254/Solution.cs)
-
+- [3274. Check if Two Chessboard Squares Have the Same Color](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3274/Solution.cs)
+- [3275. K-th Nearest Obstacle Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3275/Solution.cs)
+- [3276. Select Cells in Grid With Maximum Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3276/Solution.cs)
+- [3277. Maximum XOR Score Subarray Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3277/Solution.cs)
+- [3364. Minimum Positive Sum Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3364/Solution.cs)
+- [3365. Rearrange K Substrings to Form Target String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3365/Solution.cs)
+- [3366. Minimum Array Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3366/Solution.cs)
+- [3367. Maximize Sum of Weights after Edge Removals](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3367/Solution.cs)
+- [3370. Smallest Number With All Set Bits](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3370/Solution.cs)
+- [3371. Identify the Largest Outlier in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3371/Solution.cs)
+- [3372. Maximize the Number of Target Nodes After Connecting Trees I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3372/Solution.cs)
+- [3373. Maximize the Number of Target Nodes After Connecting Trees II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3373/Solution.cs)
 
 #### Contest
-##### Weekly Contest 413
-- [3274. Check if Two Chessboard Squares Have the Same Color](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/413/3274/Solution.cs)
-- [3275. K-th Nearest Obstacle Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/413/3275/Solution.cs)
-- [3276. Select Cells in Grid With Maximum Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/413/3276/Solution.cs)
-- [3277. Maximum XOR Score Subarray Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/413/3277/Solution.cs)
-
-##### Weekly Contest 425
-- [3364. Minimum Positive Sum Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3364/Solution.cs)
-- [3365. Rearrange K Substrings to Form Target String](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3365/Solution.cs)
-- [3366. Minimum Array Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3366/Solution.cs)
-- [3367. Maximize Sum of Weights after Edge Removals](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/425/3367/Solution.cs)
-
-##### Weekly Contest 426
-- [3370. Smallest Number With All Set Bits](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3370/Solution.cs)
-- [3371. Identify the Largest Outlier in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3371/Solution.cs)
-- [3372. Maximize the Number of Target Nodes After Connecting Trees I](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3372/Solution.cs)
-- [3373. Maximize the Number of Target Nodes After Connecting Trees II](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/426/3373/Solution.cs)
 
 ## Contact Me
 - [Facebook](https://www.facebook.com/conganhhcmus)

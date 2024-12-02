@@ -1,6 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using System.Runtime.Intrinsics.Arm;
-
 namespace Problem_1813;
 
 public class Solution

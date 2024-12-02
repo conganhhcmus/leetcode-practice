@@ -1,0 +1,51 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "LeetCode: Generate Contest Template",
+            "type": "shell",
+            "command": "./scripts/genc.sh",
+            "windows": {
+                "command": ".\\scripts\\genc.cmd"
+            },
+            "args": ["${input:contest_name}"],
+            "problemMatcher": [],
+            "group": "none",
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem",
+                "close": true
+            }
+        },
+        {
+            "label": "LeetCode: Generate Problem Template",
+            "type": "shell",
+            "command": "./scripts/genp.sh",
+            "windows": {
+                "command": ".\\scripts\\genp.cmd"
+            },
+            "args": ["${input:problem_name}"],
+            "problemMatcher": [],
+            "group": "none",
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem",
+                "close": true
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "contest_name",
+            "type": "promptString",
+            "description": "Enter LeetCode contest name:"
+        },
+        {
+            "id": "problem_name",
+            "type": "promptString",
+            "description": "Enter LeetCode problem name:"
+        }
+    ]
+}
