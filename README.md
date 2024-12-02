@@ -27,6 +27,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [27. Remove Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/27/Solution.cs)
 - [36. Valid Sudoku](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/36/Solution.cs)
 - [37. Sudoku Solver](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/37/Solution.cs)
+- [45. Jump Game II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/45/Solution.cs)
 - [50. Pow(x, n)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/50/Solution.cs)
 - [55. Jump Game](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/55/Solution.cs)
 - [62. Unique Paths](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/62/Solution.cs)
