@@ -2,12 +2,6 @@ namespace Problem_452;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] points = [[-2147483646, -2147483645], [2147483646, 2147483647]];
-        var solution = new Solution();
-        Console.WriteLine(solution.FindMinArrowShots(points));
-    }
     public int FindMinArrowShots(int[][] points)
     {
         Array.Sort(points, (a, b) => a[1].CompareTo(b[1]));

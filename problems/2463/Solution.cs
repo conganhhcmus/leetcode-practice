@@ -2,14 +2,6 @@ namespace Problem_2463;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] robot = [1, -1];
-        int[][] factory = [[-2, 1], [2, 1]];
-        var solution = new Solution();
-        Console.WriteLine(solution.MinimumTotalDistance(robot, factory));
-    }
-
     public long MinimumTotalDistance(IList<int> robot, int[][] factory)
     {
         var robots = robot.ToArray();

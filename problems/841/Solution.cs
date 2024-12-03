@@ -2,12 +2,6 @@ namespace Problem_841;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        IList<IList<int>> rooms = [[1, 3], [3, 0, 1], [2], [0]];
-        Console.WriteLine(solution.CanVisitAllRooms(rooms));
-    }
     public bool CanVisitAllRooms(IList<IList<int>> rooms)
     {
         HashSet<int> roomMap = [];

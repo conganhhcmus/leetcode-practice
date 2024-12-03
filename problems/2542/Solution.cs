@@ -2,14 +2,6 @@ namespace Problem_2542;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums1 = [2, 1, 14, 12];
-        int[] nums2 = [11, 7, 13, 6];
-        int k = 3;
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxScore(nums1, nums2, k));
-    }
     public long MaxScore(int[] nums1, int[] nums2, int k)
     {
         Array.Sort(nums2, nums1);

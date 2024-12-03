@@ -4,12 +4,6 @@ namespace Problem_3163;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string word = "aaaaaaaaaaaaaabb";
-        var solution = new Solution();
-        Console.WriteLine(solution.CompressedString(word));
-    }
     public string CompressedString(string word)
     {
         word += "-";

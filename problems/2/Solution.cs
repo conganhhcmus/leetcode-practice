@@ -1,21 +1,7 @@
 namespace Problem_2;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var l1 = ListNodeHelper.CreateListFromArray([1, 8]);
-        var l2 = ListNodeHelper.CreateListFromArray([0]);
-
-        var solution = new Solution();
-        var res = solution.AddTwoNumbers(l1, l2);
-
-        ListNodeHelper.PrintList(res);
-    }
-
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
         var carry = 0;

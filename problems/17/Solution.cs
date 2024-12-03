@@ -1,16 +1,9 @@
-using System.Text;
-
 namespace Problem_17;
+
+using System.Text;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string digits = "23";
-        var solution = new Solution();
-        var res = solution.LetterCombinations(digits);
-        Console.WriteLine($"[{string.Join(",", res)}]");
-    }
     public IList<string> LetterCombinations(string digits)
     {
         if (digits.Length == 0) return [];

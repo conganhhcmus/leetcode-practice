@@ -1,12 +1,6 @@
 namespace Problem_198;
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [1, 2, 3, 1];
-        var solution = new Solution();
-        Console.WriteLine(solution.Rob(nums));
-    }
     public int Rob(int[] nums)
     {
         if (nums.Length == 1) return nums[0];

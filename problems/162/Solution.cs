@@ -2,12 +2,6 @@ namespace Problem_162;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [1, 2, 1, 3, 4, 5, 6, 4];
-        var solution = new Solution();
-        Console.WriteLine(solution.FindPeakElement(nums));
-    }
     public int FindPeakElement(int[] nums)
     {
         int n = nums.Length;

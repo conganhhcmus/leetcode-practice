@@ -2,13 +2,6 @@ namespace Problem_1657;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string word1 = "abbzzca";
-        string word2 = "babzzcz";
-        var solution = new Solution();
-        Console.WriteLine(solution.CloseStrings(word1, word2));
-    }
     public bool CloseStrings(string word1, string word2)
     {
         if (word1.Length != word2.Length) return false;

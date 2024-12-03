@@ -1,18 +1,7 @@
 namespace Problem_437;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([10, 5, -3, 3, 2, null, 11, 3, -2, null, 1]);
-        var targetSum = 3;
-        var solution = new Solution();
-        Console.WriteLine(solution.PathSum(root, targetSum));
-        Console.WriteLine(solution.PathSum2(root, targetSum));
-    }
     public int PathSum(TreeNode root, int targetSum)
     {
         if (root is null) return 0;

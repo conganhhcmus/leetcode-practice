@@ -2,15 +2,6 @@ namespace Problem_2563;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [1, 7, 9, 2, 5];
-        int lower = 11;
-        int upper = 11;
-        var solution = new Solution();
-        Console.WriteLine(solution.CountFairPairs(nums, lower, upper));
-    }
-
     public long CountFairPairs(int[] nums, int lower, int upper)
     {
         Array.Sort(nums);

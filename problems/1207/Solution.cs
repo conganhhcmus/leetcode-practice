@@ -2,13 +2,6 @@ namespace Problem_1207;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] arr = [1, 2, 2, 1, 1, 3];
-        var solution = new Solution();
-
-        Console.WriteLine(solution.UniqueOccurrences(arr));
-    }
     public bool UniqueOccurrences(int[] arr)
     {
         Dictionary<int, int> frequency = [];

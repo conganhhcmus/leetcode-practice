@@ -2,12 +2,6 @@ namespace Problem_3;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        var s = "au";
-        Console.WriteLine(solution.LengthOfLongestSubstring(s));
-    }
     public int LengthOfLongestSubstring(string s)
     {
         var freq = new Dictionary<char, int>();
@@ -25,10 +19,6 @@ public class Solution
 
                 freq[s[r]] = value + 1;
                 max = r - l + 1 > max ? r - l + 1 : max;
-
-                //Console.WriteLine(string.Join(" ", freq.Keys));
-                //Console.WriteLine($"max = {max}");
-                //Console.WriteLine($"l = {l}, r= {r}");
             }
 
         }

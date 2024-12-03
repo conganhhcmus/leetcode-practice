@@ -2,13 +2,6 @@ namespace Problem_214;
 
 public class Solution
 {
-
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "abcd";
-        Console.WriteLine(solution.ShortestPalindrome(s));
-    }
     public string ShortestPalindrome(string s)
     {
         return KMP(s);
@@ -43,10 +36,5 @@ public class Solution
         string addStr = reverseStr[..(s.Length - palindromeLength)];
 
         return addStr + s;
-    }
-
-    private string RollingHash(string s)
-    {
-        return s;
     }
 }

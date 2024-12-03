@@ -2,13 +2,6 @@ namespace Problem_643;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [4, 2, 1, 3, 3];
-        int k = 2;
-        Console.WriteLine(solution.FindMaxAverage(nums, k));
-    }
     public double FindMaxAverage(int[] nums, int k)
     {
         int left = 0;

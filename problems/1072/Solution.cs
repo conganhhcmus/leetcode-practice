@@ -2,12 +2,6 @@ namespace Problem_1072;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] matrix = [[0, 0, 0], [0, 0, 1], [1, 1, 0]];
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxEqualRowsAfterFlips(matrix));
-    }
     public int MaxEqualRowsAfterFlips(int[][] matrix)
     {
         int m = matrix.Length;

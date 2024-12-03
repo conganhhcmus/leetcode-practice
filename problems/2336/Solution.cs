@@ -82,12 +82,9 @@ public class SmallestInfiniteSet
 
 public class Solution
 {
-    public static void Execute()
+    public List<int?> Execute(string[] actions, int[][] values)
     {
         // key: use HeapSort to sort the values
-
-        string[] actions = ["SmallestInfiniteSet", "addBack", "popSmallest", "popSmallest", "popSmallest", "addBack", "popSmallest", "popSmallest", "popSmallest"];
-        int[][] values = [[], [2], [], [], [], [1], [], [], []];
         List<int?> result = [];
         SmallestInfiniteSet s = new();
         for (int i = 0; i < actions.Length; i++)
@@ -96,6 +93,7 @@ public class Solution
             {
                 case "SmallestInfiniteSet":
                     s = new SmallestInfiniteSet();
+                    result.Add(null);
                     break;
                 case "addBack":
                     s.AddBack(values[i][0]);
@@ -108,6 +106,6 @@ public class Solution
                     break;
             }
         }
-        Console.WriteLine($"[{string.Join(",", result.Select(x => x is null ? "null" : x.ToString()))}]");
+        return result;
     }
 }

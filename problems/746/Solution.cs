@@ -2,12 +2,6 @@ namespace Problem_746;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] cost = [10, 15, 20];
-        var solution = new Solution();
-        Console.WriteLine(solution.MinCostClimbingStairs(cost));
-    }
     public int MinCostClimbingStairs(int[] cost)
     {
         int[] dp = new int[cost.Length];

@@ -254,12 +254,9 @@ public class AllOne
 
 public class Solution
 {
-    public static void Execute()
+    public List<string> Execute(string[] events, string[][] values)
     {
-        string[] events = ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "dec", "dec", "getMinKey", "inc", "getMinKey"];
-        string[][] values = [[], ["hello"], ["hello"], [], [], ["hello"], ["hello"], [], ["hello"], []];
         List<string> result = [];
-
         AllOne_Second allOne = new();
         for (int i = 0; i < events.Length; i++)
         {
@@ -285,7 +282,7 @@ public class Solution
                     break;
             }
         }
-        Console.WriteLine($"[{string.Join(",", result)}]");
+        return result;
     }
 }
 

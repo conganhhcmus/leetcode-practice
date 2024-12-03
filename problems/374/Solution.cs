@@ -13,11 +13,13 @@ public class GuessGame
 
 public class Solution : GuessGame
 {
-    public static void Execute()
+    public int Execute(int n, int k)
     {
-        var solution = new Solution();
-        solution.pickNumber = 1702766719;
-        Console.WriteLine(solution.GuessNumber(2126753390));
+        var solution = new Solution
+        {
+            pickNumber = k
+        };
+        return solution.GuessNumber(n);
     }
     public int GuessNumber(int n)
     {

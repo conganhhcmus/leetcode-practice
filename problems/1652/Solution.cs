@@ -2,14 +2,6 @@ namespace Problem_1652;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] code = [2, 4, 9, 3];
-        int k = -2;
-        var solution = new Solution();
-        var result = solution.Decrypt(code, k);
-        Console.WriteLine($"[{string.Join(", ", result)}]");
-    }
     public int[] Decrypt(int[] code, int k)
     {
         if (k == 0)

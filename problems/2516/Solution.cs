@@ -2,13 +2,6 @@ namespace Problem_2516;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string s = "cbbac";
-        int k = 1;
-        var solution = new Solution();
-        Console.WriteLine(solution.TakeCharacters(s, k));
-    }
     public int TakeCharacters(string s, int k)
     {
         if (k == 0) return 0;

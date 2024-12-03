@@ -2,14 +2,6 @@ namespace Problem_884;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s1 = "this apple is sweet";
-        string s2 = "this apple is sour";
-        var res = solution.UncommonFromSentences(s1, s2);
-        Console.WriteLine($"[{string.Join(",", res)}]");
-    }
     public string[] UncommonFromSentences(string s1, string s2)
     {
         Dictionary<string, int> freq = [];

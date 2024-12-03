@@ -2,15 +2,6 @@ namespace Problem_1945;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var s = "iiii";
-        var k = 1;
-        var solution = new Solution();
-
-        Console.WriteLine(solution.GetLucky(s, k));
-    }
-
     public int GetLucky(string s, int k)
     {
         var temp = Convert(s);

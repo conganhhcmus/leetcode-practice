@@ -1,17 +1,7 @@
 namespace Problem_2583;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([5, 8, 9, 2, 1, 3, 7, 4, 6]);
-        var k = 2;
-        var solution = new Solution();
-        Console.WriteLine(solution.KthLargestLevelSum(root, k));
-    }
     public long KthLargestLevelSum(TreeNode root, int k)
     {
         if (root is null) return -1;

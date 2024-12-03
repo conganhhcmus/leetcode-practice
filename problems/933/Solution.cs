@@ -22,11 +22,8 @@ public class RecentCounter
 }
 public class Solution
 {
-    public static void Execute()
+    public List<int> Execute(string[] actions, int[][] values)
     {
-        string[] actions = ["RecentCounter", "ping", "ping", "ping", "ping"];
-        int[][] values = [[], [1], [100], [3001], [3002]];
-
         RecentCounter counter = new();
         List<int> ans = [];
         for (int i = 0; i < actions.Length; i++)
@@ -37,6 +34,6 @@ public class Solution
             }
         }
 
-        Console.WriteLine($"[{string.Join(", ", ans)}]");
+        return ans;
     }
 }

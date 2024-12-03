@@ -2,12 +2,6 @@ namespace Problem_2938;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string s = "11000111";
-        var solution = new Solution();
-        Console.WriteLine(solution.MinimumSteps(s));
-    }
     public long MinimumSteps(string s)
     {
         char[] balls = s.ToCharArray();

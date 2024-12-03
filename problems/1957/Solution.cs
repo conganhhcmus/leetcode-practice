@@ -4,12 +4,6 @@ namespace Problem_1957;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string s = "leeetcode";
-        var solution = new Solution();
-        Console.WriteLine(solution.MakeFancyString(s));
-    }
     public string MakeFancyString(string s)
     {
         if (s.Length < 2) return s;

@@ -2,13 +2,6 @@ namespace Problem_215;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [3, 2, 1, 5, 6, 4];
-        int k = 2;
-        var solution = new Solution();
-        Console.WriteLine(solution.FindKthLargest(nums, k));
-    }
     public int FindKthLargest(int[] nums, int k)
     {
         // return PriorityQueue(nums, k);

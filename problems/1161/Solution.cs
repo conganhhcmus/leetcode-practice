@@ -1,16 +1,7 @@
 namespace Problem_1161;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([1, 7, 0, 7, -8, null, null]);
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxLevelSum(root));
-    }
     public int MaxLevelSum(TreeNode root)
     {
         long maxSum = long.MinValue;

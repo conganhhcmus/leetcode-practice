@@ -2,13 +2,6 @@ namespace Problem_2416;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string[] words = ["abc", "ab", "bc", "b"];
-
-        Console.WriteLine($"[{string.Join(",", solution.SumPrefixScores(words))}]");
-    }
     public int[] SumPrefixScores(string[] words)
     {
         List<int> ans = [];

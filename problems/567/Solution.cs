@@ -2,13 +2,6 @@ namespace Problem_567;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var s1 = "adc";
-        var s2 = "dcda";
-        var solution = new Solution();
-        Console.WriteLine(solution.CheckInclusion(s1, s2));
-    }
     public bool CheckInclusion(string s1, string s2)
     {
         if (s1.Length > s2.Length) return false;

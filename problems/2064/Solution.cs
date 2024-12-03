@@ -2,13 +2,6 @@ namespace Problem_2064;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int n = 2;
-        int[] quantities = [5, 7];
-        var solution = new Solution();
-        Console.WriteLine(solution.MinimizedMaximum(n, quantities));
-    }
     public int MinimizedMaximum(int n, int[] quantities)
     {
         int min = 1;

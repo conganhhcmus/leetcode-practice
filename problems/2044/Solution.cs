@@ -2,13 +2,6 @@ namespace Problem_2044;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [3, 2, 1, 5];
-        var solution = new Solution();
-        Console.WriteLine(solution.CountMaxOrSubsets(nums));
-        Console.WriteLine(solution.CountMaxOrSubsets2(nums));
-    }
     public int CountMaxOrSubsets(int[] nums)
     {
         int maxBitwise = 0;

@@ -2,14 +2,6 @@ namespace Problem_875;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] piles = [805306368, 805306368, 805306368];
-        int h = 1000000000;
-        var solution = new Solution();
-        Console.WriteLine(solution.MinEatingSpeed(piles, h));
-    }
-
     public int MinEatingSpeed(int[] piles, int h)
     {
         bool CanEatAllBanana(int k)

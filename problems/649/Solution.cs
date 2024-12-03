@@ -2,12 +2,6 @@ namespace Problem_649;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string senate = "RDD";
-        Console.WriteLine(solution.PredictPartyVictory(senate));
-    }
     public string PredictPartyVictory(string senate)
     {
         Queue<int> rad = new();

@@ -2,12 +2,6 @@ namespace Problem_394;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string encodedString = "2[abc]3[cd]ef";
-        Console.WriteLine(solution.DecodeString(encodedString));
-    }
     public string DecodeString(string s)
     {
         Stack<int> repeatNum = new();

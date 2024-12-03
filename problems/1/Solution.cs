@@ -1,15 +1,7 @@
 namespace Problem_1;
+
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [2, 7, 11, 15];
-        var target = 9;
-        var solution = new Solution();
-
-        var res = solution.TwoSum(nums, target);
-        Console.WriteLine($"[{res[0]}, {res[1]}]");
-    }
     public int[] TwoSum(int[] nums, int target)
     {
         var p1 = 0;

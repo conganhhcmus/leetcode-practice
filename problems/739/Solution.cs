@@ -2,12 +2,6 @@ namespace Problem_739;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] temperatures = [73, 74, 75, 71, 69, 72, 76, 73];
-        var solution = new Solution();
-        Console.WriteLine($"[{string.Join(",", solution.DailyTemperatures(temperatures))}]");
-    }
     public int[] DailyTemperatures(int[] temperatures)
     {
         int[] result = new int[temperatures.Length];

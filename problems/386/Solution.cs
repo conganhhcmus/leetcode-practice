@@ -2,19 +2,13 @@ namespace Problem_386;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int n = 109;
-        Console.WriteLine(string.Join(",", solution.LexicalOrder(n)));
-    }
     public IList<int> LexicalOrder(int n)
     {
         //return LexicalOrderByDFS(n);
         return LexicalOrderByIterative(n);
     }
 
-    public IList<int> LexicalOrderByIterative(int n)
+    private IList<int> LexicalOrderByIterative(int n)
     {
         List<int> ans = [];
         int currentNumber = 1;
@@ -37,7 +31,7 @@ public class Solution
         return ans;
     }
 
-    public IList<int> LexicalOrderByDFS(int n)
+    private IList<int> LexicalOrderByDFS(int n)
     {
         List<int> ans = [];
         for (int i = 1; i <= 9; i++)
@@ -47,7 +41,7 @@ public class Solution
         return ans;
     }
 
-    public void DFS(int i, int n, List<int> ans)
+    private void DFS(int i, int n, List<int> ans)
     {
         if (i > n) return;
         ans.Add(i);

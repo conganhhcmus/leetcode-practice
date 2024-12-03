@@ -2,13 +2,6 @@ namespace Problem_1310;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] arr = [1, 3, 4, 8];
-        int[][] queries = [[0, 1], [1, 2], [0, 3], [3, 3]];
-        Console.WriteLine($"[{string.Join(",", solution.XorQueries(arr, queries))}]");
-    }
     public int[] XorQueries(int[] arr, int[][] queries)
     {
         // dp[i] = a0 ^ a1 ^ ... ^ ai

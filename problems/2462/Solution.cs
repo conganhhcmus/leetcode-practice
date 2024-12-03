@@ -2,14 +2,6 @@ namespace Problem_2462;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] costs = [1, 2, 4, 1];
-        int k = 3;
-        int candidates = 3;
-        var solution = new Solution();
-        Console.WriteLine(solution.TotalCost(costs, k, candidates));
-    }
     public long TotalCost(int[] costs, int k, int candidates)
     {
         PriorityQueue<int, int> leftQueue = new();

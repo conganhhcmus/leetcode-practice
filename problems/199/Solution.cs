@@ -1,17 +1,7 @@
 namespace Problem_199;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([1, 2, 3, null, 5, null, 4]);
-        var solution = new Solution();
-        var res = solution.RightSideView(root);
-        Console.WriteLine($"[{string.Join(",", res)}]");
-    }
     public IList<int> RightSideView(TreeNode root)
     {
         List<int> ans = [];

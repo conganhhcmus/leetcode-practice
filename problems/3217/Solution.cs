@@ -1,19 +1,7 @@
 namespace Problem_3217;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [5];
-        var head = ListNodeHelper.CreateListFromArray([1, 2, 3, 4]);
-
-        var solution = new Solution();
-        var res = solution.ModifiedList(nums, head);
-        ListNodeHelper.PrintList(res);
-    }
     public ListNode ModifiedList(int[] nums, ListNode head)
     {
         var res = new ListNode();

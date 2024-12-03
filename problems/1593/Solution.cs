@@ -2,12 +2,6 @@ namespace Problem_1593;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string s = "wwwzfvedwfvhsww";
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxUniqueSplit(s));
-    }
     public int MaxUniqueSplit(string s)
     {
         HashSet<string> splits = [];

@@ -128,12 +128,9 @@ public class MyCircularDeque
 
 public class Solution
 {
-    public static void Execute()
+    public List<string> Execute(string[] actions, int[][] values)
     {
-        string[] actions = ["MyCircularDeque", "insertFront", "getFront", "isEmpty", "deleteFront", "insertLast", "getRear", "insertLast", "insertFront", "deleteLast", "insertLast", "isEmpty"];
-        int[][] values = [[8], [5], [], [], [], [3], [], [7], [7], [], [4], []];
         List<string> result = [];
-
         MyCircularDeque circularDeque = new(0);
 
         for (int i = 0; i < actions.Length; i++)
@@ -163,11 +160,12 @@ public class Solution
                     result.Add(circularDeque.GetFront().ToString());
                     break;
                 default:
+                    result.Add("null");
                     break;
             }
         }
 
-        Console.WriteLine($"[{string.Join(",", result)}]");
+        return result;
     }
 }
 

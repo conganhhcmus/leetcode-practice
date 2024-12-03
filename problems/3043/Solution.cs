@@ -2,21 +2,12 @@ namespace Problem_3043;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] arr1 = [1, 10, 100];
-        int[] arr2 = [1000];
-
-        Console.WriteLine(solution.LongestCommonPrefix(arr1, arr2));
-    }
-
     public int LongestCommonPrefix(int[] arr1, int[] arr2)
     {
         //return UsingHashTable(arr1, arr2);
         return UsingTrie(arr1, arr2);
     }
-    public int UsingHashTable(int[] arr1, int[] arr2)
+    private int UsingHashTable(int[] arr1, int[] arr2)
     {
         HashSet<int> set1 = [];
         HashSet<int> set2 = [];
@@ -100,7 +91,7 @@ public class Solution
     }
 
 
-    public int UsingTrie(int[] arr1, int[] arr2)
+    private int UsingTrie(int[] arr1, int[] arr2)
     {
         Trie trie = new();
 

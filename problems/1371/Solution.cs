@@ -2,12 +2,6 @@ namespace Problem_1371;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "aabbe";
-        Console.WriteLine(solution.FindTheLongestSubstring(s));
-    }
     public int FindTheLongestSubstring(string s)
     {
         // a: 'a' - 'a' = 0

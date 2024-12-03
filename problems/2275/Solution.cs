@@ -1,13 +1,6 @@
 namespace Problem_2275;
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] candidates = [16, 17, 71, 62, 12, 24, 14];
-        var solution = new Solution();
-        Console.WriteLine(solution.LargestCombination(candidates));
-    }
-
     public int LargestCombination(int[] candidates)
     {
         int[] mapBits = new int[24]; // 10^7 ~ 24 bits

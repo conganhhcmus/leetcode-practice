@@ -1,19 +1,7 @@
 namespace Problem_450;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([5, 3, 6, 2, 4, null, 7]);
-        var key = 3;
-        var solution = new Solution();
-        Console.WriteLine($"[{string.Join(",", TreeNodeHelper.BFSTraversal(root))}]");
-        var newRoot = solution.DeleteNode(root, key);
-        Console.WriteLine($"[{string.Join(",", TreeNodeHelper.BFSTraversal(newRoot))}]");
-    }
     public TreeNode DeleteNode(TreeNode root, int key)
     {
         if (root is null) return null;

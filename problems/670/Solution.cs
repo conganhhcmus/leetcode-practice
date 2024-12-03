@@ -2,12 +2,6 @@ namespace Problem_670;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int num = 9973;
-        var solution = new Solution();
-        Console.WriteLine(solution.MaximumSwap(num));
-    }
     public int MaximumSwap(int num)
     {
         char[] digitArr = num.ToString().ToCharArray();

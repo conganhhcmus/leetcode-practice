@@ -1,18 +1,7 @@
 namespace Problem_872;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root1 = TreeNodeHelper.CreateTreeFromArray([3, 5, 1, 6, 2, 9, 8, null, null, 7, 4]);
-        var root2 = TreeNodeHelper.CreateTreeFromArray([3, 5, 1, 6, 7, 4, 2, null, null, null, null, null, null, 9, 8]);
-
-        var solution = new Solution();
-        Console.WriteLine(solution.LeafSimilar(root1, root2));
-    }
     public bool LeafSimilar(TreeNode root1, TreeNode root2)
     {
         List<int> leaf1 = [];

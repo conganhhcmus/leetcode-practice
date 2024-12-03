@@ -2,12 +2,6 @@ namespace Problem_1574;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] arr = [58, 68, 54, 45, 52, 21, 33, 35, 54, 22, 58, 13, 67, 31, 25, 66, 27, 75, 57, 81, 30, 44, 22, 45, 34, 21, 8, 11, 82, 60, 37, 35, 3, 44, 31, 80, 40, 74, 1, 2, 47];
-        var solution = new Solution();
-        Console.WriteLine(solution.FindLengthOfShortestSubarray(arr));
-    }
     public int FindLengthOfShortestSubarray(int[] arr)
     {
         int i = 0;

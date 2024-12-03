@@ -1,7 +1,5 @@
 namespace Helpers;
 
-using Structures;
-
 public static class TreeNodeHelper
 {
     public static TreeNode CreateTreeFromArray(int?[] array)
@@ -31,20 +29,33 @@ public static class TreeNodeHelper
         return tmpTree[0];
     }
 
-    public static int[] BFSTraversal(TreeNode root)
+    public static string BFSTraversal(TreeNode root)
     {
-        if (root is null) return [];
-        List<int> result = [];
+        if (root is null) return "[]";
+        List<int?> result = [];
         Queue<TreeNode> queue = [];
         queue.Enqueue(root);
+        result.Add(root.val);
 
         while (queue.Count > 0)
         {
             var currentNode = queue.Dequeue();
-            result.Add(currentNode.val);
-            if (currentNode.right != null) queue.Enqueue(currentNode.right);
-            if (currentNode.left != null) queue.Enqueue(currentNode.left);
+            int?[] tmp = new int?[2];
+            if (currentNode.left is not null)
+            {
+                queue.Enqueue(currentNode.left);
+                tmp[0] = currentNode.left.val;
+            }
+            if (currentNode.right is not null)
+            {
+                queue.Enqueue(currentNode.right);
+                tmp[1] = currentNode.right.val;
+            }
+            if (tmp[0] is not null || tmp[1] is not null)
+            {
+                result.AddRange(tmp);
+            }
         }
-        return [.. result];
+        return JsonConvert.SerializeObject(result);
     }
 }

@@ -2,12 +2,6 @@ namespace Problem_11;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
-        Console.WriteLine(solution.MaxArea(height));
-    }
     public int MaxArea(int[] height)
     {
         int ans = 0;

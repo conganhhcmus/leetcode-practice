@@ -2,12 +2,6 @@ namespace Problem_1137;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int n = 4;
-        var solution = new Solution();
-        Console.WriteLine(solution.Tribonacci(n));
-    }
     public int Tribonacci(int n)
     {
         int[] dp = new int[Math.Max(n + 1, 3)];

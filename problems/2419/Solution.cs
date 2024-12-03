@@ -2,12 +2,6 @@ namespace Problem_2419;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [1, 2, 3, 3, 2, 2];
-        Console.WriteLine(solution.LongestSubarray(nums));
-    }
     public int LongestSubarray(int[] nums)
     {
         int ans = 1;

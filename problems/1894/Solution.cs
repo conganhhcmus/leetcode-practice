@@ -2,13 +2,6 @@ namespace Problem_1894;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] chalk = [3, 4, 1, 2];
-        int k = 25;
-        Console.WriteLine(solution.ChalkReplacer(chalk, k));
-    }
     public int ChalkReplacer(int[] chalk, int k)
     {
         return ChalkReplacer_Recurse(chalk, k);

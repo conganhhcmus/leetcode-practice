@@ -1,17 +1,7 @@
 namespace Problem_2641;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([5, 4, 9, 1, 10, null, 7]);
-        var solution = new Solution();
-        var newRoot = solution.ReplaceValueInTree(root);
-        Console.WriteLine($"{string.Join(",", TreeNodeHelper.BFSTraversal(newRoot))}");
-    }
     public TreeNode ReplaceValueInTree(TreeNode root)
     {
         if (root is null) return null;

@@ -2,13 +2,6 @@ namespace Problem_796;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string s = "abcde";
-        string goal = "abced";
-        var solution = new Solution();
-        Console.WriteLine(solution.RotateString(s, goal));
-    }
     public bool RotateString(string s, string goal)
     {
         if (s.Length != goal.Length) return false;

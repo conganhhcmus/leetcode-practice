@@ -2,17 +2,6 @@ namespace Problem_1514;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int n = 3;
-        int[][] edges = [[0, 1]];
-        double[] succProb = [0.5];
-        int start_node = 0;
-        int end_node = 2;
-
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxProbability(n, edges, succProb, start_node, end_node));
-    }
     public double MaxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node)
     {
         var probValues = new double[n];

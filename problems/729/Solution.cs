@@ -46,10 +46,8 @@ public class MyCalendar
 
 public class Solution
 {
-    public static void Execute()
+    public List<string> Execute(string[] events, int[][] times)
     {
-        string[] events = ["MyCalendar", "book", "book", "book"];
-        int[][] times = [[], [10, 20], [15, 25], [20, 30]];
         MyCalendar myCalendar = null;
         List<string> ans = [];
 
@@ -66,7 +64,7 @@ public class Solution
             }
         }
 
-        Console.WriteLine($"[{string.Join(",", ans)}]");
+        return ans;
     }
 }
 

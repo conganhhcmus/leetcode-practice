@@ -2,17 +2,6 @@ namespace Problem_1268;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string[] products = ["mobile", "mouse", "moneypot", "monitor", "mousepad"];
-        string searchWord = "mouse";
-        var solution = new Solution();
-        var result = solution.SuggestedProducts(products, searchWord);
-        foreach (var product in result)
-        {
-            Console.WriteLine($"[{string.Join(", ", product)}]");
-        }
-    }
     public IList<IList<string>> SuggestedProducts(string[] products, string searchWord)
     {
         var trie = new Trie();

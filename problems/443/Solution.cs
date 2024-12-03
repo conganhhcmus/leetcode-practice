@@ -2,12 +2,6 @@ namespace Problem_443;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        char[] chars = ['a', 'a', 'b', 'b', 'c', 'c', 'c'];
-        Console.WriteLine(solution.Compress(chars));
-    }
     public int Compress(char[] chars)
     {
         int count = 0;

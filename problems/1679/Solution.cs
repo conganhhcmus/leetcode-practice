@@ -2,13 +2,6 @@ namespace Problem_1679;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [1, 2, 3, 4, 5];
-        int k = 5;
-        Console.WriteLine(solution.MaxOperations(nums, k));
-    }
     public int MaxOperations(int[] nums, int k)
     {
         Dictionary<int, int> frequency = [];

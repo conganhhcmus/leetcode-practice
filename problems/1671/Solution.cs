@@ -2,13 +2,6 @@ namespace Problem_1671;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [100, 92, 89, 77, 74, 66, 64, 66, 64];
-        var solution = new Solution();
-        Console.WriteLine(solution.MinimumMountainRemovals(nums));
-    }
-
     public int MinimumMountainRemovals(int[] nums)
     {
         int max = 0;

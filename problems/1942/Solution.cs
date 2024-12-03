@@ -2,13 +2,6 @@ namespace Problem_1942;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[][] times = [[3, 10], [1, 5], [2, 6]];
-        int targetFriend = 0;
-        Console.WriteLine(solution.SmallestChair(times, targetFriend));
-    }
     public int SmallestChair(int[][] times, int targetFriend)
     {
         var targetTime = times[targetFriend];

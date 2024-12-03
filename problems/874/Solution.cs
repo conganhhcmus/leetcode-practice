@@ -2,14 +2,6 @@ namespace Problem_874;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        var commands = new[] { 1, -1, 1, -1, 1, -1, 6 };
-        var obstacles = new int[1][];
-        obstacles[0] = [0, 0];
-        Console.WriteLine(solution.RobotSim(commands, obstacles));
-    }
     public int RobotSim(int[] commands, int[][] obstacles)
     {
         var directions = new int[,] { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };

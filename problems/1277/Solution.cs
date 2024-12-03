@@ -2,12 +2,6 @@ namespace Problem_1277;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] matrix = [[0, 1, 1, 1], [1, 1, 1, 1], [0, 1, 1, 1]];
-        var solution = new Solution();
-        Console.WriteLine(solution.CountSquares(matrix));
-    }
     public int CountSquares(int[][] matrix)
     {
         return CountSquares_DP(matrix);

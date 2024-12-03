@@ -1,16 +1,7 @@
 namespace Problem_2130;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var head = ListNodeHelper.CreateListFromArray([5, 4, 2, 1]);
-        var solution = new Solution();
-        Console.WriteLine(solution.PairSum(head));
-    }
     public int PairSum(ListNode head)
     {
         List<int> nums = [];

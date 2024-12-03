@@ -2,14 +2,6 @@ namespace Problem_440;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        //int n = 957747794, k = 424238336;
-        int n = 10, k = 3;
-        Console.WriteLine(solution.FindKthNumber(n, k));
-        Console.WriteLine(solution.FindKthNumber2(n, k));
-    }
     public int FindKthNumber(int n, int k)
     {
         int curr = 1;

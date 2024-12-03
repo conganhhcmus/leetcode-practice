@@ -1,20 +1,6 @@
 namespace Problem_3275;
 public class Solution
 {
-    public static void Execute()
-    {
-        var queries = new int[5][];
-        queries[0] = [-9, -5];
-        queries[1] = [0, 4];
-        queries[2] = [-10, 5];
-        queries[3] = [-6, 9];
-        queries[4] = [-4, 8];
-        var k = 5;
-
-        var solution = new Solution();
-        var res = solution.ResultsArray(queries, k);
-        Console.WriteLine($"[{string.Join(",", res)}]");
-    }
     public int[] ResultsArray(int[][] queries, int k)
     {
         var result = new int[queries.Length];

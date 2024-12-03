@@ -2,13 +2,6 @@ namespace Problem_1497;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] arr = [-1, -1, -1, -1, 2, 2, -2, -2];
-        int k = 3;
-        Console.WriteLine(solution.CanArrange(arr, k));
-    }
     public bool CanArrange(int[] arr, int k)
     {
         int[] dp = new int[k];

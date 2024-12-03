@@ -2,12 +2,6 @@ namespace Problem_2406;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[][] intervals = [[5, 10], [6, 8], [1, 5], [2, 3], [1, 10]];
-        Console.WriteLine(solution.MinGroups(intervals));
-    }
     public int MinGroups(int[][] intervals)
     {
         var maxTime = intervals.Max(x => x[1]);

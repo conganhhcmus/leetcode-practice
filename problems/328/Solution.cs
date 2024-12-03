@@ -1,8 +1,5 @@
 namespace Problem_328;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
     public ListNode OddEvenList(ListNode head)
@@ -24,14 +21,5 @@ public class Solution
 
         oddHead.next = tmp;
         return head;
-    }
-
-    public static void Execute()
-    {
-        var head = ListNodeHelper.CreateListFromArray([1, 2, 3, 4, 5, 6, 7, 8]);
-
-        var solution = new Solution();
-        var resHead = solution.OddEvenList(head);
-        ListNodeHelper.PrintList(resHead);
     }
 }

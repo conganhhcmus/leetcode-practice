@@ -1,18 +1,7 @@
 namespace Problem_2807;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        var head = ListNodeHelper.CreateListFromArray([18, 6, 10, 3]);
-        var res = solution.InsertGreatestCommonDivisors(head.next);
-        ListNodeHelper.PrintList(res);
-    }
-
     public ListNode InsertGreatestCommonDivisors(ListNode head)
     {
         var res = head;

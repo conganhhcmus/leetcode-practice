@@ -2,14 +2,6 @@ namespace Problem_10;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "aa";
-        string p = "a*";
-        Console.WriteLine(solution.IsMatch(s, p));
-    }
-
     public bool IsMatch(string s, string p)
     {
         var dp = new bool[s.Length + 1, p.Length + 1];

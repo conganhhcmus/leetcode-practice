@@ -2,12 +2,6 @@ namespace Problem_790;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int n = 4;
-        var solution = new Solution();
-        Console.WriteLine(solution.NumTilings(n));
-    }
     public int NumTilings(int n)
     {
         int modulo = 1_000_000_007;

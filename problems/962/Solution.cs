@@ -2,12 +2,6 @@ namespace Problem_962;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [6, 0, 8, 2, 1, 5];
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxWidthRamp(nums));
-    }
     public int MaxWidthRamp(int[] nums)
     {
         int[] maxRight = new int[nums.Length];

@@ -2,17 +2,6 @@ namespace Problem_994;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] grid = [
-            [2, 1, 1],
-            [0, 1, 1],
-            [1, 0, 1]
-        ];
-        var solution = new Solution();
-        Console.WriteLine(solution.OrangesRotting(grid));
-    }
-
     public int OrangesRotting(int[][] grid)
     {
         int maxR = grid.Length - 1;

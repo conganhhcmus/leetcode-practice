@@ -2,14 +2,6 @@ namespace Problem_2220;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int start = 10;
-        int goal = 7;
-        Console.WriteLine(solution.MinBitFlips(start, goal));
-    }
-
     public int MinBitFlips(int start, int goal)
     {
         // Bitwise XOR returns 1 when two bits are different,

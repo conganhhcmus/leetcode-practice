@@ -61,11 +61,8 @@ public class Trie
 
 public class Solution
 {
-    public static void Execute()
+    public List<string> Execute(string[] requests, string[][] datas)
     {
-        string[] requests = ["Trie", "insert", "search", "search", "startsWith", "insert", "search"];
-        string[][] datas = [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]];
-
         var trie = new Trie();
         List<string> result = [];
         for (int i = 0; i < requests.Length; i++)
@@ -87,6 +84,7 @@ public class Solution
                     break;
             }
         }
-        Console.WriteLine($"[{string.Join(",", result)}]");
+
+        return result;
     }
 }

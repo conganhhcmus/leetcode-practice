@@ -2,13 +2,6 @@ namespace Problem_50;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        double x = 2.00000;
-        int n = -2147483648;
-        var solution = new Solution();
-        Console.WriteLine(solution.MyPow(x, n));
-    }
     public double MyPow(double x, int n)
     {
         double ans = 1;

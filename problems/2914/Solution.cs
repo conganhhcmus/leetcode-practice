@@ -2,13 +2,6 @@ namespace Problem_2914;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        string s = "1001";
-        var solution = new Solution();
-        Console.WriteLine(solution.MinChanges(s));
-    }
-
     public int MinChanges(string s)
     {
         int count = 0;

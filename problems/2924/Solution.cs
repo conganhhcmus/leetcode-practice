@@ -1,13 +1,6 @@
 namespace Problem_2924;
 public class Solution
 {
-    public static void Execute()
-    {
-        int n = 3;
-        int[][] edges = [[0, 1], [1, 2]];
-        var solution = new Solution();
-        Console.WriteLine(solution.FindChampion(n, edges));
-    }
     public int FindChampion(int n, int[][] edges)
     {
         HashSet<int> champion = [];

@@ -2,28 +2,6 @@ namespace Problem_37;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        char[][] board = [
-            ['5','3','.','.','7','.','.','.','.'],
-            ['6','.','.','1','9','5','.','.','.'],
-            ['.','9','8','.','.','.','.','6','.'],
-            ['8','.','.','.','6','.','.','.','3'],
-            ['4','.','.','8','.','3','.','.','1'],
-            ['7','.','.','.','2','.','.','.','6'],
-            ['.','6','.','.','.','.','2','8','.'],
-            ['.','.','.','4','1','9','.','.','5'],
-            ['.','.','.','.','8','.','.','7','9']
-        ];
-
-        var solution = new Solution();
-        solution.SolveSudoku(board);
-        for (int i = 0; i < 9; i++)
-        {
-            Console.WriteLine($"[{string.Join(",", board[i])}]");
-        }
-    }
-
     public void SolveSudoku(char[][] board)
     {
         int[] cols = new int[9];

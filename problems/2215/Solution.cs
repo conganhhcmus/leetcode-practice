@@ -2,14 +2,6 @@ namespace Problem_2215;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums1 = [1, 2, 3, 3];
-        int[] nums2 = [1, 1, 2, 2];
-        Solution solution = new Solution();
-        var res = solution.FindDifference(nums1, nums2);
-        Console.WriteLine($"[{string.Join(",", res.Select(x => $"[{string.Join(",", x)}]"))}]");
-    }
     public IList<IList<int>> FindDifference(int[] nums1, int[] nums2)
     {
 

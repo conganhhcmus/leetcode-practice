@@ -2,13 +2,6 @@ namespace Problem_1106;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string expression = "&(|(f))";
-        Console.WriteLine(solution.ParseBoolExpr(expression));
-    }
-
     public bool ParseBoolExpr(string expression)
     {
         Stack<char> stack = new();

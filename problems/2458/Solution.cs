@@ -1,17 +1,7 @@
 namespace Problem_2458;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([1, null, 5, 3, null, 2, 4]);
-        int[] queries = [3, 5, 4, 2, 4];
-        var solution = new Solution();
-        Console.WriteLine($"[{string.Join(",", solution.TreeQueries(root, queries))}]");
-    }
     public int[] TreeQueries(TreeNode root, int[] queries)
     {
         int[] levelArr = new int[100_001];

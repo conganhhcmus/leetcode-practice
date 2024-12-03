@@ -2,12 +2,6 @@ namespace Problem_724;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        Solution solution = new Solution();
-        int[] nums = [1, 7, 3, 6, 5, 6];
-        Console.WriteLine(solution.PivotIndex(nums));
-    }
     public int PivotIndex(int[] nums)
     {
         int totalSum = nums.Sum();

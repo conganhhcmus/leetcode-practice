@@ -2,17 +2,6 @@ namespace Problem_8;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        Console.WriteLine(solution.MyAtoi("42")); // Output: 42
-        Console.WriteLine(solution.MyAtoi("   -42")); // Output: -42
-        Console.WriteLine(solution.MyAtoi("4193 with words")); // Output: 4193
-        Console.WriteLine(solution.MyAtoi("words and 987")); // Output: 0
-        Console.WriteLine(solution.MyAtoi("-91283472332")); // Output: -2147483648
-        Console.WriteLine(solution.MyAtoi("0-1")); // Output: 0
-    }
-
     public int MyAtoi(string s)
     {
         var res = 0;

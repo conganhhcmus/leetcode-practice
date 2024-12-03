@@ -2,12 +2,6 @@ namespace Problem_179;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [111311, 1113];
-        Console.WriteLine(solution.LargestNumber(nums));
-    }
     public string LargestNumber(int[] nums)
     {
         List<string> numsStr = [];

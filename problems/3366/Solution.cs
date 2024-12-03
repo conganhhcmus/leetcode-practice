@@ -1,15 +1,6 @@
 namespace Problem_3366;
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [2, 4, 3];
-        int k = 3;
-        int op1 = 2;
-        int op2 = 1;
-        Console.WriteLine(solution.MinArraySum(nums, k, op1, op2));
-    }
     public int MinArraySum(int[] nums, int k, int op1, int op2)
     {
         var dp = new int[nums.Length][][];

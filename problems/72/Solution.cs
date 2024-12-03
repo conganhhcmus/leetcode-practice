@@ -1,16 +1,7 @@
 namespace Problem_72;
 
-using Helpers;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        string word1 = "horse";
-        string word2 = "ros";
-        var solution = new Solution();
-        Console.WriteLine(solution.MinDistance(word1, word2));
-    }
     public int MinDistance(string word1, string word2)
     {
         int n = word1.Length;

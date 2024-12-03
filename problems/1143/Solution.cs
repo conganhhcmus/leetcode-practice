@@ -1,14 +1,6 @@
 namespace Problem_1143;
 public class Solution
 {
-    public static void Execute()
-    {
-        string text1 = "bsbininm";
-        string text2 = "jmjkbkjkv";
-        var solution = new Solution();
-        Console.WriteLine(solution.LongestCommonSubsequence(text1, text2));
-    }
-
     public int LongestCommonSubsequence(string text1, string text2)
     {
         int[,] dp = new int[text1.Length + 1, text2.Length + 1];

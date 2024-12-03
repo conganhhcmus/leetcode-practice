@@ -1,8 +1,5 @@
 namespace Problem_2095;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
     public ListNode DeleteMiddle(ListNode head)
@@ -26,13 +23,5 @@ public class Solution
         }
         tmp.next = tmp.next.next;
         return head;
-    }
-
-    public static void Execute()
-    {
-        var head = ListNodeHelper.CreateListFromArray([1, 3, 4, 7, 1, 2, 6]);
-        var solution = new Solution();
-        var resHead = solution.DeleteMiddle(head);
-        ListNodeHelper.PrintList(resHead);
     }
 }

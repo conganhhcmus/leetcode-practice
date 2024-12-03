@@ -2,13 +2,6 @@ namespace Problem_735;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] asteroids = [-2, -2, 1, -2];
-        var res = solution.AsteroidCollision(asteroids);
-        Console.WriteLine($"[{string.Join(",", res)}]");
-    }
     public int[] AsteroidCollision(int[] asteroids)
     {
         Stack<int> stack = new();

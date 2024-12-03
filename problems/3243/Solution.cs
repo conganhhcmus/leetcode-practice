@@ -1,14 +1,6 @@
 namespace Problem_3243;
 public class Solution
 {
-    public static void Execute()
-    {
-        int n = 31;
-        int[][] queries = [[25, 27], [3, 28], [12, 19], [11, 14], [12, 23], [14, 29], [11, 28], [3, 5], [1, 28]];
-        var solution = new Solution();
-        var result = solution.ShortestDistanceAfterQueries(n, queries);
-        Console.WriteLine($"[{string.Join(",", result)}]");
-    }
     public int[] ShortestDistanceAfterQueries(int n, int[][] queries)
     {
         List<int>[] paths = new List<int>[n];

@@ -2,14 +2,6 @@ namespace Problem_2070;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] items = [[10, 1000]];
-        int[] queries = [5];
-        var solution = new Solution();
-        Console.WriteLine($"[{string.Join(",", solution.MaximumBeauty(items, queries))}]");
-    }
-
     public int[] MaximumBeauty(int[][] items, int[] queries)
     {
         Array.Sort(items, (a, b) => a[0] - b[0]);

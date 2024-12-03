@@ -2,13 +2,6 @@ namespace Problem_2601;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [8, 19, 3, 4, 9];
-        var solution = new Solution();
-        Console.WriteLine(solution.PrimeSubOperation(nums));
-    }
-
     public bool PrimeSubOperation(int[] nums)
     {
         int prev = 0;

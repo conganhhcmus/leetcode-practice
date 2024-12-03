@@ -2,15 +2,6 @@ namespace Problem_399;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        IList<IList<string>> equations = [["a", "b"], ["c", "d"]];
-        double[] values = [1.0, 1.0];
-        IList<IList<string>> queries = [["a", "c"], ["b", "d"], ["b", "a"], ["d", "c"]];
-        var solution = new Solution();
-        Console.WriteLine($"[{string.Join(",", solution.CalcEquation(equations, values, queries))}]");
-    }
-
     public double[] CalcEquation(IList<IList<string>> equations, double[] values, IList<IList<string>> queries)
     {
         Dictionary<string, List<(string des, double values)>> graph = [];

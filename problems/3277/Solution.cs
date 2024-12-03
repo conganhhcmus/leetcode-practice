@@ -2,16 +2,6 @@ namespace Problem_3277;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [0, 7, 3, 2, 8, 5, 1];
-        int[][] queries = [[0, 3], [1, 5], [2, 4], [2, 6], [5, 6]];
-
-        var res = solution.MaximumSubarrayXor(nums, queries);
-        Console.WriteLine($"[{string.Join(", ", res)}]");
-
-    }
     public int[] MaximumSubarrayXor(int[] nums, int[][] queries)
     {
         // Key 1: Xor score of nums[i..j] = nums[i..j-1] Xor(^) nums[i+1..j]
@@ -27,8 +17,6 @@ public class Solution
             dp[i][i] = nums[i];
         }
 
-        //PrintDynamicArray(dp);
-
         for (int len = 2; len <= nums.Length; len++)
         {
             for (int st = 0; st + len - 1 < nums.Length; st++)
@@ -37,7 +25,6 @@ public class Solution
                 dp[st][end] = dp[st][end - 1] ^ dp[st + 1][end];
             }
         }
-        //PrintDynamicArray(dp);
 
         for (int len = 2; len <= nums.Length; len++)
         {
@@ -48,7 +35,6 @@ public class Solution
 
             }
         }
-        //PrintDynamicArray(dp);
 
         int[] result = new int[queries.Length];
         for (int i = 0; i < queries.Length; i++)
@@ -57,13 +43,5 @@ public class Solution
         }
 
         return result;
-    }
-
-    private void PrintDynamicArray(int[][] arr)
-    {
-        for (int i = 0; i < arr.Length; i++)
-        {
-            Console.WriteLine($"[{string.Join(", ", arr[i])}]");
-        }
     }
 }

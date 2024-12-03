@@ -1,12 +1,6 @@
 namespace Problem_45;
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [1, 2, 3];
-        Console.WriteLine(solution.Jump(nums));
-    }
     public int Jump(int[] nums)
     {
         return Jump_Greedy(nums);

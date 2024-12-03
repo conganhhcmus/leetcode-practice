@@ -2,12 +2,6 @@ namespace Problem_334;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [1, 2, 3, 4, 5];
-        Console.WriteLine(solution.IncreasingTriplet(nums));
-    }
     public bool IncreasingTriplet(int[] nums)
     {
         if (nums.Length < 3) return false;

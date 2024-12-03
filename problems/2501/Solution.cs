@@ -2,12 +2,6 @@ namespace Problem_2501;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [4, 3, 6, 16, 8, 2];
-        var solution = new Solution();
-        Console.WriteLine(solution.LongestSquareStreak(nums));
-    }
     public int LongestSquareStreak(int[] nums)
     {
         int ans = -1;

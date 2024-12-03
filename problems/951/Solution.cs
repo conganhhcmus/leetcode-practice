@@ -1,17 +1,7 @@
 namespace Problem_951;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var root1 = TreeNodeHelper.CreateTreeFromArray([1, 2, 3]);
-        var root2 = TreeNodeHelper.CreateTreeFromArray([1, 2, null, 3]);
-        var solution = new Solution();
-        Console.WriteLine(solution.FlipEquiv(root1, root2));
-    }
     public bool FlipEquiv(TreeNode root1, TreeNode root2)
     {
         if (root1 is null || root2 is null) return root1 == root2;

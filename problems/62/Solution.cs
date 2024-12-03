@@ -2,13 +2,6 @@ namespace Problem_62;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int m = 3;
-        int n = 7;
-        var solution = new Solution();
-        Console.WriteLine(solution.UniquePaths(m, n));
-    }
     public int UniquePaths(int m, int n)
     {
         int[] dp = new int[n];

@@ -2,12 +2,6 @@ namespace Problem_345;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "leetcode";
-        Console.WriteLine(solution.ReverseVowels(s));
-    }
     public string ReverseVowels(string s)
     {
         char[] vowels = ['a', 'e', 'i', 'o', 'u'];

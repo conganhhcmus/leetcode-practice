@@ -2,12 +2,6 @@ namespace Problem_241;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string expression = "2*3-4*5";
-        Console.WriteLine($"[{string.Join(",", solution.DiffWaysToCompute(expression))}]");
-    }
     public IList<int> DiffWaysToCompute(string expression)
     {
         var dp = new List<int>[expression.Length, expression.Length];

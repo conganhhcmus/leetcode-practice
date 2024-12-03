@@ -2,16 +2,6 @@ namespace Problem_88;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums1 = [0];
-        int m = 0;
-        int[] nums2 = [1];
-        int n = 1;
-        var solution = new Solution();
-        solution.Merge(nums1, m, nums2, n);
-        Console.WriteLine($"[{string.Join(", ", nums1)}]");
-    }
     public void Merge(int[] nums1, int m, int[] nums2, int n)
     {
         int[] numsTmp = nums1[..m];

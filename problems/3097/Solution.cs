@@ -2,21 +2,13 @@ namespace Problem_3097;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [67, 24, 1, 32, 2];
-        int k = 110;
-        var solution = new Solution();
-        Console.WriteLine(solution.MinimumSubarrayLength(nums, k));
-    }
-
     public int MinimumSubarrayLength(int[] nums, int k)
     {
         return MinimumSubarrayLength_SlidingWindow(nums, k);
         //return MinimumSubarrayLength_Dictionary(nums, k);
     }
 
-    public int MinimumSubarrayLength_SlidingWindow(int[] nums, int k)
+    private int MinimumSubarrayLength_SlidingWindow(int[] nums, int k)
     {
         int minLen = int.MaxValue;
         int start = 0;
@@ -61,7 +53,7 @@ public class Solution
         return result;
     }
 
-    public int MinimumSubarrayLength_Dictionary(int[] nums, int k)
+    private int MinimumSubarrayLength_Dictionary(int[] nums, int k)
     {
         int minLen = int.MaxValue;
         Dictionary<int, int> prev = [];

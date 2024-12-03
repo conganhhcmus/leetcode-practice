@@ -2,12 +2,6 @@ namespace Problem_1975;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] matrix = [[10, -6, -6, -8], [-3, -7, -8, -9], [-4, -8, -5, -8], [-9, -9, -6, -8]];
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxMatrixSum(matrix));
-    }
     public long MaxMatrixSum(int[][] matrix)
     {
         int n = matrix.Length;

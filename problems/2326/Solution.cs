@@ -1,21 +1,7 @@
 namespace Problem_2326;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        int m = 3;
-        int n = 5;
-        var head = ListNodeHelper.CreateListFromArray([3, 0, 2, 6, 8, 1, 7, 9, 4, 2, 5, 5, 0]);
-
-        var solution = new Solution();
-        var res = solution.SpiralMatrix(m, n, head.next);
-        ArrayHelper.Print2DArray(res);
-    }
-
     public int[][] SpiralMatrix(int m, int n, ListNode head)
     {
         int[][] res = new int[m][];

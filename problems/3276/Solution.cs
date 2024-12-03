@@ -2,13 +2,6 @@ namespace Problem_3276;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        IList<IList<int>> grid = [[92, 11, 45, 88, 38, 13, 65, 85], [52, 83, 3, 14, 82, 51, 27, 59], [65, 69, 99, 27, 7, 70, 39, 43], [43, 46, 22, 19, 75, 70, 57, 50], [54, 36, 91, 80, 74, 43, 62, 61], [35, 45, 19, 32, 92, 50, 93, 88], [60, 15, 93, 10, 89, 32, 51, 11], [82, 66, 42, 61, 78, 94, 66, 7], [75, 56, 49, 78, 81, 61, 79, 50]];
-        //IList<IList<int>> grid = [[1, 2, 3], [4, 3, 2], [1, 1, 1]];
-        Console.WriteLine(solution.MaxScore(grid));
-    }
     public int MaxScore(IList<IList<int>> grid)
     {
         var hashSet = new HashSet<int>();
@@ -58,7 +51,7 @@ public class Solution
         return Solve(0, 0, sortedList, storage, maxValueRecords);
     }
 
-    public int Solve(
+    private int Solve(
         int index,
         int mask,
         List<int> sortedList,

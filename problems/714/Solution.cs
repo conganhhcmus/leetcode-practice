@@ -1,19 +1,12 @@
 namespace Problem_714;
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] prices = [1, 3, 2, 8, 4, 9];
-        int fee = 2;
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxProfit(prices, fee));
-    }
     public int MaxProfit(int[] prices, int fee)
     {
         return MaxProfit_DP(prices, fee);
     }
 
-    public int MaxProfit_DP(int[] prices, int fee)
+    private int MaxProfit_DP(int[] prices, int fee)
     {
         int[] dp = new int[2];
         for (int i = prices.Length - 1; i >= 0; i--)
@@ -25,7 +18,7 @@ public class Solution
         return dp[1];
     }
 
-    public int MaxProfit_Greedy(int[] prices, int fee)
+    private int MaxProfit_Greedy(int[] prices, int fee)
     {
         int n = prices.Length;
         int maxProfit = 0;

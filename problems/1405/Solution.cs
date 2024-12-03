@@ -2,12 +2,6 @@ namespace Problem_1405;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int a = 4, b = 4, c = 3;
-        var solution = new Solution();
-        Console.WriteLine(solution.LongestDiverseString(a, b, c));
-    }
     public string LongestDiverseString(int a, int b, int c)
     {
         var ans = "";

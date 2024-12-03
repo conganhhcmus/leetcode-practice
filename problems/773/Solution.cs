@@ -1,12 +1,6 @@
 namespace Problem_773;
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] board = [[4, 1, 2], [5, 0, 3]];
-        var solution = new Solution();
-        Console.WriteLine(solution.SlidingPuzzle(board));
-    }
     public int SlidingPuzzle(int[][] board)
     {
         var target = "123450";

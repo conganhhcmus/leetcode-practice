@@ -2,13 +2,6 @@ namespace Problem_4;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums1 = [];
-        int[] nums2 = [1];
-        Console.WriteLine(solution.FindMedianSortedArrays(nums1, nums2));
-    }
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {
         int n = nums1.Length + nums2.Length;

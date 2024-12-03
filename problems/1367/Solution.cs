@@ -1,21 +1,7 @@
 namespace Problem_1367;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-
-        var head = ListNodeHelper.CreateListFromArray([10, 10, 4, 9, 9, 4, 2, 2, 9, 9, 5]);
-
-        var root = TreeNodeHelper.CreateTreeFromArray([10, 10, 9, 4, 7, 6, 10, 10, 9, 6, 4, 8, 8, 9, 2, null, 2, null, 9, null, null, null, null, null, 9, 1, 7, null, null, null, null, 7, 4, 4, 6, null, null, 6, null, null, null, null, null, 9, 6, null, 2, 4, 8, null, 5, 2, null, null, null, 2, null, null, null, null, 3, 8, 2, null, 5, 4, 9, null, null, 6, null, 1, 3, null, null, 8, 9, null, 9, null, null, null, 5, null, null, 1, 1, null, null, 5, null, null, null, null, null, null, null, 7]);
-
-        Console.WriteLine(solution.IsSubPath(head, root));
-    }
-
     public bool IsSubPath(ListNode head, TreeNode root)
     {
         var res = false;

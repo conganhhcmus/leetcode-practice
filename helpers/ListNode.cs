@@ -1,7 +1,5 @@
 namespace Helpers;
 
-using Structures;
-
 public static class ListNodeHelper
 {
     public static ListNode CreateListFromArray(int[] nums)
@@ -18,7 +16,7 @@ public static class ListNodeHelper
         return dummy.next;
     }
 
-    public static void PrintList(ListNode head)
+    public static string PrintList(ListNode head)
     {
         List<int> vals = [];
         while (head is not null)
@@ -27,6 +25,6 @@ public static class ListNodeHelper
             head = head.next;
         }
 
-        Console.WriteLine($"[{string.Join(",", vals)}]");
+        return JsonConvert.SerializeObject(vals);
     }
 }

@@ -1,14 +1,6 @@
 namespace Problem_3372;
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[][] edges1 = [[0, 1]];
-        int[][] edges2 = [[0, 1]];
-        int k = 0;
-        Console.WriteLine($"[{string.Join(", ", solution.MaxTargetNodes(edges1, edges2, k))}]");
-    }
     public int[] MaxTargetNodes(int[][] edges1, int[][] edges2, int k)
     {
         int[] result = new int[edges1.Length + 1];

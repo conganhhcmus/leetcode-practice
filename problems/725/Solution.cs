@@ -1,26 +1,7 @@
 namespace Problem_725;
 
-using Helpers;
-using Structures;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        int k = 3;
-        var head = ListNodeHelper.CreateListFromArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-
-        ListNodeHelper.PrintList(head.next);
-
-        var solution = new Solution();
-        var res = solution.SplitListToParts(head, k);
-        foreach (var node in res)
-        {
-            ListNodeHelper.PrintList(node);
-        }
-    }
-
-
     public ListNode[] SplitListToParts(ListNode head, int k)
     {
         var res = new ListNode[k];

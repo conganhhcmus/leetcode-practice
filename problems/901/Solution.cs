@@ -25,10 +25,8 @@ public class StockSpanner
 
 public class Solution
 {
-    public static void Execute()
+    public List<string> Execute(string[] requests, int[][] values)
     {
-        string[] requests = ["StockSpanner", "next", "next", "next", "next", "next"];
-        int[][] values = [[], [31], [41], [48], [59], [79]];
         var stockSpanner = new StockSpanner();
         List<string> result = [];
         for (int i = 0; i < requests.Length; i++)
@@ -43,6 +41,6 @@ public class Solution
                     break;
             }
         }
-        Console.WriteLine($"[{string.Join(",", result)}]");
+        return result;
     }
 }

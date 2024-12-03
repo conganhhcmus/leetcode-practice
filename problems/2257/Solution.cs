@@ -1,18 +1,7 @@
 namespace Problem_2257;
 
-using Helpers;
 public class Solution
 {
-    public static void Execute()
-    {
-        int m = 4;
-        int n = 6;
-        int[][] guards = [[0, 0], [1, 1], [2, 3]];
-        int[][] walls = [[0, 1], [2, 2], [1, 4]];
-        var solution = new Solution();
-        Console.WriteLine(solution.CountUnguarded(m, n, guards, walls));
-    }
-
     public int CountUnguarded(int m, int n, int[][] guards, int[][] walls)
     {
         int[,] grid = new int[m, n];

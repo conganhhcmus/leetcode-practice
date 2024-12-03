@@ -2,7 +2,7 @@ namespace Helpers;
 
 public static class ArrayHelper
 {
-    public static void Print2DArray<T>(T[][] array)
+    public static string Print2DArray<T>(T[][] array)
     {
         string[] rows = new string[array.Length];
         for (int i = 0; i < array.Length; i++)
@@ -10,10 +10,10 @@ public static class ArrayHelper
             rows[i] = $"[{string.Join(",", array[i])}]";
         }
 
-        Console.WriteLine($"[{string.Join(",\n ", rows)}]");
+        return JsonConvert.SerializeObject(rows);
     }
 
-    public static void Print2DArray<T>(T[,] array)
+    public static string Print2DArray<T>(T[,] array)
     {
         string[] rows = new string[array.GetLength(0)];
         for (int i = 0; i < array.GetLength(0); i++)
@@ -26,10 +26,10 @@ public static class ArrayHelper
             rows[i] = $"[{string.Join(",", values)}]";
         }
 
-        Console.WriteLine($"[{string.Join(",\n ", rows)}]");
+        return JsonConvert.SerializeObject(rows);
     }
 
-    public static void Print2DArray<T>(IList<IList<T>> array)
+    public static string Print2DArray<T>(IList<IList<T>> array)
     {
         string[] rows = new string[array.Count];
         for (int i = 0; i < array.Count; i++)
@@ -37,6 +37,6 @@ public static class ArrayHelper
             rows[i] = $"[{string.Join(",", array[i])}]";
         }
 
-        Console.WriteLine($"[{string.Join(",\n ", rows)}]");
+        return JsonConvert.SerializeObject(rows);
     }
 }

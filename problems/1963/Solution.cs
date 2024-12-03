@@ -2,12 +2,6 @@ namespace Problem_1963;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "]]][[[";
-        Console.WriteLine(solution.MinSwaps(s));
-    }
     public int MinSwaps(string s)
     {
         int ans = 0;

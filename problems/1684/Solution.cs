@@ -2,13 +2,6 @@ namespace Problem_1684;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string allowed = "ab";
-        string[] words = ["ad", "bd", "aaab", "baa", "badab"];
-        Console.WriteLine(solution.CountConsistentStrings(allowed, words));
-    }
     public int CountConsistentStrings(string allowed, string[] words)
     {
         int ans = 0;

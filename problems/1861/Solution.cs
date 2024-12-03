@@ -1,18 +1,7 @@
 namespace Problem_1861;
 
-using Helpers;
 public class Solution
 {
-    public static void Execute()
-    {
-        char[][] box = [
-            ['#','#','*','.','*','.'],
-            ['#','#','#','*','.','.'],
-            ['#','#','#','.','#','.']
-        ];
-        var solution = new Solution();
-        ArrayHelper.Print2DArray(solution.RotateTheBox(box));
-    }
     public char[][] RotateTheBox(char[][] box)
     {
         int m = box.Length;

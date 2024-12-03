@@ -2,13 +2,6 @@ namespace Problem_1590;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [3, 1, 4, 2];
-        int p = 6;
-        var solution = new Solution();
-        Console.WriteLine(solution.MinSubarray(nums, p));
-    }
     public int MinSubarray(int[] nums, int p)
     {
         int totalMod = 0;

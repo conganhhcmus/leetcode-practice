@@ -1,14 +1,6 @@
 namespace Problem_3365;
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "abcd";
-        string t = "cdab";
-        int k = 2;
-        Console.WriteLine(solution.IsPossibleToRearrange(s, t, k));
-    }
     public bool IsPossibleToRearrange(string s, string t, int k)
     {
         Dictionary<string, int> freq = [];

@@ -2,13 +2,6 @@ namespace Problem_2352;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        Solution solution = new();
-        int[][] grid = [[3, 1, 2, 2], [1, 4, 4, 4], [2, 4, 2, 2], [2, 5, 2, 2]];
-        Console.WriteLine(solution.EqualPairs(grid));
-        Console.WriteLine(solution.EqualPairs2(grid));
-    }
     public int EqualPairs(int[][] grid)
     {
         int len = grid.Length;

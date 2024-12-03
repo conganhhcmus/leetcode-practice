@@ -2,14 +2,6 @@ namespace Problem_350;
 
 public class Solution
 {
-
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums1 = [1, 2, 2, 1];
-        int[] nums2 = [2, 2];
-        Console.WriteLine($"[{string.Join(",", solution.Intersect(nums1, nums2))}]");
-    }
     public int[] Intersect(int[] nums1, int[] nums2)
     {
         Dictionary<int, int> dicNums1 = [];

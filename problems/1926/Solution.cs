@@ -2,19 +2,6 @@ namespace Problem_1926;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        char[][] maze = [
-            ['+', '+', '+', '+'],
-            ['+', '.', '.', '+'],
-            ['+', '.', '.', '+'],
-            ['+', '.', '.', '+'],
-            ['+', '+', '+', '+']
-        ];
-        int[] entrance = [1, 2];
-        var solution = new Solution();
-        Console.WriteLine(solution.NearestExit(maze, entrance));
-    }
     public int NearestExit(char[][] maze, int[] entrance)
     {
         int maxR = maze.Length - 1;

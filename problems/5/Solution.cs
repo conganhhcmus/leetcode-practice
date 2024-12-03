@@ -2,12 +2,6 @@ namespace Problem_5;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "cbbd";
-        Console.WriteLine(solution.LongestPalindrome(s));
-    }
     public string LongestPalindrome(string s)
     {
         var res = new int[2];

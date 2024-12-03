@@ -1,16 +1,7 @@
 namespace Problem_2097;
 
-using Helpers;
-
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] pairs = [[13, 6], [17, 13], [8, 11], [1, 19], [16, 6], [19, 0], [3, 4], [11, 9], [5, 3], [9, 15], [6, 15], [14, 10], [2, 1], [6, 2], [4, 8], [0, 5], [15, 16], [10, 17]];
-        var solution = new Solution();
-        var result = solution.ValidArrangement(pairs);
-        ArrayHelper.Print2DArray(result);
-    }
     public int[][] ValidArrangement(int[][] pairs)
     {
         Dictionary<int, List<int>> graph = [];

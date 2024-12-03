@@ -1,14 +1,6 @@
 namespace Problem_3364;
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        IList<int> nums = [-3, 17];
-        int l = 1;
-        int r = 2;
-        Console.WriteLine(solution.MinimumSumSubarray(nums, l, r));
-    }
     public int MinimumSumSubarray(IList<int> nums, int l, int r)
     {
         int n = nums.Count;

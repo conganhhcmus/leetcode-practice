@@ -2,12 +2,6 @@ namespace Problem_539;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        IList<string> timePoints = ["05:31", "22:08", "00:35"];
-        Console.WriteLine(solution.FindMinDifference(timePoints));
-    }
     public int FindMinDifference(IList<string> timePoints)
     {
         if (timePoints.Count > 24 * 60) return 0;

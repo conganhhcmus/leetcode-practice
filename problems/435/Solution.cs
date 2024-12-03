@@ -2,12 +2,6 @@ namespace Problem_435;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[][] intervals = [[0, 2], [1, 3], [2, 4], [3, 5], [4, 6]];
-        var solution = new Solution();
-        Console.WriteLine(solution.EraseOverlapIntervals(intervals));
-    }
     public int EraseOverlapIntervals(int[][] intervals)
     {
         int res = 0;

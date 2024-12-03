@@ -2,13 +2,6 @@ namespace Problem_1466;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int n = 6;
-        int[][] connections = [[1, 0], [1, 2], [3, 2], [3, 4]];
-        var solution = new Solution();
-        Console.WriteLine(solution.MinReorder(n, connections));  // Output: 3
-    }
     public int MinReorder(int n, int[][] connections)
     {
         int count = 0;

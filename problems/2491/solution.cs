@@ -2,12 +2,6 @@ namespace Problem_2491;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] skill = [5, 1, 1, 2, 1, 4];
-        Console.WriteLine(solution.DividePlayers(skill));
-    }
     public long DividePlayers(int[] skill)
     {
         int target = skill.Sum();

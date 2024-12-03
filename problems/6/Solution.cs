@@ -2,13 +2,6 @@ namespace Problem_6;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        var s = "AB";
-        var numRows = 1;
-        Console.WriteLine(solution.Convert(s, numRows));
-    }
     public string Convert(string s, int numRows)
     {
         string[] res = new string[numRows];

@@ -38,12 +38,9 @@ public class CustomStack
 
 public class Solution
 {
-    public static void Execute()
+    public List<string> Execute(string[] events, int[][] values)
     {
-        string[] events = ["CustomStack", "push", "push", "pop", "push", "push", "push", "increment", "increment", "pop", "pop", "pop", "pop"];
-        int[][] values = [[3], [1], [2], [], [2], [3], [4], [5, 100], [2, 100], [], [], [], []];
         List<string> result = [];
-
         CustomStack stack = new(0);
 
         for (int i = 0; i < events.Length; i++)
@@ -71,7 +68,7 @@ public class Solution
             }
         }
 
-        Console.WriteLine($"[{string.Join(",", result)}]");
+        return result;
     }
 }
 

@@ -2,14 +2,6 @@ namespace Problem_1813;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string sentence1 = "A B C D C B";
-        string sentence2 = "A B C B";
-        Console.WriteLine(solution.AreSentencesSimilar(sentence1, sentence2));
-    }
-
     public bool AreSentencesSimilar(string sentence1, string sentence2)
     {
         if (sentence1 == sentence2) return true;

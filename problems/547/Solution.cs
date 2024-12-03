@@ -2,12 +2,6 @@ namespace Problem_547;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[][] isConnected = [[1, 1, 0], [1, 1, 0], [0, 0, 1]];
-        Console.WriteLine(solution.FindCircleNum(isConnected));
-    }
     public int FindCircleNum(int[][] isConnected)
     {
         if (isConnected.Length == 0) return 0;

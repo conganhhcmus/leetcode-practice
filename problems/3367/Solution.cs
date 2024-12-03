@@ -1,13 +1,6 @@
 namespace Problem_3367;
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[][] edges = [[0, 1, 25], [0, 2, 10], [1, 3, 29]];
-        int k = 1;
-        Console.WriteLine(solution.MaximizeSumOfWeights(edges, k));
-    }
     public long MaximizeSumOfWeights(int[][] edges, int k)
     {
         Dictionary<int, List<(int v, int w)>> graph = [];

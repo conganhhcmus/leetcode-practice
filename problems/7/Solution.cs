@@ -2,13 +2,6 @@ namespace Problem_7;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int x = -123;
-        Console.WriteLine(solution.Reverse(x));
-    }
-
     public int Reverse(int x)
     {
         var str = x.ToString().ToCharArray();

@@ -2,13 +2,6 @@ namespace Problem_3254;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        int[] nums = [1, 2, 3, 4, 3, 2, 5];
-        int k = 3;
-        var solution = new Solution();
-        Console.WriteLine($"[{string.Join(",", solution.ResultsArray(nums, k))}]");
-    }
     public int[] ResultsArray(int[] nums, int k)
     {
         if (k == 1) return nums;

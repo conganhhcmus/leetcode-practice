@@ -1,16 +1,7 @@
 namespace Problem_104;
 
-using Helpers;
-using Structures;
 public class Solution
 {
-    public static void Execute()
-    {
-        var root = TreeNodeHelper.CreateTreeFromArray([3, 9, 20, null, null, 15, 7]);
-
-        var solution = new Solution();
-        Console.WriteLine(solution.MaxDepth(root));
-    }
     public int MaxDepth(TreeNode root)
     {
         return DFS(root, 0);

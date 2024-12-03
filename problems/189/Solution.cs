@@ -2,15 +2,6 @@ namespace Problem_189;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        int[] nums = [1, 2, 3, 4, 5, 6];
-        int k = 1;
-        solution.Rotate(nums, k);
-        Console.WriteLine($"[{string.Join(",", nums)}]");
-    }
-
     public void Rotate(int[] nums, int k)
     {
         k %= nums.Length;

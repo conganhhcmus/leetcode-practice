@@ -2,12 +2,6 @@ namespace Problem_921;
 
 public class Solution
 {
-    public static void Execute()
-    {
-        var solution = new Solution();
-        string s = "())";
-        Console.WriteLine(solution.MinAddToMakeValid(s));
-    }
     public int MinAddToMakeValid(string s)
     {
         Stack<char> stack = new();
