@@ -10,6 +10,10 @@ TYPE NUL > ./contests/%contest_name%/Q3.cs
 TYPE NUL > ./contests/%contest_name%/Q4.cs
 
 CALL code "./contests/%contest_name%/Q1.cs"
+CALL ECHO global using Running = Contests_%contest_name%_Q1;> .tmp
+FOR /f "skip=1 delims=" %%l IN (GlobalUsing.cs) DO ECHO %%l>> .tmp
+CALL TYPE .tmp > GlobalUsing.cs
+CALL DEL .tmp
 ECHO Done!
 GOTO end
 

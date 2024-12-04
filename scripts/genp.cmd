@@ -7,6 +7,11 @@ IF EXIST "problems/%problem_name%/" GOTO existing_contest_folder
 IF NOT EXIST "problems/%problem_name%/" MKDIR "problems/%problem_name%/"
 TYPE NUL > ./problems/%problem_name%/Solution.cs
 CALL code "./problems/%problem_name%/Solution.cs"
+
+CALL ECHO global using Running = Problems_%problem_name%;> .tmp
+FOR /f "skip=1 delims=" %%l IN (GlobalUsing.cs) DO ECHO %%l>> .tmp
+CALL TYPE .tmp > GlobalUsing.cs
+CALL DEL .tmp
 ECHO Done!
 GOTO end
 
