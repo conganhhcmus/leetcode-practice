@@ -190,6 +190,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2516. Take K of Each Character From Left and Right](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2516/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
 - [2542. Maximum Subsequence Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2542/Solution.cs)
+- [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2554/Solution.cs)
 - [2563. Count the Number of Fair Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2563/Solution.cs)
 - [2577. Minimum Time to Visit a Cell In a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2577/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2583/Solution.cs)
