@@ -10,5 +10,5 @@ else
     touch "problems/$1/Solution.cs"
 
     code "problems/$1/Solution.cs"
-    sed -i "1 s/.*/global using Running = Problems_${1};/g" GlobalUsing.cs
+    sed -i "" "1 s/.*/global using Running = Problems_${1};/g" GlobalUsing.cs
 fi
