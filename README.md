@@ -228,6 +228,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3372. Maximize the Number of Target Nodes After Connecting Trees I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3372/Solution.cs)
 - [3373. Maximize the Number of Target Nodes After Connecting Trees II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3373/Solution.cs)
 - [3379. Transformed Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3379/Solution.cs)
+- [3380. Maximum Area Rectangle With Point Constraints I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3380/Solution.cs)
 
 #### Contest
 

@@ -13,7 +13,7 @@
         { typeof(char[]).FullName, data => JsonConvert.DeserializeObject<char[]>(data) },
         { typeof(IList<int>).FullName, data => JsonConvert.DeserializeObject<IList<int>>(data) },
         { typeof(IList<IList<int>>).FullName, data => JsonConvert.DeserializeObject<IList<IList<int>>>(data) },
-        { typeof(uint).FullName, data => JsonConvert.DeserializeObject<uint>(Convert.ToUInt32(data, 2).ToString()) }
+        { typeof(uint).FullName, data => Regex.IsMatch(data, "^[01]+$") ? Convert.ToUInt32(data, 2): JsonConvert.DeserializeObject<uint>(data) }
     };
 
     private static readonly Dictionary<string, Func<object, string>> OutputMapper = new(StringComparer.OrdinalIgnoreCase)
