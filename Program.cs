@@ -12,7 +12,8 @@
         { typeof(char).FullName, data => JsonConvert.DeserializeObject<char>(data) },
         { typeof(char[]).FullName, data => JsonConvert.DeserializeObject<char[]>(data) },
         { typeof(IList<int>).FullName, data => JsonConvert.DeserializeObject<IList<int>>(data) },
-        { typeof(IList<IList<int>>).FullName, data => JsonConvert.DeserializeObject<IList<IList<int>>>(data) }
+        { typeof(IList<IList<int>>).FullName, data => JsonConvert.DeserializeObject<IList<IList<int>>>(data) },
+        { typeof(uint).FullName, data => JsonConvert.DeserializeObject<uint>(Convert.ToUInt32(data, 2).ToString()) }
     };
 
     private static readonly Dictionary<string, Func<object, string>> OutputMapper = new(StringComparer.OrdinalIgnoreCase)
