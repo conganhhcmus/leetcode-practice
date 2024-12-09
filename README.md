@@ -211,6 +211,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3043. Find the Length of the Longest Common Prefix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3043/Solution.cs)
 - [3097. Shortest Subarray With OR at Least K II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3097/Solution.cs)
 - [3133. Minimum Array End](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3133/Solution.cs)
+- [3152. Special Array II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3152/Solution.cs)
 - [3163. String Compression III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3163/Solution.cs)
 - [3217. Delete Nodes From Linked List Present in Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3217/Solution.cs)
 - [3243. Shortest Distance After Road Addition Queries I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3243/Solution.cs)
