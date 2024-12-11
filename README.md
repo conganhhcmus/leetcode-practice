@@ -205,6 +205,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2684. Maximum Number of Moves in a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2648/Solution.cs)
 - [2696. Minimum String Length After Removing Substrings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2696/Solution.cs)
 - [2707. Extra Characters in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2707/Solution.cs)
+- [2779. Maximum Beauty of an Array After Applying Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2779/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2807/Solution.cs)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2914/Solution.cs)
 - [2924. Find Champion II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2924/Solution.cs)
