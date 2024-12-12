@@ -238,6 +238,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3379. Transformed Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3379/Solution.cs)
 - [3380. Maximum Area Rectangle With Point Constraints I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3380/Solution.cs)
 - [3381. Maximum Subarray Sum With Length Divisible by K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3381/Solution.cs)
+- [3382. Maximum Area Rectangle With Point Constraints II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3382/Solution.cs)
 
 #### Contest
 
