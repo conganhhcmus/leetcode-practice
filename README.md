@@ -203,6 +203,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2563. Count the Number of Fair Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2563/Solution.cs)
 - [2577. Minimum Time to Visit a Cell In a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2577/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2583/Solution.cs)
+- [2593. Find Score of an Array After Marking All Elements](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2593/Solution.cs)
 - [2601. Prime Subtraction Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2601/Solution.cs)
 - [2641. Cousins in Binary Tree II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2641/Solution.cs)
 - [2684. Maximum Number of Moves in a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2648/Solution.cs)
