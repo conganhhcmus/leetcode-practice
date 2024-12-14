@@ -1,6 +1,2 @@
-"sadbutsad"
-"sad"
-"leetcode"
-"leeto"
-"a"
-"a"
+[5,4,2,4]
+[1,2,3]
