@@ -245,7 +245,12 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3382. Maximum Area Rectangle With Point Constraints II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3382/Solution.cs)
 
 #### Contest
-
+##### Weekly Contest 428
+- [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q1.cs)
+- [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q2.cs)
+- [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q3.cs)
+- [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q4.cs)
+  
 ## Contact Me
 - [Facebook](https://www.facebook.com/conganhhcmus)
 - [Instagram](https://www.instagram.com/conganhhcmus)
