@@ -7,21 +7,17 @@ public class Solution
     public int[] FinalPrices(int[] prices)
     {
         int n = prices.Length;
-        int[] ans = new int[n];
+        Stack<int> stack = [];
         for (int i = 0; i < n; i++)
         {
-            int j = i + 1;
-            while (j < n && prices[j] > prices[i]) j++;
-            if (j == n)
+            while (stack.Count > 0 && prices[stack.Peek()] >= prices[i])
             {
-                ans[i] = prices[i];
+                prices[stack.Pop()] -= prices[i];
             }
-            else
-            {
-                ans[i] = prices[i] - prices[j];
-            }
+
+            stack.Push(i);
         }
 
-        return ans;
+        return prices;
     }
 }
