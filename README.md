@@ -103,6 +103,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [735. Asteroid Collision](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/735/Solution.cs)
 - [739. Daily Temperatures](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/739/Solution.cs)
 - [746. Min Cost Climbing Stairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/746/Solution.cs)
+- [769. Max Chunks To Make Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/769/Solution.cs)
 - [773. Sliding Puzzle](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/773/Solution.cs)
 - [790. Domino and Tromino Tiling](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/790/Solution.cs)
 - [796. Rotate String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/796/Solution.cs)
