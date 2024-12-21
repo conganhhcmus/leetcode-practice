@@ -223,6 +223,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2762. Continuous Subarrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2762/Solution.cs)
 - [2779. Maximum Beauty of an Array After Applying Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2779/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2807/Solution.cs)
+- [2872. Maximum Number of K-Divisible Components](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2872/Solution.cs)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2914/Solution.cs)
 - [2924. Find Champion II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2924/Solution.cs)
 - [2938. Separate Black and White Balls](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2938/Solution.cs)
