@@ -88,6 +88,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [443. String Compression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/443/Solution.cs)
 - [450. Delete Node in a BST](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/450/Solution.cs)
 - [452. Minimum Number of Arrows to Burst Balloons](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/452/Solution.cs)
+- [503. Next Greater Element II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/503/Solution.cs)
 - [539. Minimum Time Difference](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/539/Solution.cs)
 - [567. Permutation in String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/567/Solution.cs)
 - [605. Can Place Flowers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/605/Solution.cs)
