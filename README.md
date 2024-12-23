@@ -204,6 +204,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2461. Maximum Sum of Distinct Subarrays With Length K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2461/Solution.cs)
 - [2462. Total Cost to Hire K Workers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2462/Solution.cs)
 - [2463. Minimum Total Distance Traveled](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2463/Solution.cs)
+- [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2471/Solution.cs)
 - [2490. Circular Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2490/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)
 - [2501. Longest Square Streak in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2501/Solution.cs)
