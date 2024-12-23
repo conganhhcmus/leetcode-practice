@@ -1,27 +1,22 @@
-namespace Problem_3;
+#if DEBUG
+namespace Problems_3;
+#endif
 
 public class Solution
 {
     public int LengthOfLongestSubstring(string s)
     {
-        var freq = new Dictionary<char, int>();
+        var set = new HashSet<char>();
         int max = Math.Min(1, s.Length);
-
-        for (int l = 0; l < s.Length; l++)
+        int l = 0, r = 0;
+        while (r < s.Length)
         {
-            for (int r = l; r < s.Length; r++)
-            {
-                if (freq.TryGetValue(s[r], out int value) && value > 0)
-                {
-                    freq.Clear();
-                    break;
-                }
-
-                freq[s[r]] = value + 1;
-                max = r - l + 1 > max ? r - l + 1 : max;
-            }
-
+            while (r < s.Length && set.Add(s[r])) r++;
+            set.Remove(s[l]);
+            max = Math.Max(max, r - l);
+            l++;
         }
+
         return max;
     }
 }
