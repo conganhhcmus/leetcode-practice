@@ -6,23 +6,47 @@ public class Solution
 {
     public int FindTargetSumWays(int[] nums, int target)
     {
-        int[] expressions = [-1, 1];
-        int result = 0;
-        void BackTracking(int target, int curr)
-        {
-            if (curr == nums.Length)
-            {
-                if (target == 0) result++;
-                return;
-            }
+        return DynamicProgramming(nums, target);
+        // return RecursionWithMemoization(nums, target);
+    }
 
-            foreach (int exp in expressions)
+    private int DynamicProgramming(int[] nums, int target)
+    {
+        int sum = 0;
+        for (int i = 0; i < nums.Length; i++) sum += nums[i];
+        if (sum < Math.Abs(target) || (sum + target) % 2 == 1) return 0;
+
+        int targetSum = (sum + target) / 2;
+        Span<int> dp = stackalloc int[targetSum + 1];
+        dp[0] = 1;
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            for (int j = targetSum; j >= nums[i]; j--)
             {
-                BackTracking(target + exp * nums[curr], curr + 1);
+                dp[j] += dp[j - nums[i]];
             }
         }
 
-        BackTracking(target, 0);
-        return result;
+        return dp[targetSum];
+    }
+
+    private int RecursionWithMemoization(int[] nums, int target)
+    {
+        Dictionary<(int idx, int sum), int> memo = [];
+        int BackTracking(int curr, int sum)
+        {
+            if (memo.ContainsKey((curr, sum))) return memo[(curr, sum)];
+
+            if (curr >= nums.Length) return sum == target ? 1 : 0;
+
+            int positive = BackTracking(curr + 1, sum + nums[curr]);
+            int negative = BackTracking(curr + 1, sum - nums[curr]);
+
+            memo[(curr, sum)] = positive + negative;
+            return positive + negative;
+        }
+
+        return BackTracking(0, 0);
     }
 }
