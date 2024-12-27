@@ -34,6 +34,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [37. Sudoku Solver](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/37/Solution.cs)
 - [42. Trapping Rain Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/42/Solution.cs)
 - [45. Jump Game II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/45/Solution.cs)
+- [48. Rotate Image](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/48/Solution.cs)
 - [50. Pow(x, n)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/50/Solution.cs)
 - [54. Spiral Matrix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/54/Solution.cs)
 - [55. Jump Game](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/55/Solution.cs)
