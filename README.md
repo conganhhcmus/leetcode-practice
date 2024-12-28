@@ -10,6 +10,22 @@ NOTE: These projects are for practice purposes only.
 All the contest/problem solutions on LeetCode that I attended.
 
 ## Table of Contents
+
+#### Contest
+- Weekly Contest 428 (
+  [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q1.cs),
+  [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q2.cs),
+  [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q3.cs),
+  [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q4.cs)
+)
+
+- Weekly Contest 429 (
+  [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q1.cs),
+  [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q2.cs),
+  [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q3.cs),
+  [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q4.cs)
+)
+
 #### Problems
 - [1. Two Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1/Solution.cs)
 - [2. Add Two Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2/Solution.cs)
@@ -267,19 +283,6 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3381. Maximum Subarray Sum With Length Divisible by K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3381/Solution.cs)
 - [3382. Maximum Area Rectangle With Point Constraints II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3382/Solution.cs)
 
-#### Contest
-##### Weekly Contest 428
-- [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q1.cs)
-- [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q2.cs)
-- [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q3.cs)
-- [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/428/Q4.cs)
-
-##### Weekly Contest 429
-- [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q1.cs)
-- [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q2.cs)
-- [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q3.cs)
-- [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q4.cs)
-  
 ## Contact Me
 - [Facebook](https://www.facebook.com/conganhhcmus)
 - [Instagram](https://www.instagram.com/conganhhcmus)

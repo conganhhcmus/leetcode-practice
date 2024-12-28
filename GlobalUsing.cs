@@ -1,4 +1,4 @@
-global using Running = Problems_689;
+global using Running = Problems_689_2;
 global using Helpers;
 global using Structures;
 global using Newtonsoft.Json;
