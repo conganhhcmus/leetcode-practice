@@ -26,6 +26,14 @@ All the contest/problem solutions on LeetCode that I attended.
   [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/429/Q4.cs)
 )
 
+
+- Weekly Contest 430 (
+  [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/430/Q1.cs),
+  [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/430/Q2.cs),
+  [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/430/Q3.cs),
+  [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/430/Q4.cs)
+)
+
 #### Problems
 - [1. Two Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1/Solution.cs)
 - [2. Add Two Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2/Solution.cs)
