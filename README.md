@@ -186,6 +186,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1574/Solution.cs)
 - [1590. Make Sum Divisible by P](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1590/Solution.cs)
 - [1593. Split a String Into the Max Number of Unique Substrings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1593/Solution.cs)
+- [1639. Number of Ways to Form a Target String Given a Dictionary](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1639/Solution.cs)
 - [1652. Defuse the Bomb](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1652/Solution.cs)
 - [1657. Determine if Two Strings Are Close](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1657/Solution.cs)
 - [1671. Minimum Number of Removals to Make Mountain Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1671/Solution.cs)
