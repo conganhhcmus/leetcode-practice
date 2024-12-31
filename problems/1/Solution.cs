@@ -1,24 +1,19 @@
-namespace Problem_1;
+#if DEBUG
+namespace Problems_1;
+#endif
 
 public class Solution
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        var p1 = 0;
-        var p2 = 1;
-        while (p1 < nums.Length)
+        int n = nums.Length;
+        Dictionary<int, int> map = [];
+        for (int i = 0; i < n; i++)
         {
-            while (p2 < nums.Length)
-            {
-                if (nums[p1] + nums[p2] == target)
-                {
-                    return [p1, p2];
-                }
-                p2++;
-            }
-            p1++;
-            p2 = p1 + 1;
+            int comp = target - nums[i];
+            if (map.ContainsKey(comp)) return [map[comp], i];
+            map[nums[i]] = i;
         }
-        return [p1, p2];
+        return [];
     }
 }
