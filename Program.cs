@@ -41,7 +41,7 @@
         List<string> data = Input();
         int loop = data.Count / parameters.Length;
         int index = 0;
-        List<string> lines = [];
+        List<(string output, long executeTime)> lines = [];
         while (loop-- > 0)
         {
             object[] input = new object[parameters.Length];
@@ -51,18 +51,20 @@
                 var inputFunc = InputMapper.GetValueOrDefault(type.FullName, s => s);
                 input[i] = inputFunc(data[index]);
             }
-
+            var watch = Stopwatch.StartNew();
             var result = methodInfo.Invoke(classInstance, input);
+            watch.Stop();
+            var elapsedMs = watch.ElapsedMilliseconds;
             var outputFunc = OutputMapper.GetValueOrDefault(methodInfo.ReturnType.FullName, JsonConvert.SerializeObject);
-            lines.Add(outputFunc(result));
+            lines.Add((outputFunc(result), elapsedMs));
         }
 
-        Output(lines);
+        Compare(lines);
     }
 
     private static List<string> Input()
     {
-        using StreamReader sr = new("test-case.txt");
+        using StreamReader sr = new("testcase.txt");
         List<string> lines = [];
         var line = sr.ReadLine();
 
@@ -80,6 +82,65 @@
         foreach (var line in lines)
         {
             Console.WriteLine(line);
+        }
+    }
+
+    private static void Compare(List<(string output, long executeTime)> output)
+    {
+        Console.Clear();
+        Console.ResetColor();
+
+        using StreamReader sr = new("output.txt");
+        List<string> expected = [];
+        var line = sr.ReadLine();
+
+        while (!string.IsNullOrWhiteSpace(line))
+        {
+            expected.Add(line.Trim());
+            line = sr.ReadLine();
+        }
+        List<(string output, long executeTime)> actual = output.Where(x => !string.IsNullOrEmpty(x.output)).ToList();
+
+        if (expected.Count == 0)
+        {
+            Output(actual.Select(x => x.output).ToList());
+            return;
+        }
+
+        if (expected.Count != actual.Count)
+        {
+            Console.WriteLine("Output is not correct");
+            return;
+        }
+
+        for (int i = 0; i < expected.Count; i++)
+        {
+            bool isCorrect = string.Compare(expected[i], actual[i].output) == 0;
+            bool isTLE = actual[i].executeTime > 2000;
+            Console.ResetColor();
+            if (isCorrect)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("✔ ");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("✘ ");
+            }
+            Console.WriteLine($"Testcase {i + 1} ({actual[i].executeTime} ms)");
+            if (!isCorrect)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(actual[i].output);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(expected[i]);
+            }
+            else if (isTLE)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Time Limit Exceeded");
+            }
         }
     }
 }

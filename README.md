@@ -88,6 +88,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [191. Number of 1 Bits](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/191/Solution.cs)
 - [198. House Robber](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/198/Solution.cs)
 - [199. Binary Tree Right Side View](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/199/Solution.cs)
+- [205. Isomorphic Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/205/Solution.cs)
 - [206. Reverse Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/206/Solution.cs)
 - [208. Implement Trie (Prefix Tree)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/208/Solution.cs)
 - [209. Minimum Size Subarray Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/209/Solution.cs)
