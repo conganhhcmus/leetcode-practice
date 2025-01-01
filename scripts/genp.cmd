@@ -12,6 +12,8 @@ CALL ECHO global using Running = Problems_%problem_name%;> .tmp
 FOR /f "skip=1 delims=" %%l IN (GlobalUsing.cs) DO ECHO %%l>> .tmp
 CALL TYPE .tmp > GlobalUsing.cs
 CALL DEL .tmp
+CALL TYPE nul > testcase.txt
+CALL TYPE nul > answer.txt
 ECHO Done!
 GOTO end
 

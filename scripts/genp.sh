@@ -11,4 +11,6 @@ else
 
     code "problems/$1/Solution.cs"
     sed -i "" "1 s/.*/global using Running = Problems_${1};/g" GlobalUsing.cs
+    > testcase.txt
+    > answer.txt
 fi
