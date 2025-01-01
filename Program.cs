@@ -38,7 +38,7 @@
         object classInstance = Activator.CreateInstance(typeof(Running.Solution), null);
         ArgumentNullException.ThrowIfNull(classInstance, nameof(classInstance));
 
-        List<string> testcases = GetTestcase();
+        List<string> testcases = LeetCode.GetTestcase();
         int loop = testcases.Count / parameters.Length, index = 0;
         List<string> output = [];
         List<long> executeTime = [];
@@ -59,103 +59,7 @@
             var outputFunc = OutputMapper.GetValueOrDefault(methodInfo.ReturnType.FullName, JsonConvert.SerializeObject);
             output.Add(outputFunc(isReturnVoid ? input[0] : result));
         }
-
-        CheckAnswer(output, executeTime, isReturnVoid);
-    }
-
-    private static List<string> GetTestcase()
-    {
-        using StreamReader sr = new("testcase.txt");
-        List<string> lines = [];
-        var line = sr.ReadLine();
-
-        while (!string.IsNullOrWhiteSpace(line))
-        {
-            lines.Add(line.Trim());
-            line = sr.ReadLine();
-        }
-
-        return lines;
-    }
-
-    private static List<string> GetAnswer()
-    {
-        using StreamReader sr = new("answer.txt");
-        List<string> lines = [];
-        var line = sr.ReadLine();
-
-        while (!string.IsNullOrWhiteSpace(line))
-        {
-            lines.Add(line.Trim());
-            line = sr.ReadLine();
-        }
-        return lines;
-    }
-
-    private static void CheckAnswer(List<string> actual, List<long> executeTime, bool isReturnVoid)
-    {
-        Console.Clear();
-        Console.WriteLine("Test Results:");
-        List<string> expected = GetAnswer();
-
-        if (isReturnVoid)
-        {
-            Console.WriteLine(string.Join("\n", actual));
-            return;
-        }
-
-        if (expected.Count != actual.Count)
-        {
-            Console.WriteLine("Output is not correct!");
-            return;
-        }
-
-        for (int i = 0; i < expected.Count; i++)
-        {
-            bool isCorrect = string.Compare(expected[i], actual[i]) == 0;
-            bool isTLE = executeTime[i] > 2000;
-            if (isCorrect)
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write("✔ ");
-            }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("✘ ");
-            }
-            Console.WriteLine($"Testcase {i + 1} ({executeTime[i]} ms)");
-            if (!isCorrect)
-            {
-                PrintDifferences(expected[i], actual[i]);
-            }
-            else if (isTLE)
-            {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Time Limit Exceeded");
-            }
-        }
-    }
-
-    private static void PrintDifferences(string expected, string actual)
-    {
-        int n = expected.Length, m = actual.Length;
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine(expected);
-
-        for (int i = 0; i < m; i++)
-        {
-            if (i > n - 1 || expected[i] != actual[i])
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write(actual[i]);
-            }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write(actual[i]);
-            }
-        }
-        Console.WriteLine();
+        List<string> answer = LeetCode.GetAnswer();
+        LeetCode.CheckAnswer(answer, output, executeTime, isReturnVoid);
     }
 }
