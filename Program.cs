@@ -55,11 +55,9 @@
             var watch = Stopwatch.StartNew();
             var result = methodInfo.Invoke(classInstance, input);
             watch.Stop();
-            var elapsedMs = watch.ElapsedMilliseconds;
+            executeTime.Add(watch.ElapsedMilliseconds);
             var outputFunc = OutputMapper.GetValueOrDefault(methodInfo.ReturnType.FullName, JsonConvert.SerializeObject);
-
             output.Add(outputFunc(isReturnVoid ? input[0] : result));
-            executeTime.Add(elapsedMs);
         }
 
         CheckAnswer(output, executeTime, isReturnVoid);
