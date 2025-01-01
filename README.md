@@ -102,6 +102,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [274. H-Index](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/274/Solution.cs)
 - [283. Move Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/283/Solution.cs)
 - [289. Game of Life](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/289/Solution.cs)
+- [290. Word Pattern](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/290/Solution.cs)
 - [328. Odd Even Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/328/Solution.cs)
 - [334. Increasing Triplet Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/334/Solution.cs)
 - [338. Counting Bits](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/338/Solution.cs)

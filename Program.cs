@@ -64,7 +64,7 @@
 
     private static List<string> Input()
     {
-        using StreamReader sr = new("testcase.txt");
+        using StreamReader sr = new("input.txt");
         List<string> lines = [];
         var line = sr.ReadLine();
 
