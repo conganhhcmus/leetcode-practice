@@ -175,6 +175,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1372. Longest ZigZag Path in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1372/Solution.cs)
 - [1381. Design a Stack With Increment Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1381/Solution.cs)
 - [1405. Longest Happy String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1405/Solution.cs)
+- [1422. Maximum Score After Splitting a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1422/Solution.cs)
 - [1431. Kids With the Greatest Number of Candies](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1431/Solution.cs)
 - [1448. Count Good Nodes in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1448/Solution.cs)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1455/Solution.cs)
