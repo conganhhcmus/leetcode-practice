@@ -255,6 +255,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2542. Maximum Subsequence Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2542/Solution.cs)
 - [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2554/Solution.cs)
 - [2558. Take Gifts From the Richest Pile](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2558/Solution.cs)
+- [2559. Count Vowel Strings in Ranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2559/Solution.cs)
 - [2563. Count the Number of Fair Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2563/Solution.cs)
 - [2577. Minimum Time to Visit a Cell In a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2577/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2583/Solution.cs)

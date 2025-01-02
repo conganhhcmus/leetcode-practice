@@ -33,6 +33,7 @@ public class LeetCode
     public static void CheckAnswer(List<string> expected, List<string> actual, List<long> executeTime, bool isReturnVoid)
     {
         Console.Clear();
+        Console.OutputEncoding = Encoding.UTF8;
 
         if (isReturnVoid || expected.Count == 0)
         {
