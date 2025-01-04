@@ -212,6 +212,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1861. Rotating the Box](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1861/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1894/Solution.cs)
 - [1926. Nearest Exit from Entrance in Maze](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1926/Solution.cs)
+- [1930. Unique Length-3 Palindromic Subsequences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1930/Solution.cs)
 - [1942. The Number of the Smallest Unoccupied Chair](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1942/Solution.cs)
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1945/Solution.cs)
 - [1957. Delete Characters to Make Fancy String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1957/Solution.cs)
