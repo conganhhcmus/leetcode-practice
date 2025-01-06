@@ -212,6 +212,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1732. Find the Highest Altitude](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1732/Solution.cs)
 - [1760. Minimum Limit of Balls in a Bag](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1760/Solution.cs)
 - [1768. Merge Strings Alternately](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1768/Solution.cs)
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1769/Solution.cs)
 - [1792. Maximum Average Pass Ratio](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1792/Solution.cs)
 - [1813. Sentence Similarity III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1813/Solution.cs)
 - [1829. Maximum XOR for Each Query](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1829/Solution.cs)
