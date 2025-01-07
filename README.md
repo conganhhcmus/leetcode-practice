@@ -82,6 +82,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [121. Best Time to Buy and Sell Stock](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/121/Solution.cs)
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
 - [125. Valid Palindrome](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/125/Solution.cs)
+- [128. Longest Consecutive Sequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/128/Solution.cs)
 - [134. Gas Station](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/134/Solution.cs)
 - [135. Candy](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/135/Solution.cs)
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
