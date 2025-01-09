@@ -69,6 +69,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [50. Pow(x, n)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/50/Solution.cs)
 - [54. Spiral Matrix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/54/Solution.cs)
 - [55. Jump Game](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/55/Solution.cs)
+- [56. Merge Intervals](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/56/Solution.cs)
 - [58. Length of Last Word](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/58/Solution.cs)
 - [62. Unique Paths](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/62/Solution.cs)
 - [68. Text Justification](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/68/Solution.cs)
