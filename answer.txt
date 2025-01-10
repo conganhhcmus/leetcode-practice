@@ -1,3 +1,2 @@
-[[1,6],[8,10],[15,18]]
-[[1,5]]
-[[1,10]]
+["facebook","google","leetcode"]
+["apple","google","leetcode"]
