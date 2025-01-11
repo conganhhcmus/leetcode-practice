@@ -1,5 +1,5 @@
 
-namespace Problem_2290;
+namespace Problems_2290;
 
 public class Solution
 {
@@ -18,11 +18,12 @@ public class Solution
                 dp[i, j] = int.MaxValue;
 
         dp[0, 0] = grid[0][0];
-        Deque<(int r, int c)> deque = new();
+        var deque = new LinkedList<(int r, int c)>();
         deque.AddFirst((0, 0));
         while (deque.Count > 0)
         {
-            var (r, c) = deque.RemoveFirst();
+            var (r, c) = deque.First.Value;
+            deque.RemoveFirst();
             for (int i = 0; i < directions.Length - 1; i++)
             {
                 var (nextR, nextC) = (r + directions[i], c + directions[i + 1]);

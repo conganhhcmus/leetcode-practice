@@ -1,6 +1,8 @@
+namespace Library;
+
 public class Graph
 {
-    private Dictionary<T, List<T>> BuildUndirectedGraph<T>(T[][] edges)
+    Dictionary<T, List<T>> BuildUndirectedGraph<T>(T[][] edges)
     {
         Dictionary<T, List<T>> graph = [];
         foreach (var edge in edges)
@@ -19,7 +21,7 @@ public class Graph
         return graph;
     }
 
-    private Dictionary<T, List<T>> BuildGraph<T>(T[][] edges)
+    Dictionary<T, List<T>> BuildGraph<T>(T[][] edges)
     {
         Dictionary<T, List<T>> graph = [];
         foreach (var edge in edges)
