@@ -2,14 +2,20 @@ namespace Library;
 
 public class FenwickTree
 {
-    const int MAX = 100_000; // max = 10^5
-    int[] bit = new int[MAX + 1];
+    readonly long[] bit;
+    readonly int n;
+    public FenwickTree(int[] nums)
+    {
+        n = nums.Length;
+        bit = new long[n + 1];
+        Build(nums);
+    }
 
     // O(log n)
     void Update(int pos, int val) // update increment or decrement value
     {
         pos++;
-        while (pos <= MAX)
+        while (pos <= n)
         {
             bit[pos] += val; // sum
             // bit[pos] = Math.Max(bit[pos], val); // get max

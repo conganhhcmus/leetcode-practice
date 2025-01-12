@@ -1,4 +1,5 @@
 namespace Library;
+
 public class Trie
 {
     public class Node
@@ -7,9 +8,13 @@ public class Trie
         public Node[] children = new Node[26];
     }
 
-    Node root = new();
+    Node root = null;
+    public Trie()
+    {
+        root = new();
+    }
 
-    void Insert(string s)
+    public void Insert(string s)
     {
         Node cur = root;
         int len = s.Length;
@@ -22,7 +27,7 @@ public class Trie
         }
     }
 
-    int Query(string s)
+    public int Query(string s)
     {
         Node cur = root;
         int len = s.Length;

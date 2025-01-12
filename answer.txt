@@ -1,7 +1,6 @@
-true
-true
-false
-true
-true
-false
-false
+17
+12
+5000050000
+12
+21
+4

@@ -3,7 +3,7 @@ namespace Library;
 public class Sort
 {
     // O (n^2)
-    void BubbleSort(int[] nums)
+    public void BubbleSort(int[] nums)
     {
         int n = nums.Length;
 
@@ -23,7 +23,7 @@ public class Sort
     }
 
     // O (n^2)
-    void InsertionSort(int[] nums)
+    public void InsertionSort(int[] nums)
     {
         int n = nums.Length;
         for (int i = 0; i < n; i++)
@@ -40,7 +40,7 @@ public class Sort
     }
 
     // O (n^2)
-    void SelectionSort(int[] nums)
+    public void SelectionSort(int[] nums)
     {
         int n = nums.Length;
         for (int i = 0; i < n - 1; i++)
@@ -58,7 +58,7 @@ public class Sort
     }
 
     // O(m x n) m: key length, n is size of the array
-    void RadixSort(int[] nums)
+    public void RadixSort(int[] nums)
     {
         int n = nums.Length;
         int[] temp = new int[n];
