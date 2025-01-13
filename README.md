@@ -312,6 +312,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3163. String Compression III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3163/Solution.cs)
 - [3203. Find Minimum Diameter After Merging Two Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3203/Solution.cs)
 - [3217. Delete Nodes From Linked List Present in Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3217/Solution.cs)
+- [3223. Minimum Length of String After Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3223/Solution.cs)
 - [3243. Shortest Distance After Road Addition Queries I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3243/Solution.cs)
 - [3254. Find the Power of K-Size Subarrays I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3254/Solution.cs)
 - [3264. Final Array State After K Multiplication Operations I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3264/Solution.cs)
