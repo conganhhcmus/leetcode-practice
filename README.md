@@ -63,6 +63,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [13. Roman to Integer](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/13/Solution.cs)
 - [15. 3Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/15/Solution.cs)
 - [17. Letter Combinations of a Phone Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/17/Solution.cs)
+- [20. Valid Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/20/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/26/Solution.cs)
 - [27. Remove Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/27/Solution.cs)
 - [28. Find the Index of the First Occurrence in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/28/Solution.cs)
