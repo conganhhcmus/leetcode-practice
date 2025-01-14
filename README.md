@@ -98,6 +98,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [135. Candy](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/135/Solution.cs)
 - [136. Single Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/136/Solution.cs)
 - [151. Reverse Words in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/151/Solution.cs)
+- [155. Min Stack](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/155/Solution.cs)
 - [162. Find Peak Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/162/Solution.cs)
 - [167. Two Sum II - Input Array Is Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/167/Solution.cs)
 - [169. Majority Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/169/Solution.cs)
