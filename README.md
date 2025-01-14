@@ -83,6 +83,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [62. Unique Paths](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/62/Solution.cs)
 - [68. Text Justification](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/68/Solution.cs)
 - [69. Sqrt(x)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/69/Solution.cs)
+- [71. Simplify Path](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/71/Solution.cs)
 - [72. Edit Distance](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/72/Solution.cs)
 - [73. Set Matrix Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/73/Solution.cs)
 - [76. Minimum Window Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/76/Solution.cs)
