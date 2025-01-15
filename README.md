@@ -119,6 +119,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [216. Combination Sum III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/216/Solution.cs)
 - [217. Contains Duplicate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/217/Solution.cs)
 - [219. Contains Duplicate II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/219/Solution.cs)
+- [224. Basic Calculator](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/224/Solution.cs)
 - [228. Summary Ranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/228/Solution.cs)
 - [236. Lowest Common Ancestor of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/236/Solution.cs)
 - [238. Product of Array Except Self](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/238/Solution.cs)
