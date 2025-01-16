@@ -31,6 +31,25 @@
         { typeof(TreeNode).FullName, result => TreeNodeHelper.BFSTraversal((TreeNode)result) }
     };
 
+    private static void UpdateInputForSpeciallyProblems(object[] input, int inputIndex, List<string> testCases, ref int testCaseIndex)
+    {
+        string Namespace = typeof(Running.Solution).Namespace;
+        switch (Namespace)
+        {
+            case string ns when ns.Contains("141"):
+                int pos = JsonConvert.DeserializeObject<int>(testCases[++testCaseIndex]);
+                if (pos < 0) break;
+                ListNode head = input[inputIndex] as ListNode;
+                ListNode tmp = head;
+                while (pos-- >= 0) tmp = tmp.next;
+                ListNode tail = tmp;
+                while (tail.next != null) tail = tail.next;
+                tail.next = tmp;
+                input[inputIndex] = head;
+                break;
+        }
+    }
+
     private static void Main(string[] args)
     {
         MethodInfo methodInfo = typeof(Running.Solution)
@@ -49,7 +68,7 @@
         List<string> output = [];
         List<long> executeTime = [];
         bool isReturnVoid = methodInfo.ReturnType.FullName == "System.Void";
-        while (loop-- > 0)
+        while (loop-- > 0 && index < testcases.Count)
         {
             object[] input = new object[parameters.Length];
             for (int i = 0; i < parameters.Length; i++, index++)
@@ -57,6 +76,7 @@
                 Type type = parameters[i].ParameterType;
                 var inputFunc = InputMapper.GetValueOrDefault(type.FullName, s => s);
                 input[i] = inputFunc(testcases[index]);
+                UpdateInputForSpeciallyProblems(input, i, testcases, ref index);
             }
             var watch = Stopwatch.StartNew();
             var result = methodInfo.Invoke(classInstance, input);
