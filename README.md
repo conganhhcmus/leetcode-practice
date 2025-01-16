@@ -275,6 +275,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2415. Reverse Odd Levels of Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2415/Solution.cs)
 - [2416. Sum of Prefix Scores of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2416/Solution.cs)
 - [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2419/Solution.cs)
+- [2425. Bitwise XOR of All Pairings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2425/Solution.cs)
 - [2429. Minimize XOR](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2429/Solution.cs)
 - [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2458/Solution.cs)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2461/Solution.cs)
