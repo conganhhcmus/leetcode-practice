@@ -83,6 +83,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [57. Insert Interval](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/57/Solution.cs)
 - [58. Length of Last Word](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/58/Solution.cs)
 - [62. Unique Paths](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/62/Solution.cs)
+- [67. Add Binary](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/67/Solution.cs)
 - [68. Text Justification](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/68/Solution.cs)
 - [69. Sqrt(x)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/69/Solution.cs)
 - [71. Simplify Path](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/71/Solution.cs)
