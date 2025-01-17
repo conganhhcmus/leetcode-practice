@@ -32,7 +32,9 @@ public class LeetCode
 
     public static void CheckAnswer(List<string> expected, List<string> actual, List<long> executeTime, bool isReturnVoid)
     {
-        //Console.Clear();
+        // Console.Clear();
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.ForegroundColor = ConsoleColor.Gray;
         Console.OutputEncoding = Encoding.UTF8;
 
         if (isReturnVoid || expected.Count == 0)
@@ -100,6 +102,7 @@ public class LeetCode
     }
 }
 
+#region Structures  ----------------------------------------------------------------
 public class TreeNode
 {
     public int val;
@@ -123,3 +126,19 @@ public class ListNode
         this.next = next;
     }
 }
+
+public class Node
+{
+    public int val;
+    public Node next;
+    public Node random;
+
+    public Node(int _val)
+    {
+        val = _val;
+        next = null;
+        random = null;
+    }
+}
+
+#endregion
