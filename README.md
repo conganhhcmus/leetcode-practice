@@ -303,6 +303,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2601. Prime Subtraction Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2601/Solution.cs)
 - [2641. Cousins in Binary Tree II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2641/Solution.cs)
 - [2657. Find the Prefix Common Array of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2657/Solution.cs)
+- [2683. Neighboring Bitwise XOR](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2683/Solution.cs)
 - [2684. Maximum Number of Moves in a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2648/Solution.cs)
 - [2696. Minimum String Length After Removing Substrings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2696/Solution.cs)
 - [2707. Extra Characters in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2707/Solution.cs)
