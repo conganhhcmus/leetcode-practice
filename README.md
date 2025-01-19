@@ -152,6 +152,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [392. Is Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/392/Solution.cs)
 - [394. Decode String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/394/Solution.cs)
 - [399. Evaluate Division](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/399/Solution.cs)
+- [407. Trapping Rain Water II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/407/Solution.cs)
 - [432. All O`one Data Structure](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/432/Solution.cs)
 - [435. Non-overlapping Intervals](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/435/Solution.cs)
 - [437. Path Sum III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/437/Solution.cs)
