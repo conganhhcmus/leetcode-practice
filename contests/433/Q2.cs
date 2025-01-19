@@ -1,4 +1,42 @@
-namespace Library;
+#if DEBUG
+namespace Contests_433_Q2;
+#endif
+
+public class Solution
+{
+    public int MinMaxSums(int[] nums, int k)
+    {
+        int n = nums.Length;
+        long ans = 0;
+        var op = new Operation(n: n);
+        Array.Sort(nums);
+
+        long[,] prefixSum = new long[k, n];
+        for (int i = 0; i < k; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (i == 0)
+                {
+                    prefixSum[0, j] = 1;
+                    continue;
+                }
+                prefixSum[i, j] = op.Add(prefixSum[i - 1, j], op.Ckn(i, j));
+            }
+        }
+
+        for (int i = 0; i < n; i++)
+        {
+            long freq = op.Add(
+                prefixSum[Math.Min(k - 1, n - i - 1), n - i - 1], // frequency of nums[i] if it is minimum
+                prefixSum[Math.Min(k - 1, i), i]); // frequency of nums[i] if it is maximum
+
+            ans = op.Add(ans, op.Multiply(nums[i], freq));
+        }
+
+        return (int)ans;
+    }
+}
 
 public class Operation
 {
