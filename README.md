@@ -78,6 +78,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [28. Find the Index of the First Occurrence in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/28/Solution.cs)
 - [29. Divide Two Integers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/29/Solution.cs)
 - [30. Substring with Concatenation of All Words](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/30/Solution.cs)
+- [32. Longest Valid Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/32/Solution.cs)
 - [36. Valid Sudoku](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/36/Solution.cs)
 - [37. Sudoku Solver](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/37/Solution.cs)
 - [42. Trapping Rain Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/42/Solution.cs)
