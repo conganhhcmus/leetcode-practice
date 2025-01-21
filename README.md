@@ -73,6 +73,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [20. Valid Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/20/Solution.cs)
 - [21. Merge Two Sorted Lists](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/21/Solution.cs)
 - [22. Generate Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/22/Solution.cs)
+- [25. Reverse Nodes in k-Group](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/25/Solution.cs)
 - [26. Remove Duplicates from Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/26/Solution.cs)
 - [27. Remove Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/27/Solution.cs)
 - [28. Find the Index of the First Occurrence in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/28/Solution.cs)
