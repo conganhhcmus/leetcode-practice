@@ -214,6 +214,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1161. Maximum Level Sum of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1161/Solution.cs)
 - [1207. Unique Number of Occurrences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1207/Solution.cs)
 - [1233. Remove Sub-Folders from the Filesystem](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1233/Solution.cs)
+- [1267. Count Servers that Communicate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1267/Solution.cs)
 - [1268. Search Suggestions System](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1268/Solution.cs)
 - [1277. Count Square Submatrices with All Ones](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1277/Solution.cs)
 - [1310. XOR Queries of a Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1310/Solution.cs)
