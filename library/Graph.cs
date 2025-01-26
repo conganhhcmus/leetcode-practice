@@ -44,6 +44,30 @@ public class Graph
         }
     }
 
+    // prim's algorithm with priority queue
+    public int SpanningTree()
+    {
+        int res = 0;
+        PriorityQueue<(int, int), int> pq = new(Comparer<int>.Create((a, b) => a - b));
+        bool[] visited = new bool[_v];
+        pq.Enqueue((0, 0), 0);
+        while (pq.Count > 0)
+        {
+            var (u, w) = pq.Dequeue();
+            if (visited[u]) continue;
+            visited[u] = true;
+            res += w;
+            foreach (var neighbor in _graph[u])
+            {
+                int v = neighbor.Item1;
+                int weight = neighbor.Item2;
+                if (!visited[v]) pq.Enqueue((v, weight), weight);
+            }
+        }
+
+        return res;
+    }
+
     public int GetDistance(int target)
     {
         return _dist[target];

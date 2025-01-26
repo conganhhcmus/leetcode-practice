@@ -85,6 +85,30 @@ public class Graph2D
         }
     }
 
+    // prim's algorithm with priority queue
+    public int SpanningTree()
+    {
+        int res = 0;
+        PriorityQueue<(Pair, int), int> pq = new(Comparer<int>.Create((a, b) => a - b));
+        HashSet<Pair> visited = [];
+        pq.Enqueue((new Pair(0, 0), 0), 0);
+        while (pq.Count > 0)
+        {
+            var (u, w) = pq.Dequeue();
+            if (visited.Contains(u)) continue;
+            visited.Add(u);
+            res += w;
+            foreach (var neighbor in _graph[u])
+            {
+                Pair v = neighbor.Item1;
+                int weight = neighbor.Item2;
+                if (!visited.Contains(v)) pq.Enqueue((v, weight), weight);
+            }
+        }
+
+        return res;
+    }
+
     public int GetDistance(Pair target)
     {
         return _dist[target.X][target.Y];
