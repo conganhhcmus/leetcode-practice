@@ -1,4 +1,4 @@
-[1,4,3,2,5,2]
-3
-[2,1]
-2
+["ab","ba"]
+["aa","ac"]
+["aa","bb","cc"]
+["ql","za","mc","zm","cx","ps","as","lx","qz","rq","rz","cq","ze","lr","ce","cv","vz","pz","al","mv","ad","xa","er","pq","dw","vr","ml","ms","lp","qw","zx","ca","rw","wp","vx","pe","vw","ls","le","av","cw","pd","wq","cm","pw","vc","qd","wx","vm","wl","dr","ea","ds","ve","pr","ez","sq","rl","mz","va","rm","sd","ev","wr","vp","pa","xr","lc","xq","zl","de","lm","sp","ec","pc","qv","az","rv","ep","mp","da","ar","xv","lv"]
