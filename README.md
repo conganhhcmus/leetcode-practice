@@ -242,6 +242,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1448. Count Good Nodes in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1448/Solution.cs)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1455/Solution.cs)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1456/Solution.cs)
+- [1462. Course Schedule IV](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1462/Solution.cs)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1466/Solution.cs)
 - [1475. Final Prices With a Special Discount in a Shop](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1475/Solution.cs)
 - [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1493/Solution.cs)

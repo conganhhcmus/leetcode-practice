@@ -21,7 +21,7 @@ public class UnionFind
         int rootY = Find(y);
 
         if (rootX == rootY) return false;
-        if (rank[rootX] < rank[rootY])
+        if (rank[rootX] <= rank[rootY])
         {
             parent[rootX] = rootY;
             rank[rootY]++;
@@ -30,10 +30,6 @@ public class UnionFind
         {
             parent[rootY] = rootX;
             rank[rootX]++;
-        }
-        else
-        {
-            parent[rootX] = rootY;
         }
         return true;
     }
