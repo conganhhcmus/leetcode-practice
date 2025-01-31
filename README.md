@@ -324,6 +324,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2471/Solution.cs)
 - [2490. Circular Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2490/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)
+- [2493. Divide Nodes Into the Maximum Number of Groups](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2493/Solution.cs)
 - [2501. Longest Square Streak in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2501/Solution.cs)
 - [2516. Take K of Each Character From Left and Right](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2516/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
