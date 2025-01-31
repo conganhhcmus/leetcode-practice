@@ -206,6 +206,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [790. Domino and Tromino Tiling](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/790/Solution.cs)
 - [796. Rotate String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/796/Solution.cs)
 - [802. Find Eventual Safe States](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/802/Solution.cs)
+- [827. Making A Large Island](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/827/Solution.cs)
 - [841. Keys and Rooms](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/841/Solution.cs)
 - [862. Shortest Subarray with Sum at Least K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/862/Solution.cs)
 - [872. Leaf-Similar Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/872/Solution.cs)
