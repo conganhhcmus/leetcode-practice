@@ -115,6 +115,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [88. Merge Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/88/Solution.cs)
 - [92. Reverse Linked List II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/92/Solution.cs)
 - [100. Same Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/100/Solution.cs)
+- [101. Symmetric Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/101/Solution.cs)
 - [104. Maximum Depth of Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/104/Solution.cs)
 - [121. Best Time to Buy and Sell Stock](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/121/Solution.cs)
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
