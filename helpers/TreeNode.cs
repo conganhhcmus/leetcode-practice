@@ -41,19 +41,28 @@ public static class TreeNodeHelper
 
         while (queue.Count > 0)
         {
-            var currentNode = queue.Dequeue();
-            int?[] tmp = new int?[2];
-            if (currentNode.left is not null)
+            int size = queue.Count;
+            int?[] tmp = new int?[2 * size];
+            bool hasValue = false;
+
+            for (int i = 0; i < size; i++)
             {
-                queue.Enqueue(currentNode.left);
-                tmp[0] = currentNode.left.val;
+                var currentNode = queue.Dequeue();
+                if (currentNode.left is not null)
+                {
+                    queue.Enqueue(currentNode.left);
+                    tmp[2 * i] = currentNode.left.val;
+                    hasValue = true;
+                }
+                if (currentNode.right is not null)
+                {
+                    queue.Enqueue(currentNode.right);
+                    tmp[2 * i + 1] = currentNode.right.val;
+                    hasValue = true;
+                }
             }
-            if (currentNode.right is not null)
-            {
-                queue.Enqueue(currentNode.right);
-                tmp[1] = currentNode.right.val;
-            }
-            if (tmp[0] is not null || tmp[1] is not null)
+
+            if (hasValue)
             {
                 result.AddRange(tmp);
             }

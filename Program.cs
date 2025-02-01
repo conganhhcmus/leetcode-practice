@@ -1,5 +1,7 @@
 ﻿public class Program
 {
+    private static string Namespace => typeof(Running.Solution).Namespace;
+
     private static readonly Dictionary<string, Func<string, object>> InputMapper = new(StringComparer.OrdinalIgnoreCase)
     {
         { typeof(ListNode).FullName, data => ListNodeHelper.CreateListFromArray(JsonConvert.DeserializeObject<int[]>(data)) },
@@ -29,13 +31,12 @@
     private static readonly Dictionary<string, Func<object, string>> OutputMapper = new(StringComparer.OrdinalIgnoreCase)
     {
         { typeof(ListNode).FullName, result => ListNodeHelper.PrintList((ListNode)result) },
-        { typeof(TreeNode).FullName, result => TreeNodeHelper.BFSTraversal((TreeNode)result) },
+        { typeof(TreeNode).FullName, result => TreeNodeHelper.BFSTraversal((TreeNode)result)},
         { typeof(Node).FullName, result => NodeHelper.Print((Node)result) }
     };
 
     private static void UpdateInputForSpeciallyProblems(object[] input, int inputIndex, List<string> testCases, ref int testCaseIndex)
     {
-        string Namespace = typeof(Running.Solution).Namespace;
         switch (Namespace)
         {
             case string ns when ns.Contains("141"):
