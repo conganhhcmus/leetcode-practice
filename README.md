@@ -362,6 +362,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3043. Find the Length of the Longest Common Prefix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3043/Solution.cs)
 - [3097. Shortest Subarray With OR at Least K II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3097/Solution.cs)
 - [3133. Minimum Array End](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3133/Solution.cs)
+- [3151. Special Array I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3151/Solution.cs)
 - [3152. Special Array II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3152/Solution.cs)
 - [3163. String Compression III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3163/Solution.cs)
 - [3203. Find Minimum Diameter After Merging Two Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3203/Solution.cs)
