@@ -268,6 +268,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1700/Solution.cs)
 - [1732. Find the Highest Altitude](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1732/Solution.cs)
+- [1752. Check if Array Is Sorted and Rotated](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1752/Solution.cs)
 - [1760. Minimum Limit of Balls in a Bag](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1760/Solution.cs)
 - [1765. Map of Highest Peak](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1765/Solution.cs)
 - [1768. Merge Strings Alternately](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1768/Solution.cs)
