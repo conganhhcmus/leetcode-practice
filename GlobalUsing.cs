@@ -1,4 +1,4 @@
-global using Running = Problems_1752;
+global using Running = Problems_3105;
 global using Helpers;
 global using Newtonsoft.Json;
 global using System.Reflection;
