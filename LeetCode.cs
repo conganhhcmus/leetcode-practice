@@ -30,14 +30,14 @@ public class LeetCode
         return lines;
     }
 
-    public static void CheckAnswer(List<string> expected, List<string> actual, List<long> executeTime, bool isReturnVoid)
+    public static void CheckAnswer(List<string> expected, List<string> actual, List<long> executeTime)
     {
         // Console.Clear();
         Console.BackgroundColor = ConsoleColor.Black;
         Console.ForegroundColor = ConsoleColor.Gray;
         Console.OutputEncoding = Encoding.UTF8;
 
-        if (isReturnVoid || expected.Count == 0)
+        if (expected.Count == 0)
         {
             Console.WriteLine("Output:");
             Console.WriteLine(string.Join("\n", actual));

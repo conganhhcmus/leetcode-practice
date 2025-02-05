@@ -71,6 +71,7 @@
         List<string> output = [];
         List<long> executeTime = [];
         bool isReturnVoid = methodInfo.ReturnType.FullName == "System.Void";
+        string key = isReturnVoid ? parameters[0].ParameterType.FullName : methodInfo.ReturnType.FullName;
         while (loop-- > 0 && index < testcases.Count)
         {
             object[] input = new object[parameters.Length];
@@ -85,10 +86,10 @@
             var result = methodInfo.Invoke(classInstance, input);
             watch.Stop();
             executeTime.Add(watch.ElapsedMilliseconds);
-            var outputFunc = OutputMapper.GetValueOrDefault(methodInfo.ReturnType.FullName, JsonConvert.SerializeObject);
+            var outputFunc = OutputMapper.GetValueOrDefault(key, JsonConvert.SerializeObject);
             output.Add(outputFunc(isReturnVoid ? input[0] : result));
         }
         List<string> answer = LeetCode.GetAnswer();
-        LeetCode.CheckAnswer(answer, output, executeTime, isReturnVoid);
+        LeetCode.CheckAnswer(answer, output, executeTime);
     }
 }
