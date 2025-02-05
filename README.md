@@ -95,6 +95,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [48. Rotate Image](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/48/Solution.cs)
 - [49. Group Anagrams](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/49/Solution.cs)
 - [50. Pow(x, n)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/50/Solution.cs)
+- [53. Maximum Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/53/Solution.cs)
 - [54. Spiral Matrix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/54/Solution.cs)
 - [55. Jump Game](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/55/Solution.cs)
 - [56. Merge Intervals](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/56/Solution.cs)
