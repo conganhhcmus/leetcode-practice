@@ -274,6 +274,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1679. Max Number of K-Sum Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1679/Solution.cs)
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1700/Solution.cs)
+- [1726. Tuple with Same Product](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1726/Solution.cs)
 - [1732. Find the Highest Altitude](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1732/Solution.cs)
 - [1752. Check if Array Is Sorted and Rotated](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1752/Solution.cs)
 - [1760. Minimum Limit of Balls in a Bag](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1760/Solution.cs)
