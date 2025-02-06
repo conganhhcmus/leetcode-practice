@@ -5,6 +5,7 @@
     private static readonly Dictionary<string, Func<string, object>> InputMapper = new(StringComparer.OrdinalIgnoreCase)
     {
         { typeof(ListNode).FullName, data => ListNodeHelper.CreateListFromArray(JsonConvert.DeserializeObject<int[]>(data)) },
+        { typeof(ListNode[]).FullName, data => ListNodeHelper.CreateListFrom2DArray(JsonConvert.DeserializeObject<int[][]>(data)) },
         { typeof(TreeNode).FullName, data => TreeNodeHelper.CreateTreeFromArray(JsonConvert.DeserializeObject<int?[]>(data)) },
         { typeof(Node).FullName, data => NodeHelper.CreateFromArray(JsonConvert.DeserializeObject<int?[][]>(data)) },
         { typeof(string).FullName, data => JsonConvert.DeserializeObject<string>(data) },
