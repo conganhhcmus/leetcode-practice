@@ -360,6 +360,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2657. Find the Prefix Common Array of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2657/Solution.cs)
 - [2658. Maximum Number of Fish in a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2658/Solution.cs)
 - [2661. First Completely Painted Row or Column](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2661/Solution.cs)
+- [2364. Count Number of Bad Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2364/Solution.cs)
 - [2683. Neighboring Bitwise XOR](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2683/Solution.cs)
 - [2684. Maximum Number of Moves in a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2648/Solution.cs)
 - [2696. Minimum String Length After Removing Substrings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2696/Solution.cs)
