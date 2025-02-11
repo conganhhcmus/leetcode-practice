@@ -1,4 +1,1 @@
-"dab"
-"ab"
-"x"
-"gdgtmfy"
+[null,3,7,true,9,true,15,true,20,false]
