@@ -377,6 +377,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2593. Find Score of an Array After Marking All Elements](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2593/Solution.cs)
 - [2601. Prime Subtraction Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2601/Solution.cs)
 - [2641. Cousins in Binary Tree II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2641/Solution.cs)
+- [2652. Sum Multiples](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2652/Solution.cs)
 - [2657. Find the Prefix Common Array of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2657/Solution.cs)
 - [2658. Maximum Number of Fish in a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2658/Solution.cs)
 - [2661. First Completely Painted Row or Column](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2661/Solution.cs)
