@@ -342,6 +342,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2326. Spiral Matrix IV](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2326/Solution.cs)
 - [2336. Smallest Number in Infinite Set](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2336/Solution.cs)
 - [2337. Move Pieces to Obtain a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2337/Solution.cs)
+- [2342. Max Sum of a Pair With Equal Sum of Digits](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2342/Solution.cs)
 - [2349. Design a Number Container System](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2349/Solution.cs)
 - [2352. Equal Row and Column Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2352/Solution.cs)
 - [2381. Shifting Letters II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2381/Solution.cs)
