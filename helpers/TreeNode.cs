@@ -5,11 +5,10 @@ public static class TreeNodeHelper
     public static TreeNode CreateTreeFromArray(int?[] array)
     {
         if (array.Length == 0) return null;
-        if (array.Length == 1) return new TreeNode(array[0].Value);
-        if (array.Length == 2) return new TreeNode(array[0].Value, new TreeNode(array[1].Value), null);
-
-        var tmpTree = new TreeNode[array.Length];
-        for (int i = 0; i < array.Length; i++)
+        int n = array.Length, h = 0;
+        while ((1 << h) <= n) h++;
+        var tmpTree = new TreeNode[(1 << h) - 1];
+        for (int i = 0; i < n; i++)
         {
             if (array[i] is not null)
             {
