@@ -1,42 +1,40 @@
-namespace Problem_199;
+#if DEBUG
+namespace Problems_199;
+#endif
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 public class Solution
 {
     public IList<int> RightSideView(TreeNode root)
     {
-        List<int> ans = [];
+        IList<int> ans = [];
+        if (root == null) return ans;
         Queue<TreeNode> queue = [];
-        Queue<TreeNode> queue2 = [];
-        if (root is null) return ans;
         queue.Enqueue(root);
-        ans.Add(root.val);
-
         while (queue.Count > 0)
         {
-            var currentNode = queue.Dequeue();
-
-            if (currentNode.left is not null)
+            int size = queue.Count;
+            for (int i = 0; i < size; i++)
             {
-                queue2.Enqueue(currentNode.left);
-            }
-
-            if (currentNode.right is not null)
-            {
-                queue2.Enqueue(currentNode.right);
-            }
-
-            if (queue.Count == 0 && queue2.Count > 0)
-            {
-                int addValue = queue2.Peek().val;
-                while (queue2.Count > 0)
-                {
-                    var tmpNode = queue2.Dequeue();
-                    queue.Enqueue(tmpNode);
-                    addValue = tmpNode.val;
-                }
-                ans.Add(addValue);
+                TreeNode node = queue.Dequeue();
+                if (i == size - 1) ans.Add(node.val);
+                if (node.left != null) queue.Enqueue(node.left);
+                if (node.right != null) queue.Enqueue(node.right);
             }
         }
+
         return ans;
     }
 }
