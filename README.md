@@ -400,6 +400,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3011. Find if Array Can Be Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3011/Solution.cs)
 - [3042. Count Prefix and Suffix Pairs I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3042/Solution.cs)
 - [3043. Find the Length of the Longest Common Prefix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3043/Solution.cs)
+- [3065. Minimum Operations to Exceed Threshold Value I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3065/Solution.cs)
 - [3066. Minimum Operations to Exceed Threshold Value II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3066/Solution.cs)
 - [3097. Shortest Subarray With OR at Least K II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3097/Solution.cs)
 - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3105/Solution.cs)
