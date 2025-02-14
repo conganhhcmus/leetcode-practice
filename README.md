@@ -269,6 +269,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1318. Minimum Flips to Make a OR b Equal to c](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1318/Solution.cs)
 - [1331. Rank Transform of an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1331/Solution.cs)
 - [1346. Check If N and Its Double Exist](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1346/Solution.cs)
+- [1352. Product of the Last K Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1352/Solution.cs)
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1371/Solution.cs)
 - [1372. Longest ZigZag Path in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1372/Solution.cs)
 - [1381. Design a Stack With Increment Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1381/Solution.cs)
