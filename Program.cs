@@ -68,9 +68,6 @@
         ParameterInfo[] parameters = methodInfo.GetParameters();
         ArgumentOutOfRangeException.ThrowIfZero(parameters.Length, nameof(parameters));
 
-        object classInstance = Activator.CreateInstance(typeof(Running.Solution), null);
-        ArgumentNullException.ThrowIfNull(classInstance, nameof(classInstance));
-
         List<string> testcases = LeetCode.GetTestcase();
         int loop = testcases.Count / parameters.Length, index = 0;
         List<string> output = [];
@@ -87,6 +84,10 @@
                 input[i] = inputFunc(testcases[index]);
                 UpdateInputForSpeciallyProblems(input, i, testcases, ref index);
             }
+
+            object classInstance = Activator.CreateInstance(typeof(Running.Solution), null);
+            ArgumentNullException.ThrowIfNull(classInstance, nameof(classInstance));
+
             var watch = Stopwatch.StartNew();
             var result = methodInfo.Invoke(classInstance, input);
             watch.Stop();
