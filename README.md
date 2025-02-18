@@ -188,6 +188,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [224. Basic Calculator](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/224/Solution.cs)
 - [226. Invert Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/226/Solution.cs)
 - [228. Summary Ranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/228/Solution.cs)
+- [230. Kth Smallest Element in a BST](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/230/Solution.cs)
 - [236. Lowest Common Ancestor of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/236/Solution.cs)
 - [238. Product of Array Except Self](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/238/Solution.cs)
 - [241. Different Ways to Add Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/241/Solution.cs)
