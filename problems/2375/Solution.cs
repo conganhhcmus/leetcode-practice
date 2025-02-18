@@ -6,7 +6,7 @@ public class Solution
 {
     public string SmallestNumber(string pattern)
     {
-        bool[] chosen = new bool[10];
+        bool[] chosen = new bool[pattern.Length + 1];
         return BackTracking(pattern, "", chosen);
     }
 
@@ -18,11 +18,11 @@ public class Solution
             return null;
         }
 
-        for (int i = 1; i < 10; i++)
+        for (int i = 0; i < chosen.Length; i++)
         {
             if (chosen[i]) continue;
             chosen[i] = true;
-            string res = BackTracking(pattern, ans + (char)(i + '0'), chosen);
+            string res = BackTracking(pattern, ans + (char)(i + '1'), chosen);
             if (res != null) return res;
             chosen[i] = false;
         }
