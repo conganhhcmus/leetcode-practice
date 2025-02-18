@@ -363,6 +363,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2342. Max Sum of a Pair With Equal Sum of Digits](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2342/Solution.cs)
 - [2349. Design a Number Container System](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2349/Solution.cs)
 - [2352. Equal Row and Column Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2352/Solution.cs)
+- [2375. Construct Smallest Number From DI String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2375/Solution.cs)
 - [2381. Shifting Letters II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2381/Solution.cs)
 - [2390. Removing Stars From a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2390/Solution.cs)
 - [2406. Divide Intervals Into Minimum Number of Groups](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2406/Solution.cs)
