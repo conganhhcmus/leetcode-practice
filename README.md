@@ -289,6 +289,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1400. Construct K Palindrome Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1400/Solution.cs)
 - [1405. Longest Happy String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1405/Solution.cs)
 - [1408. String Matching in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1408/Solution.cs)
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1415/Solution.cs)
 - [1422. Maximum Score After Splitting a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1422/Solution.cs)
 - [1431. Kids With the Greatest Number of Candies](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1431/Solution.cs)
 - [1448. Count Good Nodes in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1448/Solution.cs)

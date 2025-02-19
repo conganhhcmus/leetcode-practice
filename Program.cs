@@ -44,7 +44,7 @@
     {
         switch (Namespace)
         {
-            case string ns when ns.Contains("141"):
+            case string ns when ns.EndsWith("_141"):
                 int pos = JsonConvert.DeserializeObject<int>(testCases[++testCaseIndex]);
                 if (pos < 0) break;
                 ListNode head = input[inputIndex] as ListNode;
