@@ -10,6 +10,9 @@ public class Operation
     {
         MOD = mod;
         BuildFact(n);
+        // a / b (mod  m) = a x b^-1 (mod m)
+        // b x b^−1 (mod  m) = 1
+        // so find X where b x X = 1 (mod m) and X < m
     }
 
     private void BuildFact(int n)
