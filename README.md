@@ -394,6 +394,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2462. Total Cost to Hire K Workers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2462/Solution.cs)
 - [2463. Minimum Total Distance Traveled](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2463/Solution.cs)
 - [2466. Count Ways To Build Good Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2466/Solution.cs)
+- [2467. Most Profitable Path in a Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2467/Solution.cs)
 - [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2471/Solution.cs)
 - [2490. Circular Sentence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2490/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)

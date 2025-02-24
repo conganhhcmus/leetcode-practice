@@ -1,5 +1,2 @@
-true
-false
-true
-true
-false
+6
+-7280
