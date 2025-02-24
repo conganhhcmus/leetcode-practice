@@ -85,7 +85,7 @@ public class Solution
     {
         int n = fn.Length;
         int max = int.Log2(k) + 1;
-        int[,] sf = new int[max, n];
+        int[,] sf = new int[max, n]; // s[i,j] = index value of after jumping 2^i times from j
         for (int i = 0; i < n; i++) sf[0, i] = fn[i];
         for (int i = 1; i < max; i++)
         {

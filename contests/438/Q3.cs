@@ -8,7 +8,6 @@ public class Solution
     {
         int n = s.Length;
         int[] param = BuildParam(n - 2);
-        // Console.WriteLine(string.Join(",", param));
         int sum1 = 0, sum2 = 0;
         for (int i = 0; i < s.Length - 1; i++)
         {
@@ -19,67 +18,77 @@ public class Solution
         return sum1 == sum2;
     }
 
-    int[] BuildParam(int m)
+    private int ModInverse(int a, int m)
     {
-        int[] coeff = new int[m + 1]; // Binomial Coefficient
-        var (fact2, invFact2) = BuildFactAndInvFact(m, 2);
-        var (fact5, invFact5) = BuildFactAndInvFact(m, 5);
-
-        for (int i = 0; i <= m; i++)
+        for (int x = 1; x < m; x++)
         {
-            // kCn = n! / (k! * (n-k)!)
-            int kCnMod2 = fact2[m] * invFact2[i] * invFact2[m - i] % 2;
-            int kCnMod5 = fact5[m] * invFact5[i] * invFact5[m - i] % 5;
-            coeff[i] = ComputeMod10(kCnMod2, kCnMod5);
+            if ((a * x) % m == 1)
+            {
+                return x;
+            }
         }
-        return coeff;
+        return 1;
     }
 
-    private int ComputeMod10(int a, int b)
+    private int CountFactor(int n, int p)
     {
-        // x ≡ a (mod 2)
-        // x ≡ b (mod 5)
-        // Find x mod 10 using the Chinese Remainder Theorem
-        for (int x = 0; x < 10; x++)
+        int cnt = 0;
+        while (n % p == 0 && n != 0)
         {
-            if (x % 2 == a && x % 5 == b) return x;
+            cnt++;
+            n /= p;
         }
-
-        return -1;
+        return cnt;
     }
 
-    private (int[] fact, int[] invFact) BuildFactAndInvFact(int n, int mod)
+    private int FastPower(int a, int b)
     {
-        int[] fact = new int[n + 1];
-        int[] invFact = new int[n + 1];
-        fact[0] = 1;
-        for (int i = 1; i <= n; i++)
-        {
-            fact[i] = fact[i - 1] * i % mod;
-        }
-        invFact[0] = 1;
-        invFact[n] = FastPower(fact[n], mod - 2, mod); // where mod is prime
-        for (int i = n - 1; i >= 1; i--)
-        {
-            invFact[i] = invFact[i + 1] * (i + 1) % mod;
-        }
-
-        return (fact, invFact);
-    }
-
-    private int FastPower(int a, int b, int mod)
-    {
-        int ans = 1;
+        int result = 1;
         while (b > 0)
         {
-            if ((b & 1) > 0)
-            {
-                ans = ans * a % mod;
-            }
-            a = a * a % mod;
+            if ((b & 1) != 0) result *= a;
+            a *= a;
             b >>= 1;
         }
+        return result;
+    }
 
-        return ans;
+    private int[] BuildParam(int m)
+    {
+        int[] coeff = new int[m + 1];
+        coeff[0] = 1;
+        int currentVal = 1;
+        int currentE2 = 0;
+        int currentE5 = 0;
+
+        int[] cycle2 = [2, 4, 8, 6];
+
+        for (int i = 1; i <= m; i++)
+        {
+            // Q3_1.png
+            int numerator = m - i + 1;
+            int denominator = i;
+
+            int num2 = CountFactor(numerator, 2);
+            int num5 = CountFactor(numerator, 5);
+            int den2 = CountFactor(denominator, 2);
+            int den5 = CountFactor(denominator, 5);
+
+            currentE2 += num2 - den2;
+            currentE5 += num5 - den5;
+
+            int numeratorPart = numerator / (FastPower(2, num2) * FastPower(5, num5));
+            int denominatorPart = denominator / (FastPower(2, den2) * FastPower(5, den5));
+
+            int inv = ModInverse(denominatorPart, 10);
+            currentVal = (currentVal * numeratorPart * inv) % 10;
+
+            int power2 = (currentE2 == 0) ? 1 : cycle2[(currentE2 - 1) % 4];
+            int power5 = (currentE5 > 0) ? 5 : 1;
+
+            coeff[i] = (currentVal * power2 * power5) % 10;
+        }
+
+        return coeff;
     }
 }
