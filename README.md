@@ -188,6 +188,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [202. Happy Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/202/Solution.cs)
 - [205. Isomorphic Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/205/Solution.cs)
 - [206. Reverse Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/206/Solution.cs)
+- [207. Course Schedule](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/207/Solution.cs)
 - [208. Implement Trie (Prefix Tree)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/208/Solution.cs)
 - [209. Minimum Size Subarray Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/209/Solution.cs)
 - [214. Shortest Palindrome](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/214/Solution.cs)
