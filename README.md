@@ -331,6 +331,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1718. Construct the Lexicographically Largest Valid Sequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1718/Solution.cs)
 - [1726. Tuple with Same Product](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1726/Solution.cs)
 - [1732. Find the Highest Altitude](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1732/Solution.cs)
+- [1749. Maximum Absolute Sum of Any Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1749/Solution.cs)
 - [1752. Check if Array Is Sorted and Rotated](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1752/Solution.cs)
 - [1760. Minimum Limit of Balls in a Bag](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1760/Solution.cs)
 - [1765. Map of Highest Peak](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1765/Solution.cs)
