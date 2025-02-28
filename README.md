@@ -224,6 +224,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [399. Evaluate Division](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/399/Solution.cs)
 - [407. Trapping Rain Water II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/407/Solution.cs)
 - [432. All O`one Data Structure](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/432/Solution.cs)
+- [433. Minimum Genetic Mutation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/433/Solution.cs)
 - [435. Non-overlapping Intervals](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/435/Solution.cs)
 - [437. Path Sum III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/437/Solution.cs)
 - [440. K-th Smallest in Lexicographical Order](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/440/Solution.cs)
