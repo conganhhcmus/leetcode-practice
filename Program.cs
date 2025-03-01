@@ -29,6 +29,7 @@
         { typeof(char[][]).FullName, data => JsonConvert.DeserializeObject<char[][]>(data) },
         { typeof(IList<int>).FullName, data => JsonConvert.DeserializeObject<IList<int>>(data) },
         { typeof(IList<IList<int>>).FullName, data => JsonConvert.DeserializeObject<IList<IList<int>>>(data) },
+        { typeof(IList<string>).FullName, data => JsonConvert.DeserializeObject<IList<string>>(data) },
         { typeof(IList<IList<string>>).FullName, data => JsonConvert.DeserializeObject<IList<IList<string>>>(data) },
         { typeof(uint).FullName, data => Regex.IsMatch(data, "^[01]+$") ? Convert.ToUInt32(data, 2): JsonConvert.DeserializeObject<uint>(data) }
     };
