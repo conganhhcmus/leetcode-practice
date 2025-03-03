@@ -1,2 +1,6 @@
-["Trie","insert","search","search","startsWith","insert","search"]
-[[],["apple"],["apple"],["app"],["app"],["app"],["app"]]
+"TFTF"
+"ab"
+"TFTF"
+"abc"
+"F"
+"d"

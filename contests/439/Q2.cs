@@ -6,40 +6,46 @@ public class Solution
 {
     public int LongestPalindromicSubsequence(string s, int k)
     {
-        int[] freq = new int[26];
-        foreach (char c in s)
+        int n = s.Length;
+        int[,,] dp = new int[n, n, k + 1];
+        // dp[i,j,k] is the length of longest palindromic sequence int substring [i..j] with cost at most k
+        for (int i = 0; i < n; i++)
         {
-            freq[c - 'a']++;
-        }
-        int count = 0;
-        for (int i = 0; i < 26; i++)
-        {
-            count += freq[i] / 2;
-            freq[i] %= 2;
-        }
-        int ans = 0;
-        for (int i = 0; i < 26; i++)
-        {
-            int next = (i + 1) % 26;
-            int prev = (i + 25) % 26;
-            int tmp = k;
-            int diff = 1;
-            int val = freq[i];
-            while (tmp > 0 && diff < (26 - 1) / 2)
+            for (int j = 0; j <= k; j++)
             {
-                int changeNext = Math.Min(Math.Max(0, tmp / diff), freq[next]);
-                val += changeNext;
-                tmp -= changeNext * diff;
-                int changePrev = Math.Min(Math.Max(0, tmp / diff), freq[prev]);
-                val += changePrev;
-                tmp -= changePrev * diff;
-                diff++;
-                next = (next + 1) % 26;
-                prev = (prev + 25) % 26;
+                dp[i, i, j] = 1;
             }
-
-            ans = Math.Max(ans, count + val);
         }
-        return ans;
+
+        for (int len = 2; len <= n; len++)
+        {
+            for (int i = 0; i <= n - len; i++)
+            {
+                int j = i + len - 1;
+                for (int t = 0; t <= k; t++)
+                {
+                    if (s[i] == s[j])
+                    {
+                        dp[i, j, t] = 2 + dp[i + 1, j - 1, t];
+                    }
+                    else
+                    {
+                        int num1 = dp[i + 1, j, t];
+                        int num2 = dp[i, j - 1, t];
+                        int c = MinDistance(s[i], s[j]);
+                        int num3 = (t >= c) ? 2 + dp[i + 1, j - 1, t - c] : 0;
+                        dp[i, j, t] = Math.Max(Math.Max(num1, num2), num3);
+                    }
+                }
+            }
+        }
+        return dp[0, n - 1, k];
+    }
+
+    private int MinDistance(char a, char b)
+    {
+        int diffNext = Math.Abs(a - b);
+        int diffPrev = Math.Abs(26 - diffNext);
+        return Math.Min(diffNext, diffPrev);
     }
 }
