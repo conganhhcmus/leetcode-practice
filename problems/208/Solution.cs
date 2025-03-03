@@ -1,4 +1,6 @@
-namespace Problem_208;
+#if DEBUG
+namespace Problems_208;
+#endif
 
 public class Trie
 {
@@ -61,26 +63,26 @@ public class Trie
 
 public class Solution
 {
-    public List<string> Execute(string[] requests, string[][] datas)
+    public List<dynamic> Execute(string[] actions, string[][] values)
     {
         var trie = new Trie();
-        List<string> result = [];
-        for (int i = 0; i < requests.Length; i++)
+        List<dynamic> result = [];
+        for (int i = 0; i < actions.Length; i++)
         {
-            switch (requests[i])
+            switch (actions[i])
             {
                 case "insert":
-                    trie.Insert(datas[i][0]);
-                    result.Add("null");
+                    trie.Insert(values[i][0]);
+                    result.Add(null);
                     break;
                 case "search":
-                    result.Add(trie.Search(datas[i][0]).ToString());
+                    result.Add(trie.Search(values[i][0]));
                     break;
                 case "startsWith":
-                    result.Add(trie.StartsWith(datas[i][0]).ToString());
+                    result.Add(trie.StartsWith(values[i][0]));
                     break;
                 default:
-                    result.Add("null");
+                    result.Add(null);
                     break;
             }
         }
