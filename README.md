@@ -350,6 +350,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1765. Map of Highest Peak](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1765/Solution.cs)
 - [1768. Merge Strings Alternately](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1768/Solution.cs)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1769/Solution.cs)
+- [1780. Check if Number is a Sum of Powers of Three](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1780/Solution.cs)
 - [1790. Check if One String Swap Can Make Strings Equal](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1790/Solution.cs)
 - [1792. Maximum Average Pass Ratio](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1792/Solution.cs)
 - [1800. Maximum Ascending Subarray Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1800/Solution.cs)
