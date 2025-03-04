@@ -1,1 +1,4 @@
-[null,null,null,null,false,true,true,true]
+"ababa"
+""
+"a"
+"abaaa"

@@ -1,2 +1,8 @@
-["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
-[[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]
+"TFTF"
+"ab"
+"TFTF"
+"abc"
+"F"
+"d"
+"TFFF"
+"ab"
