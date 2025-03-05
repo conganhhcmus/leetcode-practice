@@ -1,29 +1,55 @@
 @ECHO OFF
-SET contest_name=%1
-IF "%contest_name%" == "" GOTO missing_contest_name
-IF EXIST "contests/%contest_name%/" GOTO existing_contest_folder
+SETLOCAL ENABLEDELAYEDEXPANSION
 
-IF NOT EXIST "contests/%contest_name%/" MKDIR "contests/%contest_name%/"
-TYPE NUL > ./contests/%contest_name%/Q1.cs
-TYPE NUL > ./contests/%contest_name%/Q2.cs
-TYPE NUL > ./contests/%contest_name%/Q3.cs
-TYPE NUL > ./contests/%contest_name%/Q4.cs
+SET "input=%1"
+IF "%input%"=="" (
+    ECHO Please provide a valid contest number.
+    EXIT /B 1
+)
 
-CALL code "./contests/%contest_name%/Q1.cs"
-CALL ECHO global using Running = Contests_%contest_name%_Q1;> .tmp
-FOR /f "skip=1 delims=" %%l IN (GlobalUsing.cs) DO ECHO %%l>> .tmp
-CALL TYPE .tmp > GlobalUsing.cs
-CALL DEL .tmp
-CALL TYPE nul > testcase.txt
-CALL TYPE nul > answer.txt
-ECHO Done!
-GOTO end
+:: Determine contest type and number
+IF "%input:~0,1%"=="b" (
+    SET "contest_type=biweekly"
+    SET "contest_number=%input:~1%"
+) ELSE (
+    SET "contest_type=weekly"
+    SET "contest_number=%input%"
+)
 
-:missing_contest_name
-ECHO Please provide a valid contest name.
-GOTO end
+:: Capitalize first letter of contest type
+IF "%contest_type%"=="biweekly" (
+    SET "capitalized_type=Biweekly"
+) ELSE (
+    SET "capitalized_type=Weekly"
+)
 
-:existing_contest_folder
-ECHO Existing contest folder.
+SET "target_dir=contests\%contest_type%\%contest_number%"
 
-:end
+IF EXIST "%target_dir%" (
+    ECHO Existing contest folder.
+    EXIT /B 1
+)
+
+:: Create directory and files
+MD "%target_dir%"
+TYPE NUL > "%target_dir%\Q1.cs"
+TYPE NUL > "%target_dir%\Q2.cs"
+TYPE NUL > "%target_dir%\Q3.cs"
+TYPE NUL > "%target_dir%\Q4.cs"
+
+:: Update GlobalUsing.cs
+(
+    ECHO global using Running = %capitalized_type%_%contest_number%_Q1;
+    MORE +1 GlobalUsing.cs
+) > .tmp
+MOVE /Y .tmp GlobalUsing.cs > NUL
+
+:: Create empty files
+TYPE NUL > testcase.txt
+TYPE NUL > answer.txt
+
+:: Open in VSCode
+CALL code "%target_dir%\Q1.cs"
+
+ECHO Created %contest_type% contest %contest_number% in %target_dir%
+ENDLOCAL

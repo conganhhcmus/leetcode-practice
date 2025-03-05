@@ -8,7 +8,7 @@
     "problemMatcher": [],
     "tasks": [
         {
-            "label": "LeetCode: Generate Contest Template",
+            "label": "LeetCode: Generate Contest",
             "type": "shell",
             "command": "./scripts/genc.sh",
             "windows": {
@@ -17,7 +17,7 @@
             "args": ["${input:contest_name}"]
         },
         {
-            "label": "LeetCode: Generate Problem Template",
+            "label": "LeetCode: Generate Problem",
             "type": "shell",
             "command": "./scripts/genp.sh",
             "windows": {
@@ -30,12 +30,12 @@
         {
             "id": "contest_name",
             "type": "promptString",
-            "description": "Enter LeetCode contest name:"
+            "description": "Enter LeetCode contest:"
         },
         {
             "id": "problem_name",
             "type": "promptString",
-            "description": "Enter LeetCode problem name:"
+            "description": "Enter LeetCode problem:"
         }
     ]
 }
