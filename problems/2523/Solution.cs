@@ -6,31 +6,35 @@ public class Solution
 {
     public int[] ClosestPrimes(int left, int right)
     {
-        bool[] primes = new bool[right + 1];
-        Array.Fill(primes, true);
-        primes[0] = primes[1] = false;
+        bool[] sievePrimes = new bool[right + 1];
+        Array.Fill(sievePrimes, true);
+        sievePrimes[0] = sievePrimes[1] = false;
         for (int i = 2; i <= right; i++)
         {
-            if (!primes[i]) continue;
+            if (!sievePrimes[i]) continue;
             for (int j = i * 2; j <= right; j += i)
             {
-                primes[j] = false;
+                sievePrimes[j] = false;
             }
         }
-        int min = int.MaxValue, num1 = -1, num2 = -1;
-        int prev = -1;
+
+        int num1 = -1, num2 = -1, min = int.MaxValue, prev = -1;
         for (int i = left; i <= right; i++)
         {
-            if (primes[i])
+            if (!sievePrimes[i]) continue;
+            if (prev != -1)
             {
-                if (prev != -1 && min > i - prev)
+                int diff = i - prev;
+                if (diff < min)
                 {
+                    min = diff;
                     num1 = prev;
                     num2 = i;
-                    min = i - prev;
                 }
-                prev = i;
+                if (min == 2 || min == 1) return [num1, num2];
             }
+
+            prev = i;
         }
         return [num1, num2];
     }
