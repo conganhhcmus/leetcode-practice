@@ -144,6 +144,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [32. Longest Valid Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/32/Solution.cs)
 - [36. Valid Sudoku](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/36/Solution.cs)
 - [37. Sudoku Solver](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/37/Solution.cs)
+- [39. Combination Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/39/Solution.cs)
 - [42. Trapping Rain Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/42/Solution.cs)
 - [45. Jump Game II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/45/Solution.cs)
 - [46. Permutations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/46/Solution.cs)
