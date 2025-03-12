@@ -1,4 +1,7 @@
-namespace Problem_121;
+#if DEBUG
+namespace Problems_121;
+#endif
+
 public class Solution
 {
     public int MaxProfit(int[] prices)
