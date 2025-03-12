@@ -317,6 +317,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [994. Rotting Oranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/994/Solution.cs)
 - [1004. Max Consecutive Ones III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1004/Solution.cs)
 - [1014. Best Sightseeing Pair](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1014/Solution.cs)
+- [1025. Divisor Game](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1025/Solution.cs)
 - [1028. Recover a Tree From Preorder Traversal](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1028/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1071/Solution.cs)
 - [1072. Flip Columns For Maximum Number of Equal Rows](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1072/Solution.cs)
