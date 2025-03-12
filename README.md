@@ -163,6 +163,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [67. Add Binary](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/67/Solution.cs)
 - [68. Text Justification](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/68/Solution.cs)
 - [69. Sqrt(x)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/69/Solution.cs)
+- [70. Climbing Stairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/70/Solution.cs)
 - [71. Simplify Path](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/71/Solution.cs)
 - [72. Edit Distance](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/72/Solution.cs)
 - [73. Set Matrix Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/73/Solution.cs)
