@@ -511,6 +511,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3276. Select Cells in Grid With Maximum Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3276/Solution.cs)
 - [3277. Maximum XOR Score Subarray Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3277/Solution.cs)
 - [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3306/Solution.cs)
+- [3356. Zero Array Transformation II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3356/Solution.cs)
 - [3364. Minimum Positive Sum Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3364/Solution.cs)
 - [3365. Rearrange K Substrings to Form Target String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3365/Solution.cs)
 - [3366. Minimum Array Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3366/Solution.cs)
