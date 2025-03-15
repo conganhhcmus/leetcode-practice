@@ -227,6 +227,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [210. Course Schedule II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/210/Solution.cs)
 - [211. Design Add and Search Words Data Structure](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/211/Solution.cs)
 - [212. Word Search II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/212/Solution.cs)
+- [213. House Robber II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/213/Solution.cs)
 - [214. Shortest Palindrome](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/214/Solution.cs)
 - [215. Kth Largest Element in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/215/Solution.cs)
 - [216. Combination Sum III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/216/Solution.cs)
