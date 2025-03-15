@@ -1,2 +1,4 @@
-"cabac"
-"aaaaaaaa"
+2
+1
+0
+5

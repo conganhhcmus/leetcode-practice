@@ -6,7 +6,7 @@
 		],
 		"body": [
 			"#if DEBUG",
-			"namespace ${TM_DIRECTORY/^.*[\\/\\\\](\\w+)[\\/\\\\](\\w+)[\\/\\\\]*$/${1:/capitalize}_$2/}${TM_FILENAME_BASE/^Solution$|(.+)/${1:+_}$1/};",
+			"namespace ${TM_DIRECTORY/^.*[\\/\\\\](\\w+)[\\/\\\\](\\w+)[\\/\\\\]*$/${1:/capitalize}_$2/}${TM_FILENAME_BASE/^Solution(\\d*)$|(.+)/${1:+_}$1/};",
 			"#endif",
 			"",
 			"${CLIPBOARD}"

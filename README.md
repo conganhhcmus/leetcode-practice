@@ -369,6 +369,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1639. Number of Ways to Form a Target String Given a Dictionary](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1639/Solution.cs)
 - [1652. Defuse the Bomb](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1652/Solution.cs)
 - [1657. Determine if Two Strings Are Close](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1657/Solution.cs)
+- [1668. Maximum Repeating Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1668/Solution.cs)
 - [1671. Minimum Number of Removals to Make Mountain Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1671/Solution.cs)
 - [1679. Max Number of K-Sum Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1679/Solution.cs)
 - [1684. Count the Number of Consistent Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1684/Solution.cs)
