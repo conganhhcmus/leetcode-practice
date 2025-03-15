@@ -1,18 +1,19 @@
-namespace Problem_198;
+#if DEBUG
+namespace Problems_198;
+#endif
+
 public class Solution
 {
     public int Rob(int[] nums)
     {
-        if (nums.Length == 1) return nums[0];
-        int[] dp = new int[nums.Length];
-        dp[0] = nums[0];
-        dp[1] = Math.Max(nums[1], dp[0]);
-
-        for (int i = 2; i < nums.Length; i++)
+        int n = nums.Length;
+        int[] f = new int[n + 1];
+        f[0] = 0;
+        f[1] = nums[0];
+        for (int i = 2; i <= n; i++)
         {
-            dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i]);
+            f[i] = Math.Max(f[i - 1], f[i - 2] + nums[i - 1]);
         }
-
-        return dp[^1];
+        return f[n];
     }
 }
