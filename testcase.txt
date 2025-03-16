@@ -1,8 +1,4 @@
-"ababc"
-"ab"
-"ababc"
-"ba"
-"ababc"
-"ac"
-"aaabaaaabaaabaaaabaaaabaaaabaaaaba"
-"aaaba"
+[4,2,3,1]
+10
+[5,1,8]
+6
