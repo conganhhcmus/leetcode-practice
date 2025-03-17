@@ -432,6 +432,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2161. Partition Array According to Given Pivot](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2161/Solution.cs)
 - [2182. Construct String With Repeat Limit](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2182/Solution.cs)
 - [2185. Counting Words With a Given Prefix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2185/Solution.cs)
+- [2206. Divide Array Into Equal Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2206/Solution.cs)
 - [2215. Find the Difference of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2220/Solution.cs)
 - [2226. Maximum Candies Allocated to K Children](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2226/Solution.cs)

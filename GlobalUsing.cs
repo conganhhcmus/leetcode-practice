@@ -1,4 +1,4 @@
-global using Running = Biweekly_152_Q4;
+global using Running = Problems_2206;
 #region Global Using Declarations
 global using System.Diagnostics;
 global using System.Reflection;
