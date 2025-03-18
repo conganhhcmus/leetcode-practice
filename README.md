@@ -157,6 +157,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [30. Substring with Concatenation of All Words](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/30/Solution.cs)
 - [32. Longest Valid Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/32/Solution.cs)
 - [33. Search in Rotated Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/33/Solution.cs)
+- [34. Find First and Last Position of Element in Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/34/Solution.cs)
 - [35. Search Insert Position](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/35/Solution.cs)
 - [36. Valid Sudoku](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/36/Solution.cs)
 - [37. Sudoku Solver](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/37/Solution.cs)
