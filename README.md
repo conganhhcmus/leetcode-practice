@@ -453,6 +453,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2379/Solution.cs)
 - [2381. Shifting Letters II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2381/Solution.cs)
 - [2390. Removing Stars From a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2390/Solution.cs)
+- [2401. Longest Nice Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2401/Solution.cs)
 - [2406. Divide Intervals Into Minimum Number of Groups](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2406/Solution.cs)
 - [2415. Reverse Odd Levels of Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2415/Solution.cs)
 - [2416. Sum of Prefix Scores of Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2416/Solution.cs)
