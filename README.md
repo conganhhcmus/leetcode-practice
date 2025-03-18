@@ -182,6 +182,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [71. Simplify Path](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/71/Solution.cs)
 - [72. Edit Distance](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/72/Solution.cs)
 - [73. Set Matrix Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/73/Solution.cs)
+- [74. Search a 2D Matrix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/74/Solution.cs)
 - [76. Minimum Window Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/76/Solution.cs)
 - [77. Combinations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/77/Solution.cs)
 - [80. Remove Duplicates from Sorted Array II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/80/Solution.cs)
