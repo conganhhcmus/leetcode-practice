@@ -1,14 +1,10 @@
-namespace Problem_215;
+#if DEBUG
+namespace Problems_215;
+#endif
 
 public class Solution
 {
     public int FindKthLargest(int[] nums, int k)
-    {
-        // return PriorityQueue(nums, k);
-        return Heap(nums, k);
-    }
-
-    private int Heap(int[] nums, int k)
     {
         int min = int.MaxValue;
         int max = int.MinValue;
@@ -29,22 +25,5 @@ public class Solution
             if (k <= 0) return i + min;
         }
         return -1;
-    }
-
-    private int PriorityQueue(int[] nums, int k)
-    {
-        PriorityQueue<int, int> queue = new(Comparer<int>.Create((a, b) => b - a));
-
-        foreach (int num in nums)
-        {
-            queue.Enqueue(num, num);
-        }
-
-        while (k > 1)
-        {
-            queue.Dequeue();
-            k--;
-        }
-        return queue.Dequeue();
     }
 }
