@@ -530,6 +530,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3160. Find the Number of Distinct Colors Among the Balls](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3160/Solution.cs)
 - [3163. String Compression III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3163/Solution.cs)
 - [3174. Clear Digits](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3174/Solution.cs)
+- [3191. Minimum Operations to Make Binary Array Elements Equal to One I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3191/Solution.cs)
 - [3203. Find Minimum Diameter After Merging Two Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3203/Solution.cs)
 - [3208. Alternating Groups II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3208/Solution.cs)
 - [3217. Delete Nodes From Linked List Present in Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3217/Solution.cs)
