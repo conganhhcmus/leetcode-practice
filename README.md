@@ -272,6 +272,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [338. Counting Bits](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/338/Solution.cs)
 - [345. Reverse Vowels of a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/345/Solution.cs)
 - [350. Intersection of Two Arrays II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/350/Solution.cs)
+- [373. Find K Pairs with Smallest Sums](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/373/Solution.cs)
 - [374. Guess Number Higher or Lower](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/374/Solution.cs)
 - [383. Ransom Note](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/383/Solution.cs)
 - [386. Lexicographical Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/386/Solution.cs)
