@@ -435,6 +435,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2095. Delete the Middle Node of a Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2095/Solution.cs)
 - [2097. Valid Arrangement of Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2097/Solution.cs)
 - [2109. Adding Spaces to a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2109/Solution.cs)
+- [2115. Find All Possible Recipes from Given Supplies](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2115/Solution.cs)
 - [2116. Check if a Parentheses String Can Be Valid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2116/Solution.cs)
 - [2127. Maximum Employees to Be Invited to a Meeting](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2127/Solution.cs)
 - [2130. Maximum Twin Sum of a Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2130/Solution.cs)
