@@ -1,4 +1,7 @@
-namespace Problem_69;
+#if DEBUG
+namespace Problems_69;
+#endif
+
 public class Solution
 {
     public int MySqrt(int x)
