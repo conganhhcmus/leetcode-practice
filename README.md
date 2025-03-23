@@ -214,6 +214,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [117. Populating Next Right Pointers in Each Node II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/117/Solution.cs)
 - [118. Pascal's Triangle](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/118/Solution.cs)
 - [119. Pascal's Triangle II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/119/Solution.cs)
+- [120. Triangle](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/120/Solution.cs)
 - [121. Best Time to Buy and Sell Stock](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/121/Solution.cs)
 - [122. Best Time to Buy and Sell Stock II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/122/Solution.cs)
 - [124. Binary Tree Maximum Path Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/124/Solution.cs)
