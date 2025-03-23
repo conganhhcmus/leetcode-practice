@@ -1,2 +1,3 @@
-"bab"
-"bb"
+true
+false
+true
