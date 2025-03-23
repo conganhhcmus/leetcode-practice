@@ -1,40 +1,32 @@
-namespace Problem_5;
+#if DEBUG
+namespace Problems_5;
+#endif
 
 public class Solution
 {
     public string LongestPalindrome(string s)
     {
-        var res = new int[2];
-
-        var dp = new bool[s.Length][];
-        for (var i = 0; i < s.Length; i++)
+        int n = s.Length;
+        int maxLen = 0;
+        int left = 0;
+        bool[,] dp = new bool[n, n];
+        for (int i = 0; i < n; i++)
         {
-            dp[i] = new bool[s.Length];
-            Array.Fill(dp[i], false);
-            dp[i][i] = true;
-        }
-        for (var i = 1; i < s.Length; i++)
-        {
-            if (s[i - 1] == s[i])
+            dp[i, i] = true;
+            for (int j = 0; j < i; j++)
             {
-                dp[i - 1][i] = true;
-                res = [i - 1, i];
-            }
-        }
-
-        for (var diff = 2; diff <= s.Length; diff++)
-        {
-            for (var i = 0; i < (s.Length - diff); i++)
-            {
-                var j = i + diff;
-                if (s[i] == s[j] && dp[i + 1][j - 1])
+                if (s[i] == s[j] && (i - j <= 2 || dp[j + 1, i - 1]))
                 {
-                    dp[i][j] = true;
-                    res = [i, j];
+                    dp[j, i] = true;
+                    if (i - j + 1 > maxLen)
+                    {
+                        maxLen = i - j + 1;
+                        left = j;
+                    }
                 }
             }
         }
-        Console.WriteLine($"[{res[0]},{res[1]}]");
-        return s[res[0]..(res[1] + 1)];
+
+        return s.Substring(left, maxLen);
     }
 }
