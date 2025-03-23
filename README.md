@@ -280,6 +280,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [289. Game of Life](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/289/Solution.cs)
 - [290. Word Pattern](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/290/Solution.cs)
 - [295. Find Median from Data Stream](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/295/Solution.cs)
+- [322. Coin Change](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/322/Solution.cs)
 - [325. Maximum Size Subarray Sum Equals K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/325/Solution.cs)
 - [328. Odd Even Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/328/Solution.cs)
 - [334. Increasing Triplet Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/334/Solution.cs)
