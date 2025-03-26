@@ -455,6 +455,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2017. Grid Game](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2017/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2022/Solution.cs)
 - [2028. Find Missing Observations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2028/Solution.cs)
+- [2033. Minimum Operations to Make a Uni-Value Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2033/Solution.cs)
 - [2044. Count Number of Maximum Bitwise-OR Subsets](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2044/Solution.cs)
 - [2054. Two Best Non-Overlapping Events](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2054/Solution.cs)
 - [2064. Minimized Maximum of Products Distributed to Any Store](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2064/Solution.cs)
