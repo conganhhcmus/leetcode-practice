@@ -243,6 +243,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [149. Max Points on a Line](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/149/Solution.cs)
 - [150. Evaluate Reverse Polish Notation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/150/Solution.cs)
 - [151. Reverse Words in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/151/Solution.cs)
+- [152. Maximum Product Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/152/Solution.cs)
 - [153. Find Minimum in Rotated Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/153/Solution.cs)
 - [155. Min Stack](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/155/Solution.cs)
 - [162. Find Peak Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/162/Solution.cs)
