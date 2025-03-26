@@ -203,6 +203,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [86. Partition List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/86/Solution.cs)
 - [88. Merge Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/88/Solution.cs)
 - [92. Reverse Linked List II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/92/Solution.cs)
+- [94. Binary Tree Inorder Traversal](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/94/Solution.cs)
 - [97. Interleaving String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/97/Solution.cs)
 - [98. Validate Binary Search Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/98/Solution.cs)
 - [100. Same Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/100/Solution.cs)
