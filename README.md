@@ -544,6 +544,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2707. Extra Characters in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2707/Solution.cs)
 - [2762. Continuous Subarrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2762/Solution.cs)
 - [2779. Maximum Beauty of an Array After Applying Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2779/Solution.cs)
+- [2780. Minimum Index of a Valid Split](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2780/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2807/Solution.cs)
 - [2872. Maximum Number of K-Divisible Components](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2872/Solution.cs)
 - [2900. Longest Unequal Adjacent Groups Subsequence I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2900/Solution.cs)
