@@ -239,6 +239,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [138. Copy List with Random Pointer](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/138/Solution.cs)
 - [139. Word Break](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/139/Solution.cs)
 - [141. Linked List Cycle](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/141/Solution.cs)
+- [142. Linked List Cycle II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/142/Solution.cs)
 - [146. LRU Cache](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/146/Solution.cs)
 - [148. Sort List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/148/Solution.cs)
 - [149. Max Points on a Line](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/149/Solution.cs)
