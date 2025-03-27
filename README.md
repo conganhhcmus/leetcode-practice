@@ -247,6 +247,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [152. Maximum Product Subarray](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/152/Solution.cs)
 - [153. Find Minimum in Rotated Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/153/Solution.cs)
 - [155. Min Stack](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/155/Solution.cs)
+- [160. Intersection of Two Linked Lists](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/160/Solution.cs)
 - [162. Find Peak Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/162/Solution.cs)
 - [167. Two Sum II - Input Array Is Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/167/Solution.cs)
 - [169. Majority Element](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/169/Solution.cs)
