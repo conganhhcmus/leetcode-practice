@@ -519,6 +519,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2491. Divide Players Into Teams of Equal Skill](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2491/Solution.cs)
 - [2493. Divide Nodes Into the Maximum Number of Groups](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2493/Solution.cs)
 - [2501. Longest Square Streak in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2501/Solution.cs)
+- [2503. Maximum Number of Points From Grid Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2503/Solution.cs)
 - [2516. Take K of Each Character From Left and Right](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2516/Solution.cs)
 - [2523. Closest Prime Numbers in Range](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2523/Solution.cs)
 - [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2529/Solution.cs)
