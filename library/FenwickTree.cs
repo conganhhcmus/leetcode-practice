@@ -8,7 +8,10 @@ public class FenwickTree
     {
         n = nums.Length;
         bit = new long[n + 1];
-        Build(nums);
+        for (int i = 0; i < nums.Length; i++)
+        {
+            Update(i, nums[i]);
+        }
     }
 
     // O(log n)
@@ -37,14 +40,5 @@ public class FenwickTree
         }
         return sum;
         // return max;
-    }
-
-    // O(n * log n)
-    void Build(int[] nums)
-    {
-        for (int i = 0; i < nums.Length; i++)
-        {
-            Update(i, nums[i]);
-        }
     }
 }
