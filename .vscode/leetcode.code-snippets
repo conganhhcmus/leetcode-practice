@@ -12,5 +12,10 @@
 			"${CLIPBOARD}"
 		],
 		"description": "Initial solution file for LeetCode"
+	},
+	"e97":{
+		"scope": "csharp",
+		"prefix": "e97",
+		"body": "int mod = (int)1e9 + 7;"
 	}
 }
