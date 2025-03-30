@@ -208,6 +208,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [77. Combinations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/77/Solution.cs)
 - [80. Remove Duplicates from Sorted Array II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/80/Solution.cs)
 - [82. Remove Duplicates from Sorted List II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/82/Solution.cs)
+- [84. Largest Rectangle in Histogram](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/84/Solution.cs)
 - [86. Partition List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/86/Solution.cs)
 - [88. Merge Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/88/Solution.cs)
 - [92. Reverse Linked List II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/92/Solution.cs)
