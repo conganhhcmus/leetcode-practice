@@ -535,6 +535,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2529/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
 - [2542. Maximum Subsequence Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2542/Solution.cs)
+- [2551. Put Marbles in Bags](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2551/Solution.cs)
 - [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2554/Solution.cs)
 - [2558. Take Gifts From the Richest Pile](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2558/Solution.cs)
 - [2559. Count Vowel Strings in Ranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2559/Solution.cs)
