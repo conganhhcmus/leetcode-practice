@@ -170,6 +170,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [28. Find the Index of the First Occurrence in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/28/Solution.cs)
 - [29. Divide Two Integers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/29/Solution.cs)
 - [30. Substring with Concatenation of All Words](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/30/Solution.cs)
+- [31. Next Permutation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/31/Solution.cs)
 - [32. Longest Valid Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/32/Solution.cs)
 - [33. Search in Rotated Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/33/Solution.cs)
 - [34. Find First and Last Position of Element in Sorted Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/34/Solution.cs)
