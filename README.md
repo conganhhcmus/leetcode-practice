@@ -571,6 +571,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [2818. Apply Operations to Maximize Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2818/Solution.cs)
 - [2872. Maximum Number of K-Divisible Components](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2872/Solution.cs)
 - [2873. Maximum Value of an Ordered Triplet I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2873/Solution.cs)
+- [2874. Maximum Value of an Ordered Triplet II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2874/Solution.cs)
 - [2900. Longest Unequal Adjacent Groups Subsequence I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2900/Solution.cs)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2914/Solution.cs)
 - [2924. Find Champion II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2924/Solution.cs)
