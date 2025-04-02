@@ -1,4 +1,3 @@
-
 public class LeetCode
 {
     public static List<string> GetTestcase()
