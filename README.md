@@ -376,6 +376,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [827. Making A Large Island](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/827/Solution.cs)
 - [841. Keys and Rooms](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/841/Solution.cs)
 - [862. Shortest Subarray with Sum at Least K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/862/Solution.cs)
+- [865. Smallest Subtree with all the Deepest Nodes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/865/Solution.cs)
 - [872. Leaf-Similar Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/872/Solution.cs)
 - [873. Length of Longest Fibonacci Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/873/Solution.cs)
 - [874. Walking Robot Simulation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/874/Solution.cs)
