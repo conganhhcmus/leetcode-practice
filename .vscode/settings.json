@@ -1,4 +1,18 @@
 {
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/bin/*.*": true,
+        "**/*.dll": true,
+    },
     "code-runner.showRunCommandInEditorContextMenu": false,
-    "code-runner.showRunIconInEditorTitleMenu": false
+    "code-runner.showRunIconInEditorTitleMenu": true,
+    "code-runner.executorMap": {
+        "csharp": "dotnet run --project leetcode-practice.csproj"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": false
 }

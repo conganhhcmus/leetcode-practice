@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "netcoredbg",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/net8.0/leetcode-practice.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "openOnSessionStart",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "bash",
+                "pipeArgs": ["-c"],
+                "windows": {
+                    "pipeProgram": "powershell",
+                    "pipeArgs": ["-Command"],
+                },
+                "debuggerPath": "${workspaceFolder}/.local/netcoredbg",
+                "debuggerArgs": ["--interpreter=vscode"],
+                "quoteArgs": true
+            },
+            "env": {
+                "DOTNET_ENVIRONMENT": "Development"
+            },
+            // "logging": {
+            //     "moduleLoad": false,
+            //     "diagnosticsLog": {
+            //         "protocolMessages": true
+            //     }
+            // }
+        }
+    ]
+}
