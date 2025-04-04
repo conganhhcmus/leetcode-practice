@@ -401,6 +401,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1079. Letter Tile Possibilities](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1079/Solution.cs)
 - [1092. Shortest Common Supersequence ](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1092/Solution.cs)
 - [1106. Parsing A Boolean Expression](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1106/Solution.cs)
+- [1123. Lowest Common Ancestor of Deepest Leaves](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1123/Solution.cs)
 - [1137. N-th Tribonacci Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1137/Solution.cs)
 - [1143. Longest Common Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1143/Solution.cs)
 - [1161. Maximum Level Sum of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1161/Solution.cs)
