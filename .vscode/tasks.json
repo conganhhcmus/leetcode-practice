@@ -10,20 +10,20 @@
         {
             "label": "LeetCode: Generate Contest",
             "type": "shell",
-            "command": "./scripts/genc.sh",
+            "command": "python3",
             "windows": {
-                "command": ".\\scripts\\genc.cmd"
+                "command": "py"
             },
-            "args": ["${input:contest_name}"]
+            "args": ["${workspaceFolder}/scripts/genc.py", "${input:contest_name}"]
         },
         {
             "label": "LeetCode: Generate Problem",
             "type": "shell",
-            "command": "./scripts/genp.sh",
+            "command": "python3",
             "windows": {
-                "command": ".\\scripts\\genp.cmd"
+                "command": "py"
             },
-            "args": ["${input:problem_name}"]
+            "args": ["${workspaceFolder}/scripts/genp.py", "${input:problem_name}"]
         }
     ],
     "inputs": [
