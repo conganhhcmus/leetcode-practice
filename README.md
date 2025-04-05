@@ -466,6 +466,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1829. Maximum XOR for Each Query](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1829/Solution.cs)
 - [1861. Rotating the Box](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1861/Solution.cs)
 - [1862. Sum of Floored Pairs](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1862/Solution.cs)
+- [1863. Sum of All Subset XOR Totals](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1863/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1894/Solution.cs)
 - [1910. Remove All Occurrences of a Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1910/Solution.cs)
 - [1926. Nearest Exit from Entrance in Maze](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1926/Solution.cs)
