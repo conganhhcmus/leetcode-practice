@@ -483,6 +483,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [1945. Sum of Digits of String After Convert](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1945/Solution.cs)
 - [1947. Maximum Compatibility Score Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1947/Solution.cs)
 - [1957. Delete Characters to Make Fancy String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1957/Solution.cs)
+- [1959. Minimum Total Space Wasted With K Resizing Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1959/Solution.cs)
 - [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1963/Solution.cs)
 - [1976. Number of Ways to Arrive at Destination](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1976/Solution.cs)
 - [1975. Maximum Matrix Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1975/Solution.cs)
