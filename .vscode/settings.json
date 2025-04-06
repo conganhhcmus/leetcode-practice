@@ -14,5 +14,6 @@
     },
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
-    "code-runner.clearPreviousOutput": false
+    "code-runner.clearPreviousOutput": false,
+    "code-runner.ignoreSelection": true
 }
