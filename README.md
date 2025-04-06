@@ -125,6 +125,13 @@ All the contest/problem solutions on LeetCode that I attended.
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/443/Q4.cs)
   )
 
+  - 444 (
+    [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q1.cs),
+    [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q2.cs),
+    [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q3.cs),
+    [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q4.cs)
+  )
+
 - Biweekly
   - 151 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/151/Q1.cs),
