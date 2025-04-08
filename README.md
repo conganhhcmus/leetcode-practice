@@ -635,6 +635,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3381. Maximum Subarray Sum With Length Divisible by K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3381/Solution.cs)
 - [3382. Maximum Area Rectangle With Point Constraints II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3382/Solution.cs)
 - [3394. Check if Grid can be Cut into Sections](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3394/Solution.cs)
+- [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3396/Solution.cs)
 
 ## Contact Me
 - [Facebook](https://www.facebook.com/conganhhcmus)
