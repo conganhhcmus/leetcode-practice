@@ -630,6 +630,7 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3371. Identify the Largest Outlier in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3371/Solution.cs)
 - [3372. Maximize the Number of Target Nodes After Connecting Trees I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3372/Solution.cs)
 - [3373. Maximize the Number of Target Nodes After Connecting Trees II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3373/Solution.cs)
+- [3375. Minimum Operations to Make Array Values Equal to K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3375/Solution.cs)
 - [3379. Transformed Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3379/Solution.cs)
 - [3380. Maximum Area Rectangle With Point Constraints I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3380/Solution.cs)
 - [3381. Maximum Subarray Sum With Length Divisible by K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3381/Solution.cs)
