@@ -1,153 +1,173 @@
-# leetcode-practice
+# LeetCode Practice 🎯
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/conganhhcmus/1)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-blue.svg)](https://leetcode.com/u/conganhhcmus/)
 
-NOTE: These projects are for practice purposes only.
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="300"/>
+</div>
 
-[![LeetCode](https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png)](https://leetcode.com)
+## 📝 Description
+This repository contains my solutions to various LeetCode problems and contests. Each solution is carefully crafted to demonstrate efficient problem-solving approaches.
 
+> **Note**: These projects are for practice purposes only.
 
-## Description
-All the contest/problem solutions on LeetCode that I attended.
+## 🗂️ Repository Structure
+- `contests/` - Contest solutions
+  - `weekly/` - Weekly contest solutions
+  - `biweekly/` - Biweekly contest solutions
+- `problems/` - Individual problem solutions
 
-## Table of Contents
+## 🏆 Contest Solutions
 
-#### Contest
-- Weekly
-  - 428 (
+### Weekly Contests
+<details>
+<summary>Click to expand</summary>
+
+- Weekly Contest 428 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/428/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/428/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/428/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/428/Q4.cs)
   )
 
-  - 429 (
+- Weekly Contest 429 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/429/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/429/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/429/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/429/Q4.cs)
   )
 
-  - 430 (
+- Weekly Contest 430 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/430/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/430/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/430/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/430/Q4.cs)
   )
 
-  - 431 (
+- Weekly Contest 431 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/431/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/431/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/431/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/431/Q4.cs)
   )
 
-  - 432 (
+- Weekly Contest 432 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/432/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/432/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/432/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/432/Q4.cs)
   )
 
-  -  433 (
+- Weekly Contest 433 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/433/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/433/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/433/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/433/Q4.cs)
   )
 
-  - 434 (
+- Weekly Contest 434 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/434/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/434/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/434/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/434/Q4.cs)
   )
 
-  - 435 (
+- Weekly Contest 435 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/435/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/435/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/435/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/435/Q4.cs)
   )
 
-  - 436 (
+- Weekly Contest 436 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/436/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/436/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/436/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/436/Q4.cs)
   )
 
-  - 437 (
+- Weekly Contest 437 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/437/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/437/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/437/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/437/Q4.cs)
   )
 
-  - 438 (
+- Weekly Contest 438 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/438/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/438/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/438/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/438/Q4.cs)
   )
 
-  - 439 (
+- Weekly Contest 439 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/439/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/439/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/439/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/439/Q4.cs)
   )
 
-  - 440 (
+- Weekly Contest 440 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/440/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/440/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/440/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/440/Q4.cs)
   )
 
-  - 441 (
+- Weekly Contest 441 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/441/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/441/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/441/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/441/Q4.cs)
   )
 
-  - 442 (
+- Weekly Contest 442 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/442/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/442/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/442/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/442/Q4.cs)
   )
 
-  - 443 (
+- Weekly Contest 443 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/443/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/443/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/443/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/443/Q4.cs)
   )
 
-  - 444 (
+- Weekly Contest 444 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q4.cs)
   )
 
-- Biweekly
-  - 151 (
+</details>
+
+### Biweekly Contests
+<details>
+<summary>Click to expand</summary>
+
+- Biweekly Contest 151 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/151/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/151/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/151/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/151/Q4.cs)
   )
 
-  - 152 (
+- Biweekly Contest 152 (
     [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/152/Q1.cs),
     [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/152/Q2.cs),
     [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/152/Q3.cs),
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/biweekly/152/Q4.cs)
   )
 
-#### Problems
+</details>
+
+## 💡 Problem Solutions
+<details>
+<summary>Click to expand</summary>
+
 - [1. Two Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1/Solution.cs)
 - [2. Add Two Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2/Solution.cs)
 - [3. Longest Substring Without Repeating Characters](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3/Solution.cs)
@@ -638,8 +658,32 @@ All the contest/problem solutions on LeetCode that I attended.
 - [3394. Check if Grid can be Cut into Sections](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3394/Solution.cs)
 - [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3396/Solution.cs)
 
-## Contact Me
-- [Facebook](https://www.facebook.com/conganhhcmus)
-- [Instagram](https://www.instagram.com/conganhhcmus)
-- [Mail](mailto:conganhhcmus@gmail.com)
-- [Youtube](https://www.youtube.com/@ledoanconganh)
+</details>
+
+<!-- ## 🚀 Stats
+- Total Problems Solved: 498
+- Weekly Contests Participated: 17
+- Biweekly Contests Participated: 2 -->
+
+## 🔧 Technologies
+- C#
+- Data Structures & Algorithms
+- Problem Solving
+
+## 📫 Connect With Me
+<div align="center">
+  
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/conganhhcmus)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/conganhhcmus)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:conganhhcmus@gmail.com)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ledoanconganh)
+
+</div>
+
+## 📄 License
+This project is for educational purposes. All solutions are my own work.
+
+---
+<div align="center">
+  <sub>Built with ❤️ by Le Doan Cong Anh</sub>
+</div>
