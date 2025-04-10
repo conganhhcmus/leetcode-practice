@@ -613,6 +613,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2948. Make Lexicographically Smallest Array by Swapping Elements](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2948/Solution.cs)
 - [2965. Find Missing and Repeated Values](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2965/Solution.cs)
 - [2981. Find Longest Special Substring That Occurs Thrice I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2981/Solution.cs)
+- [2999. Count the Number of Powerful Integers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2999/Solution.cs)
 - [3011. Find if Array Can Be Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3011/Solution.cs)
 - [3042. Count Prefix and Suffix Pairs I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3042/Solution.cs)
 - [3043. Find the Length of the Longest Common Prefix](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3043/Solution.cs)
