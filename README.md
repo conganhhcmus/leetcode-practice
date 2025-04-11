@@ -602,6 +602,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2780. Minimum Index of a Valid Split](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2780/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2807/Solution.cs)
 - [2818. Apply Operations to Maximize Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2818/Solution.cs)
+- [2843. Count Symmetric Integers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2843/Solution.cs)
 - [2872. Maximum Number of K-Divisible Components](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2872/Solution.cs)
 - [2873. Maximum Value of an Ordered Triplet I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2873/Solution.cs)
 - [2874. Maximum Value of an Ordered Triplet II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2874/Solution.cs)
