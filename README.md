@@ -638,6 +638,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3243. Shortest Distance After Road Addition Queries I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3243/Solution.cs)
 - [3254. Find the Power of K-Size Subarrays I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3254/Solution.cs)
 - [3264. Final Array State After K Multiplication Operations I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3264/Solution.cs)
+- [3272. Find the Count of Good Integers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3272/Solution.cs)
 - [3274. Check if Two Chessboard Squares Have the Same Color](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3274/Solution.cs)
 - [3275. K-th Nearest Obstacle Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3275/Solution.cs)
 - [3276. Select Cells in Grid With Maximum Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3276/Solution.cs)
