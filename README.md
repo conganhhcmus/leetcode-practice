@@ -497,6 +497,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1863. Sum of All Subset XOR Totals](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1863/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1894/Solution.cs)
 - [1910. Remove All Occurrences of a Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1910/Solution.cs)
+- [1922. Count Good Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1922/Solution.cs)
 - [1926. Nearest Exit from Entrance in Maze](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1926/Solution.cs)
 - [1930. Unique Length-3 Palindromic Subsequences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1930/Solution.cs)
 - [1942. The Number of the Smallest Unoccupied Chair](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1942/Solution.cs)
