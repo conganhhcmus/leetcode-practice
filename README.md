@@ -142,6 +142,13 @@ This repository contains my solutions to various LeetCode problems and contests.
     [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/444/Q4.cs)
   )
 
+- Weekly Contest 445 (
+    [Q1](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/445/Q1.cs),
+    [Q2](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/445/Q2.cs),
+    [Q3](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/445/Q3.cs),
+    [Q4](https://github.com/conganhhcmus/leetcode-practice/blob/main/contests/weekly/445/Q4.cs)
+  )
+
 </details>
 
 ### Biweekly Contests
