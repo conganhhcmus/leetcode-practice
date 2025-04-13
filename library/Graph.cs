@@ -17,9 +17,9 @@ public class Graph
         }
     }
 
-    public void AddEdge(int u, int v, int weight)
+    public void AddEdge(int u, int v, int w)
     {
-        graph[u].Add((v, weight));
+        graph[u].Add((v, w));
     }
 
     // dijkstra with priority queue
@@ -34,10 +34,10 @@ public class Graph
             foreach (var neighbor in graph.GetValueOrDefault(u, []))
             {
                 int v = neighbor.v;
-                int weight = neighbor.w;
-                if (dist[u] + weight < dist[v])
+                int w = neighbor.w;
+                if (dist[u] + w < dist[v])
                 {
-                    dist[v] = dist[u] + weight;
+                    dist[v] = dist[u] + w;
                     pq.Enqueue(v, dist[v]);
                 }
             }
