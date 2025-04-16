@@ -41,14 +41,14 @@ def main():
     open("testcase.txt", 'w').close()
     open("answer.txt", 'w').close()
 
-    # Ensure file exists and try to open it in Cursor
+    # Ensure file exists and try to open it in VSCode
     if os.path.exists(solution_path):
         try:
             # Use shell=True to let the shell resolve the command
-            cmd = f'cursor -r "{solution_path}"'
+            cmd = f'code -r "{solution_path}"'
             subprocess.run(cmd, shell=True, check=True)
         except subprocess.CalledProcessError as e:
-            print(f"Failed to open Cursor: {e}")
+            print(f"Failed to open VSCode: {e}")
             print(f"File created at: {solution_path}")
         except Exception as e:
             print(f"Unexpected error: {e}")
