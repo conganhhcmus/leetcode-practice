@@ -588,6 +588,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2523. Closest Prime Numbers in Range](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2523/Solution.cs)
 - [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2529/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2530/Solution.cs)
+- [2537. Count the Number of Good Subarrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2537/Solution.cs)
 - [2542. Maximum Subsequence Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2542/Solution.cs)
 - [2551. Put Marbles in Bags](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2551/Solution.cs)
 - [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2554/Solution.cs)
