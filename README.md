@@ -680,10 +680,12 @@ This repository contains my solutions to various LeetCode problems and contests.
 
 </details>
 
-<!-- ## 🚀 Stats
-- Total Problems Solved: 498
-- Weekly Contests Participated: 17
-- Biweekly Contests Participated: 2 -->
+<!-- start -->
+## 🚀 Stats
+- Total Problems Solved: 504
+- Weekly Contests Participated: 18
+- Biweekly Contests Participated: 3
+<!-- end -->
 
 ## 🔧 Technologies
 - C#
