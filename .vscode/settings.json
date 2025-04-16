@@ -8,7 +8,7 @@
         "**/*.dll": true,
     },
     "code-runner.showRunCommandInEditorContextMenu": false,
-    "code-runner.showRunIconInEditorTitleMenu": true,
+    "code-runner.showRunIconInEditorTitleMenu": false,
     "code-runner.executorMap": {
         "csharp": "dotnet run --project leetcode-practice.csproj"
     },
