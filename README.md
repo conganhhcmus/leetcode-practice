@@ -218,6 +218,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [35. Search Insert Position](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/35/Solution.cs)
 - [36. Valid Sudoku](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/36/Solution.cs)
 - [37. Sudoku Solver](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/37/Solution.cs)
+- [38. Count and Say](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/38/Solution.cs)
 - [39. Combination Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/39/Solution.cs)
 - [41. First Missing Positive](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/41/Solution.cs)
 - [42. Trapping Rain Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/42/Solution.cs)
