@@ -251,6 +251,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [75. Sort Colors](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/75/Solution.cs)
 - [76. Minimum Window Substring](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/76/Solution.cs)
 - [77. Combinations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/77/Solution.cs)
+- [79. Word Search](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/79/Solution.cs)
 - [80. Remove Duplicates from Sorted Array II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/80/Solution.cs)
 - [82. Remove Duplicates from Sorted List II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/82/Solution.cs)
 - [84. Largest Rectangle in Histogram](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/84/Solution.cs)
