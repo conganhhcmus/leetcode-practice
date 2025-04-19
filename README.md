@@ -701,7 +701,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 
 <!-- start -->
 ## 🚀 Stats
-- Total Problems Solved: 507
+- Total Problems Solved: 513
 - Weekly Contests Participated: 18
 - Biweekly Contests Participated: 3
 <!-- end -->
