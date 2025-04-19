@@ -226,6 +226,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [42. Trapping Rain Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/42/Solution.cs)
 - [45. Jump Game II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/45/Solution.cs)
 - [46. Permutations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/46/Solution.cs)
+- [47. Permutations II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/47/Solution.cs)
 - [48. Rotate Image](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/48/Solution.cs)
 - [49. Group Anagrams](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/49/Solution.cs)
 - [50. Pow(x, n)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/50/Solution.cs)
