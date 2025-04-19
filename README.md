@@ -350,6 +350,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [241. Different Ways to Add Parentheses](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/241/Solution.cs)
 - [242. Valid Anagram](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/242/Solution.cs)
 - [274. H-Index](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/274/Solution.cs)
+- [278. First Bad Version](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/278/Solution.cs)
 - [279. Perfect Squares](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/279/Solution.cs)
 - [283. Move Zeroes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/283/Solution.cs)
 - [287. Find the Duplicate Number](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/287/Solution.cs)
