@@ -2,8 +2,8 @@ name: Update README.md
 
 on:
   push:
-    paths:
-      - README.md
+    branches:
+      - main
 
 jobs:
   update-stats:
