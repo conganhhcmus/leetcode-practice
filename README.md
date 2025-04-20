@@ -423,6 +423,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [763. Partition Labels](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/763/Solution.cs)
 - [769. Max Chunks To Make Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/769/Solution.cs)
 - [773. Sliding Puzzle](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/773/Solution.cs)
+- [781. Rabbits in Forest](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/781/Solution.cs)
 - [783. Minimum Distance Between BST Nodes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/783/Solution.cs)
 - [790. Domino and Tromino Tiling](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/790/Solution.cs)
 - [796. Rotate String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/796/Solution.cs)
