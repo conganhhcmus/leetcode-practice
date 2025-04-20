@@ -1,6 +1,5 @@
 # TODO List
 ## Biweekly
-- [Biweekly-152-Q4](./contests/biweekly/152/Q4.cs)
 - [Biweekly-154-Q4](./contests/biweekly/154/Q4.cs)
 
 ## Weekly
