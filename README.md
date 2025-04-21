@@ -564,6 +564,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2127. Maximum Employees to Be Invited to a Meeting](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2127/Solution.cs)
 - [2130. Maximum Twin Sum of a Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2130/Solution.cs)
 - [2140. Solving Questions With Brainpower](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2140/Solution.cs)
+- [2145. Count the Hidden Sequences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2145/Solution.cs)
 - [2161. Partition Array According to Given Pivot](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2161/Solution.cs)
 - [2176. Count Equal and Divisible Pairs in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2176/Solution.cs)
 - [2179. Count Good Triplets in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2179/Solution.cs)
