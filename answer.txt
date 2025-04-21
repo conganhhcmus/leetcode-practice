@@ -1,6 +1,5 @@
-2
-4
-0
-13689
-60
-0
+false
+true
+false
+true
+false

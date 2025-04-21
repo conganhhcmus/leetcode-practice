@@ -232,6 +232,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [41. First Missing Positive](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/41/Solution.cs)
 - [42. Trapping Rain Water](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/42/Solution.cs)
 - [43. Multiply Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/43/Solution.cs)
+- [44. Wildcard Matching](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/44/Solution.cs)
 - [45. Jump Game II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/45/Solution.cs)
 - [46. Permutations](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/46/Solution.cs)
 - [47. Permutations II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/47/Solution.cs)
