@@ -486,6 +486,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1371/Solution.cs)
 - [1372. Longest ZigZag Path in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1372/Solution.cs)
 - [1381. Design a Stack With Increment Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1381/Solution.cs)
+- [1399. Count Largest Group](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1399/Solution.cs)
 - [1400. Construct K Palindrome Strings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1400/Solution.cs)
 - [1405. Longest Happy String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1405/Solution.cs)
 - [1408. String Matching in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1408/Solution.cs)
