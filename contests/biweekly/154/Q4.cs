@@ -4,86 +4,104 @@ namespace Biweekly_154_Q4;
 
 public class Solution
 {
+    int[] inTime, outTime, flat, parent, depth;
+    int timer;
     public int[] TreeQueries(int n, int[][] edges, int[][] queries)
     {
-        Graph graph = new(n + 1);
-        foreach (int[] edge in edges)
+        inTime = new int[n + 1];
+        outTime = new int[n + 1];
+        flat = new int[n + 2];
+        parent = new int[n + 1];
+        depth = new int[n + 1];
+
+        var tree = new List<(int v, int w)>[n + 1];
+        for (int i = 1; i <= n; i++) tree[i] = [];
+        foreach (var edge in edges)
         {
             int u = edge[0], v = edge[1], w = edge[2];
-            graph.AddOrUpdateEdge(u, v, w);
-            graph.AddOrUpdateEdge(v, u, w);
+            tree[u].Add((v, w));
+            tree[v].Add((u, w));
         }
 
-        graph.Dijkstra(1);
-        List<int> ret = [];
-        foreach (int[] query in queries)
+        timer = 0;
+        DFS(1, 0, 0, tree);
+
+        var bit = new FenwickTree(n + 1);
+        for (int u = 2; u <= n; u++)
         {
-            if (query.Length == 4)
+            int w = flat[inTime[u]];
+            bit.Update(inTime[u], w);
+            bit.Update(outTime[u] + 1, -w);
+        }
+
+        var result = new List<int>();
+        foreach (var q in queries)
+        {
+            if (q[0] == 1)
             {
-                int u = query[1], v = query[2], w = query[3];
-                graph.AddOrUpdateEdge(u, v, w);
-                graph.AddOrUpdateEdge(v, u, w);
-                graph.Dijkstra(1);
+                int u = q[1], v = q[2], newW = q[3];
+                int child = parent[v] == u ? v : u;
+                int oldW = flat[inTime[child]];
+                int delta = newW - oldW;
+                flat[inTime[child]] = newW;
+                bit.Update(inTime[child], delta);
+                bit.Update(outTime[child] + 1, -delta);
             }
             else
             {
-                ret.Add(graph.GetDistance(query[1]));
+                int x = q[1];
+                result.Add(bit.Query(inTime[x]));
             }
         }
-        return [.. ret];
+
+        return result.ToArray();
+    }
+
+    void DFS(int u, int p, int wFromParent, List<(int v, int w)>[] tree)
+    {
+        inTime[u] = ++timer;
+        flat[inTime[u]] = wFromParent;
+        parent[u] = p;
+        depth[u] = depth[p] + 1;
+
+        foreach (var (v, w) in tree[u])
+        {
+            if (v == p) continue;
+            DFS(v, u, w, tree);
+        }
+        outTime[u] = timer;
     }
 }
 
-
-public class Graph
+public class FenwickTree
 {
-    Dictionary<int, Dictionary<int, int>> graph;
-    int[] dist; // distance
-    int v; // vertices
-
-    public Graph(int v)
+    int[] bit;
+    int n;
+    public FenwickTree(int size)
     {
-        this.v = v;
-        graph = [];
-        dist = new int[v];
-        for (int i = 0; i < v; i++)
+        n = size;
+        bit = new int[n + 2];
+    }
+
+    public void Update(int i, int val)
+    {
+        i++;
+        while (i <= n)
         {
-            dist[i] = int.MaxValue;
-            graph[i] = [];
+            bit[i] += val;
+            i += i & -i;
         }
     }
 
-    public void AddOrUpdateEdge(int u, int v, int w)
+    public int Query(int i)
     {
-        graph[u].TryAdd(v, w);
-        graph[u][v] = w;
-    }
-
-    // dijkstra with priority queue
-    public void Dijkstra(int src)
-    {
-        PriorityQueue<int, int> pq = new();
-        Array.Fill(dist, int.MaxValue);
-        dist[src] = 0;
-        pq.Enqueue(src, 0);
-        while (pq.Count > 0)
+        i++;
+        int sum = 0;
+        while (i > 0)
         {
-            int u = pq.Dequeue();
-            foreach (var neighbor in graph.GetValueOrDefault(u, []))
-            {
-                int v = neighbor.Key;
-                int w = neighbor.Value;
-                if (dist[u] + w < dist[v])
-                {
-                    dist[v] = dist[u] + w;
-                    pq.Enqueue(v, dist[v]);
-                }
-            }
+            sum += bit[i];
+            i -= i & -i;
         }
-    }
-
-    public int GetDistance(int target)
-    {
-        return dist[target];
+        return sum;
     }
 }
