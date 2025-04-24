@@ -67,7 +67,7 @@ public class Operation
     public long Ckn(int k, int n, long[] fact, long[] invFact)
     {
         if (k > n || k < 0) return 0;
-
+        k = Math.Min(k, n - k);
         // C k n = n! / (k! * (n-k)!)
 
         long ans = Multiply(fact[n], invFact[k]); // ans = n! / k!
@@ -77,10 +77,12 @@ public class Operation
 
     public long Ckn(int k, int n)
     {
+        if (k > n || k < 0) return 0;
+        k = Math.Min(k, n - k);
         long ret = 1;
         for (int i = 1; i <= k; i++)
         {
-            ret *= n - k + i;
+            ret *= n - i + 1;
             ret /= i;
         }
         return ret;
