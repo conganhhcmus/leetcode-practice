@@ -647,6 +647,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2762. Continuous Subarrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2762/Solution.cs)
 - [2779. Maximum Beauty of an Array After Applying Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2779/Solution.cs)
 - [2780. Minimum Index of a Valid Split](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2780/Solution.cs)
+- [2799. Count Complete Subarrays in an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2799/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2807/Solution.cs)
 - [2818. Apply Operations to Maximize Score](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2818/Solution.cs)
 - [2825. Make String a Subsequence Using Cyclic Increments](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2825/Solution.cs)
