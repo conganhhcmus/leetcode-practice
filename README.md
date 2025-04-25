@@ -367,6 +367,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [290. Word Pattern](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/290/Solution.cs)
 - [295. Find Median from Data Stream](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/295/Solution.cs)
 - [300. Longest Increasing Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/300/Solution.cs)
+- [303. Range Sum Query - Immutable](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/303/Solution.cs)
 - [322. Coin Change](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/322/Solution.cs)
 - [325. Maximum Size Subarray Sum Equals K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/325/Solution.cs)
 - [328. Odd Even Linked List](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/328/Solution.cs)
