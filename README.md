@@ -473,6 +473,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1161. Maximum Level Sum of a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1161/Solution.cs)
 - [1207. Unique Number of Occurrences](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1207/Solution.cs)
 - [1233. Remove Sub-Folders from the Filesystem](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1233/Solution.cs)
+- [1248. Count Number of Nice Subarrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1248/Solution.cs)
 - [1261. Find Elements in a Contaminated Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1261/Solution.cs)
 - [1267. Count Servers that Communicate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1267/Solution.cs)
 - [1268. Search Suggestions System](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1268/Solution.cs)
