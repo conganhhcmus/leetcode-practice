@@ -454,6 +454,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [933. Number of Recent Calls](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/933/Solution.cs)
 - [951. Flip Equivalent Binary Trees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/951/Solution.cs)
 - [962. Maximum Width Ramp](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/962/Solution.cs)
+- [974. Subarray Sums Divisible by K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/974/Solution.cs)
 - [983. Minimum Cost For Tickets](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/983/Solution.cs)
 - [994. Rotting Oranges](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/994/Solution.cs)
 - [1004. Max Consecutive Ones III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/1004/Solution.cs)
