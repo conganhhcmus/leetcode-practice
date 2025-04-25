@@ -632,6 +632,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2577. Minimum Time to Visit a Cell In a Grid](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2577/Solution.cs)
 - [2579. Count Total Number of Colored Cells](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2579/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2583/Solution.cs)
+- [2588. Count the Number of Beautiful Subarrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2588/Solution.cs)
 - [2593. Find Score of an Array After Marking All Elements](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2593/Solution.cs)
 - [2594. Minimum Time to Repair Cars](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2594/Solution.cs)
 - [2601. Prime Subtraction Operation](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2601/Solution.cs)
