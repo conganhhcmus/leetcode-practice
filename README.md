@@ -603,6 +603,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2419/Solution.cs)
 - [2425. Bitwise XOR of All Pairings](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2425/Solution.cs)
 - [2429. Minimize XOR](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2429/Solution.cs)
+- [2444. Count Subarrays With Fixed Bounds](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2444/Solution.cs)
 - [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2458/Solution.cs)
 - [2460. Apply Operations to an Array](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2460/Solution.cs)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2461/Solution.cs)
