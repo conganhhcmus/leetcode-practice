@@ -665,6 +665,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2924. Find Champion II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2924/Solution.cs)
 - [2938. Separate Black and White Balls](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2938/Solution.cs)
 - [2940. Find Building Where Alice and Bob Can Meet](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2940/Solution.cs)
+- [2947. Count Beautiful Substrings I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2947/Solution.cs)
 - [2948. Make Lexicographically Smallest Array by Swapping Elements](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2948/Solution.cs)
 - [2965. Find Missing and Repeated Values](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2965/Solution.cs)
 - [2981. Find Longest Special Substring That Occurs Thrice I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2981/Solution.cs)
