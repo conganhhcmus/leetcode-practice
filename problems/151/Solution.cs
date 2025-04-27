@@ -1,4 +1,6 @@
-namespace Problem_151;
+#if DEBUG
+namespace Problems_151;
+#endif
 
 public class Solution
 {
