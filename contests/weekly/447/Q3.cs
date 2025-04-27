@@ -9,11 +9,10 @@ public class Solution
         Array.Sort(nums);
         int n = nums.Length;
 
-        int[] len = new int[n], modNum = new int[n];
+        int[] len = new int[n];
         int maxLen = 0;
         for (int i = 0; i < n; i++)
         {
-            modNum[i] = nums[i] % k;
             len[i] = nums[i].ToString().Length;
             maxLen = Math.Max(maxLen, len[i]);
         }
@@ -26,49 +25,47 @@ public class Solution
         }
 
         int FULL = (1 << n) - 1;
-        var dp = new bool[1 << n, k];
-        dp[FULL, 0] = true;
+        List<int>[,] dp = new List<int>[FULL + 1, k];
+        dp[0, 0] = [];
 
-        for (int mask = FULL - 1; mask >= 0; mask--)
+        for (int mask = 0; mask <= FULL; mask++)
         {
-            for (int m = 0; m < k; m++)
+            for (int mod = 0; mod < k; mod++)
             {
-                for (int i = 0; i < n; i++)
+                if (dp[mask, mod] != null)
                 {
-                    int bit = 1 << i;
-                    if ((mask & bit) != 0) continue;
-                    // If we place nums[i] next, newMod = (m * 10^len[i] + nums[i]) % k
-                    int newMod = (m * pow10[len[i]] + modNum[i]) % k;
-                    if (dp[mask | bit, newMod])
+                    for (int i = 0; i < n; i++)
                     {
-                        dp[mask, m] = true;
-                        break;
+                        int bit = 1 << i;
+                        if ((mask & bit) == 0)
+                        {
+                            int newMod = (mod * pow10[len[i]] + nums[i]) % k;
+                            int newMask = mask | bit;
+                            List<int> can = [.. dp[mask, mod], nums[i]];
+                            if (dp[newMask, newMod] == null || Compare(can, dp[newMask, newMod]) < 0)
+                            {
+                                dp[newMask, newMod] = can;
+                            }
+                        }
                     }
                 }
             }
         }
 
-        if (!dp[0, 0]) return [];
+        if (dp[FULL, 0] == null) return [];
 
-        var result = new List<int>();
-        int curMask = 0, curMod = 0;
-        while (curMask != FULL)
+        return [.. dp[FULL, 0]];
+    }
+
+    int Compare(List<int> a, List<int> b)
+    {
+        int n1 = a.Count, n2 = b.Count;
+        int n = Math.Min(n1, n2);
+        for (int i = 0; i < n; i++)
         {
-            for (int i = 0; i < n; i++)
-            {
-                int bit = 1 << i;
-                if ((curMask & bit) != 0) continue;
-                int newMod = (curMod * pow10[len[i]] + modNum[i]) % k;
-                if (dp[curMask | bit, newMod])
-                {
-                    result.Add(nums[i]);
-                    curMask |= bit;
-                    curMod = newMod;
-                    break;
-                }
-            }
+            if (a[i] != b[i]) return a[i] - b[i];
         }
 
-        return [.. result];
+        return n1 - n2;
     }
 }

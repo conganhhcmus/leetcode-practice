@@ -1,2 +1,4 @@
-"s'teL ekat edoCteeL tsetnoc"
-"rM gniD"
+[3,12,45]
+[5,10]
+[]
+[7,2]
