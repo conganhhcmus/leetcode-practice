@@ -384,6 +384,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [344. Reverse String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/344/Solution.cs)
 - [345. Reverse Vowels of a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/345/Solution.cs)
 - [347. Top K Frequent Elements](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/347/Solution.cs)
+- [349. Intersection of Two Arrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/349/Solution.cs)
 - [350. Intersection of Two Arrays II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/350/Solution.cs)
 - [368. Largest Divisible Subset](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/368/Solution.cs)
 - [373. Find K Pairs with Smallest Sums](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/373/Solution.cs)
