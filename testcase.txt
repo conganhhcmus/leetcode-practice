@@ -1,4 +1,2 @@
-"sadbutsad"
-"sad"
-"leetcode"
-"leeto"
+["h","e","l","l","o"]
+["H","a","n","n","a","h"]
