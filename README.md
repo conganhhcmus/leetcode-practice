@@ -422,6 +422,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [557. Reverse Words in a String III](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/557/Solution.cs)
 - [560. Subarray Sum Equals K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/560/Solution.cs)
 - [567. Permutation in String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/567/Solution.cs)
+- [599. Minimum Index Sum of Two Lists](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/599/Solution.cs)
 - [605. Can Place Flowers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/605/Solution.cs)
 - [632. Smallest Range Covering Elements from K Lists](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/632/Solution.cs)
 - [637. Average of Levels in Binary Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/637/Solution.cs)
