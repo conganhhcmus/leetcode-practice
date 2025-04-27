@@ -407,6 +407,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [450. Delete Node in a BST](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/450/Solution.cs)
 - [452. Minimum Number of Arrows to Burst Balloons](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/452/Solution.cs)
 - [454. 4Sum II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/454/Solution.cs)
+- [485. Max Consecutive Ones](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/485/Solution.cs)
 - [494. Target Sum](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/494/Solution.cs)
 - [498. Diagonal Traverse](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/498/Solution.cs)
 - [502. IPO](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/502/Solution.cs)
