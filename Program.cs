@@ -38,7 +38,15 @@
     {
         { typeof(ListNode).FullName, result => ListNodeHelper.PrintList((ListNode)result) },
         { typeof(TreeNode).FullName, result => TreeNodeHelper.BFSTraversal((TreeNode)result)},
-        { typeof(Node).FullName, result => NodeHelper.Print((Node)result) }
+        { typeof(Node).FullName, result => NodeHelper.Print((Node)result) },
+        { typeof(IList<TreeNode>).FullName, result => {
+            IList<TreeNode> list = (IList<TreeNode>)result;
+            List<string> ret = [];
+            foreach(TreeNode root in list){
+                ret.Add(TreeNodeHelper.BFSTraversal(root));
+            }
+            return $"[{string.Join(",", ret)}]";
+        }},
     };
 
     private static void UpdateInputForSpeciallyProblems(object[] input, int inputIndex, List<string> testCases, ref int testCaseIndex)

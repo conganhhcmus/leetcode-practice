@@ -430,6 +430,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [641. Design Circular Deque](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/641/Solution.cs)
 - [643. Maximum Average Subarray I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/643/Solution.cs)
 - [649. Dota2 Senate](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/649/Solution.cs)
+- [652. Find Duplicate Subtrees](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/652/Solution.cs)
 - [670. Maximum Swap](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/670/Solution.cs)
 - [684. Redundant Connection](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/684/Solution.cs)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/689/Solution.cs)
