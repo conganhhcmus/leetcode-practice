@@ -9,7 +9,7 @@
 			"namespace ${TM_DIRECTORY/^.*[\\/\\\\](\\w+)[\\/\\\\](\\w+)[\\/\\\\]*$/${1:/capitalize}_$2/}${TM_FILENAME_BASE/^Solution(\\d*)$|(.+)/${1:+_}$1${2:+_}$2/};",
 			"#endif",
 			"",
-			"${CLIPBOARD}"
+			"${CLIPBOARD/©leetcode//g}"
 		],
 		"description": "Initial solution file for LeetCode"
 	},
