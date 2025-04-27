@@ -433,6 +433,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [700. Search in a Binary Search Tree](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/700/Solution.cs)
 - [704. Binary Search](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/704/Solution.cs)
 - [705. Design HashSet](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/705/Solution.cs)
+- [706. Design HashMap](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/706/Solution.cs)
 - [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/714/Solution.cs)
 - [724. Find Pivot Index](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/724/Solution.cs)
 - [725. Split Linked List in Parts](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/725/Solution.cs)
