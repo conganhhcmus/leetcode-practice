@@ -715,6 +715,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3380. Maximum Area Rectangle With Point Constraints I](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3380/Solution.cs)
 - [3381. Maximum Subarray Sum With Length Divisible by K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3381/Solution.cs)
 - [3382. Maximum Area Rectangle With Point Constraints II](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3382/Solution.cs)
+- [3392. Count Subarrays of Length Three With a Condition](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3392/Solution.cs)
 - [3394. Check if Grid can be Cut into Sections](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3394/Solution.cs)
 - [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3396/Solution.cs)
 - [3425. Longest Special Path](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/3425/Solution.cs)
