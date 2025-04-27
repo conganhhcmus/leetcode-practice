@@ -392,6 +392,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [380. Insert Delete GetRandom O(1)](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/380/Solution.cs)
 - [383. Ransom Note](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/383/Solution.cs)
 - [386. Lexicographical Numbers](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/386/Solution.cs)
+- [387. First Unique Character in a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/387/Solution.cs)
 - [392. Is Subsequence](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/392/Solution.cs)
 - [394. Decode String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/394/Solution.cs)
 - [399. Evaluate Division](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/399/Solution.cs)
