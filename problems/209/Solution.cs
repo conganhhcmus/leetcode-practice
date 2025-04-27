@@ -7,20 +7,19 @@ public class Solution
     public int MinSubArrayLen(int target, int[] nums)
     {
         int n = nums.Length;
-        int left = 0, right = 0;
+        int min = n + 1;
         long sum = 0;
-        int ans = int.MaxValue;
-        while (right < n)
+        int l = 0;
+        for (int r = 0; r < n; r++)
         {
-            sum += nums[right];
-            while (left < right && sum - nums[left] >= target)
+            sum += nums[r];
+            while (sum >= target)
             {
-                sum -= nums[left];
-                left++;
+                min = Math.Min(min, r - l + 1);
+                sum -= nums[l];
+                l++;
             }
-            if (sum >= target) ans = Math.Min(ans, right - left + 1);
-            right++;
         }
-        return (ans == int.MaxValue) ? 0 : ans;
+        return min == n + 1 ? 0 : min;
     }
 }
