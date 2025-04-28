@@ -602,6 +602,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2275/Solution.cs)
 - [2290. Minimum Obstacle Removal to Reach Corner](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2290/Solution.cs)
 - [2300. Successful Pairs of Spells and Potions](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2300/Solution.cs)
+- [2302. Count Subarrays With Score Less Than K](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2302/Solution.cs)
 - [2326. Spiral Matrix IV](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2326/Solution.cs)
 - [2336. Smallest Number in Infinite Set](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2336/Solution.cs)
 - [2337. Move Pieces to Obtain a String](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/2337/Solution.cs)
