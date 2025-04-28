@@ -449,6 +449,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [747. Largest Number At Least Twice of Others](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/747/Solution.cs)
 - [763. Partition Labels](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/763/Solution.cs)
 - [769. Max Chunks To Make Sorted](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/769/Solution.cs)
+- [771. Jewels and Stones](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/771/Solution.cs)
 - [773. Sliding Puzzle](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/773/Solution.cs)
 - [781. Rabbits in Forest](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/781/Solution.cs)
 - [783. Minimum Distance Between BST Nodes](https://github.com/conganhhcmus/leetcode-practice/blob/main/problems/783/Solution.cs)
