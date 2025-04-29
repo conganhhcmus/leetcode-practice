@@ -572,6 +572,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1976. Number of Ways to Arrive at Destination](./problems/1976/Solution.cs)
 - [1980. Find Unique Binary String](./problems/1980/Solution.cs)
 - [1981. Minimize the Difference Between Target and Chosen Elements](./problems/1981/Solution.cs)
+- [1986. Minimum Number of Work Sessions to Finish the Tasks](./problems/1986/Solution.cs)
 - [1998. GCD Sort of an Array](./problems/1998/Solution.cs)
 - [2017. Grid Game](./problems/2017/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](./problems/2022/Solution.cs)
