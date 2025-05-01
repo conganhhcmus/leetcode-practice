@@ -583,6 +583,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2054. Two Best Non-Overlapping Events](./problems/2054/Solution.cs)
 - [2064. Minimized Maximum of Products Distributed to Any Store](./problems/2064/Solution.cs)
 - [2070. Most Beautiful Item for Each Query](./problems/2070/Solution.cs)
+- [2071. Maximum Number of Tasks You Can Assign](./problems/2071/Solution.cs)
 - [2095. Delete the Middle Node of a Linked List](./problems/2095/Solution.cs)
 - [2097. Valid Arrangement of Pairs](./problems/2097/Solution.cs)
 - [2109. Adding Spaces to a String](./problems/2109/Solution.cs)
