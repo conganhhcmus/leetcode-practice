@@ -277,6 +277,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [84. Largest Rectangle in Histogram](./problems/84/Solution.cs)
 - [86. Partition List](./problems/86/Solution.cs)
 - [88. Merge Sorted Array](./problems/88/Solution.cs)
+- [91. Decode Ways](./problems/91/Solution.cs)
 - [92. Reverse Linked List II](./problems/92/Solution.cs)
 - [94. Binary Tree Inorder Traversal](./problems/94/Solution.cs)
 - [97. Interleaving String](./problems/97/Solution.cs)
