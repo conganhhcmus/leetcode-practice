@@ -588,6 +588,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2033. Minimum Operations to Make a Uni-Value Grid](./problems/2033/Solution.cs)
 - [2044. Count Number of Maximum Bitwise-OR Subsets](./problems/2044/Solution.cs)
 - [2054. Two Best Non-Overlapping Events](./problems/2054/Solution.cs)
+- [2063. Vowels of All Substrings](./problems/2063/Solution.cs)
 - [2064. Minimized Maximum of Products Distributed to Any Store](./problems/2064/Solution.cs)
 - [2070. Most Beautiful Item for Each Query](./problems/2070/Solution.cs)
 - [2071. Maximum Number of Tasks You Can Assign](./problems/2071/Solution.cs)
