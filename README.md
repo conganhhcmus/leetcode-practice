@@ -457,6 +457,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [796. Rotate String](./problems/796/Solution.cs)
 - [802. Find Eventual Safe States](./problems/802/Solution.cs)
 - [827. Making A Large Island](./problems/827/Solution.cs)
+- [838. Push Dominoes](./problems/838/Solution.cs)
 - [841. Keys and Rooms](./problems/841/Solution.cs)
 - [862. Shortest Subarray with Sum at Least K](./problems/862/Solution.cs)
 - [865. Smallest Subtree with all the Deepest Nodes](./problems/865/Solution.cs)
