@@ -575,6 +575,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1980. Find Unique Binary String](./problems/1980/Solution.cs)
 - [1981. Minimize the Difference Between Target and Chosen Elements](./problems/1981/Solution.cs)
 - [1986. Minimum Number of Work Sessions to Finish the Tasks](./problems/1986/Solution.cs)
+- [1997. First Day Where You Have Been in All the Rooms](./problems/1997/Solution.cs)
 - [1998. GCD Sort of an Array](./problems/1998/Solution.cs)
 - [2008. Maximum Earnings From Taxi](./problems/2008/Solution.cs)
 - [2017. Grid Game](./problems/2017/Solution.cs)
