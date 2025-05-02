@@ -576,6 +576,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1981. Minimize the Difference Between Target and Chosen Elements](./problems/1981/Solution.cs)
 - [1986. Minimum Number of Work Sessions to Finish the Tasks](./problems/1986/Solution.cs)
 - [1998. GCD Sort of an Array](./problems/1998/Solution.cs)
+- [2008. Maximum Earnings From Taxi](./problems/2008/Solution.cs)
 - [2017. Grid Game](./problems/2017/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](./problems/2022/Solution.cs)
 - [2028. Find Missing Observations](./problems/2028/Solution.cs)

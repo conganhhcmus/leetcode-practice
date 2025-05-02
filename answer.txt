@@ -1,2 +1,2 @@
-"RR.L"
-"LL.RR.LLRRLL.."
+7
+20
