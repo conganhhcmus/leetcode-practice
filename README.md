@@ -281,6 +281,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [92. Reverse Linked List II](./problems/92/Solution.cs)
 - [94. Binary Tree Inorder Traversal](./problems/94/Solution.cs)
 - [95. Unique Binary Search Trees II](./problems/95/Solution.cs)
+- [96. Unique Binary Search Trees](./problems/96/Solution.cs)
 - [97. Interleaving String](./problems/97/Solution.cs)
 - [98. Validate Binary Search Tree](./problems/98/Solution.cs)
 - [100. Same Tree](./problems/100/Solution.cs)
