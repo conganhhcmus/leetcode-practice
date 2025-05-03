@@ -368,6 +368,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [240. Search a 2D Matrix II](./problems/240/Solution.cs)
 - [241. Different Ways to Add Parentheses](./problems/241/Solution.cs)
 - [242. Valid Anagram](./problems/242/Solution.cs)
+- [264. Ugly Number II](./problems/264/Solution.cs)
 - [274. H-Index](./problems/274/Solution.cs)
 - [278. First Bad Version](./problems/278/Solution.cs)
 - [279. Perfect Squares](./problems/279/Solution.cs)
