@@ -598,6 +598,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2097. Valid Arrangement of Pairs](./problems/2097/Solution.cs)
 - [2100. Find Good Days to Rob the Bank](./problems/2100/Solution.cs)
 - [2109. Adding Spaces to a String](./problems/2109/Solution.cs)
+- [2110. Number of Smooth Descent Periods of a Stock](./problems/2110/Solution.cs)
 - [2115. Find All Possible Recipes from Given Supplies](./problems/2115/Solution.cs)
 - [2116. Check if a Parentheses String Can Be Valid](./problems/2116/Solution.cs)
 - [2127. Maximum Employees to Be Invited to a Meeting](./problems/2127/Solution.cs)
