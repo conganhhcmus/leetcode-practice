@@ -614,6 +614,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2206. Divide Array Into Equal Pairs](./problems/2206/Solution.cs)
 - [2215. Find the Difference of Two Arrays](./problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](./problems/2220/Solution.cs)
+- [2222. Number of Ways to Select Buildings](./problems/2222/Solution.cs)
 - [2226. Maximum Candies Allocated to K Children](./problems/2226/Solution.cs)
 - [2257. Count Unguarded Cells in the Grid](./problems/2257/Solution.cs)
 - [2270. Number of Ways to Split Array](./problems/2270/Solution.cs)
