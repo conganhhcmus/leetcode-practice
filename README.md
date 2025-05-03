@@ -596,6 +596,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2086. Minimum Number of Food Buckets to Feed the Hamsters](./problems/2086/Solution.cs)
 - [2095. Delete the Middle Node of a Linked List](./problems/2095/Solution.cs)
 - [2097. Valid Arrangement of Pairs](./problems/2097/Solution.cs)
+- [2100. Find Good Days to Rob the Bank](./problems/2100/Solution.cs)
 - [2109. Adding Spaces to a String](./problems/2109/Solution.cs)
 - [2115. Find All Possible Recipes from Given Supplies](./problems/2115/Solution.cs)
 - [2116. Check if a Parentheses String Can Be Valid](./problems/2116/Solution.cs)
