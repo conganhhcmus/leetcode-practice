@@ -380,6 +380,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [300. Longest Increasing Subsequence](./problems/300/Solution.cs)
 - [303. Range Sum Query - Immutable](./problems/303/Solution.cs)
 - [309. Best Time to Buy and Sell Stock with Cooldown](./problems/309/Solution.cs)
+- [313. Super Ugly Number](./problems/313/Solution.cs)
 - [322. Coin Change](./problems/322/Solution.cs)
 - [325. Maximum Size Subarray Sum Equals K](./problems/325/Solution.cs)
 - [328. Odd Even Linked List](./problems/328/Solution.cs)
