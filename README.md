@@ -628,6 +628,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2300. Successful Pairs of Spells and Potions](./problems/2300/Solution.cs)
 - [2302. Count Subarrays With Score Less Than K](./problems/2302/Solution.cs)
 - [2311. Longest Binary Subsequence Less Than or Equal to K](./problems/2311/Solution.cs)
+- [2320. Count Number of Ways to Place Houses](./problems/2320/Solution.cs)
 - [2326. Spiral Matrix IV](./problems/2326/Solution.cs)
 - [2336. Smallest Number in Infinite Set](./problems/2336/Solution.cs)
 - [2337. Move Pieces to Obtain a String](./problems/2337/Solution.cs)
