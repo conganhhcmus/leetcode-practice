@@ -397,6 +397,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [368. Largest Divisible Subset](./problems/368/Solution.cs)
 - [373. Find K Pairs with Smallest Sums](./problems/373/Solution.cs)
 - [374. Guess Number Higher or Lower](./problems/374/Solution.cs)
+- [375. Guess Number Higher or Lower II](./problems/375/Solution.cs)
 - [380. Insert Delete GetRandom O(1)](./problems/380/Solution.cs)
 - [383. Ransom Note](./problems/383/Solution.cs)
 - [386. Lexicographical Numbers](./problems/386/Solution.cs)
