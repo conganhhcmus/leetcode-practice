@@ -643,6 +643,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2349. Design a Number Container System](./problems/2349/Solution.cs)
 - [2352. Equal Row and Column Pairs](./problems/2352/Solution.cs)
 - [2364. Count Number of Bad Pairs](./problems/2364/Solution.cs)
+- [2369. Check if There is a Valid Partition For The Array](./problems/2369/Solution.cs)
 - [2375. Construct Smallest Number From DI String](./problems/2375/Solution.cs)
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](./problems/2379/Solution.cs)
 - [2381. Shifting Letters II](./problems/2381/Solution.cs)
