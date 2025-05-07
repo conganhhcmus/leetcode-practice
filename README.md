@@ -481,6 +481,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [889. Construct Binary Tree from Preorder and Postorder Traversal](./problems/889/Solution.cs)
 - [901. Online Stock Span](./problems/901/Solution.cs)
 - [909. Snakes and Ladders](./problems/909/Solution.cs)
+- [912. Sort an Array](./problems/912/Solution.cs)
 - [916. Word Subsets](./problems/916/Solution.cs)
 - [918. Maximum Sum Circular Subarray](./problems/918/Solution.cs)
 - [921. Minimum Add to Make Parentheses Valid](./problems/921/Solution.cs)
