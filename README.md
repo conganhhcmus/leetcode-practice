@@ -530,6 +530,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](./problems/1415/Solution.cs)
 - [1422. Maximum Score After Splitting a String](./problems/1422/Solution.cs)
 - [1431. Kids With the Greatest Number of Candies](./problems/1431/Solution.cs)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./problems/1438/Solution.cs)
 - [1448. Count Good Nodes in Binary Tree](./problems/1448/Solution.cs)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](./problems/1455/Solution.cs)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](./problems/1456/Solution.cs)
