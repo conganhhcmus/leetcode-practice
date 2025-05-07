@@ -318,6 +318,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [141. Linked List Cycle](./problems/141/Solution.cs)
 - [142. Linked List Cycle II](./problems/142/Solution.cs)
 - [146. LRU Cache](./problems/146/Solution.cs)
+- [147. Insertion Sort List](./problems/147/Solution.cs)
 - [148. Sort List](./problems/148/Solution.cs)
 - [149. Max Points on a Line](./problems/149/Solution.cs)
 - [150. Evaluate Reverse Polish Notation](./problems/150/Solution.cs)
