@@ -494,6 +494,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1014. Best Sightseeing Pair](./problems/1014/Solution.cs)
 - [1025. Divisor Game](./problems/1025/Solution.cs)
 - [1028. Recover a Tree From Preorder Traversal](./problems/1028/Solution.cs)
+- [1051. Height Checker](./problems/1051/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](./problems/1071/Solution.cs)
 - [1072. Flip Columns For Maximum Number of Equal Rows](./problems/1072/Solution.cs)
 - [1079. Letter Tile Possibilities](./problems/1079/Solution.cs)
