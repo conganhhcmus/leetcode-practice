@@ -521,6 +521,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1310. XOR Queries of a Subarray](./problems/1310/Solution.cs)
 - [1318. Minimum Flips to Make a OR b Equal to c](./problems/1318/Solution.cs)
 - [1331. Rank Transform of an Array](./problems/1331/Solution.cs)
+- [1342. Number of Steps to Reduce a Number to Zero](./problems/1342/Solution.cs)
 - [1346. Check If N and Its Double Exist](./problems/1346/Solution.cs)
 - [1352. Product of the Last K Numbers](./problems/1352/Solution.cs)
 - [1358. Number of Substrings Containing All Three Characters](./problems/1358/Solution.cs)
