@@ -557,6 +557,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1657. Determine if Two Strings Are Close](./problems/1657/Solution.cs)
 - [1668. Maximum Repeating Substring](./problems/1668/Solution.cs)
 - [1671. Minimum Number of Removals to Make Mountain Array](./problems/1671/Solution.cs)
+- [1672. Richest Customer Wealth](./problems/1672/Solution.cs)
 - [1679. Max Number of K-Sum Pairs](./problems/1679/Solution.cs)
 - [1684. Count the Number of Consistent Strings](./problems/1684/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](./problems/1700/Solution.cs)
