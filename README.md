@@ -645,6 +645,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2337. Move Pieces to Obtain a String](./problems/2337/Solution.cs)
 - [2338. Count the Number of Ideal Arrays](./problems/2338/Solution.cs)
 - [2342. Max Sum of a Pair With Equal Sum of Digits](./problems/2342/Solution.cs)
+- [2343. Query Kth Smallest Trimmed Number](./problems/2343/Solution.cs)
 - [2349. Design a Number Container System](./problems/2349/Solution.cs)
 - [2352. Equal Row and Column Pairs](./problems/2352/Solution.cs)
 - [2364. Count Number of Bad Pairs](./problems/2364/Solution.cs)
