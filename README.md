@@ -542,6 +542,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1462. Course Schedule IV](./problems/1462/Solution.cs)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](./problems/1466/Solution.cs)
 - [1475. Final Prices With a Special Discount in a Shop](./problems/1475/Solution.cs)
+- [1480. Running Sum of 1d Array](./problems/1480/Solution.cs)
 - [1493. Longest Subarray of 1's After Deleting One Element](./problems/1493/Solution.cs)
 - [1497. Check If Array Pairs Are Divisible by k](./problems/1497/Solution.cs)
 - [1514. Path with Maximum Probability](./problems/1514/Solution.cs)
