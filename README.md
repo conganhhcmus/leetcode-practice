@@ -410,6 +410,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [394. Decode String](./problems/394/Solution.cs)
 - [399. Evaluate Division](./problems/399/Solution.cs)
 - [407. Trapping Rain Water II](./problems/407/Solution.cs)
+- [412. Fizz Buzz](./problems/412/Solution.cs)
 - [416. Partition Equal Subset Sum](./problems/416/Solution.cs)
 - [427. Construct Quad Tree](./problems/427/Solution.cs)
 - [432. All O`one Data Structure](./problems/432/Solution.cs)
