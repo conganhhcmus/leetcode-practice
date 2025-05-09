@@ -15,5 +15,16 @@
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.clearPreviousOutput": false,
-    "code-runner.ignoreSelection": true
+    "code-runner.ignoreSelection": true,
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Use the template \"feat: add solution weekly contest [weekly_contest_id]\" when modifying files in contest/weekly/* folder"
+        },
+        {
+            "text": "Use the template \"feat: add solution biweekly contest [biweekly_contest_id]\" when modifying files in contest/biweekly/* folder"
+        },
+        {
+            "text": "Use the template \"feat: add solution problem [problem_id]\" when modifying files in problems/* folder"
+        }
+    ]
 }

@@ -769,6 +769,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3306. Count of Substrings Containing Every Vowel and K Consonants II](./problems/3306/Solution.cs)
 - [3341. Find Minimum Time to Reach Last Room I](./problems/3341/Solution.cs)
 - [3342. Find Minimum Time to Reach Last Room II](./problems/3342/Solution.cs)
+- [3343. Count Number of Balanced Permutations](./problems/3343/Solution.cs)
 - [3356. Zero Array Transformation II](./problems/3356/Solution.cs)
 - [3364. Minimum Positive Sum Subarray](./problems/3364/Solution.cs)
 - [3365. Rearrange K Substrings to Form Target String](./problems/3365/Solution.cs)
