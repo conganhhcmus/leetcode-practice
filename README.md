@@ -629,6 +629,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2127. Maximum Employees to Be Invited to a Meeting](./problems/2127/Solution.cs)
 - [2130. Maximum Twin Sum of a Linked List](./problems/2130/Solution.cs)
 - [2140. Solving Questions With Brainpower](./problems/2140/Solution.cs)
+- [2144. Minimum Cost of Buying Candies With Discount](./problems/2144/Solution.cs)
 - [2145. Count the Hidden Sequences](./problems/2145/Solution.cs)
 - [2161. Partition Array According to Given Pivot](./problems/2161/Solution.cs)
 - [2176. Count Equal and Divisible Pairs in an Array](./problems/2176/Solution.cs)

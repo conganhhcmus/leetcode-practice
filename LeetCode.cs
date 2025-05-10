@@ -2,7 +2,8 @@ public class LeetCode
 {
     public static List<string> GetTestcase()
     {
-        using StreamReader sr = new("testcase.txt");
+        var path = Path.Combine(AppContext.BaseDirectory, "testcase.txt");
+        using StreamReader sr = new(path);
         List<string> lines = [];
         var line = sr.ReadLine();
 
@@ -17,7 +18,8 @@ public class LeetCode
 
     public static List<string> GetAnswer()
     {
-        using StreamReader sr = new("answer.txt");
+        var path = Path.Combine(AppContext.BaseDirectory, "answer.txt");
+        using StreamReader sr = new(path);
         List<string> lines = [];
         var line = sr.ReadLine();
 
