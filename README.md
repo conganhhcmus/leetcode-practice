@@ -643,6 +643,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2222. Number of Ways to Select Buildings](./problems/2222/Solution.cs)
 - [2226. Maximum Candies Allocated to K Children](./problems/2226/Solution.cs)
 - [2257. Count Unguarded Cells in the Grid](./problems/2257/Solution.cs)
+- [2259. Remove Digit From Number to Maximize Result](./problems/2259/Solution.cs)
 - [2266. Count Number of Texts](./problems/2266/Solution.cs)
 - [2270. Number of Ways to Split Array](./problems/2270/Solution.cs)
 - [2275. Largest Combination With Bitwise AND Greater Than Zero](./problems/2275/Solution.cs)
