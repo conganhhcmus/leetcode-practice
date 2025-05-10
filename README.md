@@ -631,6 +631,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2140. Solving Questions With Brainpower](./problems/2140/Solution.cs)
 - [2144. Minimum Cost of Buying Candies With Discount](./problems/2144/Solution.cs)
 - [2145. Count the Hidden Sequences](./problems/2145/Solution.cs)
+- [2160. Minimum Sum of Four Digit Number After Splitting Digits](./problems/2160/Solution.cs)
 - [2161. Partition Array According to Given Pivot](./problems/2161/Solution.cs)
 - [2176. Count Equal and Divisible Pairs in an Array](./problems/2176/Solution.cs)
 - [2179. Count Good Triplets in an Array](./problems/2179/Solution.cs)
