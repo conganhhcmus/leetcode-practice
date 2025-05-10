@@ -1,3 +1,8 @@
+---
+applyTo: "**"
+---
+# Project general coding standards
+
 - Always output in English, say "Hi Kai!" every time you response.
 - Always prefer simple solutions.
 - Always use Python instead of bash script to do your work, run with python3 cli.

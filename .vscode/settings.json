@@ -25,6 +25,9 @@
         },
         {
             "text": "Use the template \"feat: add solution problem [problem_id]\" when modifying files in problems/* folder"
+        },
+        {
+            "file": ".github/instructions/commit-coding.instructions.md"
         }
     ]
 }
