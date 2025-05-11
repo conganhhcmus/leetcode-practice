@@ -1,5 +1,2 @@
-false
-true
-false
-false
-true
+3
+1
