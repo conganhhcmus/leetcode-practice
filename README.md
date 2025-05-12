@@ -621,6 +621,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2071. Maximum Number of Tasks You Can Assign](./problems/2071/Solution.cs)
 - [2078. Two Furthest Houses With Different Colors](./problems/2078/Solution.cs)
 - [2086. Minimum Number of Food Buckets to Feed the Hamsters](./problems/2086/Solution.cs)
+- [2094. Finding 3-Digit Even Numbers](./problems/2094/Solution.cs)
 - [2095. Delete the Middle Node of a Linked List](./problems/2095/Solution.cs)
 - [2097. Valid Arrangement of Pairs](./problems/2097/Solution.cs)
 - [2100. Find Good Days to Rob the Bank](./problems/2100/Solution.cs)
