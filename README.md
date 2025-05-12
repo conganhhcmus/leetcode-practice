@@ -673,6 +673,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](./problems/2379/Solution.cs)
 - [2381. Shifting Letters II](./problems/2381/Solution.cs)
 - [2383. Minimum Hours of Training to Win a Competition](./problems/2383/Solution.cs)
+- [2389. Longest Subsequence With Limited Sum](./problems/2389/Solution.cs)
 - [2390. Removing Stars From a String](./problems/2390/Solution.cs)
 - [2401. Longest Nice Subarray](./problems/2401/Solution.cs)
 - [2406. Divide Intervals Into Minimum Number of Groups](./problems/2406/Solution.cs)
