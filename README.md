@@ -712,6 +712,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2563. Count the Number of Fair Pairs](./problems/2563/Solution.cs)
 - [2570. Merge Two 2D Arrays by Summing Values](./problems/2570/Solution.cs)
 - [2577. Minimum Time to Visit a Cell In a Grid](./problems/2577/Solution.cs)
+- [2578. Split With Minimum Sum](./problems/2578/Solution.cs)
 - [2579. Count Total Number of Colored Cells](./problems/2579/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](./problems/2583/Solution.cs)
 - [2588. Count the Number of Beautiful Subarrays](./problems/2588/Solution.cs)
