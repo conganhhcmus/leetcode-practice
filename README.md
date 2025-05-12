@@ -438,6 +438,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [547. Number of Provinces](./problems/547/Solution.cs)
 - [557. Reverse Words in a String III](./problems/557/Solution.cs)
 - [560. Subarray Sum Equals K](./problems/560/Solution.cs)
+- [561. Array Partition](./problems/561/Solution.cs)
 - [567. Permutation in String](./problems/567/Solution.cs)
 - [599. Minimum Index Sum of Two Lists](./problems/599/Solution.cs)
 - [605. Can Place Flowers](./problems/605/Solution.cs)
