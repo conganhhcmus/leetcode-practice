@@ -784,6 +784,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3276. Select Cells in Grid With Maximum Score](./problems/3276/Solution.cs)
 - [3277. Maximum XOR Score Subarray Queries](./problems/3277/Solution.cs)
 - [3306. Count of Substrings Containing Every Vowel and K Consonants II](./problems/3306/Solution.cs)
+- [3335. Total Characters in String After Transformations I](./problems/3335/Solution.cs)
 - [3341. Find Minimum Time to Reach Last Room I](./problems/3341/Solution.cs)
 - [3342. Find Minimum Time to Reach Last Room II](./problems/3342/Solution.cs)
 - [3343. Count Number of Balanced Permutations](./problems/3343/Solution.cs)
