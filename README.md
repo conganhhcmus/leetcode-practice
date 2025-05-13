@@ -716,6 +716,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2579. Count Total Number of Colored Cells](./problems/2579/Solution.cs)
 - [2583. Kth Largest Sum in a Binary Tree](./problems/2583/Solution.cs)
 - [2588. Count the Number of Beautiful Subarrays](./problems/2588/Solution.cs)
+- [2591. Distribute Money to Maximum Children](./problems/2591/Solution.cs)
 - [2593. Find Score of an Array After Marking All Elements](./problems/2593/Solution.cs)
 - [2594. Minimum Time to Repair Cars](./problems/2594/Solution.cs)
 - [2601. Prime Subtraction Operation](./problems/2601/Solution.cs)
