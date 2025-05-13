@@ -733,6 +733,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2685. Count the Number of Complete Components](./problems/2685/Solution.cs)
 - [2696. Minimum String Length After Removing Substrings](./problems/2696/Solution.cs)
 - [2698. Find the Punishment Number of an Integer](./problems/2698/Solution.cs)
+- [2706. Buy Two Chocolates](./problems/2706/Solution.cs)
 - [2707. Extra Characters in a String](./problems/2707/Solution.cs)
 - [2762. Continuous Subarrays](./problems/2762/Solution.cs)
 - [2779. Maximum Beauty of an Array After Applying Operation](./problems/2779/Solution.cs)
