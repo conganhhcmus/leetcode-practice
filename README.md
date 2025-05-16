@@ -757,6 +757,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2873. Maximum Value of an Ordered Triplet I](./problems/2873/Solution.cs)
 - [2874. Maximum Value of an Ordered Triplet II](./problems/2874/Solution.cs)
 - [2900. Longest Unequal Adjacent Groups Subsequence I](./problems/2900/Solution.cs)
+- [2901. Longest Unequal Adjacent Groups Subsequence II](./problems/2901/Solution.cs)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](./problems/2914/Solution.cs)
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./problems/2918/Solution.cs)
 - [2924. Find Champion II](./problems/2924/Solution.cs)

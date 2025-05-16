@@ -1,3 +1,4 @@
-"efcfe"
-"abba"
-"neven"
+["bab","cab"]
+["a","b","c","d"]
+["aaa","ada"]
+["bab","cab","cac"]
