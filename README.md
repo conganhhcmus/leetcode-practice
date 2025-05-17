@@ -460,6 +460,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [680. Valid Palindrome II](./problems/680/Solution.cs)
 - [684. Redundant Connection](./problems/684/Solution.cs)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](./problems/689/Solution.cs)
+- [698. Partition to K Equal Sum Subsets](./problems/698/Solution.cs)
 - [700. Search in a Binary Search Tree](./problems/700/Solution.cs)
 - [704. Binary Search](./problems/704/Solution.cs)
 - [705. Design HashSet](./problems/705/Solution.cs)
