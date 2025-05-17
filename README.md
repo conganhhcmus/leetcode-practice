@@ -829,7 +829,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 
 <!-- start -->
 ## 🚀 Stats
-- Total Problems Solved: 618
+- Total Problems Solved: 621
 - Weekly Contests Participated: 21
 - Biweekly Contests Participated: 3
 <!-- end -->
