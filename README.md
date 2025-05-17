@@ -449,6 +449,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [561. Array Partition](./problems/561/Solution.cs)
 - [567. Permutation in String](./problems/567/Solution.cs)
 - [599. Minimum Index Sum of Two Lists](./problems/599/Solution.cs)
+- [600. Non-negative Integers without Consecutive Ones](./problems/600/Solution.cs)
 - [605. Can Place Flowers](./problems/605/Solution.cs)
 - [632. Smallest Range Covering Elements from K Lists](./problems/632/Solution.cs)
 - [637. Average of Levels in Binary Tree](./problems/637/Solution.cs)
