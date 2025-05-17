@@ -510,6 +510,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [994. Rotting Oranges](./problems/994/Solution.cs)
 - [1004. Max Consecutive Ones III](./problems/1004/Solution.cs)
 - [1007. Minimum Domino Rotations For Equal Row](./problems/1007/Solution.cs)
+- [1012. Numbers With Repeated Digits](./problems/1012/Solution.cs)
 - [1014. Best Sightseeing Pair](./problems/1014/Solution.cs)
 - [1025. Divisor Game](./problems/1025/Solution.cs)
 - [1028. Recover a Tree From Preorder Traversal](./problems/1028/Solution.cs)
