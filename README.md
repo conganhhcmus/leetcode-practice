@@ -777,6 +777,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2981. Find Longest Special Substring That Occurs Thrice I](./problems/2981/Solution.cs)
 - [2999. Count the Number of Powerful Integers](./problems/2999/Solution.cs)
 - [3011. Find if Array Can Be Sorted](./problems/3011/Solution.cs)
+- [3024. Type of Triangle](./problems/3024/Solution.cs)
 - [3042. Count Prefix and Suffix Pairs I](./problems/3042/Solution.cs)
 - [3043. Find the Length of the Longest Common Prefix](./problems/3043/Solution.cs)
 - [3065. Minimum Operations to Exceed Threshold Value I](./problems/3065/Solution.cs)
