@@ -815,6 +815,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3343. Count Number of Balanced Permutations](./problems/3343/Solution.cs)
 - [3355. Zero Array Transformation I](./problems/3355/Solution.cs)
 - [3356. Zero Array Transformation II](./problems/3356/Solution.cs)
+- [3362. Zero Array Transformation III](./problems/3362/Solution.cs)
 - [3364. Minimum Positive Sum Subarray](./problems/3364/Solution.cs)
 - [3365. Rearrange K Substrings to Form Target String](./problems/3365/Solution.cs)
 - [3366. Minimum Array Sum](./problems/3366/Solution.cs)
