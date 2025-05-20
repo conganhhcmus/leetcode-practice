@@ -388,6 +388,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [289. Game of Life](./problems/289/Solution.cs)
 - [290. Word Pattern](./problems/290/Solution.cs)
 - [295. Find Median from Data Stream](./problems/295/Solution.cs)
+- [299. Bulls and Cows](./problems/299/Solution.cs)
 - [300. Longest Increasing Subsequence](./problems/300/Solution.cs)
 - [303. Range Sum Query - Immutable](./problems/303/Solution.cs)
 - [309. Best Time to Buy and Sell Stock with Cooldown](./problems/309/Solution.cs)
