@@ -1,3 +1,4 @@
-"eert"
-"aaaccc"
-"bbAa"
+5
+2
+0
+4
