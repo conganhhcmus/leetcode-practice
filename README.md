@@ -451,6 +451,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [560. Subarray Sum Equals K](./problems/560/Solution.cs)
 - [561. Array Partition](./problems/561/Solution.cs)
 - [567. Permutation in String](./problems/567/Solution.cs)
+- [581. Shortest Unsorted Continuous Subarray](./problems/581/Solution.cs)
 - [594. Longest Harmonious Subsequence](./problems/594/Solution.cs)
 - [599. Minimum Index Sum of Two Lists](./problems/599/Solution.cs)
 - [600. Non-negative Integers without Consecutive Ones](./problems/600/Solution.cs)
