@@ -782,6 +782,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2949. Count Beautiful Substrings II](./problems/2949/Solution.cs)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](./problems/2962/Solution.cs)
 - [2965. Find Missing and Repeated Values](./problems/2965/Solution.cs)
+- [2970. Count the Number of Incremovable Subarrays I](./problems/2970/Solution.cs)
 - [2981. Find Longest Special Substring That Occurs Thrice I](./problems/2981/Solution.cs)
 - [2999. Count the Number of Powerful Integers](./problems/2999/Solution.cs)
 - [3011. Find if Array Can Be Sorted](./problems/3011/Solution.cs)
