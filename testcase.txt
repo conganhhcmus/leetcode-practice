@@ -1,6 +1,8 @@
-["leet","code"]
-"e"
-["abc","bcd","aaaa","cbc"]
-"a"
-["abc","bcd","aaaa","cbc"]
-"z"
+"abacaba"
+"bzaa"
+"cde"
+"xyz"
+"gbjbacdiiiecgceeafdcdhjhhcjfchjbejibhejgjhhhjhifahfbbcfcajehjgcjgffjdejbhjahgffgdaifhhgaadjiabfdf"
+"hidefgbgjghceagdaaib"
+"acdedcdbabecdbebda"
+"bbecddb"

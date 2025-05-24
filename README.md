@@ -729,6 +729,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2559. Count Vowel Strings in Ranges](./problems/2559/Solution.cs)
 - [2560. House Robber IV](./problems/2560/Solution.cs)
 - [2563. Count the Number of Fair Pairs](./problems/2563/Solution.cs)
+- [2565. Subsequence With the Minimum Score](./problems/2565/Solution.cs)
 - [2566. Maximum Difference by Remapping a Digit](./problems/2566/Solution.cs)
 - [2570. Merge Two 2D Arrays by Summing Values](./problems/2570/Solution.cs)
 - [2577. Minimum Time to Visit a Cell In a Grid](./problems/2577/Solution.cs)
