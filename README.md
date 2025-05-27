@@ -778,6 +778,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2872. Maximum Number of K-Divisible Components](./problems/2872/Solution.cs)
 - [2873. Maximum Value of an Ordered Triplet I](./problems/2873/Solution.cs)
 - [2874. Maximum Value of an Ordered Triplet II](./problems/2874/Solution.cs)
+- [2894. Divisible and Non-divisible Sums Difference](./problems/2894/Solution.cs)
 - [2900. Longest Unequal Adjacent Groups Subsequence I](./problems/2900/Solution.cs)
 - [2901. Longest Unequal Adjacent Groups Subsequence II](./problems/2901/Solution.cs)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](./problems/2914/Solution.cs)
