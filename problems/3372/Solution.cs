@@ -1,79 +1,67 @@
-namespace Problem_3372;
+#if DEBUG
+namespace Problems_3372;
+#endif
+
 public class Solution
 {
     public int[] MaxTargetNodes(int[][] edges1, int[][] edges2, int k)
     {
-        int[] result = new int[edges1.Length + 1];
-        Dictionary<int, List<int>> graph1 = BuildGraph(edges1);
-        Dictionary<int, List<int>> graph2 = BuildGraph(edges2);
-
-        int maxNeighbors = 0;
-        foreach (var node in graph2.Keys)
+        int n = edges1.Length + 1;
+        int m = edges2.Length + 1;
+        List<int>[] adj1 = new List<int>[n];
+        List<int>[] adj2 = new List<int>[m];
+        for (int i = 0; i < n; i++) adj1[i] = [];
+        for (int i = 0; i < m; i++) adj2[i] = [];
+        foreach (int[] e in edges1)
         {
-            maxNeighbors = Math.Max(maxNeighbors, BFS(graph2, node, k - 1));
+            int u = e[0], v = e[1];
+            adj1[u].Add(v);
+            adj1[v].Add(u);
+        }
+        foreach (int[] e in edges2)
+        {
+            int u = e[0], v = e[1];
+            adj2[u].Add(v);
+            adj2[v].Add(u);
+        }
+        int[] ret = new int[n];
+        int maxTarget = 0;
+        for (int i = 0; i < m; i++)
+        {
+            maxTarget = Math.Max(maxTarget, CountTarget(i, adj2, k - 1));
+        }
+        for (int i = 0; i < n; i++)
+        {
+            ret[i] = CountTarget(i, adj1, k) + maxTarget;
         }
 
-        for (int i = 0; i < result.Length; i++)
-        {
-            result[i] = BFS(graph1, i, k) + maxNeighbors;
-        }
-
-        return result;
+        return ret;
     }
 
-    private int BFS(Dictionary<int, List<int>> graph, int start, int maxH)
+    int CountTarget(int node, List<int>[] adj, int k)
     {
-        if (maxH < 0) return 0;
-        if (maxH == 0) return 1;
-        Queue<(int, int)> queue = [];
-        HashSet<int> visited = [];
-
-        if (visited.Add(start))
-        {
-            queue.Enqueue((start, 0));
-        }
-
+        int n = adj.Length;
+        bool[] visited = new bool[n];
+        Queue<int> queue = [];
+        queue.Enqueue(node);
+        visited[node] = true;
         int count = 0;
-        while (queue.Count > 0)
+        while (queue.Count > 0 && k >= 0)
         {
-            int size = queue.Count;
-            while (size-- > 0)
+            count += queue.Count;
+            for (int i = queue.Count; i > 0; i--)
             {
-                var (node, h) = queue.Dequeue();
-                if (h > maxH) continue;
-                count++;
-
-                foreach (var neighbor in graph[node])
+                int curr = queue.Dequeue();
+                foreach (int next in adj[curr])
                 {
-                    if (visited.Add(neighbor))
-                    {
-                        queue.Enqueue((neighbor, h + 1));
-                    }
+                    if (visited[next]) continue;
+                    visited[next] = true;
+                    queue.Enqueue(next);
                 }
             }
+            k--;
         }
 
         return count;
-    }
-
-    private Dictionary<int, List<int>> BuildGraph(int[][] edges)
-    {
-        Dictionary<int, List<int>> graph = [];
-        foreach (int[] edge in edges)
-        {
-            if (!graph.ContainsKey(edge[0]))
-            {
-                graph[edge[0]] = [];
-            }
-            graph[edge[0]].Add(edge[1]);
-
-            if (!graph.ContainsKey(edge[1]))
-            {
-                graph[edge[1]] = [];
-            }
-            graph[edge[1]].Add(edge[0]);
-        }
-
-        return graph;
     }
 }
