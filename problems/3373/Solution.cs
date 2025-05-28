@@ -1,92 +1,69 @@
-namespace Problem_3373;
+#if DEBUG
+namespace Problems_3373;
+#endif
+
 public class Solution
 {
     public int[] MaxTargetNodes(int[][] edges1, int[][] edges2)
     {
-        int[] result = new int[edges1.Length + 1];
-        Dictionary<int, List<int>> graph1 = BuildGraph(edges1);
-
-        Dictionary<int, List<int>> graph2 = BuildGraph(edges2);
-
-        int[] depth1 = ComputeDepth(graph1);
-        int sizeE1 = 0, sizeO1 = 0;
-        foreach (int depth in depth1)
+        int n = edges1.Length + 1;
+        int m = edges2.Length + 1;
+        List<int>[] adj1 = new List<int>[n];
+        List<int>[] adj2 = new List<int>[m];
+        for (int i = 0; i < n; i++) adj1[i] = [];
+        for (int i = 0; i < m; i++) adj2[i] = [];
+        foreach (int[] e in edges1)
         {
-            if (depth % 2 == 0)
-            {
-                sizeE1++;
-            }
-            else
-            {
-                sizeO1++;
-            }
+            int u = e[0], v = e[1];
+            adj1[u].Add(v);
+            adj1[v].Add(u);
         }
-        int[] depth2 = ComputeDepth(graph2);
-        int sizeE2 = 0, sizeO2 = 0;
-        foreach (int depth in depth2)
+        foreach (int[] e in edges2)
         {
-            if (depth % 2 == 0)
-            {
-                sizeE2++;
-            }
-            else
-            {
-                sizeO2++;
-            }
+            int u = e[0], v = e[1];
+            adj2[u].Add(v);
+            adj2[v].Add(u);
         }
-        int maxNeighbor2 = Math.Max(sizeE2, sizeO2);
+        int[] ret = new int[n];
 
-        for (int i = 0; i < result.Length; i++)
+        var (count1, map1) = ComputeDepth(adj1);
+        var (count2, _) = ComputeDepth(adj2);
+
+        for (int i = 0; i < n; i++)
         {
-            result[i] = (depth1[i] % 2 == 0 ? sizeE1 : sizeO1) + maxNeighbor2;
+            ret[i] = count1[map1[i]] + count2.Max();
         }
 
-        return result;
+        return ret;
     }
 
-    private int[] ComputeDepth(Dictionary<int, List<int>> graph)
+    (int[] count, int[] map) ComputeDepth(List<int>[] adj)
     {
-        int n = graph.Keys.Count;
-        int[] depth = new int[n];
+        int n = adj.Length;
+        bool[] visited = new bool[n];
         Queue<int> queue = [];
         queue.Enqueue(0);
-        Array.Fill(depth, -1);
-        depth[0] = 0;
-
+        visited[0] = true;
+        int h = 0;
+        int[] count = new int[2];
+        int[] map = new int[n];
         while (queue.Count > 0)
         {
-            var node = queue.Dequeue();
-            foreach (var neighbor in graph[node])
+            count[h] += queue.Count;
+            for (int i = queue.Count; i > 0; i--)
             {
-                if (depth[neighbor] == -1)
+                int curr = queue.Dequeue();
+                map[curr] = h;
+                foreach (int next in adj[curr])
                 {
-                    depth[neighbor] = 1 - depth[node];
-                    queue.Enqueue(neighbor);
+                    if (visited[next]) continue;
+                    visited[next] = true;
+                    queue.Enqueue(next);
                 }
             }
+            h = h ^ 0 ^ 1; // h switch 0 and 1 ~ h = (h+1)%2
         }
 
-        return depth;
-    }
-
-    private Dictionary<int, List<int>> BuildGraph(int[][] edges)
-    {
-        Dictionary<int, List<int>> graph = [];
-        foreach (int[] edge in edges)
-        {
-            if (!graph.ContainsKey(edge[0]))
-            {
-                graph[edge[0]] = [];
-            }
-            graph[edge[0]].Add(edge[1]);
-
-            if (!graph.ContainsKey(edge[1]))
-            {
-                graph[edge[1]] = [];
-            }
-            graph[edge[1]].Add(edge[0]);
-        }
-
-        return graph;
+        return (count, map);
     }
 }
