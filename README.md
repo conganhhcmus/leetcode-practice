@@ -499,6 +499,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [827. Making A Large Island](./problems/827/Solution.cs)
 - [838. Push Dominoes](./problems/838/Solution.cs)
 - [841. Keys and Rooms](./problems/841/Solution.cs)
+- [847. Shortest Path Visiting All Nodes](./problems/847/Solution.cs)
 - [862. Shortest Subarray with Sum at Least K](./problems/862/Solution.cs)
 - [865. Smallest Subtree with all the Deepest Nodes](./problems/865/Solution.cs)
 - [872. Leaf-Similar Trees](./problems/872/Solution.cs)

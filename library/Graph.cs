@@ -23,7 +23,7 @@ public class Graph
     }
 
     // dijkstra with priority queue
-    public void Dijkstra(int src)
+    public int[] Dijkstra(int src)
     {
         PriorityQueue<int, int> pq = new();
         pq.Enqueue(src, 0);
@@ -42,6 +42,7 @@ public class Graph
                 }
             }
         }
+        return dist;
     }
 
     // prim's algorithm with priority queue
@@ -58,17 +59,12 @@ public class Graph
             if (visited[u]) continue;
             visited[u] = true;
             res += w;
-            foreach (var neighbor in graph[u])
+            foreach (var next in graph[u])
             {
-                if (!visited[v]) pq.Enqueue((neighbor.v, neighbor.w), neighbor.w);
+                if (!visited[next.v]) pq.Enqueue((next.v, next.w), next.w);
             }
         }
 
         return res;
-    }
-
-    public int GetDistance(int target)
-    {
-        return dist[target];
     }
 }
