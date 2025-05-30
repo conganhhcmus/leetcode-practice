@@ -699,6 +699,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2349. Design a Number Container System](./problems/2349/Solution.cs)
 - [2352. Equal Row and Column Pairs](./problems/2352/Solution.cs)
 - [2357. Make Array Zero by Subtracting Equal Amounts](./problems/2357/Solution.cs)
+- [2359. Find Closest Node to Given Two Nodes](./problems/2359/Solution.cs)
 - [2364. Count Number of Bad Pairs](./problems/2364/Solution.cs)
 - [2369. Check if There is a Valid Partition For The Array](./problems/2369/Solution.cs)
 - [2375. Construct Smallest Number From DI String](./problems/2375/Solution.cs)
