@@ -584,6 +584,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1545. Find Kth Bit in Nth Binary String](./problems/1545/Solution.cs)
 - [1550. Three Consecutive Odds](./problems/1550/Solution.cs)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](./problems/1574/Solution.cs)
+- [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](./problems/1579/Solution.cs)
 - [1590. Make Sum Divisible by P](./problems/1590/Solution.cs)
 - [1593. Split a String Into the Max Number of Unique Substrings](./problems/1593/Solution.cs)
 - [1639. Number of Ways to Form a Target String Given a Dictionary](./problems/1639/Solution.cs)
