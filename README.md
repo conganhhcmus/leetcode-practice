@@ -788,6 +788,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./problems/2918/Solution.cs)
 - [2924. Find Champion II](./problems/2924/Solution.cs)
 - [2928. Distribute Candies Among Children I](./problems/2928/Solution.cs)
+- [2929. Distribute Candies Among Children II](./problems/2929/Solution.cs)
 - [2938. Separate Black and White Balls](./problems/2938/Solution.cs)
 - [2940. Find Building Where Alice and Bob Can Meet](./problems/2940/Solution.cs)
 - [2942. Find Words Containing Character](./problems/2942/Solution.cs)
