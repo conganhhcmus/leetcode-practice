@@ -549,6 +549,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1268. Search Suggestions System](./problems/1268/Solution.cs)
 - [1277. Count Square Submatrices with All Ones](./problems/1277/Solution.cs)
 - [1295. Find Numbers with Even Number of Digits](./problems/1295/Solution.cs)
+- [1298. Maximum Candies You Can Get from Boxes](./problems/1298/Solution.cs)
 - [1310. XOR Queries of a Subarray](./problems/1310/Solution.cs)
 - [1318. Minimum Flips to Make a OR b Equal to c](./problems/1318/Solution.cs)
 - [1331. Rank Transform of an Array](./problems/1331/Solution.cs)
