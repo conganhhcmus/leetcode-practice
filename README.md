@@ -820,6 +820,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3160. Find the Number of Distinct Colors Among the Balls](./problems/3160/Solution.cs)
 - [3163. String Compression III](./problems/3163/Solution.cs)
 - [3169. Count Days Without Meetings](./problems/3169/Solution.cs)
+- [3170. Lexicographically Minimum String After Removing Stars](./problems/3170/Solution.cs)
 - [3174. Clear Digits](./problems/3174/Solution.cs)
 - [3191. Minimum Operations to Make Binary Array Elements Equal to One I](./problems/3191/Solution.cs)
 - [3203. Find Minimum Diameter After Merging Two Trees](./problems/3203/Solution.cs)

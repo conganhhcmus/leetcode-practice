@@ -1,4 +1,3 @@
-"zza"
-"bac"
-"bdda"
-"abafdafafdafcasfdareaf"
+"aaba*"
+"abc"
+"aca*ba*"
