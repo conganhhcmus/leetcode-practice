@@ -1,4 +1,6 @@
-namespace Problem_440;
+#if DEBUG
+namespace Problems_440;
+#endif
 
 public class Solution
 {
@@ -25,34 +27,15 @@ public class Solution
         return curr;
     }
 
-    private int CountSteps(int n, long prefix1, long prefix2)
+    private int CountSteps(int n, long d1, long d2)
     {
         int steps = 0;
-        while (prefix1 <= n)
+        while (d1 <= n)
         {
-            steps += int.Min((int)(n + 1 - prefix1), (int)(prefix2 - prefix1));
-            prefix1 *= 10;
-            prefix2 *= 10;
+            steps += int.Min((int)(n + 1 - d1), (int)(d2 - d1));
+            d1 *= 10;
+            d2 *= 10;
         }
         return steps;
-    }
-
-    public int FindKthNumber2(int n, int k)
-    {
-        long currentNum = 1;
-        for (int i = 1; i < k; i++)
-        {
-            if (currentNum * 10 <= n) currentNum *= 10;
-            else
-            {
-                while (currentNum % 10 == 9 || currentNum >= n)
-                {
-                    currentNum /= 10;
-                }
-                currentNum++;
-            }
-        }
-
-        return (int)currentNum;
     }
 }
