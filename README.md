@@ -758,6 +758,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2594. Minimum Time to Repair Cars](./problems/2594/Solution.cs)
 - [2600. K Items With the Maximum Sum](./problems/2600/Solution.cs)
 - [2601. Prime Subtraction Operation](./problems/2601/Solution.cs)
+- [2616. Minimize the Maximum Difference of Pairs](./problems/2616/Solution.cs)
 - [2641. Cousins in Binary Tree II](./problems/2641/Solution.cs)
 - [2652. Sum Multiples](./problems/2652/Solution.cs)
 - [2656. Maximum Sum With Exactly K Elements ](./problems/2656/Solution.cs)
