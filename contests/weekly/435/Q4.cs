@@ -16,7 +16,7 @@ public class Solution
             prefixSum[i + 1] = [.. freq];
         }
         int ans = int.MinValue;
-        for (char a = '0'; a <= '4'; a++) // 4 x 4 = 16
+        for (char a = '0'; a <= '4'; a++) // 5 x 5 = 25
         {
             for (char b = '0'; b <= '4'; b++)
             {
