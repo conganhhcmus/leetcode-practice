@@ -642,6 +642,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1998. GCD Sort of an Array](./problems/1998/Solution.cs)
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](./problems/2002/Solution.cs)
 - [2008. Maximum Earnings From Taxi](./problems/2008/Solution.cs)
+- [2016. Maximum Difference Between Increasing Elements](./problems/2016/Solution.cs)
 - [2017. Grid Game](./problems/2017/Solution.cs)
 - [2022. Convert 1D Array Into 2D Array](./problems/2022/Solution.cs)
 - [2027. Minimum Moves to Convert String](./problems/2027/Solution.cs)
