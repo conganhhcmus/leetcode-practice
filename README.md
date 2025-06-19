@@ -689,6 +689,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2270. Number of Ways to Split Array](./problems/2270/Solution.cs)
 - [2275. Largest Combination With Bitwise AND Greater Than Zero](./problems/2275/Solution.cs)
 - [2290. Minimum Obstacle Removal to Reach Corner](./problems/2290/Solution.cs)
+- [2294. Partition Array Such That Maximum Difference Is K](./problems/2294/Solution.cs)
 - [2300. Successful Pairs of Spells and Potions](./problems/2300/Solution.cs)
 - [2302. Count Subarrays With Score Less Than K](./problems/2302/Solution.cs)
 - [2311. Longest Binary Subsequence Less Than or Equal to K](./problems/2311/Solution.cs)
