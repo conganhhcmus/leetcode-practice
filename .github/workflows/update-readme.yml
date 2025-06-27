@@ -1,9 +1,13 @@
 name: Update README.md
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+      # every day
+    - cron: "0 0 * * *"
+
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   update-stats:
