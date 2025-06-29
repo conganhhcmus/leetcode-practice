@@ -582,6 +582,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1480. Running Sum of 1d Array](./problems/1480/Solution.cs)
 - [1493. Longest Subarray of 1's After Deleting One Element](./problems/1493/Solution.cs)
 - [1497. Check If Array Pairs Are Divisible by k](./problems/1497/Solution.cs)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](./problems/1498/Solution.cs)
 - [1514. Path with Maximum Probability](./problems/1514/Solution.cs)
 - [1524. Number of Sub-arrays With Odd Sum](./problems/1524/Solution.cs)
 - [1534. Count Good Triplets](./problems/1534/Solution.cs)
