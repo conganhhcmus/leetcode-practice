@@ -2,7 +2,7 @@
 	"LeetCode": {
 		"scope": "csharp",
 		"prefix": [
-			"lci", // LeetCode Initial
+			"!i", // LeetCode Initial
 		],
 		"body": [
 			"#if DEBUG",
