@@ -1,4 +1,8 @@
-"abbcccc"
-"abcd"
-"aaaa"
-"ere"
+"aabbccdd"
+7
+"aabbccdd"
+8
+"aaabbb"
+3
+"aababbccabbccddddabbccddbcabbccddcdd"
+7
