@@ -850,6 +850,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3277. Maximum XOR Score Subarray Queries](./problems/3277/Solution.cs)
 - [3304. Find the K-th Character in String Game I](./problems/3304/Solution.cs)
 - [3306. Count of Substrings Containing Every Vowel and K Consonants II](./problems/3306/Solution.cs)
+- [3307. Find the K-th Character in String Game II](./problems/3307/Solution.cs)
 - [3330. Find the Original Typed String I](./problems/3330/Solution.cs)
 - [3333. Find the Original Typed String II](./problems/3333/Solution.cs)
 - [3335. Total Characters in String After Transformations I](./problems/3335/Solution.cs)
