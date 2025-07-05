@@ -564,6 +564,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](./problems/1371/Solution.cs)
 - [1372. Longest ZigZag Path in a Binary Tree](./problems/1372/Solution.cs)
 - [1381. Design a Stack With Increment Operation](./problems/1381/Solution.cs)
+- [1394. Find Lucky Integer in an Array](./problems/1394/Solution.cs)
 - [1399. Count Largest Group](./problems/1399/Solution.cs)
 - [1400. Construct K Palindrome Strings](./problems/1400/Solution.cs)
 - [1405. Longest Happy String](./problems/1405/Solution.cs)
