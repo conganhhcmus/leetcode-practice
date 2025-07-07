@@ -558,6 +558,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1342. Number of Steps to Reduce a Number to Zero](./problems/1342/Solution.cs)
 - [1346. Check If N and Its Double Exist](./problems/1346/Solution.cs)
 - [1352. Product of the Last K Numbers](./problems/1352/Solution.cs)
+- [1353. Maximum Number of Events That Can Be Attended](./problems/1353/Solution.cs)
 - [1358. Number of Substrings Containing All Three Characters](./problems/1358/Solution.cs)
 - [1367. Linked List in Binary Tree](./problems/1367/Solution.cs)
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](./problems/1368/Solution.cs)
