@@ -607,6 +607,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1726. Tuple with Same Product](./problems/1726/Solution.cs)
 - [1732. Find the Highest Altitude](./problems/1732/Solution.cs)
 - [1749. Maximum Absolute Sum of Any Subarray](./problems/1749/Solution.cs)
+- [1751. Maximum Number of Events That Can Be Attended II](./problems/1751/Solution.cs)
 - [1752. Check if Array Is Sorted and Rotated](./problems/1752/Solution.cs)
 - [1760. Minimum Limit of Balls in a Bag](./problems/1760/Solution.cs)
 - [1765. Map of Highest Peak](./problems/1765/Solution.cs)
