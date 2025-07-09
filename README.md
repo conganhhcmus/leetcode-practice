@@ -883,6 +883,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3396. Minimum Number of Operations to Make Elements in Array Distinct](./problems/3396/Solution.cs)
 - [3423. Maximum Difference Between Adjacent Elements in a Circular Array](./problems/3423/Solution.cs)
 - [3425. Longest Special Path](./problems/3425/Solution.cs)
+- [3439. Reschedule Meetings for Maximum Free Time I](./problems/3439/Solution.cs)
 
 </details>
 
