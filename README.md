@@ -884,6 +884,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3423. Maximum Difference Between Adjacent Elements in a Circular Array](./problems/3423/Solution.cs)
 - [3425. Longest Special Path](./problems/3425/Solution.cs)
 - [3439. Reschedule Meetings for Maximum Free Time I](./problems/3439/Solution.cs)
+- [3440. Reschedule Meetings for Maximum Free Time II](./problems/3440/Solution.cs)
 
 </details>
 
