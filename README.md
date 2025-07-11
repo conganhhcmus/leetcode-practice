@@ -726,6 +726,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2389. Longest Subsequence With Limited Sum](./problems/2389/Solution.cs)
 - [2390. Removing Stars From a String](./problems/2390/Solution.cs)
 - [2401. Longest Nice Subarray](./problems/2401/Solution.cs)
+- [2402. Meeting Rooms III](./problems/2402/Solution.cs)
 - [2406. Divide Intervals Into Minimum Number of Groups](./problems/2406/Solution.cs)
 - [2415. Reverse Odd Levels of Binary Tree](./problems/2415/Solution.cs)
 - [2416. Sum of Prefix Scores of Strings](./problems/2416/Solution.cs)
