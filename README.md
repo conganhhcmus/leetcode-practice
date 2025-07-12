@@ -625,6 +625,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1863. Sum of All Subset XOR Totals](./problems/1863/Solution.cs)
 - [1865. Finding Pairs With a Certain Sum](./problems/1865/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](./problems/1894/Solution.cs)
+- [1900. The Earliest and Latest Rounds Where Players Compete](./problems/1900/Solution.cs)
 - [1910. Remove All Occurrences of a Substring](./problems/1910/Solution.cs)
 - [1920. Build Array from Permutation](./problems/1920/Solution.cs)
 - [1922. Count Good Numbers](./problems/1922/Solution.cs)
