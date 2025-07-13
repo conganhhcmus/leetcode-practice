@@ -729,6 +729,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2401. Longest Nice Subarray](./problems/2401/Solution.cs)
 - [2402. Meeting Rooms III](./problems/2402/Solution.cs)
 - [2406. Divide Intervals Into Minimum Number of Groups](./problems/2406/Solution.cs)
+- [2410. Maximum Matching of Players With Trainers](./problems/2410/Solution.cs)
 - [2415. Reverse Odd Levels of Binary Tree](./problems/2415/Solution.cs)
 - [2416. Sum of Prefix Scores of Strings](./problems/2416/Solution.cs)
 - [2419. Longest Subarray With Maximum Bitwise AND](./problems/2419/Solution.cs)
