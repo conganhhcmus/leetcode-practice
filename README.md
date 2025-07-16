@@ -845,6 +845,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3170. Lexicographically Minimum String After Removing Stars](./problems/3170/Solution.cs)
 - [3174. Clear Digits](./problems/3174/Solution.cs)
 - [3191. Minimum Operations to Make Binary Array Elements Equal to One I](./problems/3191/Solution.cs)
+- [3201. Find the Maximum Length of Valid Subsequence I](./problems/3201/Solution.cs)
 - [3203. Find Minimum Diameter After Merging Two Trees](./problems/3203/Solution.cs)
 - [3208. Alternating Groups II](./problems/3208/Solution.cs)
 - [3217. Delete Nodes From Linked List Present in Array](./problems/3217/Solution.cs)
