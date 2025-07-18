@@ -685,6 +685,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2145. Count the Hidden Sequences](./problems/2145/Solution.cs)
 - [2160. Minimum Sum of Four Digit Number After Splitting Digits](./problems/2160/Solution.cs)
 - [2161. Partition Array According to Given Pivot](./problems/2161/Solution.cs)
+- [2163. Minimum Difference in Sums After Removal of Elements](./problems/2163/Solution.cs)
 - [2176. Count Equal and Divisible Pairs in an Array](./problems/2176/Solution.cs)
 - [2179. Count Good Triplets in an Array](./problems/2179/Solution.cs)
 - [2182. Construct String With Repeat Limit](./problems/2182/Solution.cs)
