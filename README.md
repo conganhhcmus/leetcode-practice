@@ -637,6 +637,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1942. The Number of the Smallest Unoccupied Chair](./problems/1942/Solution.cs)
 - [1945. Sum of Digits of String After Convert](./problems/1945/Solution.cs)
 - [1947. Maximum Compatibility Score Sum](./problems/1947/Solution.cs)
+- [1948. Delete Duplicate Folders in System](./problems/1948/Solution.cs)
 - [1957. Delete Characters to Make Fancy String](./problems/1957/Solution.cs)
 - [1959. Minimum Total Space Wasted With K Resizing Operations](./problems/1959/Solution.cs)
 - [1963. Minimum Number of Swaps to Make the String Balanced](./problems/1963/Solution.cs)
