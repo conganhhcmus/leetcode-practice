@@ -29,5 +29,6 @@
         {
             "file": ".github/instructions/commit-coding.instructions.md"
         }
-    ]
+    ],
+    "augment.completions.enableAutomaticCompletions": false
 }
