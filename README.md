@@ -379,6 +379,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [228. Summary Ranges](./problems/228/Solution.cs)
 - [229. Majority Element II](./problems/229/Solution.cs)
 - [230. Kth Smallest Element in a BST](./problems/230/Solution.cs)
+- [231. Power of Two](./problems/231/Solution.cs)
 - [233. Number of Digit One](./problems/233/Solution.cs)
 - [234. Palindrome Linked List](./problems/234/Solution.cs)
 - [236. Lowest Common Ancestor of a Binary Tree](./problems/236/Solution.cs)
