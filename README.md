@@ -505,6 +505,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [847. Shortest Path Visiting All Nodes](./problems/847/Solution.cs)
 - [862. Shortest Subarray with Sum at Least K](./problems/862/Solution.cs)
 - [865. Smallest Subtree with all the Deepest Nodes](./problems/865/Solution.cs)
+- [869. Reordered Power of 2](./problems/869/Solution.cs)
 - [872. Leaf-Similar Trees](./problems/872/Solution.cs)
 - [873. Length of Longest Fibonacci Subsequence](./problems/873/Solution.cs)
 - [874. Walking Robot Simulation](./problems/874/Solution.cs)
