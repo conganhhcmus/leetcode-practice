@@ -404,6 +404,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [313. Super Ugly Number](./problems/313/Solution.cs)
 - [322. Coin Change](./problems/322/Solution.cs)
 - [325. Maximum Size Subarray Sum Equals K](./problems/325/Solution.cs)
+- [326. Power of Three](./problems/326/Solution.cs)
 - [328. Odd Even Linked List](./problems/328/Solution.cs)
 - [334. Increasing Triplet Subsequence](./problems/334/Solution.cs)
 - [337. House Robber III](./problems/337/Solution.cs)
