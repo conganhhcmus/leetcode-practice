@@ -409,6 +409,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [334. Increasing Triplet Subsequence](./problems/334/Solution.cs)
 - [337. House Robber III](./problems/337/Solution.cs)
 - [338. Counting Bits](./problems/338/Solution.cs)
+- [342. Power of Four](./problems/342/Solution.cs)
 - [343. Integer Break](./problems/343/Solution.cs)
 - [344. Reverse String](./problems/344/Solution.cs)
 - [345. Reverse Vowels of a String](./problems/345/Solution.cs)

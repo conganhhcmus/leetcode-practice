@@ -1,3 +1,5 @@
-"777"
-"000"
-""
+true
+false
+true
+false
+false
