@@ -562,6 +562,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1298. Maximum Candies You Can Get from Boxes](./problems/1298/Solution.cs)
 - [1310. XOR Queries of a Subarray](./problems/1310/Solution.cs)
 - [1318. Minimum Flips to Make a OR b Equal to c](./problems/1318/Solution.cs)
+- [1323. Maximum 69 Number](./problems/1323/Solution.cs)
 - [1331. Rank Transform of an Array](./problems/1331/Solution.cs)
 - [1342. Number of Steps to Reduce a Number to Zero](./problems/1342/Solution.cs)
 - [1346. Check If N and Its Double Exist](./problems/1346/Solution.cs)
