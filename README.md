@@ -474,6 +474,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [649. Dota2 Senate](./problems/649/Solution.cs)
 - [652. Find Duplicate Subtrees](./problems/652/Solution.cs)
 - [670. Maximum Swap](./problems/670/Solution.cs)
+- [679. 24 Game](./problems/679/Solution.cs)
 - [680. Valid Palindrome II](./problems/680/Solution.cs)
 - [684. Redundant Connection](./problems/684/Solution.cs)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](./problems/689/Solution.cs)
