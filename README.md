@@ -870,6 +870,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3174. Clear Digits](./problems/3174/Solution.cs)
 - [3191. Minimum Operations to Make Binary Array Elements Equal to One I](./problems/3191/Solution.cs)
 - [3195. Find the Minimum Area to Cover All Ones I](./problems/3195/Solution.cs)
+- [3197. Find the Minimum Area to Cover All Ones II](./problems/3197/Solution.cs)
 - [3201. Find the Maximum Length of Valid Subsequence I](./problems/3201/Solution.cs)
 - [3202. Find the Maximum Length of Valid Subsequence II](./problems/3202/Solution.cs)
 - [3203. Find Minimum Diameter After Merging Two Trees](./problems/3203/Solution.cs)
