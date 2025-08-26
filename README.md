@@ -848,6 +848,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2972. Count the Number of Incremovable Subarrays II](./problems/2972/Solution.cs)
 - [2981. Find Longest Special Substring That Occurs Thrice I](./problems/2981/Solution.cs)
 - [2999. Count the Number of Powerful Integers](./problems/2999/Solution.cs)
+- [3000. Maximum Area of Longest Diagonal Rectangle](./problems/3000/Solution.cs)
 - [3011. Find if Array Can Be Sorted](./problems/3011/Solution.cs)
 - [3024. Type of Triangle](./problems/3024/Solution.cs)
 - [3042. Count Prefix and Suffix Pairs I](./problems/3042/Solution.cs)
