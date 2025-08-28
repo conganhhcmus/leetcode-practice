@@ -920,6 +920,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3425. Longest Special Path](./problems/3425/Solution.cs)
 - [3439. Reschedule Meetings for Maximum Free Time I](./problems/3439/Solution.cs)
 - [3440. Reschedule Meetings for Maximum Free Time II](./problems/3440/Solution.cs)
+- [3446. Sort Matrix by Diagonals](./problems/3446/Solution.cs)
 - [3612. Process String with Special Operations I](./problems/3612/Solution.cs)
 
 </details>
