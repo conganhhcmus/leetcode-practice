@@ -853,6 +853,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3021. Alice and Bob Playing Flower Game](./problems/3021/Solution.cs)
 - [3024. Type of Triangle](./problems/3024/Solution.cs)
 - [3025. Find the Number of Ways to Place People I](./problems/3025/Solution.cs)
+- [3027. Find the Number of Ways to Place People II](./problems/3027/Solution.cs)
 - [3042. Count Prefix and Suffix Pairs I](./problems/3042/Solution.cs)
 - [3043. Find the Length of the Longest Common Prefix](./problems/3043/Solution.cs)
 - [3065. Minimum Operations to Exceed Threshold Value I](./problems/3065/Solution.cs)
