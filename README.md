@@ -562,6 +562,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1290. Convert Binary Number in a Linked List to Integer](./problems/1290/Solution.cs)
 - [1295. Find Numbers with Even Number of Digits](./problems/1295/Solution.cs)
 - [1298. Maximum Candies You Can Get from Boxes](./problems/1298/Solution.cs)
+- [1304. Find N Unique Integers Sum up to Zero](./problems/1304/Solution.cs)
 - [1310. XOR Queries of a Subarray](./problems/1310/Solution.cs)
 - [1318. Minimum Flips to Make a OR b Equal to c](./problems/1318/Solution.cs)
 - [1323. Maximum 69 Number](./problems/1323/Solution.cs)
