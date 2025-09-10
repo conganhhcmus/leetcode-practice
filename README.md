@@ -622,6 +622,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1718. Construct the Lexicographically Largest Valid Sequence](./problems/1718/Solution.cs)
 - [1726. Tuple with Same Product](./problems/1726/Solution.cs)
 - [1732. Find the Highest Altitude](./problems/1732/Solution.cs)
+- [1733. Minimum Number of People to Teach](./problems/1733/Solution.cs)
 - [1749. Maximum Absolute Sum of Any Subarray](./problems/1749/Solution.cs)
 - [1751. Maximum Number of Events That Can Be Attended II](./problems/1751/Solution.cs)
 - [1752. Check if Array Is Sorted and Rotated](./problems/1752/Solution.cs)
