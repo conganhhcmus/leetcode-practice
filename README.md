@@ -821,6 +821,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2762. Continuous Subarrays](./problems/2762/Solution.cs)
 - [2779. Maximum Beauty of an Array After Applying Operation](./problems/2779/Solution.cs)
 - [2780. Minimum Index of a Valid Split](./problems/2780/Solution.cs)
+- [2785. Sort Vowels in a String](./problems/2785/Solution.cs)
 - [2787. Ways to Express an Integer as Sum of Powers](./problems/2787/Solution.cs)
 - [2799. Count Complete Subarrays in an Array](./problems/2799/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](./problems/2807/Solution.cs)
