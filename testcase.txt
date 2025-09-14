@@ -1,2 +1,6 @@
-"successes"
-"aeiaeia"
+["KiTe","kite","hare","Hare"]
+["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"]
+["yellow"]
+["YellOw"]
+["zeo","Zuo"]
+["zuo"]
