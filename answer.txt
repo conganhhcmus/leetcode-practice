@@ -1,3 +1,3 @@
-["kite","KiTe","KiTe","Hare","hare","","","KiTe","","KiTe"]
-["yellow"]
-["Zuo"]
+1
+1
+0
