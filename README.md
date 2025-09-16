@@ -710,6 +710,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2179. Count Good Triplets in an Array](./problems/2179/Solution.cs)
 - [2182. Construct String With Repeat Limit](./problems/2182/Solution.cs)
 - [2185. Counting Words With a Given Prefix](./problems/2185/Solution.cs)
+- [2197. Replace Non-Coprime Numbers in Array](./problems/2197/Solution.cs)
 - [2200. Find All K-Distant Indices in an Array](./problems/2200/Solution.cs)
 - [2206. Divide Array Into Equal Pairs](./problems/2206/Solution.cs)
 - [2210. Count Hills and Valleys in an Array](./problems/2210/Solution.cs)

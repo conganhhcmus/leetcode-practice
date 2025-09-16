@@ -1,6 +1,2 @@
-"hello world"
-"ad"
-"leet code"
-"lt"
-"leet code"
-"e"
+[6,4,3,2,7,6,2]
+[2,2,1,1,3,3,3]
