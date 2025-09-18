@@ -929,6 +929,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3392. Count Subarrays of Length Three With a Condition](./problems/3392/Solution.cs)
 - [3394. Check if Grid can be Cut into Sections](./problems/3394/Solution.cs)
 - [3396. Minimum Number of Operations to Make Elements in Array Distinct](./problems/3396/Solution.cs)
+- [3408. Design Task Manager](./problems/3408/Solution.cs)
 - [3423. Maximum Difference Between Adjacent Elements in a Circular Array](./problems/3423/Solution.cs)
 - [3425. Longest Special Path](./problems/3425/Solution.cs)
 - [3439. Reschedule Meetings for Maximum Free Time I](./problems/3439/Solution.cs)
