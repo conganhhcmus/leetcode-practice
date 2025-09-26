@@ -469,6 +469,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [599. Minimum Index Sum of Two Lists](./problems/599/Solution.cs)
 - [600. Non-negative Integers without Consecutive Ones](./problems/600/Solution.cs)
 - [605. Can Place Flowers](./problems/605/Solution.cs)
+- [611. Valid Triangle Number](./problems/611/Solution.cs)
 - [632. Smallest Range Covering Elements from K Lists](./problems/632/Solution.cs)
 - [637. Average of Levels in Binary Tree](./problems/637/Solution.cs)
 - [641. Design Circular Deque](./problems/641/Solution.cs)
