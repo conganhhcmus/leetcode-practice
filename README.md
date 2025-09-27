@@ -505,6 +505,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [796. Rotate String](./problems/796/Solution.cs)
 - [802. Find Eventual Safe States](./problems/802/Solution.cs)
 - [808. Soup Servings](./problems/808/Solution.cs)
+- [812. Largest Triangle Area](./problems/812/Solution.cs)
 - [827. Making A Large Island](./problems/827/Solution.cs)
 - [837. New 21 Game](./problems/837/Solution.cs)
 - [838. Push Dominoes](./problems/838/Solution.cs)
