@@ -535,6 +535,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [962. Maximum Width Ramp](./problems/962/Solution.cs)
 - [966. Vowel Spellchecker](./problems/966/Solution.cs)
 - [974. Subarray Sums Divisible by K](./problems/974/Solution.cs)
+- [976. Largest Perimeter Triangle](./problems/976/Solution.cs)
 - [983. Minimum Cost For Tickets](./problems/983/Solution.cs)
 - [994. Rotting Oranges](./problems/994/Solution.cs)
 - [1004. Max Consecutive Ones III](./problems/1004/Solution.cs)
