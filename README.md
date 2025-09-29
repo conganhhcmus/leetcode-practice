@@ -544,6 +544,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1014. Best Sightseeing Pair](./problems/1014/Solution.cs)
 - [1025. Divisor Game](./problems/1025/Solution.cs)
 - [1028. Recover a Tree From Preorder Traversal](./problems/1028/Solution.cs)
+- [1039. Minimum Score Triangulation of Polygon](./problems/1039/Solution.cs)
 - [1051. Height Checker](./problems/1051/Solution.cs)
 - [1061. Lexicographically Smallest Equivalent String](./problems/1061/Solution.cs)
 - [1071. Greatest Common Divisor of Strings](./problems/1071/Solution.cs)
