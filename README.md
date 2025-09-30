@@ -723,6 +723,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2210. Count Hills and Valleys in an Array](./problems/2210/Solution.cs)
 - [2215. Find the Difference of Two Arrays](./problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](./problems/2220/Solution.cs)
+- [2221. Find Triangular Sum of an Array](./problems/2221/Solution.cs)
 - [2222. Number of Ways to Select Buildings](./problems/2222/Solution.cs)
 - [2224. Minimum Number of Operations to Convert Time](./problems/2224/Solution.cs)
 - [2226. Maximum Candies Allocated to K Children](./problems/2226/Solution.cs)
