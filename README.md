@@ -607,6 +607,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](./problems/1498/Solution.cs)
 - [1504. Count Submatrices With All Ones](./problems/1504/Solution.cs)
 - [1514. Path with Maximum Probability](./problems/1514/Solution.cs)
+- [1518. Water Bottles](./problems/1518/Solution.cs)
 - [1524. Number of Sub-arrays With Odd Sum](./problems/1524/Solution.cs)
 - [1534. Count Good Triplets](./problems/1534/Solution.cs)
 - [1545. Find Kth Bit in Nth Binary String](./problems/1545/Solution.cs)
