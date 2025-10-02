@@ -880,6 +880,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3068. Find the Maximum Sum of Node Values](./problems/3068/Solution.cs)
 - [3085. Minimum Deletions to Make String K-Special](./problems/3085/Solution.cs)
 - [3097. Shortest Subarray With OR at Least K II](./problems/3097/Solution.cs)
+- [3100. Water Bottles II](./problems/3100/Solution.cs)
 - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](./problems/3105/Solution.cs)
 - [3108. Minimum Cost Walk in Weighted Graph](./problems/3108/Solution.cs)
 - [3133. Minimum Array End](./problems/3133/Solution.cs)
