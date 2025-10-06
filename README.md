@@ -500,6 +500,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [769. Max Chunks To Make Sorted](./problems/769/Solution.cs)
 - [771. Jewels and Stones](./problems/771/Solution.cs)
 - [773. Sliding Puzzle](./problems/773/Solution.cs)
+- [778. Swim in Rising Water](./problems/778/Solution.cs)
 - [781. Rabbits in Forest](./problems/781/Solution.cs)
 - [783. Minimum Distance Between BST Nodes](./problems/783/Solution.cs)
 - [790. Domino and Tromino Tiling](./problems/790/Solution.cs)
