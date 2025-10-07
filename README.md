@@ -604,6 +604,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](./problems/1466/Solution.cs)
 - [1475. Final Prices With a Special Discount in a Shop](./problems/1475/Solution.cs)
 - [1480. Running Sum of 1d Array](./problems/1480/Solution.cs)
+- [1488. Avoid Flood in The City](./problems/1488/Solution.cs)
 - [1493. Longest Subarray of 1's After Deleting One Element](./problems/1493/Solution.cs)
 - [1497. Check If Array Pairs Are Divisible by k](./problems/1497/Solution.cs)
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](./problems/1498/Solution.cs)
