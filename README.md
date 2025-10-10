@@ -888,6 +888,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3108. Minimum Cost Walk in Weighted Graph](./problems/3108/Solution.cs)
 - [3133. Minimum Array End](./problems/3133/Solution.cs)
 - [3136. Valid Word](./problems/3136/Solution.cs)
+- [3147. Taking Maximum Energy From the Mystic Dungeon](./problems/3147/Solution.cs)
 - [3151. Special Array I](./problems/3151/Solution.cs)
 - [3152. Special Array II](./problems/3152/Solution.cs)
 - [3160. Find the Number of Distinct Colors Among the Balls](./problems/3160/Solution.cs)
