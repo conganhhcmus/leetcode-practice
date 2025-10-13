@@ -736,6 +736,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2264. Largest 3-Same-Digit Number in String](./problems/2264/Solution.cs)
 - [2266. Count Number of Texts](./problems/2266/Solution.cs)
 - [2270. Number of Ways to Split Array](./problems/2270/Solution.cs)
+- [2273. Find Resultant Array After Removing Anagrams](./problems/2273/Solution.cs)
 - [2275. Largest Combination With Bitwise AND Greater Than Zero](./problems/2275/Solution.cs)
 - [2290. Minimum Obstacle Removal to Reach Corner](./problems/2290/Solution.cs)
 - [2294. Partition Array Such That Maximum Difference Is K](./problems/2294/Solution.cs)
