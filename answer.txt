@@ -1,2 +1,3 @@
-["abba","cd"]
-["a","b","c","d","e"]
+true
+false
+true
