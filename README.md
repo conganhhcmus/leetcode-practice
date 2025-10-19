@@ -619,6 +619,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](./problems/1579/Solution.cs)
 - [1590. Make Sum Divisible by P](./problems/1590/Solution.cs)
 - [1593. Split a String Into the Max Number of Unique Substrings](./problems/1593/Solution.cs)
+- [1625. Lexicographically Smallest String After Applying Operations](./problems/1625/Solution.cs)
 - [1639. Number of Ways to Form a Target String Given a Dictionary](./problems/1639/Solution.cs)
 - [1652. Defuse the Bomb](./problems/1652/Solution.cs)
 - [1657. Determine if Two Strings Are Close](./problems/1657/Solution.cs)
