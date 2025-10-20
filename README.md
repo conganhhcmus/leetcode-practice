@@ -681,6 +681,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1998. GCD Sort of an Array](./problems/1998/Solution.cs)
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](./problems/2002/Solution.cs)
 - [2008. Maximum Earnings From Taxi](./problems/2008/Solution.cs)
+- [2011. Final Value of Variable After Performing Operations](./problems/2011/Solution.cs)
 - [2014. Longest Subsequence Repeated k Times](./problems/2014/Solution.cs)
 - [2016. Maximum Difference Between Increasing Elements](./problems/2016/Solution.cs)
 - [2017. Grid Game](./problems/2017/Solution.cs)
