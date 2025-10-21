@@ -930,6 +930,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3341. Find Minimum Time to Reach Last Room I](./problems/3341/Solution.cs)
 - [3342. Find Minimum Time to Reach Last Room II](./problems/3342/Solution.cs)
 - [3343. Count Number of Balanced Permutations](./problems/3343/Solution.cs)
+- [3346. Maximum Frequency of an Element After Performing Operations I](./problems/3346/Solution.cs)
 - [3349. Adjacent Increasing Subarrays Detection I](./problems/3349/Solution.cs)
 - [3350. Adjacent Increasing Subarrays Detection II](./problems/3350/Solution.cs)
 - [3355. Zero Array Transformation I](./problems/3355/Solution.cs)
