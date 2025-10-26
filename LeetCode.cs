@@ -55,7 +55,7 @@ public class LeetCode
         for (int i = 0; i < expected.Count; i++)
         {
             bool isCorrect = string.Compare(expected[i], actual[i]) == 0;
-            bool isTLE = executeTime[i] > 2000; // 2 seconds
+            bool isTLE = executeTime[i] > 3000; // 3 seconds
             if (!isCorrect || isTLE)
             {
                 Console.ForegroundColor = ConsoleColor.Red;

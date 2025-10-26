@@ -691,6 +691,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2028. Find Missing Observations](./problems/2028/Solution.cs)
 - [2033. Minimum Operations to Make a Uni-Value Grid](./problems/2033/Solution.cs)
 - [2037. Minimum Number of Moves to Seat Everyone](./problems/2037/Solution.cs)
+- [2043. Simple Bank System](./problems/2043/Solution.cs)
 - [2044. Count Number of Maximum Bitwise-OR Subsets](./problems/2044/Solution.cs)
 - [2048. Next Greater Numerically Balanced Number](./problems/2048/Solution.cs)
 - [2054. Two Best Non-Overlapping Events](./problems/2054/Solution.cs)
