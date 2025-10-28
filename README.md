@@ -939,6 +939,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3347. Maximum Frequency of an Element After Performing Operations II](./problems/3347/Solution.cs)
 - [3349. Adjacent Increasing Subarrays Detection I](./problems/3349/Solution.cs)
 - [3350. Adjacent Increasing Subarrays Detection II](./problems/3350/Solution.cs)
+- [3354. Make Array Elements Equal to Zero](./problems/3354/Solution.cs)
 - [3355. Zero Array Transformation I](./problems/3355/Solution.cs)
 - [3356. Zero Array Transformation II](./problems/3356/Solution.cs)
 - [3362. Zero Array Transformation III](./problems/3362/Solution.cs)
