@@ -926,6 +926,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3275. K-th Nearest Obstacle Queries](./problems/3275/Solution.cs)
 - [3276. Select Cells in Grid With Maximum Score](./problems/3276/Solution.cs)
 - [3277. Maximum XOR Score Subarray Queries](./problems/3277/Solution.cs)
+- [3289. The Two Sneaky Numbers of Digitville](./problems/3289/Solution.cs)
 - [3304. Find the K-th Character in String Game I](./problems/3304/Solution.cs)
 - [3306. Count of Substrings Containing Every Vowel and K Consonants II](./problems/3306/Solution.cs)
 - [3307. Find the K-th Character in String Game II](./problems/3307/Solution.cs)
