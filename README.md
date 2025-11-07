@@ -804,6 +804,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2503. Maximum Number of Points From Grid Queries](./problems/2503/Solution.cs)
 - [2516. Take K of Each Character From Left and Right](./problems/2516/Solution.cs)
 - [2523. Closest Prime Numbers in Range](./problems/2523/Solution.cs)
+- [2528. Maximize the Minimum Powered City](./problems/2528/Solution.cs)
 - [2529. Maximum Count of Positive Integer and Negative Integer](./problems/2529/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](./problems/2530/Solution.cs)
 - [2537. Count the Number of Good Subarrays](./problems/2537/Solution.cs)
