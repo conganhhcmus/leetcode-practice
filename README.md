@@ -451,6 +451,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [452. Minimum Number of Arrows to Burst Balloons](./problems/452/Solution.cs)
 - [454. 4Sum II](./problems/454/Solution.cs)
 - [455. Assign Cookies](./problems/455/Solution.cs)
+- [474. Ones and Zeroes](./problems/474/Solution.cs)
 - [485. Max Consecutive Ones](./problems/485/Solution.cs)
 - [494. Target Sum](./problems/494/Solution.cs)
 - [498. Diagonal Traverse](./problems/498/Solution.cs)
