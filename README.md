@@ -836,6 +836,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2616. Minimize the Maximum Difference of Pairs](./problems/2616/Solution.cs)
 - [2641. Cousins in Binary Tree II](./problems/2641/Solution.cs)
 - [2652. Sum Multiples](./problems/2652/Solution.cs)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](./problems/2654/Solution.cs)
 - [2656. Maximum Sum With Exactly K Elements ](./problems/2656/Solution.cs)
 - [2657. Find the Prefix Common Array of Two Arrays](./problems/2657/Solution.cs)
 - [2658. Maximum Number of Fish in a Grid](./problems/2658/Solution.cs)
