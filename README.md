@@ -924,6 +924,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3217. Delete Nodes From Linked List Present in Array](./problems/3217/Solution.cs)
 - [3223. Minimum Length of String After Operations](./problems/3223/Solution.cs)
 - [3227. Vowels Game in a String](./problems/3227/Solution.cs)
+- [3228. Maximum Number of Operations to Move Ones to the End](./problems/3228/Solution.cs)
 - [3243. Shortest Distance After Road Addition Queries I](./problems/3243/Solution.cs)
 - [3254. Find the Power of K-Size Subarrays I](./problems/3254/Solution.cs)
 - [3264. Final Array State After K Multiplication Operations I](./problems/3264/Solution.cs)
