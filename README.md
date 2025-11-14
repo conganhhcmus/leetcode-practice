@@ -810,6 +810,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2528. Maximize the Minimum Powered City](./problems/2528/Solution.cs)
 - [2529. Maximum Count of Positive Integer and Negative Integer](./problems/2529/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](./problems/2530/Solution.cs)
+- [2536. Increment Submatrices by One](./problems/25306/Solution.cs)
 - [2537. Count the Number of Good Subarrays](./problems/2537/Solution.cs)
 - [2542. Maximum Subsequence Score](./problems/2542/Solution.cs)
 - [2551. Put Marbles in Bags](./problems/2551/Solution.cs)
