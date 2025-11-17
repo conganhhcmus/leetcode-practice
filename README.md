@@ -803,6 +803,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2466. Count Ways To Build Good Strings](./problems/2466/Solution.cs)
 - [2467. Most Profitable Path in a Tree](./problems/2467/Solution.cs)
 - [2471. Minimum Number of Operations to Sort a Binary Tree by Level](./problems/2471/Solution.cs)
+- [2485. Find the Pivot Integer](./problems/2485/Solution.cs)
 - [2490. Circular Sentence](./problems/2490/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](./problems/2491/Solution.cs)
 - [2493. Divide Nodes Into the Maximum Number of Groups](./problems/2493/Solution.cs)
