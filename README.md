@@ -491,6 +491,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [705. Design HashSet](./problems/705/Solution.cs)
 - [706. Design HashMap](./problems/706/Solution.cs)
 - [714. Best Time to Buy and Sell Stock with Transaction Fee](./problems/714/Solution.cs)
+- [717. 1-bit and 2-bit Characters](./problems/717/Solution.cs)
 - [724. Find Pivot Index](./problems/724/Solution.cs)
 - [725. Split Linked List in Parts](./problems/725/Solution.cs)
 - [729. My Calendar I](./problems/729/Solution.cs)
