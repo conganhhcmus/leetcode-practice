@@ -494,6 +494,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [717. 1-bit and 2-bit Characters](./problems/717/Solution.cs)
 - [724. Find Pivot Index](./problems/724/Solution.cs)
 - [725. Split Linked List in Parts](./problems/725/Solution.cs)
+- [728. Self Dividing Numbers](./problems/728/Solution.cs)
 - [729. My Calendar I](./problems/729/Solution.cs)
 - [731. My Calendar II](./problems/731/Solution.cs)
 - [735. Asteroid Collision](./problems/735/Solution.cs)
