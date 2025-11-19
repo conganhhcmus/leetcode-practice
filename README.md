@@ -732,6 +732,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2140. Solving Questions With Brainpower](./problems/2140/Solution.cs)
 - [2144. Minimum Cost of Buying Candies With Discount](./problems/2144/Solution.cs)
 - [2145. Count the Hidden Sequences](./problems/2145/Solution.cs)
+- [2154. Keep Multiplying Found Values by Two](./problems/2154/Solution.cs)
 - [2160. Minimum Sum of Four Digit Number After Splitting Digits](./problems/2160/Solution.cs)
 - [2161. Partition Array According to Given Pivot](./problems/2161/Solution.cs)
 - [2163. Minimum Difference in Sums After Removal of Elements](./problems/2163/Solution.cs)
