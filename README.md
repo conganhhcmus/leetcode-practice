@@ -925,6 +925,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3170. Lexicographically Minimum String After Removing Stars](./problems/3170/Solution.cs)
 - [3174. Clear Digits](./problems/3174/Solution.cs)
 - [3186. Maximum Total Damage With Spell Casting](./problems/3186/Solution.cs)
+- [3190. Find Minimum Operations to Make All Elements Divisible by Three](./problems/3190/Solution.cs)
 - [3191. Minimum Operations to Make Binary Array Elements Equal to One I](./problems/3191/Solution.cs)
 - [3195. Find the Minimum Area to Cover All Ones I](./problems/3195/Solution.cs)
 - [3197. Find the Minimum Area to Cover All Ones II](./problems/3197/Solution.cs)
