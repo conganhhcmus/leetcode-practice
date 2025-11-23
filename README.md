@@ -572,6 +572,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1233. Remove Sub-Folders from the Filesystem](./problems/1233/Solution.cs)
 - [1248. Count Number of Nice Subarrays](./problems/1248/Solution.cs)
 - [1261. Find Elements in a Contaminated Binary Tree](./problems/1261/Solution.cs)
+- [1262. Greatest Sum Divisible by Three](./problems/1262/Solution.cs)
 - [1267. Count Servers that Communicate](./problems/1267/Solution.cs)
 - [1268. Search Suggestions System](./problems/1268/Solution.cs)
 - [1277. Count Square Submatrices with All Ones](./problems/1277/Solution.cs)
