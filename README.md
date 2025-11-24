@@ -551,6 +551,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1012. Numbers With Repeated Digits](./problems/1012/Solution.cs)
 - [1014. Best Sightseeing Pair](./problems/1014/Solution.cs)
 - [1015. Smallest Integer Divisible by K](./problems/1015/Solution.cs)
+- [1018. Binary Prefix Divisible By 5](./problems/1018/Solution.cs)
 - [1025. Divisor Game](./problems/1025/Solution.cs)
 - [1028. Recover a Tree From Preorder Traversal](./problems/1028/Solution.cs)
 - [1039. Minimum Score Triangulation of Polygon](./problems/1039/Solution.cs)
