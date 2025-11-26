@@ -801,6 +801,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2425. Bitwise XOR of All Pairings](./problems/2425/Solution.cs)
 - [2429. Minimize XOR](./problems/2429/Solution.cs)
 - [2434. Using a Robot to Print the Lexicographically Smallest String](./problems/2434/Solution.cs)
+- [2435. Paths in Matrix Whose Sum Is Divisible by K](./problems/2435/Solution.cs)
 - [2438. Range Product Queries of Powers](./problems/2438/Solution.cs)
 - [2444. Count Subarrays With Fixed Bounds](./problems/2444/Solution.cs)
 - [2458. Height of Binary Tree After Subtree Removal Queries](./problems/2458/Solution.cs)
