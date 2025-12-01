@@ -733,6 +733,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2131. Longest Palindrome by Concatenating Two Letter Words](./problems/2131/Solution.cs)
 - [2138. Divide a String Into Groups of Size k](./problems/2138/Solution.cs)
 - [2140. Solving Questions With Brainpower](./problems/2140/Solution.cs)
+- [2141. Maximum Running Time of N Computers](./problems/2141/Solution.cs)
 - [2144. Minimum Cost of Buying Candies With Discount](./problems/2144/Solution.cs)
 - [2145. Count the Hidden Sequences](./problems/2145/Solution.cs)
 - [2154. Keep Multiplying Found Values by Two](./problems/2154/Solution.cs)
