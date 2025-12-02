@@ -999,6 +999,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3541. Find Most Frequent Vowel and Consonant](./problems/3541/Solution.cs)
 - [3607. Power Grid Maintenance](./problems/3607/Solution.cs)
 - [3612. Process String with Special Operations I](./problems/3612/Solution.cs)
+- [3623. Count Number of Trapezoids I](./problems/3623/Solution.cs)
 
 </details>
 
