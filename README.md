@@ -749,6 +749,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2200. Find All K-Distant Indices in an Array](./problems/2200/Solution.cs)
 - [2206. Divide Array Into Equal Pairs](./problems/2206/Solution.cs)
 - [2210. Count Hills and Valleys in an Array](./problems/2210/Solution.cs)
+- [2211. Count Collisions on a Road](./problems/2211/Solution.cs)
 - [2215. Find the Difference of Two Arrays](./problems/2215/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](./problems/2220/Solution.cs)
 - [2221. Find Triangular Sum of an Array](./problems/2221/Solution.cs)
