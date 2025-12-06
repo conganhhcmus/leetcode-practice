@@ -1,3 +1,4 @@
-"RLRSLL"
-"LLRR"
-"RLRSLLRSLLRSLLRS"
+[9,4,1,3,7]
+4
+[3,3,4]
+0
