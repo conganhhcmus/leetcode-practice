@@ -623,6 +623,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1513. Number of Substrings With Only 1s](./problems/1513/Solution.cs)
 - [1514. Path with Maximum Probability](./problems/1514/Solution.cs)
 - [1518. Water Bottles](./problems/1518/Solution.cs)
+- [1523. Count Odd Numbers in an Interval Range](./problems/1523/Solution.cs)
 - [1524. Number of Sub-arrays With Odd Sum](./problems/1524/Solution.cs)
 - [1526. Minimum Number of Increments on Subarrays to Form a Target Array](./problems/1526/Solution.cs)
 - [1534. Count Good Triplets](./problems/1534/Solution.cs)
