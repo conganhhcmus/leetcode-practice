@@ -676,6 +676,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1912. Design Movie Rental System](./problems/1912/Solution.cs)
 - [1920. Build Array from Permutation](./problems/1920/Solution.cs)
 - [1922. Count Good Numbers](./problems/1922/Solution.cs)
+- [1925. Count Square Sum Triples](./problems/1925/Solution.cs)
 - [1926. Nearest Exit from Entrance in Maze](./problems/1926/Solution.cs)
 - [1930. Unique Length-3 Palindromic Subsequences](./problems/1930/Solution.cs)
 - [1931. Painting a Grid With Three Different Colors](./problems/1931/Solution.cs)
