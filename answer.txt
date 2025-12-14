@@ -1,3 +1,2 @@
-2
-0
-24
+["PHARMA5","SAVE20"]
+["ELECTRONICS_50"]
