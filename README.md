@@ -420,6 +420,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [347. Top K Frequent Elements](./problems/347/Solution.cs)
 - [349. Intersection of Two Arrays](./problems/349/Solution.cs)
 - [350. Intersection of Two Arrays II](./problems/350/Solution.cs)
+- [352. Data Stream as Disjoint Intervals](./problems/352/Solution.cs)
 - [357. Count Numbers with Unique Digits](./problems/357/Solution.cs)
 - [368. Largest Divisible Subset](./problems/368/Solution.cs)
 - [373. Find K Pairs with Smallest Sums](./problems/373/Solution.cs)
