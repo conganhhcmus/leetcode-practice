@@ -554,6 +554,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1018. Binary Prefix Divisible By 5](./problems/1018/Solution.cs)
 - [1025. Divisor Game](./problems/1025/Solution.cs)
 - [1028. Recover a Tree From Preorder Traversal](./problems/1028/Solution.cs)
+- [1032. Stream of Characters](./problems/1032/Solution.cs)
 - [1039. Minimum Score Triangulation of Polygon](./problems/1039/Solution.cs)
 - [1051. Height Checker](./problems/1051/Solution.cs)
 - [1061. Lexicographically Smallest Equivalent String](./problems/1061/Solution.cs)
