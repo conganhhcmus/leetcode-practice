@@ -1004,6 +1004,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3541. Find Most Frequent Vowel and Consonant](./problems/3541/Solution.cs)
 - [3542. Minimum Operations to Convert All Elements to Zero](./problems/3542/Solution.cs)
 - [3562. Maximum Profit from Trading Stocks with Discounts](./problems/3562/Solution.cs)
+- [3573. Best Time to Buy and Sell Stock V](./problems/3573/Solution.cs)
 - [3577. Count the Number of Computer Unlocking Permutations](./problems/3577/Solution.cs)
 - [3578. Count Partitions With Max-Min Difference at Most K](./problems/3578/Solution.cs)
 - [3583. Count Special Triplets](./problems/3583/Solution.cs)
