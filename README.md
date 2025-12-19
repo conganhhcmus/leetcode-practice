@@ -721,6 +721,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2078. Two Furthest Houses With Different Colors](./problems/2078/Solution.cs)
 - [2081. Sum of k-Mirror Numbers](./problems/2081/Solution.cs)
 - [2086. Minimum Number of Food Buckets to Feed the Hamsters](./problems/2086/Solution.cs)
+- [2092. Find All People With Secret](./problems/2092/Solution.cs)
 - [2094. Finding 3-Digit Even Numbers](./problems/2094/Solution.cs)
 - [2095. Delete the Middle Node of a Linked List](./problems/2095/Solution.cs)
 - [2097. Valid Arrangement of Pairs](./problems/2097/Solution.cs)
