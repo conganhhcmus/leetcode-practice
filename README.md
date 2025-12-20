@@ -540,6 +540,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [918. Maximum Sum Circular Subarray](./problems/918/Solution.cs)
 - [921. Minimum Add to Make Parentheses Valid](./problems/921/Solution.cs)
 - [933. Number of Recent Calls](./problems/933/Solution.cs)
+- [944. Delete Columns to Make Sorted](./problems/944/Solution.cs)
 - [951. Flip Equivalent Binary Trees](./problems/951/Solution.cs)
 - [962. Maximum Width Ramp](./problems/962/Solution.cs)
 - [966. Vowel Spellchecker](./problems/966/Solution.cs)
