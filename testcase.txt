@@ -1,5 +1,3 @@
-["ca","bb","ac"]
-["xc","yb","za"]
-["zyx","wvu","tsr"]
-["xga","xfb","yfa"]
-["vdy","vei","zvc","zld"]
+["babca","bbazb"]
+["edcba"]
+["ghi","def","abc"]
