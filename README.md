@@ -924,6 +924,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3066. Minimum Operations to Exceed Threshold Value II](./problems/3066/Solution.cs)
 - [3068. Find the Maximum Sum of Node Values](./problems/3068/Solution.cs)
 - [3074. Apple Redistribution into Boxes](./problems/3074/Solution.cs)
+- [3075. Maximize Happiness of Selected Children](./problems/3075/Solution.cs)
 - [3085. Minimum Deletions to Make String K-Special](./problems/3085/Solution.cs)
 - [3097. Shortest Subarray With OR at Least K II](./problems/3097/Solution.cs)
 - [3100. Water Bottles II](./problems/3100/Solution.cs)
