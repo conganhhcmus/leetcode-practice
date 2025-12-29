@@ -1,2 +1,6 @@
-[[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]
-[[3,2],[1,0]]
+"BCD"
+["BCC","CDE","CEA","FFF"]
+"AAAA"
+["AAB","AAC","BCD","BBE","DEF"]
+"BDD"
+["ACC","AAD","ABB","DAB","DCD","ADA","BBC","CAB","BCA","DDC","BAC","BAA","DDB","CCD","CAA","DBC"]
