@@ -1,6 +1,3 @@
-"BCD"
-["BCC","CDE","CEA","FFF"]
-"AAAA"
-["AAB","AAC","BCD","BBE","DEF"]
-"BDD"
-["ACC","AAD","ABB","DAB","DCD","ADA","BBC","CAB","BCA","DDC","BAC","BAA","DDB","CCD","CAA","DBC"]
+[[4,3,8,4],[9,5,1,9],[2,7,6,2]]
+[[8]]
+[[1,8,6],[10,5,0],[4,2,9]]

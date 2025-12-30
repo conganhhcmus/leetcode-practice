@@ -519,6 +519,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [827. Making A Large Island](./problems/827/Solution.cs)
 - [837. New 21 Game](./problems/837/Solution.cs)
 - [838. Push Dominoes](./problems/838/Solution.cs)
+- [840. Magic Squares In Grid](./problems/840/Solution.cs)
 - [841. Keys and Rooms](./problems/841/Solution.cs)
 - [847. Shortest Path Visiting All Nodes](./problems/847/Solution.cs)
 - [862. Shortest Subarray with Sum at Least K](./problems/862/Solution.cs)
