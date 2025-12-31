@@ -1,4 +1,4 @@
-global using Running = Problems_840;
+global using Running = Problems_1970_2;
 #region Global Using Declarations
 global using System.Diagnostics;
 global using System.Reflection;
