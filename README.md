@@ -593,6 +593,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1317. Convert Integer to the Sum of Two No-Zero Integers](./problems/1317/Solution.cs)
 - [1318. Minimum Flips to Make a OR b Equal to c](./problems/1318/Solution.cs)
 - [1323. Maximum 69 Number](./problems/1323/Solution.cs)
+- [1339. Maximum Product of Splitted Binary Tree](./problems/1339/Solution.cs)
 - [1331. Rank Transform of an Array](./problems/1331/Solution.cs)
 - [1342. Number of Steps to Reduce a Number to Zero](./problems/1342/Solution.cs)
 - [1346. Check If N and Its Double Exist](./problems/1346/Solution.cs)
