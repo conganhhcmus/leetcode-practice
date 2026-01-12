@@ -273,6 +273,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [62. Unique Paths](./problems/62/Solution.cs)
 - [63. Unique Paths II](./problems/63/Solution.cs)
 - [64. Minimum Path Sum](./problems/64/Solution.cs)
+- [65. Valid Number](./problems/65/Solution.cs)
 - [66. Plus One](./problems/66/Solution.cs)
 - [67. Add Binary](./problems/67/Solution.cs)
 - [68. Text Justification](./problems/68/Solution.cs)
