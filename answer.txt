@@ -1,5 +1,3 @@
-true
-false
-false
-false
-false
+1.00000
+1.16666
+31.00000
