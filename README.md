@@ -914,6 +914,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2938. Separate Black and White Balls](./problems/2938/Solution.cs)
 - [2940. Find Building Where Alice and Bob Can Meet](./problems/2940/Solution.cs)
 - [2942. Find Words Containing Character](./problems/2942/Solution.cs)
+- [2943. Maximize Area of Square Hole in Grid](./problems/2943/Solution.cs)
 - [2947. Count Beautiful Substrings I](./problems/2947/Solution.cs)
 - [2948. Make Lexicographically Smallest Array by Swapping Elements](./problems/2948/Solution.cs)
 - [2949. Count Beautiful Substrings II](./problems/2949/Solution.cs)
