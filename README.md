@@ -590,6 +590,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1268. Search Suggestions System](./problems/1268/Solution.cs)
 - [1277. Count Square Submatrices with All Ones](./problems/1277/Solution.cs)
 - [1290. Convert Binary Number in a Linked List to Integer](./problems/1290/Solution.cs)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](./problems/1292/Solution.cs)
 - [1295. Find Numbers with Even Number of Digits](./problems/1295/Solution.cs)
 - [1298. Maximum Candies You Can Get from Boxes](./problems/1298/Solution.cs)
 - [1304. Find N Unique Integers Sum up to Zero](./problems/1304/Solution.cs)
