@@ -688,6 +688,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1862. Sum of Floored Pairs](./problems/1862/Solution.cs)
 - [1863. Sum of All Subset XOR Totals](./problems/1863/Solution.cs)
 - [1865. Finding Pairs With a Certain Sum](./problems/1865/Solution.cs)
+- [1877. Minimize Maximum Pair Sum in Array](./problems/1877/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](./problems/1894/Solution.cs)
 - [1895. Largest Magic Square](./problems/1895/Solution.cs)
 - [1900. The Earliest and Latest Rounds Where Players Compete](./problems/1900/Solution.cs)
