@@ -927,6 +927,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2970. Count the Number of Incremovable Subarrays I](./problems/2970/Solution.cs)
 - [2972. Count the Number of Incremovable Subarrays II](./problems/2972/Solution.cs)
 - [2975. Maximum Square Area by Removing Fences From a Field](./problems/2975/Solution.cs)
+- [2976. Minimum Cost to Convert String I](./problems/2976/Solution.cs)
 - [2981. Find Longest Special Substring That Occurs Thrice I](./problems/2981/Solution.cs)
 - [2999. Count the Number of Powerful Integers](./problems/2999/Solution.cs)
 - [3000. Maximum Area of Longest Diagonal Rectangle](./problems/3000/Solution.cs)
