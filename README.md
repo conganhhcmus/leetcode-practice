@@ -503,6 +503,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [731. My Calendar II](./problems/731/Solution.cs)
 - [735. Asteroid Collision](./problems/735/Solution.cs)
 - [739. Daily Temperatures](./problems/739/Solution.cs)
+- [744. Find Smallest Letter Greater Than Target](./problems/744/Solution.cs)
 - [746. Min Cost Climbing Stairs](./problems/746/Solution.cs)
 - [747. Largest Number At Least Twice of Others](./problems/747/Solution.cs)
 - [756. Pyramid Transition Matrix](./problems/756/Solution.cs)
