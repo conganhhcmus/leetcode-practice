@@ -935,6 +935,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3000. Maximum Area of Longest Diagonal Rectangle](./problems/3000/Solution.cs)
 - [3003. Maximize the Number of Partitions After Operations](./problems/3003/Solution.cs)
 - [3005. Count Elements With Maximum Frequency](./problems/3005/Solution.cs)
+- [3010. Divide an Array Into Subarrays With Minimum Cost I](./problems/3010/Solution.cs)
 - [3011. Find if Array Can Be Sorted](./problems/3011/Solution.cs)
 - [3021. Alice and Bob Playing Flower Game](./problems/3021/Solution.cs)
 - [3024. Type of Triangle](./problems/3024/Solution.cs)
