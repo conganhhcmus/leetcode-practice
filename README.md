@@ -1048,6 +1048,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3612. Process String with Special Operations I](./problems/3612/Solution.cs)
 - [3623. Count Number of Trapezoids I](./problems/3623/Solution.cs)
 - [3625. Count Number of Trapezoids II](./problems/3625/Solution.cs)
+- [3637. Trionic Array I](./problems/3637/Solution.cs)
 - [3650. Minimum Cost Path with Edge Reversals](./problems/3650/Solution.cs)
 - [3651. Minimum Cost Path with Teleportations](./problems/3651/Solution.cs)
 - [3652. Best Time to Buy and Sell Stock using Strategy](./problems/3652/Solution.cs)
