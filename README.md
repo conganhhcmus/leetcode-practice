@@ -671,6 +671,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1625. Lexicographically Smallest String After Applying Operations](./problems/1625/Solution.cs)
 - [1639. Number of Ways to Form a Target String Given a Dictionary](./problems/1639/Solution.cs)
 - [1652. Defuse the Bomb](./problems/1652/Solution.cs)
+- [1653. Minimum Deletions to Make String Balanced](./problems/1653/Solution.cs)
 - [1657. Determine if Two Strings Are Close](./problems/1657/Solution.cs)
 - [1668. Maximum Repeating Substring](./problems/1668/Solution.cs)
 - [1671. Minimum Number of Removals to Make Mountain Array](./problems/1671/Solution.cs)
