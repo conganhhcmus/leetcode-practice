@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_154_Q3;
-#endif
-
 public class Solution
 {
     public int UniqueXorTriplets(int[] nums)

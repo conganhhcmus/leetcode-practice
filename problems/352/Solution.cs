@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_352;
-#endif
-
 public class SummaryRanges
 {
     UnionFind uf = new();

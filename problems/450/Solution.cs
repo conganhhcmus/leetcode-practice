@@ -1,5 +1,3 @@
-namespace Problem_450;
-
 public class Solution
 {
     public TreeNode DeleteNode(TreeNode root, int key)

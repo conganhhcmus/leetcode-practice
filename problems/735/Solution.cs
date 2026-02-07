@@ -1,5 +1,3 @@
-namespace Problem_735;
-
 public class Solution
 {
     public int[] AsteroidCollision(int[] asteroids)

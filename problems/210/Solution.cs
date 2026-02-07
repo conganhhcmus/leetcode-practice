@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_210;
-#endif
-
 public class Solution
 {
     public int[] FindOrder(int numCourses, int[][] prerequisites)

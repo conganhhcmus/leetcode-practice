@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_444_Q2;
-#endif
-
 public class Router
 {
     int limit = 0;

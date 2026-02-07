@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2918;
-#endif
-
 public class Solution
 {
     public long MinSum(int[] nums1, int[] nums2)

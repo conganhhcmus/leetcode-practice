@@ -1,5 +1,3 @@
-namespace Problem_1071;
-
 public class Solution
 {
     public string GcdOfStrings(string str1, string str2)

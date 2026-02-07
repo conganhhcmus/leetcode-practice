@@ -1,5 +1,3 @@
-namespace Problem_1894;
-
 public class Solution
 {
     public int ChalkReplacer(int[] chalk, int k)

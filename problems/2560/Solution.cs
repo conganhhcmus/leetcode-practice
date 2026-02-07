@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2560;
-#endif
-
 public class Solution
 {
     public int MinCapability(int[] nums, int k)

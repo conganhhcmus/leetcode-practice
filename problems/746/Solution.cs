@@ -1,5 +1,3 @@
-namespace Problem_746;
-
 public class Solution
 {
     public int MinCostClimbingStairs(int[] cost)

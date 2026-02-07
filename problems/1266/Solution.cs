@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1266;
-#endif
-
 public class Solution
 {
     public int MinTimeToVisitAllPoints(int[][] points)

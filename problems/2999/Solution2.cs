@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2999_2;
-#endif
-
 public class Solution
 {
     public long NumberOfPowerfulInt(long start, long finish, int limit, string s)

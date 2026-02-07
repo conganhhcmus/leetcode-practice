@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1578;
-#endif
-
 public class Solution
 {
     public int MinCost(string colors, int[] neededTime)

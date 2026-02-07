@@ -1,5 +1,3 @@
-namespace Problem_2416;
-
 public class Solution
 {
     public int[] SumPrefixScores(string[] words)

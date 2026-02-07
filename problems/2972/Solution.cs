@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2972;
-#endif
-
 public class Solution
 {
     public long IncremovableSubarrayCount(int[] nums)

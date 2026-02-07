@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1458_2;
-#endif
-
 public class Solution
 {
     public int MaxDotProduct(int[] nums1, int[] nums2)

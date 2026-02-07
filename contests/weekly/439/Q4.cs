@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_439_Q4;
-#endif
-
 public class Solution
 {
     public string GenerateString(string str1, string str2)

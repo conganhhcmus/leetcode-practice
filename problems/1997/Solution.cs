@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1997;
-#endif
-
 public class Solution
 {
     public int FirstDayBeenInAllRooms(int[] nextVisit)

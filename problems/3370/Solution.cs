@@ -1,4 +1,3 @@
-namespace Problem_3370;
 public class Solution
 {
     public int SmallestNumber(int n)

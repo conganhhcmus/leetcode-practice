@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2048_3;
-#endif
-
 public class Solution
 {
     int[] balance = new int[] {

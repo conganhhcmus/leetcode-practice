@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1488;
-#endif
-
 public class Solution
 {
     public int[] AvoidFlood(int[] rains)

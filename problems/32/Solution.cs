@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_32;
-#endif
-
 public class Solution
 {
     public int LongestValidParentheses(string s)

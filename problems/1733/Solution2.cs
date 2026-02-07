@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1733_2;
-#endif
-
 public class Solution
 {
     public int MinimumTeachings(int n, int[][] languages, int[][] friendships)

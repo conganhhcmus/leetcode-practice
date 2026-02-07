@@ -1,5 +1,3 @@
-namespace Problem_1318;
-
 public class Solution
 {
     public int MinFlips(int a, int b, int c)

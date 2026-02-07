@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_439_Q1;
-#endif
-
 public class Solution
 {
     public int LargestInteger(int[] nums, int k)

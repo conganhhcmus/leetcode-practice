@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_698;
-#endif
-
 public class Solution
 {
     public bool CanPartitionKSubsets(int[] nums, int k)

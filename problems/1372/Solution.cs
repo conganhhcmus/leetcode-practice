@@ -1,5 +1,3 @@
-namespace Problem_1372;
-
 public class Solution
 {
     public int LongestZigZag(TreeNode root)

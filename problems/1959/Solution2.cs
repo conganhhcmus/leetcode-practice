@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1959_2;
-#endif
-
 public class Solution
 {
     public int MinSpaceWastedKResizing(int[] nums, int k)

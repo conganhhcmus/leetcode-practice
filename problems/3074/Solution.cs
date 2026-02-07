@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3074;
-#endif
-
 public class Solution
 {
     public int MinimumBoxes(int[] apple, int[] capacity)

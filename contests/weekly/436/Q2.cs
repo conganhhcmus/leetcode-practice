@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_436_Q2;
-#endif
-
 public class Solution
 {
     public int[] AssignElements(int[] groups, int[] elements)

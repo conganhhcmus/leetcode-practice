@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_704;
-#endif
-
 public class Solution
 {
     public int Search(int[] nums, int target)

@@ -1,5 +1,3 @@
-namespace Problem_3254;
-
 public class Solution
 {
     public int[] ResultsArray(int[] nums, int k)

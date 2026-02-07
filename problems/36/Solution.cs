@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_36;
-#endif
-
 public class Solution
 {
     public bool IsValidSudoku(char[][] board)

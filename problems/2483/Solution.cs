@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2483;
-#endif
-
 public class Solution
 {
     public int BestClosingTime(string customers)

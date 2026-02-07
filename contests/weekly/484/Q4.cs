@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_484_Q4;
-#endif
-
 public class Solution
 {
     public int MaximumAND(int[] nums, int k, int m)

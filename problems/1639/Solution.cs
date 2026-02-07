@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1639;
-#endif
-
 public class Solution
 {
     const int MOD = 1_000_000_007;

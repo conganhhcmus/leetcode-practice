@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1579;
-#endif
-
 public class Solution
 {
     public int MaxNumEdgesToRemove(int n, int[][] edges)

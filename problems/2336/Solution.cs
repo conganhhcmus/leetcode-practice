@@ -1,5 +1,3 @@
-namespace Problem_2336;
-
 public class SmallestInfiniteSet
 {
     private int current;

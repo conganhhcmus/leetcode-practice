@@ -1,5 +1,3 @@
-namespace Problem_901;
-
 public class StockSpanner
 {
     private Stack<int[]> _stack;

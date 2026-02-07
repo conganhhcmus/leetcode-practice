@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3372;
-#endif
-
 public class Solution
 {
     public int[] MaxTargetNodes(int[][] edges1, int[][] edges2, int k)

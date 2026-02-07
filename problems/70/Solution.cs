@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_70;
-#endif
-
 public class Solution
 {
     public int ClimbStairs(int n)

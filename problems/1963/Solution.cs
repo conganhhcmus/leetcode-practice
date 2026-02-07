@@ -1,5 +1,3 @@
-namespace Problem_1963;
-
 public class Solution
 {
     public int MinSwaps(string s)

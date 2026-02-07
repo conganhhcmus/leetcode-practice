@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1012;
-#endif
-
 public class Solution
 {
     public int NumDupDigitsAtMostN(int n)

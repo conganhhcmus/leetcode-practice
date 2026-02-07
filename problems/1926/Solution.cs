@@ -1,5 +1,3 @@
-namespace Problem_1926;
-
 public class Solution
 {
     public int NearestExit(char[][] maze, int[] entrance)

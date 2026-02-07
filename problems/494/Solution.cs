@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_494;
-#endif
-
 public class Solution
 {
     public int FindTargetSumWays(int[] nums, int target)

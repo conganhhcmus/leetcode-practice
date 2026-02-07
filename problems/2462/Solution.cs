@@ -1,5 +1,3 @@
-namespace Problem_2462;
-
 public class Solution
 {
     public long TotalCost(int[] costs, int k, int candidates)

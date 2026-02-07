@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_376;
-#endif
-
 public class Solution
 {
     public int WiggleMaxLength(int[] nums)

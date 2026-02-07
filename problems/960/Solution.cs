@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_960;
-#endif
-
 public class Solution
 {
     public int MinDeletionSize(string[] strs)

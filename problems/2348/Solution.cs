@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2348;
-#endif
-
 public class Solution
 {
     public long ZeroFilledSubarray(int[] nums)

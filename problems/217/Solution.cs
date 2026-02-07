@@ -1,5 +1,3 @@
-namespace Problem_217;
-
 public class Solution
 {
     public bool ContainsDuplicate(int[] nums)

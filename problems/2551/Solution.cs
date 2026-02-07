@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2551;
-#endif
-
 public class Solution
 {
     public long PutMarbles(int[] weights, int k)

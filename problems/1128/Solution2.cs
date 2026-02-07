@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1128_2;
-#endif
-
 public class Solution
 {
     public int NumEquivDominoPairs(int[][] dominoes)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2147;
-#endif
-
 public class Solution
 {
     public int NumberOfWays(string corridor)

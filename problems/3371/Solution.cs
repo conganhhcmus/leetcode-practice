@@ -1,4 +1,3 @@
-namespace Problem_3371;
 public class Solution
 {
     public int GetLargestOutlier(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_484_Q3;
-#endif
-
 public class Solution
 {
     public long CountPairs(string[] words)

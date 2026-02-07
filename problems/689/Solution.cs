@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_689;
-#endif
-
 public class Solution
 {
     public int[] MaxSumOfThreeSubarrays(int[] nums, int k)

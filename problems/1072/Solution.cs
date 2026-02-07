@@ -1,5 +1,3 @@
-namespace Problem_1072;
-
 public class Solution
 {
     public int MaxEqualRowsAfterFlips(int[][] matrix)

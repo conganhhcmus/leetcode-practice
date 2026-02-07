@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_43_2;
-#endif
-
 public class Solution
 {
     public string Multiply(string num1, string num2)

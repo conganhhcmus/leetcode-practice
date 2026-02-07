@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2873_3;
-#endif
-
 public class Solution
 {
     public long MaximumTripletValue(int[] nums)

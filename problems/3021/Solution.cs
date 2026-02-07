@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3021;
-#endif
-
 public class Solution
 {
     public long FlowerGame(int n, int m)

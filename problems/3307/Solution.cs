@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3307;
-#endif
-
 public class Solution
 {
     public char KthCharacter(long k, int[] op)

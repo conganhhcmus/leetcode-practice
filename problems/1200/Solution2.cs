@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1200_2;
-#endif
-
 public class Solution
 {
     public IList<IList<int>> MinimumAbsDifference(int[] arr)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3380;
-#endif
-
 public class Solution
 {
     public int MaxRectangleArea(int[][] points)

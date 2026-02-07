@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2040_2;
-#endif
-
 public class Solution
 {
     public long KthSmallestProduct(int[] nums1, int[] nums2, long k)

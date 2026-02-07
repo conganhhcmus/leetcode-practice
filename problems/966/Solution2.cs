@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_966_2;
-#endif
-
 public class Solution
 {
     HashSet<string> wordPerfect = [];

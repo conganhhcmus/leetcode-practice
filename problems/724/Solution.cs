@@ -1,5 +1,3 @@
-namespace Problem_724;
-
 public class Solution
 {
     public int PivotIndex(int[] nums)

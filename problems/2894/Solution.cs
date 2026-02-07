@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2894;
-#endif
-
 public class Solution
 {
     public int DifferenceOfSums(int n, int m)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_200_2;
-#endif
-
 public class Solution
 {
     public int NumIslands(char[][] grid)

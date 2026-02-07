@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1716;
-#endif
-
 public class Solution
 {
     public int TotalMoney(int n)

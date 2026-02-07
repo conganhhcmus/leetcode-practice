@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2141_2;
-#endif
-
 public class Solution
 {
     public long MaxRunTime(int n, int[] batteries)

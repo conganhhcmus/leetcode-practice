@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1351;
-#endif
-
 public class Solution
 {
     public int CountNegatives(int[][] grid)

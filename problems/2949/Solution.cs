@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2949;
-#endif
-
 public class Solution
 {
     public int BeautifulSubstrings(string s, int k)

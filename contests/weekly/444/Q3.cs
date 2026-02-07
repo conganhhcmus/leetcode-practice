@@ -1,7 +1,6 @@
 #if DEBUG
 using System.Runtime.Intrinsics.Arm;
 
-namespace Weekly_444_Q3;
 #endif
 
 public class Solution

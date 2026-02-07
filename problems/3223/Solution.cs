@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3223;
-#endif
-
 public class Solution
 {
     public int MinimumLength(string s)

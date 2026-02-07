@@ -1,5 +1,3 @@
-namespace Problem_1277;
-
 public class Solution
 {
     public int CountSquares(int[][] matrix)

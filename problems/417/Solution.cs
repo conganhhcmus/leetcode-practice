@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_417;
-#endif
-
 public class Solution
 {
     public IList<IList<int>> PacificAtlantic(int[][] heights)

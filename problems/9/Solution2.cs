@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_9_2;
-#endif
-
 public class Solution
 {
     public bool IsPalindrome(int x)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_130;
-#endif
-
 public class Solution
 {
     public void Solve(char[][] board)

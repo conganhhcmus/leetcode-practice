@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_303;
-#endif
-
 public class NumArray
 {
     long[] sum;

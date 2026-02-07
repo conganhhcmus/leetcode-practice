@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2206;
-#endif
-
 public class Solution
 {
     public bool DivideArray(int[] nums)

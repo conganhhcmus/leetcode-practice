@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_441_Q4;
-#endif
-
 public class Solution
 {
     public int BeautifulNumbers(int l, int r)

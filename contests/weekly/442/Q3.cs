@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_442_Q3;
-#endif
-
 public class Solution
 {
     public long MinTime(int[] skill, int[] mana)

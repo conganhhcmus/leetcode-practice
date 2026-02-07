@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2570;
-#endif
-
 public class Solution
 {
     public int[][] MergeArrays(int[][] nums1, int[][] nums2)

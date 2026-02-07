@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2145;
-#endif
-
 public class Solution
 {
     public int NumberOfArrays(int[] differences, int lower, int upper)

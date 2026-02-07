@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3394;
-#endif
-
 public class Solution
 {
     public bool CheckValidCuts(int n, int[][] rectangles)

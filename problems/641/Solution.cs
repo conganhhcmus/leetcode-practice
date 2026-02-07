@@ -1,5 +1,3 @@
-namespace Problem_641;
-
 public class MyCircularDeque
 {
     public class DoubleLinkedList

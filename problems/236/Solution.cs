@@ -1,5 +1,3 @@
-namespace Problem_236;
-
 public class Solution
 {
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)

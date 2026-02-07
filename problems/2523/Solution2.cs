@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2523_2;
-#endif
-
 public class Solution
 {
     public int[] ClosestPrimes(int left, int right)

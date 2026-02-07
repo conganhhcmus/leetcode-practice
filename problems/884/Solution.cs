@@ -1,5 +1,3 @@
-namespace Problem_884;
-
 public class Solution
 {
     public string[] UncommonFromSentences(string s1, string s2)

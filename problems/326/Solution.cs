@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_326;
-#endif
-
 public class Solution
 {
     public bool IsPowerOfThree(int n)

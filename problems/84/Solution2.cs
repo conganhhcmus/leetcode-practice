@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_84_2;
-#endif
-
 public class Solution
 {
     public int LargestRectangleArea(int[] heights)

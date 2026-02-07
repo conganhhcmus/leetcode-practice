@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_433_2;
-#endif
-
 public class Solution
 {
     public int MinMutation(string startGene, string endGene, string[] bank)

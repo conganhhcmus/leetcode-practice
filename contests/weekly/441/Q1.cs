@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_441_Q1;
-#endif
-
 public class Solution
 {
     public int MaxSum(int[] nums)

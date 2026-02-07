@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3208;
-#endif
-
 public class Solution
 {
     public int NumberOfAlternatingGroups(int[] colors, int k)

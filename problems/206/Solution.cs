@@ -1,5 +1,3 @@
-namespace Problem_206;
-
 public class Solution
 {
     public ListNode ReverseList(ListNode head)

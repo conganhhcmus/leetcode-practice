@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_233;
-#endif
-
 public class Solution
 {
     public int CountDigitOne(int n)

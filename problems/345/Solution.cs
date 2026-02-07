@@ -1,5 +1,3 @@
-namespace Problem_345;
-
 public class Solution
 {
     public string ReverseVowels(string s)

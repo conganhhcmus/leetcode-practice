@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2222_4;
-#endif
-
 public class Solution
 {
     public long NumberOfWays(string s)

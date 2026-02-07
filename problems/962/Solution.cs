@@ -1,5 +1,3 @@
-namespace Problem_962;
-
 public class Solution
 {
     public int MaxWidthRamp(int[] nums)

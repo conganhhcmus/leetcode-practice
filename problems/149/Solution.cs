@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_149;
-#endif
-
 public class Solution
 {
     public int MaxPoints(int[][] points)

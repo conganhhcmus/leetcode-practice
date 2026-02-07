@@ -1,7 +1,6 @@
 #if DEBUG
 using System.Runtime.Intrinsics.Arm;
 
-namespace Problems_3342;
 #endif
 
 public class Solution

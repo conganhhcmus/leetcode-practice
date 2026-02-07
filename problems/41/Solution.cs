@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_41;
-#endif
-
 public class Solution
 {
     public int FirstMissingPositive(int[] nums)

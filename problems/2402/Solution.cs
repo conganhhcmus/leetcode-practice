@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2402;
-#endif
-
 public class Solution
 {
     public record Booking(int id, int end);

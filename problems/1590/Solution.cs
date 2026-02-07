@@ -1,5 +1,3 @@
-namespace Problem_1590;
-
 public class Solution
 {
     public int MinSubarray(int[] nums, int p)

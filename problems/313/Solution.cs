@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_313;
-#endif
-
 class Solution
 {
     public int NthSuperUglyNumber(int n, int[] primes)

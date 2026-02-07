@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2375_3;
-#endif
-
 public class Solution
 {
     public string SmallestNumber(string pattern)

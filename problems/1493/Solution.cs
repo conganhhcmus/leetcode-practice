@@ -1,5 +1,3 @@
-namespace Problem_1493;
-
 public class Solution
 {
     public int LongestSubarray(int[] nums)

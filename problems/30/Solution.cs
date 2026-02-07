@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_30;
-#endif
-
 public class Solution
 {
     public IList<int> FindSubstring(string s, string[] words)

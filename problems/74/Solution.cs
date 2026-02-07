@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_74;
-#endif
-
 public class Solution
 {
     public bool SearchMatrix(int[][] matrix, int target)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3578;
-#endif
-
 public class Solution
 {
     public int CountPartitions(int[] nums, int k)

@@ -1,5 +1,3 @@
-namespace Problem_1671;
-
 public class Solution
 {
     public int MinimumMountainRemovals(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_717;
-#endif
-
 public class Solution
 {
     public bool IsOneBitCharacter(int[] bits)

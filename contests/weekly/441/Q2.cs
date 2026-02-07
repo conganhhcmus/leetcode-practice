@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_441_Q2;
-#endif
-
 public class Solution
 {
     public IList<int> SolveQueries(int[] nums, int[] queries)

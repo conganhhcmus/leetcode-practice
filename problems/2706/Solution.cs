@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2706;
-#endif
-
 public class Solution
 {
     public int BuyChoco(int[] prices, int money)

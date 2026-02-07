@@ -1,5 +1,3 @@
-namespace Problem_539;
-
 public class Solution
 {
     public int FindMinDifference(IList<string> timePoints)

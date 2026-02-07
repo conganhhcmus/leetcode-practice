@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_916;
-#endif
-
 public class Solution
 {
     private bool IsUniversal(string words, int[] maxFreq)

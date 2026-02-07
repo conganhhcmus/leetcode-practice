@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_431_Q2;
-#endif
-
 public class Solution
 {
     public long CalculateScore(string s)

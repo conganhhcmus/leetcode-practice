@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3346;
-#endif
-
 public class Solution
 {
     public int MaxFrequency(int[] nums, int k, int numOperations)

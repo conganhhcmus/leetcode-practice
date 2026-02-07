@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2369_2;
-#endif
-
 public class Solution
 {
     public bool ValidPartition(int[] nums)

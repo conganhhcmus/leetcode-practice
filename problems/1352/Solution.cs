@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1352;
-#endif
-
 public class ProductOfNumbers
 {
     List<int> prefixSums;

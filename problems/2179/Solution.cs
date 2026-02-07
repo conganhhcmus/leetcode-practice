@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2179;
-#endif
-
 public class Solution
 {
     public long GoodTriplets(int[] nums1, int[] nums2)

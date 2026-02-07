@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_790;
-#endif
-
 public class Solution
 {
     public int NumTilings(int n)

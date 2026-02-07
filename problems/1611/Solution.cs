@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1611;
-#endif
-
 public class Solution
 {
     public int MinimumOneBitOperations(int n)

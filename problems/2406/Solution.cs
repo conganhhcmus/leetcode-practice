@@ -1,5 +1,3 @@
-namespace Problem_2406;
-
 public class Solution
 {
     public int MinGroups(int[][] intervals)

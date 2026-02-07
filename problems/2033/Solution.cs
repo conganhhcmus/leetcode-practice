@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2033;
-#endif
-
 public class Solution
 {
     public int MinOperations(int[][] grid, int x)

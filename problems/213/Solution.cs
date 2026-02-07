@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_213;
-#endif
-
 public class Solution
 {
     public int Rob(int[] nums)

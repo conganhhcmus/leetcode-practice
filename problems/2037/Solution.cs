@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2037;
-#endif
-
 public class Solution
 {
     public int MinMovesToSeat(int[] seats, int[] students)

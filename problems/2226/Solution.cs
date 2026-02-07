@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2226;
-#endif
-
 public class Solution
 {
     public int MaximumCandies(int[] candies, long k)

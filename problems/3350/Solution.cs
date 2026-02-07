@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3350;
-#endif
-
 public class Solution
 {
     public int MaxIncreasingSubarrays(IList<int> nums)

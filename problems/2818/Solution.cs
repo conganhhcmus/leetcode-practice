@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2818;
-#endif
-
 public class Solution
 {
     int modulo = 1000000007;

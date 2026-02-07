@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3341;
-#endif
-
 public class Solution
 {
     public int MinTimeToReach(int[][] moveTime)

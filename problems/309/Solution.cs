@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_309;
-#endif
-
 public class Solution
 {
     public int MaxProfit(int[] prices)

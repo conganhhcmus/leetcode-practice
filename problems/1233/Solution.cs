@@ -1,5 +1,3 @@
-namespace Problem_1233;
-
 public class Solution
 {
     public IList<string> RemoveSubfolders(string[] folder)

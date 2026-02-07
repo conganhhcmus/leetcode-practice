@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3170;
-#endif
-
 public class Solution
 {
     public string ClearStars(string s)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_447_Q4;
-#endif
-
 public class Solution
 {
     public int[] PathExistenceQueries(int n, int[] nums, int maxDiff, int[][] queries)

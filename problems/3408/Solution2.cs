@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3408_2;
-#endif
-
 public class TaskManager
 {
     Dictionary<int, int[]> taskInfo = [];

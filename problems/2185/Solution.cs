@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2185;
-#endif
-
 public class Solution
 {
     public int PrefixCount(string[] words, string pref)

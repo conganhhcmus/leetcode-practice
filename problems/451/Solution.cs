@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_451;
-#endif
-
 public class Solution
 {
     public string FrequencySort(string s)

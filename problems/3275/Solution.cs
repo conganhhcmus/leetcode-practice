@@ -1,4 +1,3 @@
-namespace Problem_3275;
 public class Solution
 {
     public int[] ResultsArray(int[][] queries, int k)

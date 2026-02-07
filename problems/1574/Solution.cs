@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1574;
-#endif
-
 public class Solution
 {
     public int FindLengthOfShortestSubarray(int[] arr)

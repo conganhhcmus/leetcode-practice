@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1910;
-#endif
-
 public class Solution
 {
     public string RemoveOccurrences(string s, string part)

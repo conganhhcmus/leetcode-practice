@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_211_2;
-#endif
-
 public class WordDictionary
 {
     Dictionary<int, HashSet<string>> dictionary;

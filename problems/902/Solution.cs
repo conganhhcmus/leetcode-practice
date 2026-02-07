@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_902;
-#endif
-
 public class Solution
 {
     public int AtMostNGivenDigitSet(string[] digits, int n)

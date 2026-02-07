@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2266;
-#endif
-
 public class Solution
 {
     public int CountTexts(string pressedKeys)

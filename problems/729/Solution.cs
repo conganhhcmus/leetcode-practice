@@ -1,5 +1,3 @@
-namespace Problem_729;
-
 using System.Collections;
 
 public class MyCalendar

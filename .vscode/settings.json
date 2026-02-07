@@ -10,7 +10,7 @@
     "code-runner.showRunCommandInEditorContextMenu": false,
     "code-runner.showRunIconInEditorTitleMenu": false,
     "code-runner.executorMap": {
-        "csharp": "dotnet run --project leetcode-practice.csproj"
+        "csharp": "dotnet run $fileName"
     },
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,

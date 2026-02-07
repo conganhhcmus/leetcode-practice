@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2558;
-#endif
-
 public class Solution
 {
     public long PickGifts(int[] gifts, int k)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_781;
-#endif
-
 public class Solution
 {
     public int NumRabbits(int[] answers)

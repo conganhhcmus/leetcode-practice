@@ -1,4 +1,3 @@
-namespace Problem_2275;
 public class Solution
 {
     public int LargestCombination(int[] candidates)

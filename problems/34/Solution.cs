@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_34;
-#endif
-
 public class Solution
 {
     public int[] SearchRange(int[] nums, int target)

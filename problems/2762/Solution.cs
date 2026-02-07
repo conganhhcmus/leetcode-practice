@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2762;
-#endif
-
 public class Solution
 {
     public long ContinuousSubarrays(int[] nums)

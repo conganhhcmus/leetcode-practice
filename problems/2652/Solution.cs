@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2652;
-#endif
-
 public class Solution
 {
     public int SumOfMultiples(int n)

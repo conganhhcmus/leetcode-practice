@@ -1,7 +1,6 @@
 #if DEBUG
 using Microsoft.VisualBasic;
 
-namespace Problems_1751;
 #endif
 
 public class Solution

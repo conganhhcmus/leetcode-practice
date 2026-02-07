@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2054;
-#endif
-
 public class Solution
 {
     public int MaxTwoEvents(int[][] events)

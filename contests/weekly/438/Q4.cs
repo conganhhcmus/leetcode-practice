@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_438_Q4;
-#endif
-
 public class Solution
 {
     public int MaxDistance(int side, int[][] points, int k)

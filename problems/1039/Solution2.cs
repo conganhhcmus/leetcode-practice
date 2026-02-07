@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1039_2;
-#endif
-
 public class Solution
 {
     public int MinScoreTriangulation(int[] values)

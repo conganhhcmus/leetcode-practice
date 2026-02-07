@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_840;
-#endif
-
 public class Solution
 {
     public int NumMagicSquaresInside(int[][] grid)

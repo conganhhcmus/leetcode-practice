@@ -1,5 +1,3 @@
-namespace Problem_2461;
-
 public class Solution
 {
     public long MaximumSubarraySum(int[] nums, int k)

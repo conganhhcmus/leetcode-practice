@@ -1,5 +1,3 @@
-namespace Problem_432;
-
 public class AllOne_Second
 {
     public class DoublyLinkedList

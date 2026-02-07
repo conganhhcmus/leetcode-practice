@@ -1,5 +1,3 @@
-namespace Problem_1861;
-
 public class Solution
 {
     public char[][] RotateTheBox(char[][] box)

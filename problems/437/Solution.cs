@@ -1,5 +1,3 @@
-namespace Problem_437;
-
 public class Solution
 {
     public int PathSum(TreeNode root, int targetSum)

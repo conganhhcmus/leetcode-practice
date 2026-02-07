@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3085;
-#endif
-
 public class Solution
 {
     public int MinimumDeletions(string word, int k)

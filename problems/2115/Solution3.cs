@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2115_3;
-#endif
-
 public class Solution
 {
     public IList<string> FindAllRecipes(string[] recipes, IList<IList<string>> ingredients, string[] supplies)

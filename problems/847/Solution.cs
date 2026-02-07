@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_847;
-#endif
-
 public class Solution
 {
     public int ShortestPathLength(int[][] graph)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1367;
-#endif
-
 public class Solution
 {
     public bool IsSubPath(ListNode head, TreeNode root)

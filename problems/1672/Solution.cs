@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1672;
-#endif
-
 public class Solution
 {
     public int MaximumWealth(int[][] accounts)

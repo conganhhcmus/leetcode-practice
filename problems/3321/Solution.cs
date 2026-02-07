@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3321;
-#endif
-
 public class Solution
 {
     static readonly Comparer<(int freq, int num)> compare = Comparer<(int freq, int num)>.Create((a, b) =>

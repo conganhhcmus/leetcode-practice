@@ -1,4 +1,3 @@
-namespace Problem_714;
 public class Solution
 {
     public int MaxProfit(int[] prices, int fee)

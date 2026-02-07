@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1981;
-#endif
-
 public class Solution
 {
     public int MinimizeTheDifference(int[][] mat, int target)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2335_2;
-#endif
-
 public class Solution
 {
     public int FillCups(int[] amount)

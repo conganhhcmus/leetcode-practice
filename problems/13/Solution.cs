@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_13;
-#endif
-
 public class Solution
 {
     public int RomanToInt(string s)

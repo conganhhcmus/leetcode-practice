@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3794;
-#endif
-
 public class Solution
 {
     public string ReversePrefix(string s, int k)

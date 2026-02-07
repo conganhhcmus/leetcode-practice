@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_447_Q1;
-#endif
-
 public class Solution
 {
     public int CountCoveredBuildings(int n, int[][] buildings)

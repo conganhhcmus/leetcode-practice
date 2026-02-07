@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1004_2;
-#endif
-
 public class Solution
 {
     public int LongestOnes(int[] nums, int k)

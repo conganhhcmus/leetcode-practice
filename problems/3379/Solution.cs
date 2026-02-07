@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3379;
-#endif
-
 public class Solution
 {
     public int[] ConstructTransformedArray(int[] nums)

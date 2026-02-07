@@ -1,5 +1,3 @@
-namespace Problem_1813;
-
 public class Solution
 {
     public bool AreSentencesSimilar(string sentence1, string sentence2)

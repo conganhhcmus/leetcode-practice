@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3105;
-#endif
-
 public class Solution
 {
     public int LongestMonotonicSubarray(int[] nums)

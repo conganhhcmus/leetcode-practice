@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_487_Q4;
-#endif
-
 public class Solution
 {
     public int LongestAlternating(int[] nums)

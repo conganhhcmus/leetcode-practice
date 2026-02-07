@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2364;
-#endif
-
 public class Solution
 {
     public long CountBadPairs(int[] nums)

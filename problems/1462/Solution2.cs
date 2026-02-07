@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1462_2;
-#endif
-
 public class Solution
 {
     public IList<bool> CheckIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries)

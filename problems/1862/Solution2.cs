@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1862_2;
-#endif
-
 public class Solution
 {
     public int SumOfFlooredPairs(int[] nums)

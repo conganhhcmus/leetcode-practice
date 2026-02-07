@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_287;
-#endif
-
 public class Solution
 {
     public int FindDuplicate(int[] nums)

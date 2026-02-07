@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1947;
-#endif
-
 public class Solution
 {
     public int MaxCompatibilitySum(int[][] students, int[][] mentors)

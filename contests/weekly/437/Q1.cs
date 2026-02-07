@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_437_Q1;
-#endif
-
 public class Solution
 {
     public bool HasSpecialSubstring(string s, int k)

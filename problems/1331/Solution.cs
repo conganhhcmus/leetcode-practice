@@ -1,5 +1,3 @@
-namespace Problem_1331;
-
 public class Solution
 {
     public int[] ArrayRankTransform(int[] arr)

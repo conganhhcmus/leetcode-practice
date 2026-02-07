@@ -1,5 +1,3 @@
-namespace Problem_2601;
-
 public class Solution
 {
     public bool PrimeSubOperation(int[] nums)

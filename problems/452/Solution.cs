@@ -1,5 +1,3 @@
-namespace Problem_452;
-
 public class Solution
 {
     public int FindMinArrowShots(int[][] points)

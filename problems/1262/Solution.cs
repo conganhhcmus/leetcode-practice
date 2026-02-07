@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1262;
-#endif
-
 public class Solution
 {
     public int MaxSumDivThree(int[] nums)

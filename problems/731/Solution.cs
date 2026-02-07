@@ -1,5 +1,3 @@
-namespace Problem_731;
-
 public class MyCalendarTwo
 {
     private readonly List<int[]> bookings;

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_17;
-#endif
-
 public class Solution
 {
     public IList<string> LetterCombinations(string digits)

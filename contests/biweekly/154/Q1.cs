@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_154_Q1;
-#endif
-
 public class Solution
 {
     public int MinOperations(int[] nums, int k)

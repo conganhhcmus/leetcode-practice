@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_594;
-#endif
-
 public class Solution
 {
     public int FindLHS(int[] nums)

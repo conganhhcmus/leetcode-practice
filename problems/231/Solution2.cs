@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_231_2;
-#endif
-
 public class Solution
 {
     public bool IsPowerOfTwo(int n)

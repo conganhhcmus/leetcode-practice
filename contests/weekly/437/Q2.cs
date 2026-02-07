@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_437_Q2;
-#endif
-
 public class Solution
 {
     public long MaxWeight(int[] pizzas)

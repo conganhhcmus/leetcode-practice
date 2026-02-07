@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3075;
-#endif
-
 public class Solution
 {
     public long MaximumHappinessSum(int[] happiness, int k)

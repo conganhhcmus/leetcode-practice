@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2048;
-#endif
-
 public class Solution
 {
     int ans = int.MaxValue;

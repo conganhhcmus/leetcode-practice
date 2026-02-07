@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_455;
-#endif
-
 public class Solution
 {
     public int FindContentChildren(int[] g, int[] s)

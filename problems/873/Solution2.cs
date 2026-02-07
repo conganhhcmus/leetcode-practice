@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_873_2;
-#endif
-
 public class Solution
 {
     public int LenLongestFibSubseq(int[] arr)

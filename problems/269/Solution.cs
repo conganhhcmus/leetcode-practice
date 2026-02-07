@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_269;
-#endif
-
 public class Solution
 {
     public string foreignDictionary(string[] words)

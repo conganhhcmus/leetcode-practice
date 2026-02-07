@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_118;
-#endif
-
 public class Solution
 {
     public IList<IList<int>> Generate(int numRows)

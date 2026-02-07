@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1912;
-#endif
-
 public class MovieRentingSystem
 {
     public record SearchMovie(int Shop, int Movie);

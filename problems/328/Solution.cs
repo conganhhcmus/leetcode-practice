@@ -1,5 +1,3 @@
-namespace Problem_328;
-
 public class Solution
 {
     public ListNode OddEvenList(ListNode head)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3289;
-#endif
-
 public class Solution
 {
     public int[] GetSneakyNumbers(int[] nums)

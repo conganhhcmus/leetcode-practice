@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1295_4;
-#endif
-
 public class Solution
 {
     public int FindNumbers(int[] nums)

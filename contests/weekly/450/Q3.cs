@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_450_Q3;
-#endif
-
 public class Solution
 {
     public int MinMoves(string[] matrix)

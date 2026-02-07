@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1504_2;
-#endif
-
 public class Solution
 {
     public int NumSubmat(int[][] mat)

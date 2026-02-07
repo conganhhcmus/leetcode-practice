@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_446_Q1;
-#endif
-
 public class Solution
 {
     public long CalculateScore(string[] instructions, int[] values)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_229_2;
-#endif
-
 public class Solution
 {
     public IList<int> MajorityElement(int[] nums)

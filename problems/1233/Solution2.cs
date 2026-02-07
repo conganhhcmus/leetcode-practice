@@ -1,7 +1,6 @@
 #if DEBUG
 using Biweekly_152_Q3;
 
-namespace Problems_1233_2;
 #endif
 
 public class Solution

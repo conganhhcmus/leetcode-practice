@@ -1,5 +1,3 @@
-namespace Problem_643;
-
 public class Solution
 {
     public double FindMaxAverage(int[] nums, int k)

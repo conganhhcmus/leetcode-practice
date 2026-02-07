@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3169_2;
-#endif
-
 public class Solution
 {
     public int CountDays(int days, int[][] meetings)

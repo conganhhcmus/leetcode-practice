@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_102;
-#endif
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

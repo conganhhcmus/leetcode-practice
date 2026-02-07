@@ -1,5 +1,3 @@
-namespace Problem_2641;
-
 public class Solution
 {
     public TreeNode ReplaceValueInTree(TreeNode root)

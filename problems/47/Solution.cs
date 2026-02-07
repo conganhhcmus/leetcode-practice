@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_47;
-#endif
-
 public class Solution
 {
     IList<IList<int>> ret = [];

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2043;
-#endif
-
 public class Bank
 {
     private readonly long[] accounts;

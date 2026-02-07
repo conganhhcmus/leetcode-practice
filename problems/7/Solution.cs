@@ -1,5 +1,3 @@
-namespace Problem_7;
-
 public class Solution
 {
     public int Reverse(int x)

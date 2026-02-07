@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2210_2;
-#endif
-
 public class Solution
 {
     public int CountHillValley(int[] nums)

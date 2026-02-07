@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2685_4;
-#endif
-
 public class Solution
 {
     public int CountCompleteComponents(int n, int[][] edges)

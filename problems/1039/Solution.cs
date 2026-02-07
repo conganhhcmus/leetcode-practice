@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1039;
-#endif
-
 public class Solution
 {
     Dictionary<int, int> memo = [];

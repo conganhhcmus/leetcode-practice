@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2698_2;
-#endif
-
 public class Solution
 {
     public int PunishmentNumber(int n)

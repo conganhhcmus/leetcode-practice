@@ -1,5 +1,3 @@
-namespace Problem_547;
-
 public class Solution
 {
     public int FindCircleNum(int[][] isConnected)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3425;
-#endif
-
 public class Solution
 {
     int[] ret = [0, int.MaxValue];

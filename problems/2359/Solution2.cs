@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2359_2;
-#endif
-
 public class Solution
 {
     public int ClosestMeetingNode(int[] edges, int node1, int node2)

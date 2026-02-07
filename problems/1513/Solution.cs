@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1513;
-#endif
-
 public class Solution
 {
     public int NumSub(string s)

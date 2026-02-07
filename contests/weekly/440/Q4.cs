@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_440_Q4;
-#endif
-
 public class Solution
 {
     public long MaxSubarrays(int n, int[][] conflictingPairs)

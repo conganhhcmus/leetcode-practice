@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2466;
-#endif
-
 public class Solution
 {
     public int CountGoodStrings(int low, int high, int zero, int one)

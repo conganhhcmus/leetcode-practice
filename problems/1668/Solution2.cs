@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1668_2;
-#endif
-
 public class Solution
 {
     public int MaxRepeating(string sequence, string word)

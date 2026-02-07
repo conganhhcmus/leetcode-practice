@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2683;
-#endif
-
 public class Solution
 {
     public bool DoesValidArrayExist(int[] derived)

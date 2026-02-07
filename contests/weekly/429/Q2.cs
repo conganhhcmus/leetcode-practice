@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_429_Q2;
-#endif
-
 public class Solution
 {
     public int MaxDistinctElements(int[] nums, int k)

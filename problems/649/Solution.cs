@@ -1,5 +1,3 @@
-namespace Problem_649;
-
 public class Solution
 {
     public string PredictPartyVictory(string senate)

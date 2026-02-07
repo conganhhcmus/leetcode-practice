@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_79_2;
-#endif
-
 public class Solution
 {
     public bool Exist(char[][] board, string word)

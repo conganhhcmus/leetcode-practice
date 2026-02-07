@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_498;
-#endif
-
 public class Solution
 {
     public int[] FindDiagonalOrder(int[][] mat)

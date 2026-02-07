@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2657;
-#endif
-
 public class Solution
 {
     public int[] FindThePrefixCommonArray(int[] A, int[] B)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_433_Q2;
-#endif
-
 public class Solution
 {
     public int MinMaxSums(int[] nums, int k)

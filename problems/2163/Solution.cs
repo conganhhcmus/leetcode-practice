@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2163;
-#endif
-
 public class Solution
 {
     public long MinimumDifference(int[] nums)

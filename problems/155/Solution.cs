@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_155;
-#endif
-
 public class MinStack
 {
     public class Node

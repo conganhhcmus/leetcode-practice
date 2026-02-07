@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_65;
-#endif
-
 public class Solution
 {
     public bool IsNumber(string s)

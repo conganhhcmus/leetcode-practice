@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_219;
-#endif
-
 public class Solution
 {
     public bool ContainsNearbyDuplicate(int[] nums, int k)

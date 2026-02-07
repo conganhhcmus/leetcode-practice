@@ -1,5 +1,3 @@
-namespace Problem_2914;
-
 public class Solution
 {
     public int MinChanges(string s)

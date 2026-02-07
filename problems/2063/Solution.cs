@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2063;
-#endif
-
 public class Solution
 {
     public long CountVowels(string word)

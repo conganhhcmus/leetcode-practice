@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_427;
-#endif
-
 // Definition for a QuadTree node.
 public class Node
 {

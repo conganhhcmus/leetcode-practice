@@ -1,5 +1,3 @@
-namespace Problem_2577;
-
 public class Solution
 {
     public int MinimumTime(int[][] grid)

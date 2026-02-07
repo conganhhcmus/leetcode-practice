@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1061;
-#endif
-
 public class Solution
 {
     public string SmallestEquivalentString(string s1, string s2, string baseStr)

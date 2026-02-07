@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3355;
-#endif
-
 public class Solution
 {
     public bool IsZeroArray(int[] nums, int[][] queries)

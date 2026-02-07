@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1323;
-#endif
-
 public class Solution
 {
     public int Maximum69Number(int num)

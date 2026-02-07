@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_557;
-#endif
-
 public class Solution
 {
     public string ReverseWords(string str)

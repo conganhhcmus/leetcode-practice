@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_211;
-#endif
-
 public class WordDictionary
 {
     WordDictionary[] children;

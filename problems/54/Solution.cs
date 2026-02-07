@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_54;
-#endif
-
 public class Solution
 {
     public IList<int> SpiralOrder(int[][] matrix)

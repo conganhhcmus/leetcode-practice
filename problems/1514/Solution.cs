@@ -1,5 +1,3 @@
-namespace Problem_1514;
-
 public class Solution
 {
     public double MaxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node)

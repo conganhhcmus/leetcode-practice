@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2411_2;
-#endif
-
 public class Solution
 {
     public int[] SmallestSubarrays(int[] nums)

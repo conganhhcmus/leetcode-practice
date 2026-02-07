@@ -1,4 +1,3 @@
-namespace Problem_169;
 public class Solution
 {
     public int MajorityElement(int[] nums)

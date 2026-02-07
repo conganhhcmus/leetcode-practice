@@ -1,5 +1,3 @@
-namespace Problem_874;
-
 public class Solution
 {
     public int RobotSim(int[] commands, int[][] obstacles)

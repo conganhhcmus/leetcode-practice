@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_437_Q4_2;
-#endif
-
 public class Solution
 {
     public int LenOfVDiagonal(int[][] grid)

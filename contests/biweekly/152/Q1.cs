@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_152_Q1;
-#endif
-
 public class Solution
 {
     public int TotalNumbers(int[] digits)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_344;
-#endif
-
 public class Solution
 {
     public void ReverseString(char[] s)

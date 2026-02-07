@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_436_Q4;
-#endif
-
 public class Solution
 {
     public long MaxScore(int[] points, int m)

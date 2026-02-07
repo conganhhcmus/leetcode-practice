@@ -1,5 +1,3 @@
-namespace Problem_1448;
-
 public class Solution
 {
     public int GoodNodes(TreeNode root)

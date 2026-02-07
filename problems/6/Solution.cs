@@ -1,5 +1,3 @@
-namespace Problem_6;
-
 public class Solution
 {
     public string Convert(string s, int numRows)

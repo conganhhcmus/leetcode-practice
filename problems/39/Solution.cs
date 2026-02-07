@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_39;
-#endif
-
 public class Solution
 {
 

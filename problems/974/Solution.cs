@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_974;
-#endif
-
 public class Solution
 {
     public int SubarraysDivByK(int[] a, int k)

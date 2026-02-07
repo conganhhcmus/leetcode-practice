@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1974;
-#endif
-
 public class Solution
 {
     public int MinTimeToType(string word)

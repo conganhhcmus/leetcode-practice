@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_428_Q3;
-#endif
-
 public class Solution
 {
     public int BeautifulSplits(int[] nums)

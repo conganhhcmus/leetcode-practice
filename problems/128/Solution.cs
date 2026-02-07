@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_128;
-#endif
-
 public class Solution
 {
     public int LongestConsecutive(int[] nums)

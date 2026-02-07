@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_445_Q2;
-#endif
-
 public class Solution
 {
     public string SmallestPalindrome(string s)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_438;
-#endif
-
 public class Solution
 {
     public IList<int> FindAnagrams(string s, string p)

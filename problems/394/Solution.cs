@@ -1,5 +1,3 @@
-namespace Problem_394;
-
 public class Solution
 {
     public string DecodeString(string s)

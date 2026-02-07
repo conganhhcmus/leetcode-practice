@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3454;
-#endif
-
 public class SegmentTree
 {
     private int[] count;

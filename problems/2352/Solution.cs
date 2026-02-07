@@ -1,5 +1,3 @@
-namespace Problem_2352;
-
 public class Solution
 {
     public int EqualPairs(int[][] grid)

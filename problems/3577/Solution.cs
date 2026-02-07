@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3577;
-#endif
-
 public class Solution
 {
     public int CountPermutations(int[] complexity)

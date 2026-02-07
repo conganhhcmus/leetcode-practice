@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_228;
-#endif
-
 public class Solution
 {
     public IList<string> SummaryRanges(int[] nums)

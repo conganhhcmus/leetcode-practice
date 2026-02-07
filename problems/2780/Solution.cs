@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2780;
-#endif
-
 public class Solution
 {
     public int MinimumIndex(IList<int> nums)

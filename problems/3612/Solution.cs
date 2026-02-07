@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3612;
-#endif
-
 public class Solution
 {
     public string ProcessStr(string s)

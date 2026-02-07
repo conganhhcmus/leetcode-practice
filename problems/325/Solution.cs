@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_325;
-#endif
-
 public class Solution
 {
     public int MaxSubArrayLen(int[] nums, int k)

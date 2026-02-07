@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3381;
-#endif
-
 public class Solution
 {
     public long MaxSubarraySum(int[] nums, int k)

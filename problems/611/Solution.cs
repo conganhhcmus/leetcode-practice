@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_611;
-#endif
-
 public class Solution
 {
     public int TriangleNumber(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3174;
-#endif
-
 public class Solution
 {
     public string ClearDigits(string s)

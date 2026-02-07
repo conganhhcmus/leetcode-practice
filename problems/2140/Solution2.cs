@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2140_2;
-#endif
-
 public class Solution
 {
     public long MostPoints(int[][] questions)

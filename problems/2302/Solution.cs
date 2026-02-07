@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2302;
-#endif
-
 public class Solution
 {
     public long CountSubarrays(int[] nums, long k)

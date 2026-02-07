@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_502;
-#endif
-
 public class Solution
 {
     public int FindMaximizedCapital(int k, int w, int[] profits, int[] capital)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1980;
-#endif
-
 public class Solution
 {
     public string FindDifferentBinaryString(string[] nums)

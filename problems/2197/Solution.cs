@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2197;
-#endif
-
 public class Solution
 {
     public IList<int> ReplaceNonCoprimes(int[] nums)

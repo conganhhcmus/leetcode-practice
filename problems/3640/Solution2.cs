@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3640_2;
-#endif
-
 public class Solution
 {
     long INF = (long)1e15;

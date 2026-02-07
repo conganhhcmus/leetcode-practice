@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_56;
-#endif
-
 public class Solution
 {
     public int[][] Merge(int[][] intervals)

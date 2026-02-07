@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_827;
-#endif
-
 public class UnionFind
 {
     private readonly int[] parent;

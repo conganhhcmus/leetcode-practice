@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_449_Q1;
-#endif
-
 public class Solution
 {
     public int MinDeletion(string s, int k)

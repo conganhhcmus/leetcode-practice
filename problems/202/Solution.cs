@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_202;
-#endif
-
 public class Solution
 {
     public bool IsHappy(int n)

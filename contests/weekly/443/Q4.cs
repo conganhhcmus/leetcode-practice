@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_443_Q4;
-#endif
-
 public class Solution
 {
     public long MinOperations(int[] nums, int x, int k)

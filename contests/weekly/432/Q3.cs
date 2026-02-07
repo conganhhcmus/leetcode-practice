@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_432_Q3;
-#endif
-
 public class Solution
 {
     private Dictionary<int, List<(int u, int w)>> BuildGraph(int[][] edges)

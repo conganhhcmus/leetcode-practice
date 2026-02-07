@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_763;
-#endif
-
 public class Solution
 {
     public IList<int> PartitionLabels(string s)

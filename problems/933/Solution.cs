@@ -1,5 +1,3 @@
-namespace Problem_933;
-
 public class RecentCounter
 {
     private readonly Queue<int> _requests;

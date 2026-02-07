@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_146;
-#endif
-
 public class DoubleLinkedList
 {
     public int Key;

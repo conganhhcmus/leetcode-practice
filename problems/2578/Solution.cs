@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2578;
-#endif
-
 public class Solution
 {
     public int SplitNum(int num)

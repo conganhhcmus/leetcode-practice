@@ -1,5 +1,3 @@
-namespace Problem_37;
-
 public class Solution
 {
     public void SolveSudoku(char[][] board)

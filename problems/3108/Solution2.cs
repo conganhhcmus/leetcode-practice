@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3108_2;
-#endif
-
 public class Solution
 {
     public int[] MinimumCost(int n, int[][] edges, int[][] query)

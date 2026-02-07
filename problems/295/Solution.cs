@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_295;
-#endif
-
 public class MedianFinder
 {
     PriorityQueue<int, int> minHeap;

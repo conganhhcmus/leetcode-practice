@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_75;
-#endif
-
 public class Solution
 {
     public void SortColors(int[] nums)

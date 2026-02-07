@@ -1,5 +1,3 @@
-namespace Problem_1942;
-
 public class Solution
 {
     public int SmallestChair(int[][] times, int targetFriend)

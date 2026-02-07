@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1780;
-#endif
-
 public class Solution
 {
     public bool CheckPowersOfThree(int n)

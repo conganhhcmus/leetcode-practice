@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1751_2;
-#endif
-
 public class Solution
 {
     public int MaxValue(int[][] events, int k)

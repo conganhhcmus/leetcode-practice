@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_446_Q2;
-#endif
-
 public class Solution
 {
     public int MaximumPossibleSize(int[] nums)

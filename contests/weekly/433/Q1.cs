@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_433_Q1;
-#endif
-
 public class Solution
 {
     public int SubarraySum(int[] nums)

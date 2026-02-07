@@ -1,5 +1,3 @@
-namespace Problem_1106;
-
 public class Solution
 {
     public bool ParseBoolExpr(string expression)

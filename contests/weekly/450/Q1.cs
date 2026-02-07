@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_450_Q1;
-#endif
-
 public class Solution
 {
     public int SmallestIndex(int[] nums)

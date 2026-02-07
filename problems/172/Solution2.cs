@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_172_2;
-#endif
-
 public class Solution
 {
     public int TrailingZeroes(int n)

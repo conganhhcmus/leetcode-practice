@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_44_2;
-#endif
-
 public class Solution
 {
     public bool IsMatch(string s, string p)

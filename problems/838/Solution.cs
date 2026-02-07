@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_838;
-#endif
-
 public class Solution
 {
     public string PushDominoes(string dominoes)

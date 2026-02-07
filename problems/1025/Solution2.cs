@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1025_2;
-#endif
-
 public class Solution
 {
     public bool DivisorGame(int n)

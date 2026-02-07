@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_279;
-#endif
-
 public class Solution
 {
     public int NumSquares(int n)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1415_2;
-#endif
-
 public class Solution
 {
     public string GetHappyString(int n, int k)

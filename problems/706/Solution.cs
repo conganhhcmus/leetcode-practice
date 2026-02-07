@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_706;
-#endif
-
 public class Node
 {
     public int Key;

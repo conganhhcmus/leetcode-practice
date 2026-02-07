@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_438_Q2;
-#endif
-
 public class Solution
 {
     public long MaxSum(int[][] grid, int[] limits, int k)

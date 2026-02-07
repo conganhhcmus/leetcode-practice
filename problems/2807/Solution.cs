@@ -1,5 +1,3 @@
-namespace Problem_2807;
-
 public class Solution
 {
     public ListNode InsertGreatestCommonDivisors(ListNode head)

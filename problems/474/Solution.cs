@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_474;
-#endif
-
 public class Solution
 {
     public int FindMaxForm(string[] strs, int m, int n)

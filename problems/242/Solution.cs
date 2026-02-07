@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_242;
-#endif
-
 public class Solution
 {
     public bool IsAnagram(string s, string t)

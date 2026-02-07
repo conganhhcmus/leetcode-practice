@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_436_Q3;
-#endif
-
 public class Solution
 {
     public long CountSubstrings(string s)

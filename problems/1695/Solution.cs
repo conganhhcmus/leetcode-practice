@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1695;
-#endif
-
 public class Solution
 {
     public int MaximumUniqueSubarray(int[] nums)

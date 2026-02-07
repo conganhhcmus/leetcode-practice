@@ -1,5 +1,3 @@
-namespace Problem_179;
-
 public class Solution
 {
     public string LargestNumber(int[] nums)

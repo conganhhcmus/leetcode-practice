@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_446_Q3;
-#endif
-
 public class Solution
 {
     public long[] ResultArray(int[] nums, int k)

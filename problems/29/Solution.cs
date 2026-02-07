@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_29;
-#endif
-
 public class Solution
 {
     public int Divide(int dividend, int divisor)

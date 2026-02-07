@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_909_2;
-#endif
-
 public class Solution
 {
     public int SnakesAndLadders(int[][] board)

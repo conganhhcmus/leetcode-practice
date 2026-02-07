@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_162;
-#endif
-
 public class Solution
 {
     public int FindPeakElement(int[] nums)

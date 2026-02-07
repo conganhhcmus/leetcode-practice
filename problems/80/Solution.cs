@@ -1,4 +1,3 @@
-namespace Problem_80;
 public class Solution
 {
     public int RemoveDuplicates(int[] nums)

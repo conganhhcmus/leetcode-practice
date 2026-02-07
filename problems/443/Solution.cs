@@ -1,5 +1,3 @@
-namespace Problem_443;
-
 public class Solution
 {
     public int Compress(char[] chars)

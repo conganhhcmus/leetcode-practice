@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3362;
-#endif
-
 public class Solution
 {
     public int MaxRemoval(int[] nums, int[][] queries)

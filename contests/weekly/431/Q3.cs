@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_431_Q3;
-#endif
-
 public class Solution
 {
     public long MaximumCoins(int[][] coins, int k)

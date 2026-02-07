@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3541;
-#endif
-
 public class Solution
 {
     public int MaxFreqSum(string s)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2379;
-#endif
-
 public class Solution
 {
     public int MinimumRecolors(string blocks, int k)

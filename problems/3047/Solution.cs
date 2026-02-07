@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3047;
-#endif
-
 public class Solution
 {
     public long LargestSquareArea(int[][] bottomLeft, int[][] topRight)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1877;
-#endif
-
 public class Solution
 {
     public int MinPairSum(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_431_Q1;
-#endif
-
 public class Solution
 {
     long GCD(long a, long b)

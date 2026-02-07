@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2843;
-#endif
-
 public class Solution
 {
     public int CountSymmetricIntegers(int low, int high)

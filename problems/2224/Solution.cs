@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2224;
-#endif
-
 public class Solution
 {
     public int ConvertTime(string current, string correct)

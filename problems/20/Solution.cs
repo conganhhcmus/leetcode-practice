@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_20;
-#endif
-
 public class Solution
 {
     public bool IsValid(string s)

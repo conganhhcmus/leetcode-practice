@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_386;
-#endif
-
 public class Solution
 {
     public IList<int> LexicalOrder(int n)

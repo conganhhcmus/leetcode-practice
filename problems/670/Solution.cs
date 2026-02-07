@@ -1,5 +1,3 @@
-namespace Problem_670;
-
 public class Solution
 {
     public int MaximumSwap(int num)

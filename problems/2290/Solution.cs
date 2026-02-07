@@ -1,6 +1,4 @@
 
-namespace Problems_2290;
-
 public class Solution
 {
     public int MinimumObstacles(int[][] grid)

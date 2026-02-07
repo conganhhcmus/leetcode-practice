@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3304;
-#endif
-
 public class Solution
 {
     public char KthCharacter(int k)

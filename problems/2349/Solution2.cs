@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2349_2;
-#endif
-
 
 public class NumberContainers
 {

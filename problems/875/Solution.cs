@@ -1,5 +1,3 @@
-namespace Problem_875;
-
 public class Solution
 {
     public int MinEatingSpeed(int[] piles, int h)

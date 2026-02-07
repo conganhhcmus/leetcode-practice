@@ -1,5 +1,3 @@
-namespace Problem_1161;
-
 public class Solution
 {
     public int MaxLevelSum(TreeNode root)

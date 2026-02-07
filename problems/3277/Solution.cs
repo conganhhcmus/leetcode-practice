@@ -1,5 +1,3 @@
-namespace Problem_3277;
-
 public class Solution
 {
     public int[] MaximumSubarrayXor(int[] nums, int[][] queries)

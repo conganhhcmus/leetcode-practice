@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2825;
-#endif
-
 public class Solution
 {
     public bool CanMakeSubsequence(string str1, string str2)

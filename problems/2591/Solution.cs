@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2591;
-#endif
-
 public class Solution
 {
     public int DistMoney(int money, int children)

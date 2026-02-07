@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_684;
-#endif
-
 public class Solution
 {
     public int[] FindRedundantConnection(int[][] edges)

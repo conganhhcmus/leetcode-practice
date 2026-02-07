@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3151;
-#endif
-
 public class Solution
 {
     public bool IsArraySpecial(int[] nums)

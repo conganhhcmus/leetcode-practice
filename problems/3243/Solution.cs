@@ -1,4 +1,3 @@
-namespace Problem_3243;
 public class Solution
 {
     public int[] ShortestDistanceAfterQueries(int n, int[][] queries)

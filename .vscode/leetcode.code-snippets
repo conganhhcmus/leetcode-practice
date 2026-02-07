@@ -1,18 +1,4 @@
 {
-	"LeetCode": {
-		"scope": "csharp",
-		"prefix": [
-			"!i", // LeetCode Initial
-		],
-		"body": [
-			"#if DEBUG",
-			"namespace ${TM_DIRECTORY/^.*[\\/\\\\](\\w+)[\\/\\\\](\\w+)[\\/\\\\]*$/${1:/capitalize}_$2/}${TM_FILENAME_BASE/^Solution(\\d*)$|(.+)/${1:+_}$1${2:+_}$2/};",
-			"#endif",
-			"",
-			"${CLIPBOARD/©leetcode//g}"
-		],
-		"description": "Initial solution file for LeetCode"
-	},
 	"e97":{
 		"scope": "csharp",
 		"prefix": "e97",

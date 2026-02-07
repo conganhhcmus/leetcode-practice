@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2221_2;
-#endif
-
 public class Solution
 {
     public int TriangularSum(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_66;
-#endif
-
 public class Solution
 {
     public int[] PlusOne(int[] digits)

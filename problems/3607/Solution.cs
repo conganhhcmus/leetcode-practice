@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3607;
-#endif
-
 public class Solution
 {
     int[] parent;

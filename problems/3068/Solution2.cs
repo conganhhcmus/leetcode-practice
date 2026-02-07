@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3068_2;
-#endif
-
 public class Solution
 {
     public long MaximumValueSum(int[] nums, int k, int[][] edges)

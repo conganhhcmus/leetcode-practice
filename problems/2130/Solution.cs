@@ -1,5 +1,3 @@
-namespace Problem_2130;
-
 public class Solution
 {
     public int PairSum(ListNode head)

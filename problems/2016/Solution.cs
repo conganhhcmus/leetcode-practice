@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2016;
-#endif
-
 public class Solution
 {
     public int MaximumDifference(int[] nums)

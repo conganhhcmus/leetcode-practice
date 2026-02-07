@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1920;
-#endif
-
 public class Solution
 {
     public int[] BuildArray(int[] nums)

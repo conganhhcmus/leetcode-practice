@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2977_2;
-#endif
-
 public class Solution
 {
     long INF = long.MaxValue / 2;

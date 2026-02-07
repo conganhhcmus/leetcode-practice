@@ -1,5 +1,3 @@
-namespace Problem_334;
-
 public class Solution
 {
     public bool IncreasingTriplet(int[] nums)

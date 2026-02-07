@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1437;
-#endif
-
 public class Solution
 {
     public bool KLengthApart(int[] nums, int k)

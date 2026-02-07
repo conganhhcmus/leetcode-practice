@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1857_3;
-#endif
-
 public class Solution
 {
     public int LargestPathValue(string colors, int[][] edges)

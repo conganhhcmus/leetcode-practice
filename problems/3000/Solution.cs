@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3000;
-#endif
-
 public class Solution
 {
     public int AreaOfMaxDiagonal(int[][] dimensions)

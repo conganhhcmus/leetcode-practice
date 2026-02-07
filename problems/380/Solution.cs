@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_380;
-#endif
-
 public class RandomizedSet
 {
     private Dictionary<int, int> _set;

@@ -1,5 +1,3 @@
-namespace Problem_8;
-
 public class Solution
 {
     public int MyAtoi(string s)

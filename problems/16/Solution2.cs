@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_16_2;
-#endif
-
 public class Solution
 {
     public int ThreeSumClosest(int[] nums, int target)

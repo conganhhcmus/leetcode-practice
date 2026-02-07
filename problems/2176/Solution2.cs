@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2176_2;
-#endif
-
 public class Solution
 {
     public int CountPairs(int[] nums, int k)

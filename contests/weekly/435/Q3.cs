@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_435_Q3;
-#endif
-
 public class Solution
 {
     public int MinimumIncrements(int[] nums, int[] target)

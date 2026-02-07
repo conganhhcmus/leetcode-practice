@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1765;
-#endif
-
 public class Solution
 {
     public int[][] HighestPeak(int[][] isWater)

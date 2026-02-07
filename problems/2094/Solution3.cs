@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2094_3;
-#endif
-
 public class Solution
 {
     public int[] FindEvenNumbers(int[] digits)

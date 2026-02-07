@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1157;
-#endif
-
 public class MajorityChecker
 {
     int n;

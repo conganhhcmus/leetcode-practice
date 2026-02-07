@@ -1,5 +1,3 @@
-namespace Problem_1207;
-
 public class Solution
 {
     public bool UniqueOccurrences(int[] arr)

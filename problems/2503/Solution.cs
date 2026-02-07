@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2503;
-#endif
-
 public class Solution
 {
     public int[] MaxPoints(int[][] grid, int[] queries)

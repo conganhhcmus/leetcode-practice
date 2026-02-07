@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2322_2;
-#endif
-
 public class Solution
 {
     public int MinimumScore(int[] nums, int[][] edges)

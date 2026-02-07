@@ -1,5 +1,3 @@
-namespace Problem_1405;
-
 public class Solution
 {
     public string LongestDiverseString(int a, int b, int c)

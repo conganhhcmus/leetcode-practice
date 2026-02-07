@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2311;
-#endif
-
 public class Solution
 {
     public int LongestSubsequence(string s, int k)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_912;
-#endif
-
 public class Solution
 {
     public int[] SortArray(int[] nums)

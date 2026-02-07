@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_439_Q3;
-#endif
-
 public class Solution
 {
     public int MaxSum(int[] nums, int k, int m)

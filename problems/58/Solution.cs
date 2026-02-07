@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_58;
-#endif
-
 public class Solution
 {
     public int LengthOfLastWord(string s)

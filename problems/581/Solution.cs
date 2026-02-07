@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_581;
-#endif
-
 public class Solution
 {
     public int FindUnsortedSubarray(int[] nums)

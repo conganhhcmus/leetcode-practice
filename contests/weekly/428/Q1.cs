@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_428_Q1;
-#endif
-
 public class Solution
 {
     public int ButtonWithLongestTime(int[][] events)

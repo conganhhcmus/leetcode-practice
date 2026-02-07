@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1092;
-#endif
-
 public class Solution
 {
     public string ShortestCommonSupersequence(string str1, string str2)

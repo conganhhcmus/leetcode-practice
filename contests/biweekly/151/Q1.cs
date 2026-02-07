@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_151_Q1;
-#endif
-
 public class Solution
 {
     public int[] TransformArray(int[] nums)

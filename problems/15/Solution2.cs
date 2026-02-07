@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_15_2;
-#endif
-
 public class Solution
 {
     public IList<IList<int>> ThreeSum(int[] nums)

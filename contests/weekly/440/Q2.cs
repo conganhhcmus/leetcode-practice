@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_440_Q2;
-#endif
-
 public class Solution
 {
     public long[] FindMaxSum(int[] nums1, int[] nums2, int k)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2294;
-#endif
-
 public class Solution
 {
     public int PartitionArray(int[] nums, int k)

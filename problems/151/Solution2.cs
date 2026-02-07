@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_151_2;
-#endif
-
 public class Solution
 {
     public int ReverseWords(char[] s)

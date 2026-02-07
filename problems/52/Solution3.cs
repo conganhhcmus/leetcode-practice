@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_52_3;
-#endif
-
 public class Solution
 {
     public int TotalNQueens(int n)

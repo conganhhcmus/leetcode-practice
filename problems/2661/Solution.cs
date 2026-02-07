@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2661;
-#endif
-
 public class Solution
 {
     public int FirstCompleteIndex(int[] arr, int[][] mat)

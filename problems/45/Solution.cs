@@ -1,4 +1,3 @@
-namespace Problem_45;
 public class Solution
 {
     public int Jump(int[] nums)

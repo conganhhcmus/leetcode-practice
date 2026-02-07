@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1550;
-#endif
-
 public class Solution
 {
     public bool ThreeConsecutiveOdds(int[] arr)

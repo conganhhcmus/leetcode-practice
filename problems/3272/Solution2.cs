@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3272_2;
-#endif
-
 public class Solution
 {
     public long CountGoodIntegers(int n, int k)

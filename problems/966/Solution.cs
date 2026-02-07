@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_966;
-#endif
-
 public class Solution
 {
     Dictionary<string, List<int>> map = [];

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_152;
-#endif
-
 public class Solution
 {
     public int MaxProduct(int[] nums)

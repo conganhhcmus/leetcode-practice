@@ -1,5 +1,3 @@
-namespace Problem_2491;
-
 public class Solution
 {
     public long DividePlayers(int[] skill)

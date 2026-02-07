@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3634;
-#endif
-
 public class Solution
 {
     public int MinRemoval(int[] nums, int k)

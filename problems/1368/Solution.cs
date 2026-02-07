@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1368;
-#endif
-
 public class Solution
 {
     public int MinCost(int[][] grid)

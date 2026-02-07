@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3439_2;
-#endif
-
 public class Solution
 {
     public int MaxFreeTime(int eventTime, int k, int[] startTime, int[] endTime)

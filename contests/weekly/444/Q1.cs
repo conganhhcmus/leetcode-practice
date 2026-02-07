@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_444_Q1;
-#endif
-
 public class Solution
 {
     public int MinimumPairRemoval(int[] nums)

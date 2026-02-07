@@ -1,4 +1,3 @@
-namespace Problem_2924;
 public class Solution
 {
     public int FindChampion(int n, int[][] edges)

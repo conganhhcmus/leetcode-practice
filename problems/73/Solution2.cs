@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_73_2;
-#endif
-
 public class Solution
 {
     public void SetZeroes(int[][] matrix)

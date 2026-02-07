@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3010;
-#endif
-
 public class Solution
 {
     public int MinimumCost(int[] nums)

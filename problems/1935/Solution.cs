@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1935;
-#endif
-
 public class Solution
 {
     public int CanBeTypedWords(string text, string brokenLetters)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2928;
-#endif
-
 public class Solution
 {
     public int DistributeCandies(int n, int limit)

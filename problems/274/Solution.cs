@@ -1,5 +1,3 @@
-namespace Problems_274;
-
 public class Solution
 {
     public int HIndex(int[] citations)

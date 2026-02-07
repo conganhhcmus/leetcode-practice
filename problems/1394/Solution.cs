@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1394;
-#endif
-
 public class Solution
 {
     public int FindLucky(int[] arr)

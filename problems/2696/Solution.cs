@@ -1,5 +1,3 @@
-namespace Problem_2696;
-
 public class Solution
 {
     public int MinLength(string s)

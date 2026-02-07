@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1032;
-#endif
-
 public class StreamChecker
 {
     Trie root = new Trie();

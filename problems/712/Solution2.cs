@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_712_2;
-#endif
-
 public class Solution
 {
     public int MinimumDeleteSum(string s1, string s2)

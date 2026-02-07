@@ -1,5 +1,3 @@
-namespace Problem_2044;
-
 public class Solution
 {
     public int CountMaxOrSubsets(int[] nums)

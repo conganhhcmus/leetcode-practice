@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_4_2;
-#endif
-
 public class Solution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)

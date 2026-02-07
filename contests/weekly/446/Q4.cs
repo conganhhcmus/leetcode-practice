@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_446_Q4;
-#endif
-
 public class Solution
 {
     public int[] ResultArray(int[] nums, int k, int[][] queries)

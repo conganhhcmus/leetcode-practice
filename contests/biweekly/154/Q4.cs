@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_154_Q4;
-#endif
-
 public class Solution
 {
     int[] inTime, outTime, flat, parent, depth;

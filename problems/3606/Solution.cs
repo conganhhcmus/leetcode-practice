@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3606;
-#endif
-
 public class Solution
 {
     public IList<string> ValidateCoupons(

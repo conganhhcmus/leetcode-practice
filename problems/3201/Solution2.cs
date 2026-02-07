@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3201_2;
-#endif
-
 public class Solution
 {
     public int MaximumLength(int[] nums)

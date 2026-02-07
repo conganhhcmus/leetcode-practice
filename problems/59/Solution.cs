@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_59;
-#endif
-
 public class Solution
 {
     public int[][] GenerateMatrix(int n)

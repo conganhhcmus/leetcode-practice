@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2594_2;
-#endif
-
 public class Solution
 {
     public long RepairCars(int[] ranks, int cars)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1475;
-#endif
-
 public class Solution
 {
     public int[] FinalPrices(int[] prices)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2943;
-#endif
-
 public class Solution
 {
     public int MaximizeSquareHoleArea(int n, int m, int[] hBars, int[] vBars)

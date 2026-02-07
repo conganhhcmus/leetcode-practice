@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_120_2;
-#endif
-
 
 // optimize memory allocation
 public class Solution

@@ -1,5 +1,3 @@
-namespace Problem_994;
-
 public class Solution
 {
     public int OrangesRotting(int[][] grid)

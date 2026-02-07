@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_289;
-#endif
-
 public class Solution
 {
     public void GameOfLife(int[][] board)

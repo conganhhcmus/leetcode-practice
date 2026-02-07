@@ -1,5 +1,3 @@
-namespace Problem_739;
-
 public class Solution
 {
     public int[] DailyTemperatures(int[] temperatures)

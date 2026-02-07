@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1079;
-#endif
-
 public class Solution
 {
     public int NumTilePossibilities(string tiles)

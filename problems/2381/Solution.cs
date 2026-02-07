@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2381;
-#endif
-
 public class Solution
 {
     public string ShiftingLetters(string s, int[][] shifts)

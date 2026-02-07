@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3314;
-#endif
-
 public class Solution
 {
     public int[] MinBitwiseArray(IList<int> nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_57;
-#endif
-
 public class Solution
 {
     public int[][] Insert(int[][] intervals, int[] newInterval)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1438_2;
-#endif
-
 public class Solution
 {
     public int LongestSubarray(int[] nums, int limit)

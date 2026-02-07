@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_434_Q3;
-#endif
-
 public class Solution
 {
     public int MaxFrequency(int[] nums, int k)

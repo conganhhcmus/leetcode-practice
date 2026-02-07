@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1400;
-#endif
-
 public class Solution
 {
     public bool CanConstruct(string s, int k)

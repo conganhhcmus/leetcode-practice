@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_487_Q1;
-#endif
-
 public class Solution
 {
     public int CountMonobit(int n)

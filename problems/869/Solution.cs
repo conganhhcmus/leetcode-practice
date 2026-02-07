@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_869;
-#endif
-
 public class Solution
 {
     public bool ReorderedPowerOf2(int n)

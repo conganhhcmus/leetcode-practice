@@ -1,5 +1,3 @@
-namespace Problem_3276;
-
 public class Solution
 {
     public int MaxScore(IList<IList<int>> grid)

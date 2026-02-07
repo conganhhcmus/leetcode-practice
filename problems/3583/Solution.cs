@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3583;
-#endif
-
 public class Solution
 {
     public int SpecialTriplets(int[] nums)

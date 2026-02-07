@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3356_3;
-#endif
-
 public class Solution
 {
     public int MinZeroArray(int[] nums, int[][] queries)

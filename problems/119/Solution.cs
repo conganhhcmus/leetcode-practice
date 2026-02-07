@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_119;
-#endif
-
 public class Solution
 {
     public IList<int> GetRow(int rowIndex)

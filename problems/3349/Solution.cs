@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3349;
-#endif
-
 public class Solution
 {
     public bool HasIncreasingSubarrays(IList<int> nums, int k)

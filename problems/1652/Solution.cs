@@ -1,5 +1,3 @@
-namespace Problem_1652;
-
 public class Solution
 {
     public int[] Decrypt(int[] code, int k)

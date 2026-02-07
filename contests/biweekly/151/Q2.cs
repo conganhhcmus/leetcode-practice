@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_151_Q2;
-#endif
-
 public class Solution
 {
     public int CountArrays(int[] original, int[][] bounds)

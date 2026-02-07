@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_438_Q3;
-#endif
-
 public class Solution
 {
     public bool HasSameDigits(string s)

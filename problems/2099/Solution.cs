@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2099;
-#endif
-
 public class Solution
 {
     public int[] MaxSubsequence(int[] nums, int k)

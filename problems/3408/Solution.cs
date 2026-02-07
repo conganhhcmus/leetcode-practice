@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3408;
-#endif
-
 public class TaskManager
 {
     PriorityQueue<(int userId, int taskId, int priority), (int taskId, int priority)> pq = new(Comparer<(int taskId, int priority)>.Create((a, b) =>

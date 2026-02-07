@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2327_2;
-#endif
-
 public class Solution
 {
     public int PeopleAwareOfSecret(int n, int delay, int forget)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_28;
-#endif
-
 public class Solution
 {
     public int StrStr(string haystack, string needle)

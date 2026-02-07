@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2900_3;
-#endif
-
 public class Solution
 {
     public IList<string> GetLongestSubsequence(string[] words, int[] groups)

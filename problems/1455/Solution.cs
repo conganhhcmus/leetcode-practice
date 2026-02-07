@@ -1,4 +1,3 @@
-namespace Problem_1455;
 public class Solution
 {
     public int IsPrefixOfWord(string sentence, string searchWord)

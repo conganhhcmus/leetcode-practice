@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_487_Q3;
-#endif
-
 public class RideSharingSystem
 {
     Queue<int> riders = [];

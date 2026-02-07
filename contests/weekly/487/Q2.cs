@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_487_Q2;
-#endif
-
 public class Solution
 {
     public int FinalElement(int[] nums)

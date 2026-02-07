@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_46;
-#endif
-
 public class Solution
 {
     public IList<IList<int>> Permute(int[] nums)

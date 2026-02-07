@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1018;
-#endif
-
 public class Solution
 {
     public IList<bool> PrefixesDivBy5(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1717;
-#endif
-
 public class Solution
 {
     public int MaximumGain(string s, int x, int y)

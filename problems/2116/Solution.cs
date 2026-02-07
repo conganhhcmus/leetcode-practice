@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2116;
-#endif
-
 public class Solution
 {
     public bool CanBeValid(string s, string locked)

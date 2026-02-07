@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2270;
-#endif
-
 public class Solution
 {
     public int WaysToSplitArray(int[] nums)

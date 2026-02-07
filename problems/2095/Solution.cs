@@ -1,5 +1,3 @@
-namespace Problem_2095;
-
 public class Solution
 {
     public ListNode DeleteMiddle(ListNode head)

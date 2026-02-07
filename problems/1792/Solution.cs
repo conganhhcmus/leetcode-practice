@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1792;
-#endif
-
 public class Solution
 {
     public double MaxAverageRatio(int[][] classes, int extraStudents)

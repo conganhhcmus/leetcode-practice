@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2425;
-#endif
-
 public class Solution
 {
     public int XorAllNums(int[] nums1, int[] nums2)

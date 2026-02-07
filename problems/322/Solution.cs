@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_322;
-#endif
-
 public class Solution
 {
     public int CoinChange(int[] coins, int amount)

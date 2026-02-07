@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3637_3;
-#endif
-
 public class Solution
 {
     public bool IsTrionic(int[] nums)

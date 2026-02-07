@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_76;
-#endif
-
 public class Solution
 {
     public string MinWindow(string s, string t)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_207_2;
-#endif
-
 public class Solution
 {
     public bool CanFinish(int numCourses, int[][] prerequisites)

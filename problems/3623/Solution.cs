@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3623;
-#endif
-
 public class Solution
 {
     public int CountTrapezoids(int[][] points)

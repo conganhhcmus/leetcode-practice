@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_430_Q2;
-#endif
-
 public class Solution
 {
     public string AnswerString(string word, int numFriends)

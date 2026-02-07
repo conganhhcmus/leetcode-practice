@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1976;
-#endif
-
 public class Solution
 {
     public int CountPaths(int n, int[][] roads)

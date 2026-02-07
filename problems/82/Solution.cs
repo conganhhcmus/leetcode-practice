@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_82;
-#endif
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {

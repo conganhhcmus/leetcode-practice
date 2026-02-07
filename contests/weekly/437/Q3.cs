@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_437_Q3;
-#endif
-
 public class Solution
 {
     public bool MaxSubstringLength(string s, int k)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_264_3;
-#endif
-
 public class Solution
 {
     public int NthUglyNumber(int n)

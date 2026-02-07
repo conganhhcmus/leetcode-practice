@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_432_Q4;
-#endif
-
 public class Solution
 {
     // // O(n)

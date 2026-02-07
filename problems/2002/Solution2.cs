@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2002_2;
-#endif
-
 public class Solution
 {
     public int MaxProduct(string s)

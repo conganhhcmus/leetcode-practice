@@ -1,5 +1,3 @@
-namespace Problem_104;
-
 public class Solution
 {
     public int MaxDepth(TreeNode root)

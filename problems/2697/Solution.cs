@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2697;
-#endif
-
 public class Solution
 {
     public string MakeSmallestPalindrome(string s)

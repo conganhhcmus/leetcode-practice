@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2429;
-#endif
-
 public class Solution
 {
     public int MinimizeXor(int num1, int num2)

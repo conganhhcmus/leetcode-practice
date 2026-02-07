@@ -1,4 +1,3 @@
-namespace Problem_2002;
 using System.Text;
 
 public class Solution

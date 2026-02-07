@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_152_Q3;
-#endif
-
 public class Solution
 {
     public int[] LongestCommonPrefix(string[] words, int k)

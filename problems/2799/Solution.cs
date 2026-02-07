@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2799;
-#endif
-
 public class Solution
 {
     public int CountCompleteSubarrays(int[] nums)

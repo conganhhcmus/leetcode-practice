@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1718;
-#endif
-
 public class Solution
 {
     public int[] ConstructDistancedSequence(int n)

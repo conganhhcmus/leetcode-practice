@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_484_Q1;
-#endif
-
 public class Solution
 {
     public int ResiduePrefixes(string s)

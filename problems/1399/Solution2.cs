@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1399_2;
-#endif
-
 public class Solution
 {
     public int CountLargestGroup(int n)

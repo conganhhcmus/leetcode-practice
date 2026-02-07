@@ -1,5 +1,3 @@
-namespace Problem_374;
-
 public class GuessGame
 {
     protected int pickNumber;

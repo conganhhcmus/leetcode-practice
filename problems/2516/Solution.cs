@@ -1,5 +1,3 @@
-namespace Problem_2516;
-
 public class Solution
 {
     public int TakeCharacters(string s, int k)

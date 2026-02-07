@@ -1,5 +1,3 @@
-namespace Problem_3133;
-
 public class Solution
 {
     public long MinEnd(int n, int x)

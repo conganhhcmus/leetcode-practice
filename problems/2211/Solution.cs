@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2211;
-#endif
-
 public class Solution
 {
     public int CountCollisions(string directions)

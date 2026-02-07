@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_430_Q4;
-#endif
-
 public class Solution
 {
     const int MOD = 1_000_000_007;

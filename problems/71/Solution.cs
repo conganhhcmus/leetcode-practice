@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_71;
-#endif
-
 public class Solution
 {
     public string SimplifyPath(string path)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2169_2;
-#endif
-
 public class Solution
 {
     public int CountOperations(int num1, int num2)

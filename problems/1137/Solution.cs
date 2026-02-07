@@ -1,5 +1,3 @@
-namespace Problem_1137;
-
 public class Solution
 {
     public int Tribonacci(int n)

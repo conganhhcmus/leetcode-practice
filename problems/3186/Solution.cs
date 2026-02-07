@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3186;
-#endif
-
 public class Solution
 {
     public long MaximumTotalDamage(int[] power)

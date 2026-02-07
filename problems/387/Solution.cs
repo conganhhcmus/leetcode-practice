@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_387;
-#endif
-
 public class Solution
 {
     public int FirstUniqChar(string s)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1895_2;
-#endif
-
 public class Solution
 {
     public int LargestMagicSquare(int[][] grid)

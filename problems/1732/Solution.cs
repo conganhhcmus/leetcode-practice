@@ -1,5 +1,3 @@
-namespace Problem_1732;
-
 public class Solution
 {
     public int LargestAltitude(int[] gain)

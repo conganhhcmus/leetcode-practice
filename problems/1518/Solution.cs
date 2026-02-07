@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1518;
-#endif
-
 public class Solution
 {
     public int NumWaterBottles(int numBottles, int numExchange)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_432_Q2;
-#endif
-
 public class Solution
 {
     public int MaximumAmount(int[][] coins)

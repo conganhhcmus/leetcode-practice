@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_600;
-#endif
-
 public class Solution
 {
     public int FindIntegers(int n)

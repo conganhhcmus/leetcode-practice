@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_447_Q3;
-#endif
-
 public class Solution
 {
     public int[] ConcatenatedDivisibility(int[] nums, int k)

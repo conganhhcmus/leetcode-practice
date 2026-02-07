@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_450_Q2_2;
-#endif
-
 public class Solution
 {
     public int MinSwaps(int[] nums)

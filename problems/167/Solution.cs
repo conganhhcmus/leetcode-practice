@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_167;
-#endif
-
 public class Solution
 {
     public int[] TwoSum(int[] numbers, int target)

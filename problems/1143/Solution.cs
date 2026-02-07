@@ -1,4 +1,3 @@
-namespace Problem_1143;
 public class Solution
 {
     public int LongestCommonSubsequence(string text1, string text2)

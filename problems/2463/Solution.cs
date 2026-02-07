@@ -1,5 +1,3 @@
-namespace Problem_2463;
-
 public class Solution
 {
     public long MinimumTotalDistance(IList<int> robot, int[][] factory)

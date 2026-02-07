@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_77_2;
-#endif
-
 public class Solution
 {
     public IList<IList<int>> Combine(int n, int k)

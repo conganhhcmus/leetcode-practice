@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_31_2;
-#endif
-
 public class Solution
 {
     public void NextPermutation(int[] nums)

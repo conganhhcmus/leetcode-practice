@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1502;
-#endif
-
 public class Solution
 {
     public bool CanMakeArithmeticProgression(int[] arr)

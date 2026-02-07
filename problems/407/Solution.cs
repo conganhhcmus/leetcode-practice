@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_407;
-#endif
-
 public class Solution
 {
     public int TrapRainWater(int[][] heightMap)

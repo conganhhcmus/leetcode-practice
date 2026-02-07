@@ -1,7 +1,5 @@
 using System.Text;
 
-namespace Problem_3163;
-
 public class Solution
 {
     public string CompressedString(string word)

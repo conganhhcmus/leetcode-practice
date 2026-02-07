@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2493;
-#endif
-
 public class Solution
 {
     public int MagnificentSets(int n, int[][] edges)

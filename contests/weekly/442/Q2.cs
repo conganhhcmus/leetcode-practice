@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_442_Q2;
-#endif
-
 public class Solution
 {
     public int NumberOfComponents(int[][] properties, int k)

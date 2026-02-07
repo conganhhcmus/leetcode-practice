@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_961;
-#endif
-
 public class Solution
 {
     public int RepeatedNTimes(int[] nums)

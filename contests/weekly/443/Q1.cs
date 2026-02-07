@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_443_Q1;
-#endif
-
 public class Solution
 {
     public int[] MinCosts(int[] cost)

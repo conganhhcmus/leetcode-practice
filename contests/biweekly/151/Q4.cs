@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_151_Q4;
-#endif
-
 public class Solution
 {
     public int[] Permute(int n, long k)

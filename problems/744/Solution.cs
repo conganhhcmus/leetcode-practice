@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_744;
-#endif
-
 public class Solution
 {
     public char NextGreatestLetter(char[] letters, char target)

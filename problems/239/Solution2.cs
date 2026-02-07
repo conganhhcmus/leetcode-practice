@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_239_2;
-#endif
-
 public class Solution
 {
     public int[] MaxSlidingWindow(int[] nums, int k)

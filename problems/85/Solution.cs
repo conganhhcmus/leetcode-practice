@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_85;
-#endif
-
 public class Solution
 {
     public int MaximalRectangle(char[][] matrix)

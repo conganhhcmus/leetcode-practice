@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2110_2;
-#endif
-
 public class Solution
 {
     public long GetDescentPeriods(int[] prices)

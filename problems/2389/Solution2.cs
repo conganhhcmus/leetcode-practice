@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2389_2;
-#endif
-
 public class Solution
 {
     public int[] AnswerQueries(int[] nums, int[] queries)

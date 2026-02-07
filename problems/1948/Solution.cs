@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1948;
-#endif
-
 public class Solution
 {
     readonly List<IList<string>> ans = [];

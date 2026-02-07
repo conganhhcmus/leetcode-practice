@@ -1,5 +1,3 @@
-namespace Problem_338;
-
 public class Solution
 {
     public int[] CountBits(int n)

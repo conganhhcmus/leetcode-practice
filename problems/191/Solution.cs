@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_191;
-#endif
-
 public class Solution
 {
     public int HammingWeight(int n)

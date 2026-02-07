@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_808;
-#endif
-
 public class Solution
 {
     public double SoupServings(int n)

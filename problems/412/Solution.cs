@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_412;
-#endif
-
 public class Solution
 {
     public IList<string> FizzBuzz(int n)

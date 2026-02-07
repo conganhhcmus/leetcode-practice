@@ -1,5 +1,3 @@
-namespace Problem_3217;
-
 public class Solution
 {
     public ListNode ModifiedList(int[] nums, ListNode head)

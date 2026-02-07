@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3003;
-#endif
-
 public class Solution
 {
     public int MaxPartitionsAfterOperations(string s, int k)

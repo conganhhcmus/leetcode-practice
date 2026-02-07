@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3024;
-#endif
-
 public class Solution
 {
     public string TriangleType(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_976_2;
-#endif
-
 public class Solution
 {
     public int LargestPerimeter(int[] nums)

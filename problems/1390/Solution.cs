@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1390;
-#endif
-
 public class Solution
 {
     public int SumFourDivisors(int[] nums)

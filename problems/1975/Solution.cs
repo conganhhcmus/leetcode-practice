@@ -1,5 +1,3 @@
-namespace Problem_1975;
-
 public class Solution
 {
     public long MaxMatrixSum(int[][] matrix)

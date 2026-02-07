@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2;
-#endif
-
 public class Solution
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)

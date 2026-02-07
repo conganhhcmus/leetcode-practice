@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1790;
-#endif
-
 public class Solution
 {
     public bool AreAlmostEqual(string s1, string s2)

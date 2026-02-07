@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_431_Q4;
-#endif
-
 public class Solution
 {
     int Compare(List<int> a, List<int> b)

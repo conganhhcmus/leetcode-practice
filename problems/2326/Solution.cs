@@ -1,5 +1,3 @@
-namespace Problem_2326;
-
 public class Solution
 {
     public int[][] SpiralMatrix(int m, int n, ListNode head)

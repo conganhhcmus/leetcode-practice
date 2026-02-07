@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_201;
-#endif
-
 public class Solution
 {
     public int RangeBitwiseAnd(int left, int right)

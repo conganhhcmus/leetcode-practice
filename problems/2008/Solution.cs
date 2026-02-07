@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2008;
-#endif
-
 public class Solution
 {
     public long MaxTaxiEarnings(int n, int[][] rides)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_342_2;
-#endif
-
 public class Solution
 {
     public bool IsPowerOfFour(int n)

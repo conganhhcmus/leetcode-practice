@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2467_2;
-#endif
-
 public class Solution
 {
     private void UpdateAmount(Dictionary<int, List<int>> graph, int bob, int[] amount)

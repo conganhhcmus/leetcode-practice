@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1900;
-#endif
-
 public class Solution
 {
     int min = int.MaxValue;

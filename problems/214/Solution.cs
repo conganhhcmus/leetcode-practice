@@ -1,5 +1,3 @@
-namespace Problem_214;
-
 public class Solution
 {
     public string ShortestPalindrome(string s)

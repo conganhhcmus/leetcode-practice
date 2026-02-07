@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_432_Q1;
-#endif
-
 public class Solution
 {
     public IList<int> ZigzagTraversal(int[][] grid)

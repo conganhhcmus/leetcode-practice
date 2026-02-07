@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3306;
-#endif
-
 public class Solution
 {
     public long CountOfSubstrings(string word, int k)

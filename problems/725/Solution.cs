@@ -1,5 +1,3 @@
-namespace Problem_725;
-
 public class Solution
 {
     public ListNode[] SplitListToParts(ListNode head, int k)

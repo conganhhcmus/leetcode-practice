@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_757;
-#endif
-
 public class Solution
 {
     public int IntersectionSizeTwo(int[][] intervals)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2559;
-#endif
-
 public class Solution
 {
     public int[] VowelStrings(string[] words, int[][] queries)

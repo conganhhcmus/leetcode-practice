@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_509;
-#endif
-
 public class Solution
 {
     public int Fib(int n)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_429_Q4;
-#endif
-
 public class Solution
 {
     public int MinLength(string s, int numOps)

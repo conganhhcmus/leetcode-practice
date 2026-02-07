@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3005;
-#endif
-
 public class Solution
 {
     public int MaxFrequencyElements(int[] nums)

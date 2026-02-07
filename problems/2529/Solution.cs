@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2529;
-#endif
-
 public class Solution
 {
     public int MaximumCount(int[] nums)

@@ -1,5 +1,3 @@
-namespace Problem_2070;
-
 public class Solution
 {
     public int[] MaximumBeauty(int[][] items, int[] queries)

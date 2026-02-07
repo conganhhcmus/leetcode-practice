@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_357_2;
-#endif
-
 public class Solution
 {
     public int CountNumbersWithUniqueDigits(int n)

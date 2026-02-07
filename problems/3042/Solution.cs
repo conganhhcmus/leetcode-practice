@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3042;
-#endif
-
 public class Solution
 {
     public int CountPrefixSuffixPairs(string[] words)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_278;
-#endif
-
 /* The isBadVersion API is defined in the parent class VersionControl.
       bool IsBadVersion(int version); */
 

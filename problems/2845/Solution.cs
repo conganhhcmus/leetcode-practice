@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2845;
-#endif
-
 public class Solution
 {
     public long CountInterestingSubarrays(IList<int> nums, int modulo, int k)

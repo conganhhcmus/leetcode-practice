@@ -1,5 +1,3 @@
-namespace Problem_11;
-
 public class Solution
 {
     public int MaxArea(int[] height)

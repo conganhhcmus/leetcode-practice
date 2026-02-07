@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2337;
-#endif
-
 public class Solution
 {
     public bool CanChange(string start, string target)

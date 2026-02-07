@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2349;
-#endif
-
 public class NumberContainers
 {
     Dictionary<int, int> _data;

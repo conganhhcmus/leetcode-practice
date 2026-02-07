@@ -1,5 +1,3 @@
-namespace Problem_2390;
-
 public class Solution
 {
     public string RemoveStars(string s)

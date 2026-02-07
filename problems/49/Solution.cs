@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_49;
-#endif
-
 public class Solution
 {
     string GetKey(string str)

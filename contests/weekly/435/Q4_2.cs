@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_435_Q4_2;
-#endif
-
 public class Solution
 {
     public int MaxDifference(string s, int k)

@@ -1,5 +1,3 @@
-namespace Problem_567;
-
 public class Solution
 {
     public bool CheckInclusion(string s1, string s2)

@@ -1,5 +1,3 @@
-namespace Problem_951;
-
 public class Solution
 {
     public bool FlipEquiv(TreeNode root1, TreeNode root2)

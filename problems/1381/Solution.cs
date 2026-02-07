@@ -1,5 +1,3 @@
-namespace Problem_1381;
-
 public class CustomStack
 {
     private List<int> _stack;

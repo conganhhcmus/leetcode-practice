@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1769;
-#endif
-
 public class Solution
 {
     public int[] MinOperations(string boxes)

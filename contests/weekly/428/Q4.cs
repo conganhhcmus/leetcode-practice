@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_428_Q4;
-#endif
-
 public class Solution
 {
     public int MakeStringGood(string s)

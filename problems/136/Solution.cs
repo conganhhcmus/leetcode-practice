@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_136;
-#endif
-
 public class Solution
 {
     public int SingleNumber(int[] nums)

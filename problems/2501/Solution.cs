@@ -1,5 +1,3 @@
-namespace Problem_2501;
-
 public class Solution
 {
     public int LongestSquareStreak(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3446;
-#endif
-
 public class Solution
 {
     public int[][] SortMatrix(int[][] grid)

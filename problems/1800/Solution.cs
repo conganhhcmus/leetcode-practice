@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1800;
-#endif
-
 public class Solution
 {
     public int MaxAscendingSum(int[] nums)

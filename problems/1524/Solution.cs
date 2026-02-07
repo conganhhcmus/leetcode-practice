@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1524;
-#endif
-
 public class Solution
 {
     public int NumOfSubarrays(int[] arr)

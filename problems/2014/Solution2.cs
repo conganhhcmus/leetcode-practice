@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2014_2;
-#endif
-
 public class Solution
 {
     public string LongestSubsequenceRepeatedK(string s, int k)

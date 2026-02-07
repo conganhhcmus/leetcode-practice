@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_368_3;
-#endif
-
 public class Solution
 {
     public IList<int> LargestDivisibleSubset(int[] nums)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_343;
-#endif
-
 public class Solution
 {
     public int IntegerBreak(int n)

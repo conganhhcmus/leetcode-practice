@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_63;
-#endif
-
 public class Solution
 {
     public int UniquePathsWithObstacles(int[][] obstacleGrid)

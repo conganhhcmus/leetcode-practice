@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_96;
-#endif
-
 public class Solution
 {
     public int NumTrees(int n)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_67;
-#endif
-
 public class Solution
 {
     public string AddBinary(string a, string b)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2154;
-#endif
-
 public class Solution
 {
     public int FindFinalValue(int[] nums, int original)

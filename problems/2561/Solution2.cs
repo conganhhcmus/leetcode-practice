@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2561_2;
-#endif
-
 public class Solution
 {
     public long MinCost(int[] basket1, int[] basket2)

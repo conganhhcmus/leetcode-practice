@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_91;
-#endif
-
 public class Solution
 {
     public int NumDecodings(string s)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3607_2;
-#endif
-
 public class Solution
 {
     public int[] ProcessQueries(int c, int[][] connections, int[][] queries)

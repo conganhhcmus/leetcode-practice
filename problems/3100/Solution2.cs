@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3100_2;
-#endif
-
 public class Solution
 {
     public int MaxBottlesDrunk(int numBottles, int numExchange)

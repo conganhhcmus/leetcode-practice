@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2537;
-#endif
-
 public class Solution
 {
     public long CountGood(int[] nums, int k)

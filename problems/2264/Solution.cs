@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2264;
-#endif
-
 public class Solution
 {
     public string LargestGoodInteger(string num)

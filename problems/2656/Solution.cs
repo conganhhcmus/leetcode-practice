@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2656;
-#endif
-
 public class Solution
 {
     public int MaximizeSum(int[] nums, int k)

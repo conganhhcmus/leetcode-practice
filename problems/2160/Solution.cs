@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2160;
-#endif
-
 public class Solution
 {
     public int MinimumSum(int num)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_38;
-#endif
-
 public class Solution
 {
     public string CountAndSay(int n)

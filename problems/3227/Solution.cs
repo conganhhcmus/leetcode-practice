@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3227;
-#endif
-
 public class Solution
 {
     public bool DoesAliceWin(string s)

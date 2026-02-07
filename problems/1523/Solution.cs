@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1523;
-#endif
-
 public class Solution
 {
     public int CountOdds(int low, int high)

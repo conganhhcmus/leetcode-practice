@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1900_2;
-#endif
-
 public class Solution
 {
     public int[] EarliestAndLatest(int n, int f, int s)

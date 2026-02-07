@@ -1,5 +1,3 @@
-namespace Problem_1679;
-
 public class Solution
 {
     public int MaxOperations(int[] nums, int k)

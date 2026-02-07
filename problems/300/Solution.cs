@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_300;
-#endif
-
 public class Solution
 {
     public int LengthOfLIS(int[] nums)

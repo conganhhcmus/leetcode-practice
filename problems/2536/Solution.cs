@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2536;
-#endif
-
 public class Solution
 {
     public int[][] RangeAddQueries(int n, int[][] queries)

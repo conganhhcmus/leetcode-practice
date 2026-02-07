@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2551_2;
-#endif
-
 public class Solution
 {
     // TLE O(n*k) 1<=k<=n<=10^5 ~ O(n^2)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3382;
-#endif
-
 public class Solution
 {
     public long MaxRectangleArea(int[] xCoord, int[] yCoord)
@@ -20,7 +16,7 @@ public class Solution
         }
 
         long ans = -1;
-        Dictionary<(int,int), (int val, int x)> saved = [];
+        Dictionary<(int, int), (int val, int x)> saved = [];
         int[] ft = new int[maxY + 2];
         foreach (int x in map.Keys)
         {

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2528;
-#endif
-
 public class Solution
 {
     public long MaxPower(int[] stations, int r, int k)

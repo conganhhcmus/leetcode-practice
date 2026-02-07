@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1051;
-#endif
-
 public class Solution
 {
     public int HeightChecker(int[] heights)

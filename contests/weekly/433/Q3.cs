@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_433_Q3;
-#endif
-
 public class Solution
 {
     public long MinCost(int n, int[][] cost)

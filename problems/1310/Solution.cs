@@ -1,5 +1,3 @@
-namespace Problem_1310;
-
 public class Solution
 {
     public int[] XorQueries(int[] arr, int[][] queries)

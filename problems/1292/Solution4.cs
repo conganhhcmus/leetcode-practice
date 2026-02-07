@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1292_4;
-#endif
-
 public class Solution
 {
     public int MaxSideLength(int[][] mat, int threshold)

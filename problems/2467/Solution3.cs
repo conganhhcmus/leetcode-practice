@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2467_3;
-#endif
-
 public class Solution
 {
     public int MostProfitablePath(int[][] edges, int bob, int[] amount)

@@ -1,5 +1,3 @@
-namespace Problem_2938;
-
 public class Solution
 {
     public long MinimumSteps(string s)

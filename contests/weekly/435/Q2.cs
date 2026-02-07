@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_435_Q2;
-#endif
-
 public class Solution
 {
     public int MaxDistance(string s, int k)

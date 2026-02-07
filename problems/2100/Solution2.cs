@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2100_2;
-#endif
-
 public class Solution
 {
     public IList<int> GoodDaysToRobBank(int[] security, int time)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2966;
-#endif
-
 public class Solution
 {
     public int[][] DivideArray(int[] nums, int k)

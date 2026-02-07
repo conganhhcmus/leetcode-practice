@@ -1,5 +1,3 @@
-namespace Problem_2458;
-
 public class Solution
 {
     public int[] TreeQueries(TreeNode root, int[] queries)

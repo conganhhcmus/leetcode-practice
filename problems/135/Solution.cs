@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_135;
-#endif
-
 public class Solution
 {
     public int Candy(int[] ratings)

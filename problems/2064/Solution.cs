@@ -1,5 +1,3 @@
-namespace Problem_2064;
-
 public class Solution
 {
     public int MinimizedMaximum(int n, int[] quantities)

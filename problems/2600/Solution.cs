@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2600;
-#endif
-
 public class Solution
 {
     public int KItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k)

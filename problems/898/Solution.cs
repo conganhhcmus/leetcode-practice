@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_898;
-#endif
-
 public class Solution
 {
     public int SubarrayBitwiseORs(int[] arr)

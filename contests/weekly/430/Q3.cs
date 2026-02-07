@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_430_Q3;
-#endif
-
 public class Solution
 {
     public long NumberOfSubsequences(int[] nums)

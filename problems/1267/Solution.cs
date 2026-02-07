@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1267;
-#endif
-
 public class Solution
 {
     public int CountServers(int[][] grid)

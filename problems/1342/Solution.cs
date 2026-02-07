@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1342;
-#endif
-
 public class Solution
 {
     public int NumberOfSteps(int num)

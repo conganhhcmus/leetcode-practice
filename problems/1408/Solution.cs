@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1408;
-#endif
-
 public class Solution
 {
     public IList<string> StringMatching(string[] words)

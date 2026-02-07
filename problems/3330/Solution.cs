@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3330;
-#endif
-
 public class Solution
 {
     public int PossibleStringCount(string word)

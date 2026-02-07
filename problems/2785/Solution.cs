@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2785;
-#endif
-
 public class Solution
 {
     public string SortVowels(string s)

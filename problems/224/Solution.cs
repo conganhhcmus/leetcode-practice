@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_224;
-#endif
-
 public class Solution
 {
     public int Calculate(string s)

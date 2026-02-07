@@ -1,5 +1,3 @@
-namespace Problem_841;
-
 public class Solution
 {
     public bool CanVisitAllRooms(IList<IList<int>> rooms)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2588;
-#endif
-
 public class Solution
 {
     public long BeautifulSubarrays(int[] a)

@@ -1,4 +1,3 @@
-namespace Problem_55;
 public class Solution
 {
     public bool CanJump(int[] nums)

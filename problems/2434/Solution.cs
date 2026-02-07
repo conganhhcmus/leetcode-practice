@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2434;
-#endif
-
 public class Solution
 {
     public string RobotWithString(string s)

@@ -1,7 +1,6 @@
 #if DEBUG
 using System.Text;
 
-namespace Problems_2182;
 #endif
 
 public class Solution

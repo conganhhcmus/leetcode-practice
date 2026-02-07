@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_263;
-#endif
-
 public class Solution
 {
     public bool IsUgly(int n)

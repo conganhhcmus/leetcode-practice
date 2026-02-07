@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2593;
-#endif
-
 public class Solution
 {
     public long FindScore(int[] nums)

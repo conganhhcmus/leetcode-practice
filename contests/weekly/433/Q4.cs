@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Contests_433_Q4;
-#endif
-
 public class Solution
 {
     public long MinMaxSubarraySum(int[] nums, int k)

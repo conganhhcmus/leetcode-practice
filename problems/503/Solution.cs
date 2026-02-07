@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_503;
-#endif
-
 public class Solution
 {
     public int[] NextGreaterElements(int[] nums)

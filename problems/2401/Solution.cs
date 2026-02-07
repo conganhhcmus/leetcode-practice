@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2401;
-#endif
-
 public class Solution
 {
     public int LongestNiceSubarray(int[] nums)

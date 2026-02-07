@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_134;
-#endif
-
 public class Solution
 {
     public int CanCompleteCircuit(int[] gas, int[] cost)

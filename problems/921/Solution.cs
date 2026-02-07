@@ -1,5 +1,3 @@
-namespace Problem_921;
-
 public class Solution
 {
     public int MinAddToMakeValid(string s)

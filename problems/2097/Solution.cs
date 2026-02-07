@@ -1,5 +1,3 @@
-namespace Problem_2097;
-
 public class Solution
 {
     public int[][] ValidArrangement(int[][] pairs)

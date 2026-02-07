@@ -1,5 +1,3 @@
-namespace Problem_435;
-
 public class Solution
 {
     public int EraseOverlapIntervals(int[][] intervals)

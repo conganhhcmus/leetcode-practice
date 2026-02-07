@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2125;
-#endif
-
 public class Solution
 {
     public int NumberOfBeams(string[] bank)

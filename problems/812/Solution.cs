@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_812;
-#endif
-
 public class Solution
 {
     public double LargestTriangleArea(int[][] points)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_205;
-#endif
-
 public class Solution
 {
     public bool IsIsomorphic(string s, string t)

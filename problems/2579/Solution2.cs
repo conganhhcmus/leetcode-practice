@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2579_2;
-#endif
-
 public class Solution
 {
     public long ColoredCells(int n)

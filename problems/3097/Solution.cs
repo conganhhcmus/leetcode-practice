@@ -1,5 +1,3 @@
-namespace Problem_3097;
-
 public class Solution
 {
     public int MinimumSubarrayLength(int[] nums, int k)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1865;
-#endif
-
 public class FindSumPairs
 {
     readonly Dictionary<int, int> dict1 = [];

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_165;
-#endif
-
 public class Solution
 {
     public int CompareVersion(string version1, string version2)

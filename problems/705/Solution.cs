@@ -1,7 +1,6 @@
 #if DEBUG
 using System.Collections;
 
-namespace Problems_705;
 #endif
 
 public class MyHashSet

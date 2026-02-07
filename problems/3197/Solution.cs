@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3197;
-#endif
-
 public class Solution
 {
     public int MinimumSum(int[][] grid)

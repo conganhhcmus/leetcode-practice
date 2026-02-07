@@ -1,5 +1,3 @@
-namespace Problem_2028;
-
 public class Solution
 {
     public int[] MissingRolls(int[] rolls, int mean, int n)

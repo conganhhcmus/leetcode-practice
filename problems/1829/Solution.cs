@@ -1,5 +1,3 @@
-namespace Problem_1829;
-
 public class Solution
 {
     public int[] GetMaximumXor(int[] nums, int maximumBit)

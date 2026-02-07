@@ -1,5 +1,3 @@
-namespace Problem_2300;
-
 public class Solution
 {
     public int[] SuccessfulPairs(int[] spells, int[] potions, long success)

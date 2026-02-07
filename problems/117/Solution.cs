@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_117;
-#endif
-
 // Definition for a Node.
 public class Node
 {

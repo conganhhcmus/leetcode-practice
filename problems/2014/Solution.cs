@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2014;
-#endif
-
 public class Solution
 {
     string ret = string.Empty;

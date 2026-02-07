@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3147_2;
-#endif
-
 public class Solution
 {
     public int MaximumEnergy(int[] energy, int k)

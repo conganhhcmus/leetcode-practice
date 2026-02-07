@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_485;
-#endif
-
 public class Solution
 {
     public int FindMaxConsecutiveOnes(int[] nums)

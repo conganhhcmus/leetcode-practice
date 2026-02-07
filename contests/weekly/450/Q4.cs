@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_450_Q4;
-#endif
-
 public class Solution
 {
     public int[] MinimumWeight(int[][] edges, int[][] queries)

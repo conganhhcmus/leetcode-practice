@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1863_2;
-#endif
-
 public class Solution
 {
     public int SubsetXORSum(int[] nums)

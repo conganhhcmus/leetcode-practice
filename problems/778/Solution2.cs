@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_778_2;
-#endif
-
 public class Solution
 {
     public int SwimInWater(int[][] grid)

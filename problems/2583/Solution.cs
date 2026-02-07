@@ -1,5 +1,3 @@
-namespace Problem_2583;
-
 public class Solution
 {
     public long KthLargestLevelSum(TreeNode root, int k)

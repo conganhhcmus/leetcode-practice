@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2940;
-#endif
-
 public class Solution
 {
     public int[] LeftmostBuildingQueries(int[] heights, int[][] queries)

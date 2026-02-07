@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2942;
-#endif
-
 public class Solution
 {
     public IList<int> FindWordsContaining(string[] words, char x)

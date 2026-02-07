@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2353_2;
-#endif
-
 public class FoodRatings
 {
     Dictionary<string, string> foodToCuisineMap = [];

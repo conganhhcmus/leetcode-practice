@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2554;
-#endif
-
 public class Solution
 {
     public int MaxCount(int[] banned, int n, int maxSum)

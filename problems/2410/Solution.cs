@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2410;
-#endif
-
 public class Solution
 {
     public int MatchPlayersAndTrainers(int[] players, int[] trainers)

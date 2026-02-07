@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_150;
-#endif
-
 public class Solution
 {
     public int EvalRPN(string[] tokens)

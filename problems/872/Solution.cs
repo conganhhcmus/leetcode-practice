@@ -1,5 +1,3 @@
-namespace Problem_872;
-
 public class Solution
 {
     public bool LeafSimilar(TreeNode root1, TreeNode root2)

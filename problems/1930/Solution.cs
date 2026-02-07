@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1930;
-#endif
-
 public class Solution
 {
     public int CountPalindromicSubsequence(string s)

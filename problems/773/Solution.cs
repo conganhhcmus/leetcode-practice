@@ -1,4 +1,3 @@
-namespace Problem_773;
 public class Solution
 {
     public int SlidingPuzzle(int[][] board)

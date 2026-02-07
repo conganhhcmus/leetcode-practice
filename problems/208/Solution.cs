@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_208;
-#endif
-
 public class Trie
 {
     Trie[] trie;

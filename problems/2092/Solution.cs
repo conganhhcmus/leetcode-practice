@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2092;
-#endif
-
 public class Solution
 {
     public IList<int> FindAllPeople(int n, int[][] meetings, int firstPerson)

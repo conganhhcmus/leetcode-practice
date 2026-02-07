@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1015;
-#endif
-
 public class Solution
 {
     public int SmallestRepunitDivByK(int k)

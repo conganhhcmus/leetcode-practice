@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1371_2;
-#endif
-
 public class Solution
 {
     public int FindTheLongestSubstring(string s)

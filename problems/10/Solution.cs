@@ -1,5 +1,3 @@
-namespace Problem_10;
-
 public class Solution
 {
     public bool IsMatch(string s, string p)

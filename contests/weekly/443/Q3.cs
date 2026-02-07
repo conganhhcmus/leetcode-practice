@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_443_Q3;
-#endif
-
 public class Solution
 {
     public int LongestPalindrome(string s, string t)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_14;
-#endif
-
 public class Solution
 {
     public string LongestCommonPrefix(string[] strs)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_416;
-#endif
-
 public class Solution
 {
     public bool CanPartition(int[] nums)

@@ -1,4 +1,3 @@
-namespace Problem_3367;
 public class Solution
 {
     public long MaximizeSumOfWeights(int[][] edges, int k)

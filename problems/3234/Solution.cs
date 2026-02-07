@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3234;
-#endif
-
 public class Solution
 {
     public int NumberOfSubstrings(string s)

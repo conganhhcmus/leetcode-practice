@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3396;
-#endif
-
 public class Solution
 {
     public int MinimumOperations(int[] nums)

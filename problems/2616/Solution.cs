@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2616;
-#endif
-
 public class Solution
 {
     public int MinimizeMax(int[] nums, int p)

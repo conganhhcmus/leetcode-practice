@@ -2,17 +2,6 @@ import os
 import sys
 import subprocess
 
-def update_global_using(new_running):
-    # Read all lines from the file
-    with open("GlobalUsing.cs", "r") as f:
-        lines = f.readlines()
-    
-    # Update first line, keep others unchanged
-    lines[0] = f"global using Running = Problems_{new_running};\n"
-    
-    # Write back all lines
-    with open("GlobalUsing.cs", "w") as f:
-        f.writelines(lines)
 
 def main():
     if len(sys.argv) != 2:
@@ -31,15 +20,12 @@ def main():
 
     # Create directory and solution file
     os.makedirs(target_dir, exist_ok=True)
-    with open(solution_path, 'w') as f:
-        f.write("")  # Create an empty file
+    with open(solution_path, "w") as f:
+        f.write("")
 
-    # Update only the first line of GlobalUsing.cs
-    update_global_using(problem_name)
-
-    # Clear testcase and answer files
-    open("testcase.txt", 'w').close()
-    open("answer.txt", 'w').close()
+    # Clear input and output files
+    open("input.txt", "w").close()
+    open("output.txt", "w").close()
 
     # Ensure file exists and try to open it in VSCode
     if os.path.exists(solution_path):
@@ -56,5 +42,6 @@ def main():
     else:
         print(f"File creation failed at: {solution_path}")
 
+
 if __name__ == "__main__":
-    main() 
+    main()

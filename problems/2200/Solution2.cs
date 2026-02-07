@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2200_2;
-#endif
-
 public class Solution
 {
     public IList<int> FindKDistantIndices(int[] nums, int key, int k)

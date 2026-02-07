@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_190;
-#endif
-
 public class Solution
 {
     public uint reverseBits(uint n)

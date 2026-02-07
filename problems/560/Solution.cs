@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_560;
-#endif
-
 public class Solution
 {
     public int SubarraySum(int[] nums, int k)

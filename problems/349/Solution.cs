@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_349;
-#endif
-
 public class Solution
 {
     public int[] Intersection(int[] nums1, int[] nums2)

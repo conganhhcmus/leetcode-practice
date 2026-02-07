@@ -1,5 +1,3 @@
-namespace Problem_62;
-
 public class Solution
 {
     public int UniquePaths(int m, int n)

@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Biweekly_152_Q2;
-#endif
-
 public class Spreadsheet
 {
     public int[,] Sheet;

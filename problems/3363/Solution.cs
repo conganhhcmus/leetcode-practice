@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_3363;
-#endif
-
 public class Solution
 {
     public int MaxCollectedFruits(int[][] fruits)

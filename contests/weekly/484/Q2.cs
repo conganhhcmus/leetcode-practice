@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_484_Q2;
-#endif
-
 public class Solution
 {
     public int CenteredSubarrays(int[] nums)

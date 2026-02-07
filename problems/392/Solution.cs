@@ -1,5 +1,3 @@
-namespace Problem_392;
-
 public class Solution
 {
     public bool IsSubsequence(string s, string t)

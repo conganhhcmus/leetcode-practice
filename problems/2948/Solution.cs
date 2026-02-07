@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2948;
-#endif
-
 public class Solution
 {
     public int[] LexicographicallySmallestArray(int[] nums, int limit)

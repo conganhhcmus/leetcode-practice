@@ -1,5 +1,3 @@
-namespace Problem_2490;
-
 public class Solution
 {
     public bool IsCircularSentence(string sentence)

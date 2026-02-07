@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_918_2;
-#endif
-
 public class Solution
 {
     public int MaxSubarraySumCircular(int[] nums)

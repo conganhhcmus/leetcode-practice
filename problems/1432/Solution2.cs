@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1432_2;
-#endif
-
 public class Solution
 {
     public int MaxDiff(int num)

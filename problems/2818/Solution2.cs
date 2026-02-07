@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2818_2;
-#endif
-
 public class Solution
 {
     int modulo = (int)1e9 + 7;

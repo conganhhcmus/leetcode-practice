@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_139;
-#endif
-
 public class Solution
 {
     public bool WordBreak(string s, IList<string> wordDict)

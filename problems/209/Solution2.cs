@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_209_2;
-#endif
-
 public class Solution
 {
     public int MinSubArrayLen(int target, int[] nums)

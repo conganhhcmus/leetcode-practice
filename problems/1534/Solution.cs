@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1534;
-#endif
-
 public class Solution
 {
     public int CountGoodTriplets(int[] arr, int a, int b, int c)

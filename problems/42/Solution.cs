@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_42;
-#endif
-
 public class Solution
 {
     public int Trap(int[] height)

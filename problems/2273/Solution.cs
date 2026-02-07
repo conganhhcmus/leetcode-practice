@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_2273;
-#endif
-
 public class Solution
 {
     public IList<string> RemoveAnagrams(string[] words)

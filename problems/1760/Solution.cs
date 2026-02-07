@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Problems_1760;
-#endif
-
 public class Solution
 {
     public int MinimumSize(int[] nums, int maxOperations)

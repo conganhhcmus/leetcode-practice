@@ -1,7 +1,3 @@
-#if DEBUG
-namespace Weekly_440_Q3;
-#endif
-
 public class Solution
 {
     public int NumOfUnplacedFruits(int[] fruits, int[] baskets)
