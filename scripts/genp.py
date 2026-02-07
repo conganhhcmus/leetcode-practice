@@ -20,27 +20,26 @@ def main():
 
     # Create directory and solution file
     os.makedirs(target_dir, exist_ok=True)
-    with open(solution_path, "w") as f:
-        f.write("")
+    open(solution_path, "w").close()
 
     # Clear input and output files
     open("input.txt", "w").close()
     open("output.txt", "w").close()
 
-    # Ensure file exists and try to open it in VSCode
-    if os.path.exists(solution_path):
+    # Open all files in VSCode (last opened gets focus)
+    files_to_open = [
+        "output.txt",
+        "input.txt",
+        solution_path,
+    ]
+    for file_path in files_to_open:
         try:
-            # Use shell=True to let the shell resolve the command
-            cmd = f'code -r "{solution_path}"'
+            cmd = f'code -r "{file_path}"'
             subprocess.run(cmd, shell=True, check=True)
         except subprocess.CalledProcessError as e:
             print(f"Failed to open VSCode: {e}")
-            print(f"File created at: {solution_path}")
         except Exception as e:
             print(f"Unexpected error: {e}")
-            print(f"File created at: {solution_path}")
-    else:
-        print(f"File creation failed at: {solution_path}")
 
 
 if __name__ == "__main__":
