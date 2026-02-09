@@ -315,6 +315,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [96. Unique Binary Search Trees](./problems/96/Solution.cs)
 - [97. Interleaving String](./problems/97/Solution.cs)
 - [98. Validate Binary Search Tree](./problems/98/Solution.cs)
+- [99. Recover Binary Search Tree](./problems/99/Solution.cs)
 - [100. Same Tree](./problems/100/Solution.cs)
 - [101. Symmetric Tree](./problems/101/Solution.cs)
 - [102. Binary Tree Level Order Traversal](./problems/102/Solution.cs)
