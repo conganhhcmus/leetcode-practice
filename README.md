@@ -1079,7 +1079,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 
 <!-- start -->
 ## 🚀 Stats
-- Total Problems Solved: 848
+- Total Problems Solved: 851
 - Weekly Contests Participated: 24
 - Biweekly Contests Participated: 3
 <!-- end -->
