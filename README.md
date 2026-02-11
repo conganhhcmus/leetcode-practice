@@ -1074,6 +1074,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3651. Minimum Cost Path with Teleportations](./problems/3651/Solution.cs)
 - [3652. Best Time to Buy and Sell Stock using Strategy](./problems/3652/Solution.cs)
 - [3719. Longest Balanced Subarray I](./problems/3719/Solution.cs)
+- [3721. Longest Balanced Subarray II](./problems/3721/Solution.cs)
 - [3794. Reverse String Prefix](./problems/3794/Solution.cs)
 
 </details>
