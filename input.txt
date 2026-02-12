@@ -1,3 +1,5 @@
 "abbac"
-"zzabccy"
+"aabcc"
 "aba"
+"accc"
+"bc"
