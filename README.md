@@ -541,6 +541,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [783. Minimum Distance Between BST Nodes](./problems/783/Solution.cs)
 - [790. Domino and Tromino Tiling](./problems/790/Solution.cs)
 - [796. Rotate String](./problems/796/Solution.cs)
+- [799. Champagne Tower](./problems/799/Solution.cs)
 - [802. Find Eventual Safe States](./problems/802/Solution.cs)
 - [808. Soup Servings](./problems/808/Solution.cs)
 - [812. Largest Triangle Area](./problems/812/Solution.cs)
