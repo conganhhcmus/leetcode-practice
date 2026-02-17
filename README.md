@@ -461,6 +461,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [392. Is Subsequence](./problems/392/Solution.cs)
 - [394. Decode String](./problems/394/Solution.cs)
 - [399. Evaluate Division](./problems/399/Solution.cs)
+- [401. Binary Watch](./problems/401/Solution.cs)
 - [407. Trapping Rain Water II](./problems/407/Solution.cs)
 - [409. Longest Palindrome](./problems/409/Solution.cs)
 - [412. Fizz Buzz](./problems/412/Solution.cs)
