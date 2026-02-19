@@ -514,6 +514,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [684. Redundant Connection](./problems/684/Solution.cs)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](./problems/689/Solution.cs)
 - [693. Binary Number with Alternating Bits](./problems/693/Solution.cs)
+- [696. Count Binary Substrings](./problems/696/Solution.cs)
 - [698. Partition to K Equal Sum Subsets](./problems/698/Solution.cs)
 - [700. Search in a Binary Search Tree](./problems/700/Solution.cs)
 - [704. Binary Search](./problems/704/Solution.cs)
