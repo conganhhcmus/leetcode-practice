@@ -662,6 +662,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](./problems/1455/Solution.cs)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](./problems/1456/Solution.cs)
 - [1458. Max Dot Product of Two Subsequences](./problems/1458/Solution.cs)
+- [1461. Check If a String Contains All Binary Codes of Size K](./problems/1461/Solution.cs)
 - [1462. Course Schedule IV](./problems/1462/Solution.cs)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](./problems/1466/Solution.cs)
 - [1475. Final Prices With a Special Discount in a Shop](./problems/1475/Solution.cs)
