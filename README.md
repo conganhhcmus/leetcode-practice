@@ -595,6 +595,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1014. Best Sightseeing Pair](./problems/1014/Solution.cs)
 - [1015. Smallest Integer Divisible by K](./problems/1015/Solution.cs)
 - [1018. Binary Prefix Divisible By 5](./problems/1018/Solution.cs)
+- [1022. Sum of Root To Leaf Binary Numbers](./problems/1022/Solution.cs)
 - [1025. Divisor Game](./problems/1025/Solution.cs)
 - [1028. Recover a Tree From Preorder Traversal](./problems/1028/Solution.cs)
 - [1032. Stream of Characters](./problems/1032/Solution.cs)
