@@ -651,6 +651,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1394. Find Lucky Integer in an Array](./problems/1394/Solution.cs)
 - [1399. Count Largest Group](./problems/1399/Solution.cs)
 - [1400. Construct K Palindrome Strings](./problems/1400/Solution.cs)
+- [1404. Number of Steps to Reduce a Number in Binary Representation to One](./problems/1404/Solution.cs)
 - [1405. Longest Happy String](./problems/1405/Solution.cs)
 - [1408. String Matching in an Array](./problems/1408/Solution.cs)
 - [1411. Number of Ways to Paint N × 3 Grid](./problems/1415/Solution.cs)
