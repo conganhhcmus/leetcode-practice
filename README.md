@@ -426,6 +426,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [287. Find the Duplicate Number](./problems/287/Solution.cs)
 - [289. Game of Life](./problems/289/Solution.cs)
 - [290. Word Pattern](./problems/290/Solution.cs)
+- [292. Nim Game](./problems/292/Solution.cs)
 - [295. Find Median from Data Stream](./problems/295/Solution.cs)
 - [299. Bulls and Cows](./problems/299/Solution.cs)
 - [300. Longest Increasing Subsequence](./problems/300/Solution.cs)
