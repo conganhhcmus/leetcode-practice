@@ -690,6 +690,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](./problems/1574/Solution.cs)
 - [1578. Minimum Time to Make Rope Colorful](./problems/1578/Solution.cs)
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](./problems/1579/Solution.cs)
+- [1582. Special Positions in a Binary Matrix](./problems/1582/Solution.cs)
 - [1590. Make Sum Divisible by P](./problems/1590/Solution.cs)
 - [1593. Split a String Into the Max Number of Unique Substrings](./problems/1593/Solution.cs)
 - [1611. Minimum One Bit Operations to Make Integers Zero](./problems/1611/Solution.cs)
