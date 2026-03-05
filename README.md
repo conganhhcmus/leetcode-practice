@@ -717,6 +717,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1749. Maximum Absolute Sum of Any Subarray](./problems/1749/Solution.cs)
 - [1751. Maximum Number of Events That Can Be Attended II](./problems/1751/Solution.cs)
 - [1752. Check if Array Is Sorted and Rotated](./problems/1752/Solution.cs)
+- [1758. Minimum Changes To Make Alternating Binary String](./problems/1758/Solution.cs)
 - [1760. Minimum Limit of Balls in a Bag](./problems/1760/Solution.cs)
 - [1765. Map of Highest Peak](./problems/1765/Solution.cs)
 - [1768. Merge Strings Alternately](./problems/1768/Solution.cs)
