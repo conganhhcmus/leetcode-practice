@@ -723,6 +723,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1768. Merge Strings Alternately](./problems/1768/Solution.cs)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](./problems/1769/Solution.cs)
 - [1780. Check if Number is a Sum of Powers of Three](./problems/1780/Solution.cs)
+- [1784. Check if Binary String Has at Most One Segment of Ones](./problems/1784/Solution.cs)
 - [1790. Check if One String Swap Can Make Strings Equal](./problems/1790/Solution.cs)
 - [1792. Maximum Average Pass Ratio](./problems/1792/Solution.cs)
 - [1800. Maximum Ascending Subarray Sum](./problems/1800/Solution.cs)
