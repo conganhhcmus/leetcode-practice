@@ -749,6 +749,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1935. Maximum Number of Words You Can Type](./problems/1935/Solution.cs)
 - [1937. Maximum Number of Points with Cost](./problems/1937/Solution.cs)
 - [1942. The Number of the Smallest Unoccupied Chair](./problems/1942/Solution.cs)
+- [1944. Number of Visible People in a Queue](./problems/1944/Solution.cs)
 - [1945. Sum of Digits of String After Convert](./problems/1945/Solution.cs)
 - [1947. Maximum Compatibility Score Sum](./problems/1947/Solution.cs)
 - [1948. Delete Duplicate Folders in System](./problems/1948/Solution.cs)
