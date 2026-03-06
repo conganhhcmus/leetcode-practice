@@ -930,6 +930,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2657. Find the Prefix Common Array of Two Arrays](./problems/2657/Solution.cs)
 - [2658. Maximum Number of Fish in a Grid](./problems/2658/Solution.cs)
 - [2661. First Completely Painted Row or Column](./problems/2661/Solution.cs)
+- [2672. Number of Adjacent Elements With the Same Color](./problems/2672/Solution.cs)
 - [2683. Neighboring Bitwise XOR](./problems/2683/Solution.cs)
 - [2684. Maximum Number of Moves in a Grid](./problems/2684/Solution.cs)
 - [2685. Count the Number of Complete Components](./problems/2685/Solution.cs)
