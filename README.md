@@ -198,6 +198,13 @@ This repository contains my solutions to various LeetCode problems and contests.
     [Q4](./contests/weekly/488/Q4.cs)
   )
 
+- Weekly Contest 491 (
+    [Q1](./contests/weekly/491/Q1.cs),
+    [Q2](./contests/weekly/491/Q2.cs),
+    [Q3](./contests/weekly/491/Q3.cs),
+    [Q4](./contests/weekly/491/Q4.cs)
+  )
+
 - Weekly Contest 492 (
     [Q1](./contests/weekly/492/Q1.cs),
     [Q2](./contests/weekly/492/Q2.cs),
