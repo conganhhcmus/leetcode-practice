@@ -1020,6 +1020,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](./problems/3105/Solution.cs)
 - [3108. Minimum Cost Walk in Weighted Graph](./problems/3108/Solution.cs)
 - [3129. Find All Possible Stable Binary Arrays I](./problems/3129/Solution.cs)
+- [3130. Find All Possible Stable Binary Arrays II](./problems/3130/Solution.cs)
 - [3133. Minimum Array End](./problems/3133/Solution.cs)
 - [3136. Valid Word](./problems/3136/Solution.cs)
 - [3147. Taking Maximum Energy From the Mystic Dungeon](./problems/3147/Solution.cs)
