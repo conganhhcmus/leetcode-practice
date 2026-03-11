@@ -631,6 +631,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1161. Maximum Level Sum of a Binary Tree](./problems/1161/Solution.cs)
 - [1200. Minimum Absolute Difference](./problems/1200/Solution.cs)
 - [1207. Unique Number of Occurrences](./problems/1207/Solution.cs)
+- [1209. Remove All Adjacent Duplicates in String II](./problems/1209/Solution.cs)
 - [1233. Remove Sub-Folders from the Filesystem](./problems/1233/Solution.cs)
 - [1248. Count Number of Nice Subarrays](./problems/1248/Solution.cs)
 - [1261. Find Elements in a Contaminated Binary Tree](./problems/1261/Solution.cs)
