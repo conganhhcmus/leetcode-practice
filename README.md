@@ -581,6 +581,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [874. Walking Robot Simulation](./problems/874/Solution.cs)
 - [875. Koko Eating Bananas](./problems/875/Solution.cs)
 - [876. Middle of the Linked List](./problems/876/Solution.cs)
+- [883. Projection Area of 3D Shapes](./problems/883/Solution.cs)
 - [884. Uncommon Words from Two Sentences](./problems/884/Solution.cs)
 - [889. Construct Binary Tree from Preorder and Postorder Traversal](./problems/889/Solution.cs)
 - [898. Bitwise ORs of Subarrays](./problems/898/Solution.cs)
