@@ -1,1 +1,3 @@
-[null,null,null,null,null,10,null,null,null,26,34,20]
+[228,216,211]
+[20,9,8]
+[7]
