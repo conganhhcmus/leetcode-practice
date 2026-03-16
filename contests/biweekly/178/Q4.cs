@@ -38,7 +38,16 @@ public class Solution
     }
 
     // memo key: (pos, tight, state, last, sum)
-    Dictionary<(int, bool, int, int, int), long> memo = [];
+    // pos: 15
+    // state: 4
+    // last: 11
+    // sum: 135
+    Dictionary<int, long> memo = [];
+
+    int FlatIndex(int pos, int state, int last, int sum)
+    {
+        return sum + last * 135 + state * 135 * 11 + pos * 135 * 11 * 4;
+    }
 
     // state: 0 (unknown), 1 (increase), 2 (decrease), 3 (invalid)
     long DP(int pos, bool tight, int state, int last, int sum, string str)
@@ -50,8 +59,8 @@ public class Solution
             return (goodSums[sum] || state != 3) ? 1L : 0L;
         }
 
-        var key = (pos, tight, state, last, sum);
-        if (memo.TryGetValue(key, out long cache)) return cache;
+        int key = FlatIndex(pos, state, last, sum);
+        if (!tight && memo.TryGetValue(key, out long cache)) return cache;
 
         long ans = 0;
         int digit = str[pos] - '0';
@@ -82,7 +91,7 @@ public class Solution
             ans += DP(pos + 1, nTight, nState, d, sum + d, str);
         }
 
-        memo[key] = ans;
+        if (!tight) memo[key] = ans;
         return ans;
     }
 }
