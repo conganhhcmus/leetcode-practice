@@ -417,6 +417,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [219. Contains Duplicate II](./problems/219/Solution.cs)
 - [221. Maximal Square](./problems/221/Solution.cs)
 - [222. Count Complete Tree Nodes](./problems/222/Solution.cs)
+- [223. Rectangle Area](./problems/223/Solution.cs)
 - [224. Basic Calculator](./problems/224/Solution.cs)
 - [226. Invert Binary Tree](./problems/226/Solution.cs)
 - [228. Summary Ranges](./problems/228/Solution.cs)
