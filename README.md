@@ -747,6 +747,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1717. Maximum Score From Removing Substrings](./problems/1717/Solution.cs)
 - [1718. Construct the Lexicographically Largest Valid Sequence](./problems/1718/Solution.cs)
 - [1726. Tuple with Same Product](./problems/1726/Solution.cs)
+- [1727. Largest Submatrix With Rearrangements](./problems/1727/Solution.cs)
 - [1732. Find the Highest Altitude](./problems/1732/Solution.cs)
 - [1733. Minimum Number of People to Teach](./problems/1733/Solution.cs)
 - [1749. Maximum Absolute Sum of Any Subarray](./problems/1749/Solution.cs)
