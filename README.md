@@ -651,6 +651,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1209. Remove All Adjacent Duplicates in String II](./problems/1209/Solution.cs)
 - [1233. Remove Sub-Folders from the Filesystem](./problems/1233/Solution.cs)
 - [1248. Count Number of Nice Subarrays](./problems/1248/Solution.cs)
+- [1249. Minimum Remove to Make Valid Parentheses](./problems/1249/Solution.cs)
 - [1261. Find Elements in a Contaminated Binary Tree](./problems/1261/Solution.cs)
 - [1262. Greatest Sum Divisible by Three](./problems/1262/Solution.cs)
 - [1266. Minimum Time Visiting All Points](./problems/1266/Solution.cs)
