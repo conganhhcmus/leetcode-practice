@@ -994,6 +994,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2825. Make String a Subsequence Using Cyclic Increments](./problems/2825/Solution.cs)
 - [2843. Count Symmetric Integers](./problems/2843/Solution.cs)
 - [2845. Count of Interesting Subarrays](./problems/2845/Solution.cs)
+- [2858. Minimum Edge Reversals So Every Node Is Reachable](./problems/2858/Solution.cs)
 - [2872. Maximum Number of K-Divisible Components](./problems/2872/Solution.cs)
 - [2873. Maximum Value of an Ordered Triplet I](./problems/2873/Solution.cs)
 - [2874. Maximum Value of an Ordered Triplet II](./problems/2874/Solution.cs)
