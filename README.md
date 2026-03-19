@@ -1068,6 +1068,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3202. Find the Maximum Length of Valid Subsequence II](./problems/3202/Solution.cs)
 - [3203. Find Minimum Diameter After Merging Two Trees](./problems/3203/Solution.cs)
 - [3208. Alternating Groups II](./problems/3208/Solution.cs)
+- [3212. Count Submatrices With Equal Frequency of X and Y](./problems/3212/Solution.cs)
 - [3217. Delete Nodes From Linked List Present in Array](./problems/3217/Solution.cs)
 - [3223. Minimum Length of String After Operations](./problems/3223/Solution.cs)
 - [3227. Vowels Game in a String](./problems/3227/Solution.cs)
