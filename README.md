@@ -658,6 +658,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1266. Minimum Time Visiting All Points](./problems/1266/Solution.cs)
 - [1267. Count Servers that Communicate](./problems/1267/Solution.cs)
 - [1268. Search Suggestions System](./problems/1268/Solution.cs)
+- [1269. Number of Ways to Stay in the Same Place After Some Steps](./problems/1269/Solution.cs)
 - [1277. Count Square Submatrices with All Ones](./problems/1277/Solution.cs)
 - [1290. Convert Binary Number in a Linked List to Integer](./problems/1290/Solution.cs)
 - [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](./problems/1292/Solution.cs)
