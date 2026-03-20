@@ -932,6 +932,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2472. Maximum Number of Non-overlapping Palindrome Substrings](./problems/2472/Solution.cs)
 - [2483. Minimum Penalty for a Shop](./problems/2483/Solution.cs)
 - [2485. Find the Pivot Integer](./problems/2485/Solution.cs)
+- [2488. Count Subarrays With Median K](./problems/2488/Solution.cs)
 - [2490. Circular Sentence](./problems/2490/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](./problems/2491/Solution.cs)
 - [2493. Divide Nodes Into the Maximum Number of Groups](./problems/2493/Solution.cs)
