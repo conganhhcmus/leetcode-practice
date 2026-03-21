@@ -1153,6 +1153,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3634. Minimum Removals to Balance Array](./problems/3634/Solution.cs)
 - [3637. Trionic Array I](./problems/3637/Solution.cs)
 - [3640. Trionic Array II](./problems/3640/Solution.cs)
+- [3643. Flip Square Submatrix Vertically](./problems/3643/Solution.cs)
 - [3650. Minimum Cost Path with Edge Reversals](./problems/3650/Solution.cs)
 - [3651. Minimum Cost Path with Teleportations](./problems/3651/Solution.cs)
 - [3652. Best Time to Buy and Sell Stock using Strategy](./problems/3652/Solution.cs)
