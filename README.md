@@ -776,6 +776,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](./problems/1866/Solution.cs)
 - [1877. Minimize Maximum Pair Sum in Array](./problems/1877/Solution.cs)
 - [1878. Get Biggest Three Rhombus Sums in a Grid](./problems/1878/Solution.cs)
+- [1886. Determine Whether Matrix Can Be Obtained By Rotation](./problems/1886/Solution.cs)
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](./problems/1888/Solution.cs)
 - [1894. Find the Student that Will Replace the Chalk](./problems/1894/Solution.cs)
 - [1895. Largest Magic Square](./problems/1895/Solution.cs)
