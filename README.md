@@ -1130,6 +1130,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3372. Maximize the Number of Target Nodes After Connecting Trees I](./problems/3372/Solution.cs)
 - [3373. Maximize the Number of Target Nodes After Connecting Trees II](./problems/3373/Solution.cs)
 - [3375. Minimum Operations to Make Array Values Equal to K](./problems/3375/Solution.cs)
+- [3376. Minimum Time to Break Locks I](./problems/3376/Solution.cs)
 - [3379. Transformed Array](./problems/3379/Solution.cs)
 - [3380. Maximum Area Rectangle With Point Constraints I](./problems/3380/Solution.cs)
 - [3381. Maximum Subarray Sum With Length Divisible by K](./problems/3381/Solution.cs)
