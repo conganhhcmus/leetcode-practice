@@ -1033,6 +1033,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2940. Find Building Where Alice and Bob Can Meet](./problems/2940/Solution.cs)
 - [2942. Find Words Containing Character](./problems/2942/Solution.cs)
 - [2943. Maximize Area of Square Hole in Grid](./problems/2943/Solution.cs)
+- [2946. Matrix Similarity After Cyclic Shifts](./problems/2946/Solution.cs)
 - [2947. Count Beautiful Substrings I](./problems/2947/Solution.cs)
 - [2948. Make Lexicographically Smallest Array by Swapping Elements](./problems/2948/Solution.cs)
 - [2949. Count Beautiful Substrings II](./problems/2949/Solution.cs)
