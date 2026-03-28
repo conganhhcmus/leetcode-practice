@@ -982,6 +982,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2566. Maximum Difference by Remapping a Digit](./problems/2566/Solution.cs)
 - [2570. Merge Two 2D Arrays by Summing Values](./problems/2570/Solution.cs)
 - [2571. Minimum Operations to Reduce an Integer to 0](./problems/2571/Solution.cs)
+- [2573. Find the String with LCP](./problems/2573/Solution.cs)
 - [2577. Minimum Time to Visit a Cell In a Grid](./problems/2577/Solution.cs)
 - [2578. Split With Minimum Sum](./problems/2578/Solution.cs)
 - [2579. Count Total Number of Colored Cells](./problems/2579/Solution.cs)
