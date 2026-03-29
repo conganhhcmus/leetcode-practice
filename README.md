@@ -1022,6 +1022,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2807. Insert Greatest Common Divisors in Linked List](./problems/2807/Solution.cs)
 - [2818. Apply Operations to Maximize Score](./problems/2818/Solution.cs)
 - [2825. Make String a Subsequence Using Cyclic Increments](./problems/2825/Solution.cs)
+- [2839. Check if Strings Can be Made Equal With Operations I](./problems/2839/Solution.cs)
 - [2843. Count Symmetric Integers](./problems/2843/Solution.cs)
 - [2845. Count of Interesting Subarrays](./problems/2845/Solution.cs)
 - [2858. Minimum Edge Reversals So Every Node Is Reachable](./problems/2858/Solution.cs)

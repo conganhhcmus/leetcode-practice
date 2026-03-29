@@ -1,7 +1,3 @@
-"abab"
-"aaaa"
-""
-""
-"abcbbaab"
-""
-""
+true
+false
+false
