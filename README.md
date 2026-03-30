@@ -710,6 +710,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1353. Maximum Number of Events That Can Be Attended](./problems/1353/Solution.cs)
 - [1356. Sort Integers by The Number of 1 Bits](./problems/1356/Solution.cs)
 - [1358. Number of Substrings Containing All Three Characters](./problems/1358/Solution.cs)
+- [1365. How Many Numbers Are Smaller Than the Current Number](./problems/1365/Solution.cs)
 - [1367. Linked List in Binary Tree](./problems/1367/Solution.cs)
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](./problems/1368/Solution.cs)
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](./problems/1371/Solution.cs)
