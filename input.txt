@@ -1,4 +1,2 @@
-"abcdba"
-"cabdab"
-"abe"
-"bea"
+2
+1
