@@ -544,6 +544,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [460. LFU Cache](./problems/460/Solution.cs)
 - [474. Ones and Zeroes](./problems/474/Solution.cs)
 - [485. Max Consecutive Ones](./problems/485/Solution.cs)
+- [448. Find All Numbers Disappeared in an Array](./problems/488/Solution.cs)
 - [494. Target Sum](./problems/494/Solution.cs)
 - [498. Diagonal Traverse](./problems/498/Solution.cs)
 - [502. IPO](./problems/502/Solution.cs)
