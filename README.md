@@ -733,6 +733,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1432. Max Difference You Can Get From Changing an Integer](./problems/1432/Solution.cs)
 - [1437. Check If All 1's Are at Least Length K Places Away](./problems/1437/Solution.cs)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./problems/1438/Solution.cs)
+- [1441. Build an Array With Stack Operations](./problems/1441/Solution.cs)
 - [1448. Count Good Nodes in Binary Tree](./problems/1448/Solution.cs)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](./problems/1455/Solution.cs)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](./problems/1456/Solution.cs)
