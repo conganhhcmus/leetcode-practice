@@ -675,6 +675,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1028. Recover a Tree From Preorder Traversal](./problems/1028/Solution.cs)
 - [1032. Stream of Characters](./problems/1032/Solution.cs)
 - [1039. Minimum Score Triangulation of Polygon](./problems/1039/Solution.cs)
+- [1046. Last Stone Weight](./problems/1046/Solution.cs)
 - [1047. Remove All Adjacent Duplicates In String](./problems/1047/Solution.cs)
 - [1051. Height Checker](./problems/1051/Solution.cs)
 - [1061. Lexicographically Smallest Equivalent String](./problems/1061/Solution.cs)

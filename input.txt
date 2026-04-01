@@ -1,6 +1,2 @@
-["MyQueue","push","push","peek","pop","empty"]
-[[],[1],[2],[],[],[]]
-["MyQueue","push","push","push","push","pop","push","pop","pop","pop","pop"]
-[[],[1],[2],[3],[4],[],[5],[],[],[],[]]
-["MyQueue","push","peek"]
-[[],[1],[]]
+[2,7,4,1,8,1]
+[1]
