@@ -719,6 +719,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1351. Count Negative Numbers in a Sorted Matrix](./problems/1351/Solution.cs)
 - [1352. Product of the Last K Numbers](./problems/1352/Solution.cs)
 - [1353. Maximum Number of Events That Can Be Attended](./problems/1353/Solution.cs)
+- [1354. Construct Target Array With Multiple Sums](./problems/1354/Solution.cs)
 - [1356. Sort Integers by The Number of 1 Bits](./problems/1356/Solution.cs)
 - [1358. Number of Substrings Containing All Three Characters](./problems/1358/Solution.cs)
 - [1365. How Many Numbers Are Smaller Than the Current Number](./problems/1365/Solution.cs)
