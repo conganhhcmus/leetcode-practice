@@ -1226,6 +1226,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3650. Minimum Cost Path with Edge Reversals](./problems/3650/Solution.cs)
 - [3651. Minimum Cost Path with Teleportations](./problems/3651/Solution.cs)
 - [3652. Best Time to Buy and Sell Stock using Strategy](./problems/3652/Solution.cs)
+- [3661. Maximum Walls Destroyed by Robots](./problems/3661/Solution.cs)
 - [3666. Minimum Operations to Equalize Binary String](./problems/3666/Solution.cs)
 - [3713. Longest Balanced Substring I](./problems/3713/Solution.cs)
 - [3714. Longest Balanced Substring II](./problems/3714/Solution.cs)
