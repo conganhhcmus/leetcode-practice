@@ -26,20 +26,16 @@ def main():
     open("input.txt", "w").close()
     open("output.txt", "w").close()
 
-    # Open all files in VSCode (last opened gets focus)
-    files_to_open = [
-        "output.txt",
-        "input.txt",
-        solution_path,
-    ]
-    for file_path in files_to_open:
-        try:
-            cmd = f'code -r "{file_path}"'
-            subprocess.run(cmd, shell=True, check=True)
-        except subprocess.CalledProcessError as e:
-            print(f"Failed to open VSCode: {e}")
-        except Exception as e:
-            print(f"Unexpected error: {e}")
+    # Close all tabs then open all files in VSCode in one command
+    readme_path = os.path.join(current_dir, "README.md")
+    files_to_open = [readme_path, "output.txt", "input.txt", solution_path]
+    try:
+        cmd = "code -r " + " ".join(f'"{f}"' for f in files_to_open)
+        subprocess.run(cmd, shell=True, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to open VSCode: {e}")
+    except Exception as e:
+        print(f"Unexpected error: {e}")
 
 
 if __name__ == "__main__":
