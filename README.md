@@ -557,6 +557,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [452. Minimum Number of Arrows to Burst Balloons](./problems/452/Solution.cs)
 - [454. 4Sum II](./problems/454/Solution.cs)
 - [455. Assign Cookies](./problems/455/Solution.cs)
+- [459. Repeated Substring Pattern](./problems/459/Solution.cs)
 - [460. LFU Cache](./problems/460/Solution.cs)
 - [474. Ones and Zeroes](./problems/474/Solution.cs)
 - [482. License Key Formatting](./problems/482/Solution.cs)

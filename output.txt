@@ -1,5 +1,4 @@
-"cipher"
-"i love leetcode"
-"coding"
-" abc"
-""
+true
+false
+true
+true
