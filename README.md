@@ -1170,6 +1170,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [86. Partition List](./problems/86/Solution.cs)
 - [85. Maximal Rectangle](./problems/85/Solution.cs)
 - [84. Largest Rectangle in Histogram](./problems/84/Solution.cs)
+- [83. Remove Duplicates from Sorted List](./problems/83/Solution.cs)
 - [82. Remove Duplicates from Sorted List II](./problems/82/Solution.cs)
 - [80. Remove Duplicates from Sorted Array II](./problems/80/Solution.cs)
 - [79. Word Search](./problems/79/Solution.cs)
