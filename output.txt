@@ -1,5 +1,2 @@
-1
-0
--1
-52
-83
+[true,false]
+[false,false,true]
