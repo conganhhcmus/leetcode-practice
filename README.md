@@ -754,6 +754,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1672. Richest Customer Wealth](./problems/1672/Solution.cs)
 - [1671. Minimum Number of Removals to Make Mountain Array](./problems/1671/Solution.cs)
 - [1668. Maximum Repeating Substring](./problems/1668/Solution.cs)
+- [1664. Ways to Make a Fair Array](./problems/1664/Solution.cs)
 - [1657. Determine if Two Strings Are Close](./problems/1657/Solution.cs)
 - [1653. Minimum Deletions to Make String Balanced](./problems/1653/Solution.cs)
 - [1652. Defuse the Bomb](./problems/1652/Solution.cs)
