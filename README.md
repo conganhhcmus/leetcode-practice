@@ -665,6 +665,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2073. Time Needed to Buy Tickets](./problems/2073/Solution.cs)
 - [2071. Maximum Number of Tasks You Can Assign](./problems/2071/Solution.cs)
 - [2070. Most Beautiful Item for Each Query](./problems/2070/Solution.cs)
+- [2069. Walking Robot Simulation II](./problems/2069/Solution.cs)
 - [2064. Minimized Maximum of Products Distributed to Any Store](./problems/2064/Solution.cs)
 - [2063. Vowels of All Substrings](./problems/2063/Solution.cs)
 - [2054. Two Best Non-Overlapping Events](./problems/2054/Solution.cs)
