@@ -493,6 +493,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2839. Check if Strings Can be Made Equal With Operations I](./problems/2839/Solution.cs)
 - [2825. Make String a Subsequence Using Cyclic Increments](./problems/2825/Solution.cs)
 - [2818. Apply Operations to Maximize Score](./problems/2818/Solution.cs)
+- [2812. Find the Safest Path in a Grid](./problems/2812/Solution.cs)
 - [2807. Insert Greatest Common Divisors in Linked List](./problems/2807/Solution.cs)
 - [2799. Count Complete Subarrays in an Array](./problems/2799/Solution.cs)
 - [2791. Count Paths That Can Form a Palindrome in a Tree](./problems/2791/Solution.cs)
