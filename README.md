@@ -975,6 +975,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [641. Design Circular Deque](./problems/641/Solution.cs)
 - [637. Average of Levels in Binary Tree](./problems/637/Solution.cs)
 - [636. Exclusive Time of Functions](./problems/636/Solution.cs)
+- [633. Sum of Square Numbers](./problems/633/Solution.cs)
 - [632. Smallest Range Covering Elements from K Lists](./problems/632/Solution.cs)
 - [611. Valid Triangle Number](./problems/611/Solution.cs)
 - [605. Can Place Flowers](./problems/605/Solution.cs)
