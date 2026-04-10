@@ -316,6 +316,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 <summary>Click to expand</summary>
 
 - [3794. Reverse String Prefix](./problems/3794/Solution.cs)
+- [3740. Minimum Distance Between Three Equal Elements I](./problems/3740/Solution.cs)
 - [3721. Longest Balanced Subarray II](./problems/3721/Solution.cs)
 - [3719. Longest Balanced Subarray I](./problems/3719/Solution.cs)
 - [3714. Longest Balanced Substring II](./problems/3714/Solution.cs)
