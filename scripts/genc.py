@@ -95,13 +95,19 @@ def main():
 
     # Close all tabs then open all files in VSCode in one command
     files_to_open = [readme_path, "output.txt", "input.txt"] + [
-        os.path.join(target_dir, f"Q{i}.cs") for i in range(1, 5)
+        os.path.join(target_dir, f"Q{i}.cs") for i in range(4, 0, -1)
     ]
     try:
-        cmd = "code -r " + " ".join(f'"{f}"' for f in files_to_open)
-        subprocess.run(cmd, shell=True, check=True)
+        editor = os.environ.get("LEETCODE_EDITOR", "none")
+        if editor == "none":
+            pass
+        elif editor == "code":
+            cmd = "code -r " + " ".join(f'"{f}"' for f in files_to_open)
+            subprocess.run(cmd, shell=True, check=True)
+        else:
+            subprocess.run([editor] + files_to_open, check=True)
     except subprocess.CalledProcessError as e:
-        print(f"Failed to open VSCode: {e}")
+        print(f"Failed to open editor: {e}")
     except Exception as e:
         print(f"Unexpected error: {e}")
 

@@ -30,10 +30,16 @@ def main():
     readme_path = os.path.join(current_dir, "README.md")
     files_to_open = [readme_path, "output.txt", "input.txt", solution_path]
     try:
-        cmd = "code -r " + " ".join(f'"{f}"' for f in files_to_open)
-        subprocess.run(cmd, shell=True, check=True)
+        editor = os.environ.get("LEETCODE_EDITOR", "none")
+        if editor == "none":
+            pass
+        elif editor == "code":
+            cmd = "code -r " + " ".join(f'"{f}"' for f in files_to_open)
+            subprocess.run(cmd, shell=True, check=True)
+        else:
+            subprocess.run([editor] + files_to_open, check=True)
     except subprocess.CalledProcessError as e:
-        print(f"Failed to open VSCode: {e}")
+        print(f"Failed to open editor: {e}")
     except Exception as e:
         print(f"Unexpected error: {e}")
 

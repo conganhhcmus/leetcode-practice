@@ -14,7 +14,12 @@
             "windows": {
                 "command": "py"
             },
-            "args": ["${workspaceFolder}/scripts/genc.py", "${input:contest_name}"]
+            "args": ["${workspaceFolder}/scripts/genc.py", "${input:contest_name}"],
+            "options": {
+                "env": {
+                    "LEETCODE_EDITOR": "code"
+                }
+            }
         },
         {
             "label": "LeetCode: Generate Problem",
@@ -23,7 +28,12 @@
             "windows": {
                 "command": "py"
             },
-            "args": ["${workspaceFolder}/scripts/genp.py", "${input:problem_name}"]
+            "args": ["${workspaceFolder}/scripts/genp.py", "${input:problem_name}"],
+            "options": {
+                "env": {
+                    "LEETCODE_EDITOR": "code"
+                }
+            }
         }
     ],
     "inputs": [
