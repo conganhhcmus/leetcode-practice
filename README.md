@@ -732,6 +732,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1862. Sum of Floored Pairs](./problems/1862/Solution.cs)
 - [1861. Rotating the Box](./problems/1861/Solution.cs)
 - [1857. Largest Color Value in a Directed Graph](./problems/1857/Solution.cs)
+- [1848. Minimum Distance to the Target Element](./problems/1848/Solution.cs)
 - [1829. Maximum XOR for Each Query](./problems/1829/Solution.cs)
 - [1813. Sentence Similarity III](./problems/1813/Solution.cs)
 - [1800. Maximum Ascending Subarray Sum](./problems/1800/Solution.cs)
