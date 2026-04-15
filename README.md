@@ -1008,6 +1008,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [493. Reverse Pairs](./problems/493/Solution.cs)
 - [485. Max Consecutive Ones](./problems/485/Solution.cs)
 - [482. License Key Formatting](./problems/482/Solution.cs)
+- [481. Magical String](./problems/481/Solution.cs)
 - [474. Ones and Zeroes](./problems/474/Solution.cs)
 - [460. LFU Cache](./problems/460/Solution.cs)
 - [459. Repeated Substring Pattern](./problems/459/Solution.cs)
