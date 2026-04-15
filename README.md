@@ -626,6 +626,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2257. Count Unguarded Cells in the Grid](./problems/2257/Solution.cs)
 - [2226. Maximum Candies Allocated to K Children](./problems/2226/Solution.cs)
 - [2224. Minimum Number of Operations to Convert Time](./problems/2224/Solution.cs)
+- [2223. Sum of Scores of Built Strings](./problems/2223/Solution.cs)
 - [2222. Number of Ways to Select Buildings](./problems/2222/Solution.cs)
 - [2221. Find Triangular Sum of an Array](./problems/2221/Solution.cs)
 - [2220. Minimum Bit Flips to Convert Number](./problems/2220/Solution.cs)
