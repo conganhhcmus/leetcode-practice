@@ -820,6 +820,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1400. Construct K Palindrome Strings](./problems/1400/Solution.cs)
 - [1399. Count Largest Group](./problems/1399/Solution.cs)
 - [1394. Find Lucky Integer in an Array](./problems/1394/Solution.cs)
+- [1392. Longest Happy Prefix](./problems/1392/Solution.cs)
 - [1390. Four Divisors](./problems/1390/Solution.cs)
 - [1386. Cinema Seat Allocation](./problems/1386/Solution.cs)
 - [1382. Balance a Binary Search Tree](./problems/1382/Solution.cs)
