@@ -556,6 +556,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2527. Find Xor-Beauty of Array](./problems/2527/Solution.cs)
 - [2523. Closest Prime Numbers in Range](./problems/2523/Solution.cs)
 - [2516. Take K of Each Character From Left and Right](./problems/2516/Solution.cs)
+- [2515. Shortest Distance to Target String in a Circular Array](./problems/2515/Solution.cs)
 - [2503. Maximum Number of Points From Grid Queries](./problems/2503/Solution.cs)
 - [2501. Longest Square Streak in an Array](./problems/2501/Solution.cs)
 - [2493. Divide Nodes Into the Maximum Number of Groups](./problems/2493/Solution.cs)
