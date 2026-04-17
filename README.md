@@ -1290,7 +1290,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 ## 🚀 Stats
 - Total Problems Solved: 962
 - Weekly Contests Participated: 33
-- Biweekly Contests Participated: 7
+- Biweekly Contests Participated: 8
 <!-- end -->
 
 ## 🔧 Technologies
