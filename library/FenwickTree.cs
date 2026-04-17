@@ -4,7 +4,8 @@ public class FenwickTree
 {
     readonly long[] bit;
     readonly int n;
-    public FenwickTree(int[] nums)
+
+    public FenwickTree(long[] nums)
     {
         n = nums.Length;
         bit = new long[n + 1];
@@ -14,8 +15,11 @@ public class FenwickTree
         }
     }
 
+    public FenwickTree(int[] nums)
+        : this(Array.ConvertAll(nums, x => (long)x)) { }
+
     // O(log n)
-    void Update(int pos, int val) // update increment or decrement value
+    void Update(int pos, long val) // update increment or decrement value
     {
         pos++;
         while (pos <= n)
@@ -27,7 +31,7 @@ public class FenwickTree
     }
 
     // O(log n)
-    long Query(int pos) // query sum from 0 -> pos
+    long Query(long pos) // query sum from 0 -> pos
     {
         long sum = 0;
         // int max = 0;
@@ -42,3 +46,4 @@ public class FenwickTree
         // return max;
     }
 }
+
