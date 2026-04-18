@@ -330,6 +330,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 <summary>Click to expand</summary>
 
 - [3794. Reverse String Prefix](./problems/3794/Solution.cs)
+- [3783. Mirror Distance of an Integer](./problems/3783/Solution.cs)
 - [3761. Minimum Absolute Distance Between Mirror Pairs](./problems/3761/Solution.cs)
 - [3741. Minimum Distance Between Three Equal Elements II](./problems/3741/Solution.cs)
 - [3740. Minimum Distance Between Three Equal Elements I](./problems/3740/Solution.cs)
