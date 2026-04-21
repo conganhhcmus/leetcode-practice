@@ -1313,8 +1313,8 @@ This repository contains my solutions to various LeetCode problems and contests.
 <!-- start -->
 ## 🚀 Stats
 - Total Problems Solved: 965
-- Weekly Contests Participated: 34
-- Biweekly Contests Participated: 8
+- Weekly Contests Participated: 35
+- Biweekly Contests Participated: 9
 <!-- end -->
 
 ## 🔧 Technologies
