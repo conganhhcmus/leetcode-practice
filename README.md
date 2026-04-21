@@ -785,6 +785,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1732. Find the Highest Altitude](./problems/1732/Solution.cs)
 - [1727. Largest Submatrix With Rearrangements](./problems/1727/Solution.cs)
 - [1726. Tuple with Same Product](./problems/1726/Solution.cs)
+- [1722. Minimize Hamming Distance After Swap Operations](./problems/1722/Solution.cs)
 - [1718. Construct the Lexicographically Largest Valid Sequence](./problems/1718/Solution.cs)
 - [1717. Maximum Score From Removing Substrings](./problems/1717/Solution.cs)
 - [1716. Calculate Money in Leetcode Bank](./problems/1716/Solution.cs)
