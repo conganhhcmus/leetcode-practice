@@ -934,6 +934,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [961. N-Repeated Element in Size 2N Array](./problems/961/Solution.cs)
 - [960. Delete Columns to Make Sorted III](./problems/960/Solution.cs)
 - [955. Delete Columns to Make Sorted II](./problems/955/Solution.cs)
+- [952. Largest Component Size by Common Factor](./problems/952/Solution.cs)
 - [951. Flip Equivalent Binary Trees](./problems/951/Solution.cs)
 - [944. Delete Columns to Make Sorted](./problems/944/Solution.cs)
 - [933. Number of Recent Calls](./problems/933/Solution.cs)
