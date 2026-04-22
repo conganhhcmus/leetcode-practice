@@ -1220,6 +1220,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [96. Unique Binary Search Trees](./problems/96/Solution.cs)
 - [95. Unique Binary Search Trees II](./problems/95/Solution.cs)
 - [94. Binary Tree Inorder Traversal](./problems/94/Solution.cs)
+- [93. Restore IP Addresses](./problems/93/Solution.cs)
 - [92. Reverse Linked List II](./problems/92/Solution.cs)
 - [91. Decode Ways](./problems/91/Solution.cs)
 - [89. Gray Code](./problems/89/Solution.cs)
