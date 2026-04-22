@@ -701,6 +701,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2086. Minimum Number of Food Buckets to Feed the Hamsters](./problems/2086/Solution.cs)
 - [2081. Sum of k-Mirror Numbers](./problems/2081/Solution.cs)
 - [2078. Two Furthest Houses With Different Colors](./problems/2078/Solution.cs)
+- [2076. Process Restricted Friend Requests](./problems/2076/Solution.cs)
 - [2075. Decode the Slanted Ciphertext](./problems/2075/Solution.cs)
 - [2073. Time Needed to Buy Tickets](./problems/2073/Solution.cs)
 - [2071. Maximum Number of Tasks You Can Assign](./problems/2071/Solution.cs)
