@@ -554,6 +554,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2652. Sum Multiples](./problems/2652/Solution.cs)
 - [2641. Cousins in Binary Tree II](./problems/2641/Solution.cs)
 - [2616. Minimize the Maximum Difference of Pairs](./problems/2616/Solution.cs)
+- [2615. Sum of Distances](./problems/2615/Solution.cs)
 - [2601. Prime Subtraction Operation](./problems/2601/Solution.cs)
 - [2600. K Items With the Maximum Sum](./problems/2600/Solution.cs)
 - [2598. Smallest Missing Non-negative Integer After Operations](./problems/2598/Solution.cs)
