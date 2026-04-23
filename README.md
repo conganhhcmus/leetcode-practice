@@ -688,6 +688,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2130. Maximum Twin Sum of a Linked List](./problems/2130/Solution.cs)
 - [2127. Maximum Employees to Be Invited to a Meeting](./problems/2127/Solution.cs)
 - [2125. Number of Laser Beams in a Bank](./problems/2125/Solution.cs)
+- [2121. Intervals Between Identical Elements](./problems/2121/Solution.cs)
 - [2116. Check if a Parentheses String Can Be Valid](./problems/2116/Solution.cs)
 - [2115. Find All Possible Recipes from Given Supplies](./problems/2115/Solution.cs)
 - [2110. Number of Smooth Descent Periods of a Stock](./problems/2110/Solution.cs)
