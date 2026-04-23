@@ -1,4 +1,3 @@
-true
-true
-false
-true
+75
+25
+7
