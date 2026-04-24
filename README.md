@@ -593,6 +593,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2503. Maximum Number of Points From Grid Queries](./problems/2503/Solution.cs)
 - [2501. Longest Square Streak in an Array](./problems/2501/Solution.cs)
 - [2493. Divide Nodes Into the Maximum Number of Groups](./problems/2493/Solution.cs)
+- [2492. Minimum Score of a Path Between Two Cities](./problems/2492/Solution.cs)
 - [2491. Divide Players Into Teams of Equal Skill](./problems/2491/Solution.cs)
 - [2490. Circular Sentence](./problems/2490/Solution.cs)
 - [2488. Count Subarrays With Median K](./problems/2488/Solution.cs)
