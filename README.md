@@ -1042,6 +1042,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [557. Reverse Words in a String III](./problems/557/Solution.cs)
 - [547. Number of Provinces](./problems/547/Solution.cs)
 - [543. Diameter of Binary Tree](./problems/543/Solution.cs)
+- [542. 01 Matrix](./problems/542/Solution.cs)
 - [539. Minimum Time Difference](./problems/539/Solution.cs)
 - [530. Minimum Absolute Difference in BST](./problems/530/Solution.cs)
 - [520. Detect Capital](./problems/520/Solution.cs)
