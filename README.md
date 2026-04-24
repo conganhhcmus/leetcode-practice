@@ -1056,6 +1056,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [482. License Key Formatting](./problems/482/Solution.cs)
 - [481. Magical String](./problems/481/Solution.cs)
 - [474. Ones and Zeroes](./problems/474/Solution.cs)
+- [463. Island Perimeter](./problems/463/Solution.cs)
 - [460. LFU Cache](./problems/460/Solution.cs)
 - [459. Repeated Substring Pattern](./problems/459/Solution.cs)
 - [455. Assign Cookies](./problems/455/Solution.cs)
