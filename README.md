@@ -969,6 +969,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [868. Binary Gap](./problems/868/Solution.cs)
 - [865. Smallest Subtree with all the Deepest Nodes](./problems/865/Solution.cs)
 - [862. Shortest Subarray with Sum at Least K](./problems/862/Solution.cs)
+- [852. Peak Index in a Mountain Array](./problems/852/Solution.cs)
 - [847. Shortest Path Visiting All Nodes](./problems/847/Solution.cs)
 - [841. Keys and Rooms](./problems/841/Solution.cs)
 - [840. Magic Squares In Grid](./problems/840/Solution.cs)
