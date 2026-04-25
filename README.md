@@ -1160,6 +1160,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [207. Course Schedule](./problems/207/Solution.cs)
 - [206. Reverse Linked List](./problems/206/Solution.cs)
 - [205. Isomorphic Strings](./problems/205/Solution.cs)
+- [204. Count Primes](./problems/204/Solution.cs)
 - [202. Happy Number](./problems/202/Solution.cs)
 - [201. Bitwise AND of Numbers Range](./problems/201/Solution.cs)
 - [200. Number of Islands](./problems/200/Solution.cs)
