@@ -824,6 +824,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](./problems/1579/Solution.cs)
 - [1578. Minimum Time to Make Rope Colorful](./problems/1578/Solution.cs)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](./problems/1574/Solution.cs)
+- [1559. Detect Cycles in 2D Grid](./problems/1559/Solution.cs)
 - [1557. Minimum Number of Vertices to Reach All Nodes](./problems/1557/Solution.cs)
 - [1550. Three Consecutive Odds](./problems/1550/Solution.cs)
 - [1545. Find Kth Bit in Nth Binary String](./problems/1545/Solution.cs)
