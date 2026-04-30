@@ -685,6 +685,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2211. Count Collisions on a Road](./problems/2211/Solution.cs)
 - [2210. Count Hills and Valleys in an Array](./problems/2210/Solution.cs)
 - [2206. Divide Array Into Equal Pairs](./problems/2206/Solution.cs)
+- [2203. Minimum Weighted Subgraph With the Required Paths](./problems/2203/Solution.cs)
 - [2200. Find All K-Distant Indices in an Array](./problems/2200/Solution.cs)
 - [2197. Replace Non-Coprime Numbers in Array](./problems/2197/Solution.cs)
 - [2185. Counting Words With a Given Prefix](./problems/2185/Solution.cs)
