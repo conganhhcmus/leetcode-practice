@@ -999,6 +999,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [837. New 21 Game](./problems/837/Solution.cs)
 - [831. Masking Personal Information](./problems/831/Solution.cs)
 - [827. Making A Large Island](./problems/827/Solution.cs)
+- [815. Bus Routes](./problems/815/Solution.cs)
 - [812. Largest Triangle Area](./problems/812/Solution.cs)
 - [808. Soup Servings](./problems/808/Solution.cs)
 - [802. Find Eventual Safe States](./problems/802/Solution.cs)
