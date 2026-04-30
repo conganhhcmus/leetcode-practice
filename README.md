@@ -360,6 +360,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3794. Reverse String Prefix](./problems/3794/Solution.cs)
 - [3783. Mirror Distance of an Integer](./problems/3783/Solution.cs)
 - [3761. Minimum Absolute Distance Between Mirror Pairs](./problems/3761/Solution.cs)
+- [3742. Maximum Path Score in a Grid](./problems/3742/Solution.cs)
 - [3741. Minimum Distance Between Three Equal Elements II](./problems/3741/Solution.cs)
 - [3740. Minimum Distance Between Three Equal Elements I](./problems/3740/Solution.cs)
 - [3721. Longest Balanced Subarray II](./problems/3721/Solution.cs)
