@@ -251,7 +251,7 @@ public class Program
 
     #endregion
 
-    private static readonly JsonSerializerOptions JsonOptions = new() { TypeInfoResolver = new DefaultJsonTypeInfoResolver() };
+    internal static readonly JsonSerializerOptions JsonOptions = new() { TypeInfoResolver = new DefaultJsonTypeInfoResolver() };
 
     private static string Namespace => typeof(Solution).Namespace;
 
