@@ -569,6 +569,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2656. Maximum Sum With Exactly K Elements ](./problems/2656/Solution.cs)
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](./problems/2654/Solution.cs)
 - [2652. Sum Multiples](./problems/2652/Solution.cs)
+- [2642. Design Graph With Shortest Path Calculator](./problems/2642/Solution.cs)
 - [2641. Cousins in Binary Tree II](./problems/2641/Solution.cs)
 - [2616. Minimize the Maximum Difference of Pairs](./problems/2616/Solution.cs)
 - [2615. Sum of Distances](./problems/2615/Solution.cs)
