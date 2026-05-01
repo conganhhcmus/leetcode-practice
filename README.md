@@ -1040,6 +1040,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [706. Design HashMap](./problems/706/Solution.cs)
 - [705. Design HashSet](./problems/705/Solution.cs)
 - [704. Binary Search](./problems/704/Solution.cs)
+- [701. Insert into a Binary Search Tree](./problems/701/Solution.cs)
 - [700. Search in a Binary Search Tree](./problems/700/Solution.cs)
 - [698. Partition to K Equal Sum Subsets](./problems/698/Solution.cs)
 - [696. Count Binary Substrings](./problems/696/Solution.cs)
