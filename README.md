@@ -1045,6 +1045,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [696. Count Binary Substrings](./problems/696/Solution.cs)
 - [693. Binary Number with Alternating Bits](./problems/693/Solution.cs)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](./problems/689/Solution.cs)
+- [687. Longest Univalue Path](./problems/687/Solution.cs)
 - [686. Repeated String Match](./problems/686/Solution.cs)
 - [684. Redundant Connection](./problems/684/Solution.cs)
 - [680. Valid Palindrome II](./problems/680/Solution.cs)
