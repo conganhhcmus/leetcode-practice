@@ -1146,6 +1146,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [322. Coin Change](./problems/322/Solution.cs)
 - [313. Super Ugly Number](./problems/313/Solution.cs)
 - [309. Best Time to Buy and Sell Stock with Cooldown](./problems/309/Solution.cs)
+- [307. Range Sum Query - Mutable](./problems/307/Solution.cs)
 - [303. Range Sum Query - Immutable](./problems/303/Solution.cs)
 - [300. Longest Increasing Subsequence](./problems/300/Solution.cs)
 - [299. Bulls and Cows](./problems/299/Solution.cs)
