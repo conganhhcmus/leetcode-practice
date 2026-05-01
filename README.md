@@ -690,6 +690,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2203. Minimum Weighted Subgraph With the Required Paths](./problems/2203/Solution.cs)
 - [2200. Find All K-Distant Indices in an Array](./problems/2200/Solution.cs)
 - [2197. Replace Non-Coprime Numbers in Array](./problems/2197/Solution.cs)
+- [2196. Create Binary Tree From Descriptions](./problems/2196/Solution.cs)
 - [2185. Counting Words With a Given Prefix](./problems/2185/Solution.cs)
 - [2182. Construct String With Repeat Limit](./problems/2182/Solution.cs)
 - [2179. Count Good Triplets in an Array](./problems/2179/Solution.cs)
