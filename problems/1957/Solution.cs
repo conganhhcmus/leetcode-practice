@@ -1,5 +1,3 @@
-using System.Text;
-
 public class Solution
 {
     public string MakeFancyString(string s)

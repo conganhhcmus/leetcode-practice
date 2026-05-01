@@ -45,30 +45,30 @@ public class FindSumPairs
  */
 
 
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
         FindSumPairs findSumPairs = null;
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
 
         for (int i = 0; i < actions.Length; i++)
         {
             switch (actions[i])
             {
                 case "FindSumPairs":
-                    int[][] data = CastType<int[][]>(objectList[i]);
+                    int[][] data = CastType<int[][]>(values[i]);
                     findSumPairs = new FindSumPairs(data[0], data[1]);
                     result.Add(null);
                     break;
                 case "add":
-                    int[] val = CastType<int[]>(objectList[i]);
+                    int[] val = CastType<int[]>(values[i]);
                     findSumPairs.Add(val[0], val[1]);
                     result.Add(null);
                     break;
                 case "count":
-                    result.Add(findSumPairs.Count(CastType<int[]>(objectList[i])[0]));
+                    result.Add(findSumPairs.Count(CastType<int[]>(values[i])[0]));
                     break;
                 default:
                     break;
@@ -77,8 +77,6 @@ public class Solution
         return result;
     }
 
-    private T CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T>(JsonConvert.SerializeObject(value));
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif

@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup>
     <Nullable>disable</Nullable>
+    <NoWarn>$(NoWarn);IL2026;IL3050</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />

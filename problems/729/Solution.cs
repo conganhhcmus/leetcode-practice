@@ -1,5 +1,3 @@
-using System.Collections;
-
 public class MyCalendar
 {
     public record Pair(int start, int end);
@@ -42,6 +40,12 @@ public class MyCalendar
     }
 }
 
+/**
+ * Your MyCalendar object will be instantiated and called as such:
+ * MyCalendar obj = new MyCalendar();
+ * bool param_1 = obj.Book(start,end);
+ */
+
 public class Solution
 {
     public List<string> Execute(string[] events, int[][] times)
@@ -65,9 +69,3 @@ public class Solution
         return ans;
     }
 }
-
-/**
- * Your MyCalendar object will be instantiated and called as such:
- * MyCalendar obj = new MyCalendar();
- * bool param_1 = obj.Book(start,end);
- */

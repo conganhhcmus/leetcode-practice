@@ -1,12 +1,11 @@
 #if DEBUG
-#pragma warning disable
-
-using System.Diagnostics;
-using System.Reflection;
-using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization.Metadata;
-using System.Text.RegularExpressions;
+global using System.Collections;
+global using System.Diagnostics;
+global using System.Reflection;
+global using System.Text;
+global using System.Text.Json;
+global using System.Text.Json.Serialization.Metadata;
+global using System.Text.RegularExpressions;
 
 #region Structures  ----------------------------------------------------------------
 public class TreeNode

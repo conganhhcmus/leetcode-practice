@@ -48,13 +48,11 @@ public class Bank
  */
 
 
-
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
-
         List<dynamic> result = [];
         Bank bank = null;
         for (int i = 0; i < actions.Length; i++)
@@ -62,17 +60,20 @@ public class Solution
             switch (actions[i])
             {
                 case "Bank":
-                    bank = new Bank(CastType<long[]>(objectList[i])[0]);
+                    bank = new Bank(CastType<long[][]>(values[i])[0]);
                     result.Add(null);
                     break;
                 case "withdraw":
-                    result.Add(bank.Withdraw(CastType<int>(objectList[i])[0], CastType<long>(objectList[i])[1]));
+                    long[] withdrawArgs = CastType<long[]>(values[i]);
+                    result.Add(bank.Withdraw((int)withdrawArgs[0], withdrawArgs[1]));
                     break;
                 case "transfer":
-                    result.Add(bank.Transfer(CastType<int>(objectList[i])[0], CastType<int>(objectList[i])[1], CastType<long>(objectList[i])[2]));
+                    long[] transferArgs = CastType<long[]>(values[i]);
+                    result.Add(bank.Transfer((int)transferArgs[0], (int)transferArgs[1], transferArgs[2]));
                     break;
                 case "deposit":
-                    result.Add(bank.Deposit(CastType<int>(objectList[i])[0], CastType<long>(objectList[i])[1]));
+                    long[] depositArgs = CastType<long[]>(values[i]);
+                    result.Add(bank.Deposit((int)depositArgs[0], depositArgs[1]));
                     break;
                 default:
                     break;
@@ -81,8 +82,6 @@ public class Solution
         return result;
     }
 
-    private T[] CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value));
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif

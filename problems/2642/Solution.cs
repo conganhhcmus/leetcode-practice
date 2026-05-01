@@ -1,6 +1,3 @@
-#pragma warning disable IL2026, IL3050
-using System.Text.Json;
-
 public class Graph
 {
     int n;
@@ -69,7 +66,7 @@ public class Graph
 #if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, object[] objectList)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
         Graph graph = null;
@@ -79,19 +76,19 @@ public class Solution
             switch (actions[i])
             {
                 case "Graph":
-                    object[] data = CastType<object[]>(objectList[i]);
+                    object[] data = CastType<object[]>(values[i]);
                     int n = CastType<int>(data[0]);
                     int[][] edges = CastType<int[][]>(data[1]);
                     graph = new Graph(n, edges);
                     result.Add(null);
                     break;
                 case "addEdge":
-                    int[] edge = CastType<int[][]>(objectList[i])[0];
+                    int[] edge = CastType<int[][]>(values[i])[0];
                     graph.AddEdge(edge);
                     result.Add(null);
                     break;
                 case "shortestPath":
-                    int[] value = CastType<int[]>(objectList[i]);
+                    int[] value = CastType<int[]>(values[i]);
                     result.Add(graph.ShortestPath(value[0], value[1]));
                     break;
             }
@@ -99,7 +96,6 @@ public class Solution
         return result;
     }
 
-    private static T CastType<T>(object value) =>
-        ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
 #endif

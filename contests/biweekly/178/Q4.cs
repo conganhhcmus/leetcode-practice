@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 public class Solution
 {
     // max sum for 15 digits of 9 is 135; if you expect longer numbers increase this

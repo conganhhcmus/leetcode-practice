@@ -51,24 +51,24 @@ public class Trie
  * bool param_1 = obj.Query(letter);
  */
 
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] events, dynamic values)
+    public List<dynamic> Execute(string[] events, object[] values)
     {
         List<dynamic> result = [];
         StreamChecker streamChecker = null;
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
 
         for (int i = 0; i < events.Length; i++)
         {
             switch (events[i])
             {
                 case "StreamChecker":
-                    streamChecker = new StreamChecker(CastType<string[]>(objectList[i]));
+                    streamChecker = new StreamChecker(CastType<string[][]>(values[i])[0]);
                     result.Add(null);
                     break;
                 case "query":
-                    result.Add(streamChecker.Query(CastType<char>(objectList[i])));
+                    result.Add(streamChecker.Query(CastType<char[]>(values[i])[0]));
                     break;
             }
         }
@@ -76,8 +76,6 @@ public class Solution
         return result;
     }
 
-    private T CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value))[0];
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif

@@ -114,23 +114,24 @@ public record Pair(int Value, int Occurrence);
  * int param_1 = obj.Query(left,right,threshold);
  */
 
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
         MajorityChecker majorityChecker = null;
         for (int i = 0; i < actions.Length; i++)
         {
             switch (actions[i])
             {
                 case "MajorityChecker":
-                    majorityChecker = new MajorityChecker(CastType<int[]>(objectList[i])[0]);
+                    majorityChecker = new MajorityChecker(CastType<int[][]>(values[i])[0]);
                     result.Add(null);
                     break;
                 case "query":
-                    result.Add(majorityChecker.Query(CastType<int>(objectList[i])[0], CastType<int>(objectList[i])[1], CastType<int>(objectList[i])[2]));
+                    int[] queryArgs = CastType<int[]>(values[i]);
+                    result.Add(majorityChecker.Query(queryArgs[0], queryArgs[1], queryArgs[2]));
                     break;
                 default:
                     break;
@@ -139,8 +140,6 @@ public class Solution
         return result;
     }
 
-    private T[] CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value));
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif
