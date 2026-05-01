@@ -676,6 +676,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2264. Largest 3-Same-Digit Number in String](./problems/2264/Solution.cs)
 - [2259. Remove Digit From Number to Maximize Result](./problems/2259/Solution.cs)
 - [2257. Count Unguarded Cells in the Grid](./problems/2257/Solution.cs)
+- [2236. Root Equals Sum of Children](./problems/2236/Solution.cs)
 - [2226. Maximum Candies Allocated to K Children](./problems/2226/Solution.cs)
 - [2224. Minimum Number of Operations to Convert Time](./problems/2224/Solution.cs)
 - [2223. Sum of Scores of Built Strings](./problems/2223/Solution.cs)
