@@ -1,5 +1,3 @@
-using System.Text.RegularExpressions;
-
 public class Solution
 {
     public string MaskPII(string s)

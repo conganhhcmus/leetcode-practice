@@ -67,35 +67,37 @@ public class TaskManager
  */
 
 
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
         TaskManager taskManager = null;
         for (int i = 0; i < actions.Length; i++)
         {
             switch (actions[i])
             {
                 case "TaskManager":
-                    int[][][] inputs = CastType<int[][]>(objectList[i]);
+                    int[][][] inputs = CastType<int[][][]>(values[i]);
                     taskManager = new TaskManager(inputs[0]);
                     result.Add(null);
                     break;
                 case "add":
-                    taskManager.Add(CastType<int>(objectList[i])[0], CastType<int>(objectList[i])[1], CastType<int>(objectList[i])[2]);
+                    int[] addArgs = CastType<int[]>(values[i]);
+                    taskManager.Add(addArgs[0], addArgs[1], addArgs[2]);
                     result.Add(null);
                     break;
                 case "rmv":
-                    taskManager.Rmv(CastType<int>(objectList[i])[0]);
+                    taskManager.Rmv(CastType<int[]>(values[i])[0]);
                     result.Add(null);
                     break;
                 case "execTop":
                     result.Add(taskManager.ExecTop());
                     break;
                 case "edit":
-                    taskManager.Edit(CastType<int>(objectList[i])[0], CastType<int>(objectList[i])[1]);
+                    int[] editArgs = CastType<int[]>(values[i]);
+                    taskManager.Edit(editArgs[0], editArgs[1]);
                     result.Add(null);
                     break;
                 default:
@@ -105,8 +107,6 @@ public class Solution
         return result;
     }
 
-    private T[] CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value));
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif

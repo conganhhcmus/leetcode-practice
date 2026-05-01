@@ -1,8 +1,3 @@
-#if DEBUG
-using System.Runtime.Intrinsics.Arm;
-
-#endif
-
 public class Solution
 {
     public int MinTimeToReach(int[][] moveTime)

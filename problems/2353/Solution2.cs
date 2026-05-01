@@ -58,28 +58,28 @@ public class FoodRatings
  */
 
 
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
         FoodRatings foodRatings = null;
         for (int i = 0; i < actions.Length; i++)
         {
             switch (actions[i])
             {
                 case "FoodRatings":
-                    dynamic[][] inputs = CastType<dynamic[]>(objectList[i]);
-                    foodRatings = new FoodRatings(CastType<string>(inputs[0]), CastType<string>(inputs[1]), CastType<int>(inputs[2]));
+                    object[] constructArgs = CastType<object[]>(values[i]);
+                    foodRatings = new FoodRatings(CastType<string[]>(constructArgs[0]), CastType<string[]>(constructArgs[1]), CastType<int[]>(constructArgs[2]));
                     result.Add(null);
                     break;
                 case "highestRated":
-                    result.Add(foodRatings.HighestRated(CastType<string>(objectList[i])[0]));
+                    result.Add(foodRatings.HighestRated(CastType<string[]>(values[i])[0]));
                     break;
                 case "changeRating":
-                    dynamic[] updates = CastType<dynamic>(objectList[i]);
-                    foodRatings.ChangeRating((string)updates[0], (int)updates[1]);
+                    object[] changeArgs = CastType<object[]>(values[i]);
+                    foodRatings.ChangeRating(CastType<string>(changeArgs[0]), CastType<int>(changeArgs[1]));
                     result.Add(null);
                     break;
                 default:
@@ -89,8 +89,6 @@ public class Solution
         return result;
     }
 
-    private T[] CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value));
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif

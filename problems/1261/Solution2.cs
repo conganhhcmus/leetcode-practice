@@ -42,23 +42,23 @@ public class FindElements
  * bool param_1 = obj.Find(target);
  */
 
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
         FindElements findElement = null;
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
         for (int i = 0; i < actions.Length; i++)
         {
             switch (actions[i])
             {
                 case "FindElements":
-                    findElement = new FindElements(TreeNodeHelper.CreateTreeFromArray(CastType<int?[]>(objectList[i])));
+                    findElement = new FindElements(TreeNodeHelper.CreateTreeFromArray(CastType<int?[][]>(values[i])[0]));
                     result.Add(null);
                     break;
                 case "find":
-                    result.Add(findElement.Find(CastType<int>(objectList[i])));
+                    result.Add(findElement.Find(CastType<int[]>(values[i])[0]));
                     break;
                 default:
                     break;
@@ -67,8 +67,6 @@ public class Solution
         return result;
     }
 
-    private T CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value))[0];
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif

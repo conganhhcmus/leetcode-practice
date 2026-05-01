@@ -1,8 +1,3 @@
-#if DEBUG
-using System.Collections;
-
-#endif
-
 public class MyHashSet
 {
     BitArray buckets;

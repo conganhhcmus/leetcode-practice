@@ -97,36 +97,39 @@ public class MovieRentingSystem
  */
 
 
-
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
         MovieRentingSystem movieRentingSystem = null;
         for (int i = 0; i < actions.Length; i++)
         {
             switch (actions[i])
             {
                 case "MovieRentingSystem":
-                    dynamic[] inputs = CastType<dynamic>(objectList[i]);
-                    movieRentingSystem = new MovieRentingSystem((int)inputs[0], CastType<int[]>(inputs[1]));
+                    object[] constructArgs = CastType<object[]>(values[i]);
+                    int n = CastType<int>(constructArgs[0]);
+                    int[][] entries = CastType<int[][]>(constructArgs[1]);
+                    movieRentingSystem = new MovieRentingSystem(n, entries);
                     result.Add(null);
                     break;
                 case "rent":
-                    movieRentingSystem.Rent(CastType<int>(objectList[i])[0], CastType<int>(objectList[i])[1]);
+                    int[] rentArgs = CastType<int[]>(values[i]);
+                    movieRentingSystem.Rent(rentArgs[0], rentArgs[1]);
                     result.Add(null);
                     break;
                 case "report":
                     result.Add(movieRentingSystem.Report());
                     break;
                 case "drop":
-                    movieRentingSystem.Drop(CastType<int>(objectList[i])[0], CastType<int>(objectList[i])[1]);
+                    int[] dropArgs = CastType<int[]>(values[i]);
+                    movieRentingSystem.Drop(dropArgs[0], dropArgs[1]);
                     result.Add(null);
                     break;
                 case "search":
-                    result.Add(movieRentingSystem.Search(CastType<int>(objectList[i])[0]));
+                    result.Add(movieRentingSystem.Search(CastType<int[]>(values[i])[0]));
                     break;
                 default:
                     break;
@@ -135,8 +138,6 @@ public class Solution
         return result;
     }
 
-    private T[] CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value));
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif

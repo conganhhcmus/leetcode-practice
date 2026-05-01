@@ -1,8 +1,3 @@
-#if DEBUG
-using Biweekly_152_Q3;
-
-#endif
-
 public class Solution
 {
     public IList<string> RemoveSubfolders(string[] folder)

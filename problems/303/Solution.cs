@@ -25,23 +25,24 @@ public class NumArray
  */
 
 
+#if DEBUG
 public class Solution
 {
-    public List<dynamic> Execute(string[] actions, dynamic values)
+    public List<dynamic> Execute(string[] actions, object[] values)
     {
         List<dynamic> result = [];
-        object[] objectList = JsonConvert.DeserializeObject<object[]>(values);
         NumArray numArr = null;
         for (int i = 0; i < actions.Length; i++)
         {
             switch (actions[i])
             {
                 case "NumArray":
-                    numArr = new NumArray(CastType<int[]>(objectList[i])[0]);
+                    numArr = new NumArray(CastType<int[][]>(values[i])[0]);
                     result.Add(null);
                     break;
                 case "sumRange":
-                    result.Add(numArr.SumRange(CastType<int>(objectList[i])[0], CastType<int>(objectList[i])[1]));
+                    int[] rangeArgs = CastType<int[]>(values[i]);
+                    result.Add(numArr.SumRange(rangeArgs[0], rangeArgs[1]));
                     break;
                 default:
                     break;
@@ -50,8 +51,6 @@ public class Solution
         return result;
     }
 
-    private T[] CastType<T>(object value)
-    {
-        return JsonConvert.DeserializeObject<T[]>(JsonConvert.SerializeObject(value));
-    }
+    private static T CastType<T>(object value) => ((JsonElement)value).Deserialize<T>(Program.JsonOptions);
 }
+#endif
