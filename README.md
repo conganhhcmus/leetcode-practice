@@ -1110,6 +1110,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [407. Trapping Rain Water II](./problems/407/Solution.cs)
 - [401. Binary Watch](./problems/401/Solution.cs)
 - [399. Evaluate Division](./problems/399/Solution.cs)
+- [396. Rotate Function](./problems/396/Solution.cs)
 - [394. Decode String](./problems/394/Solution.cs)
 - [392. Is Subsequence](./problems/392/Solution.cs)
 - [387. First Unique Character in a String](./problems/387/Solution.cs)
