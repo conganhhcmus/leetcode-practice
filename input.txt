@@ -1,3 +1,4 @@
-["flower","flow","flight"]
-["dog","racecar","car"]
-["flower","flower","flower","flower"]
+10
+1
+2
+10000
