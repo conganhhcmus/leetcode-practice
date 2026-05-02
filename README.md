@@ -1012,6 +1012,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [797. All Paths From Source to Target](./problems/797/Solution.cs)
 - [796. Rotate String](./problems/796/Solution.cs)
 - [790. Domino and Tromino Tiling](./problems/790/Solution.cs)
+- [783. Minimum Distance Between BST Nodes](./problems/788/Solution.cs)
 - [783. Minimum Distance Between BST Nodes](./problems/783/Solution.cs)
 - [781. Rabbits in Forest](./problems/781/Solution.cs)
 - [778. Swim in Rising Water](./problems/778/Solution.cs)
