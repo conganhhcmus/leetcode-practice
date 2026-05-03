@@ -1035,6 +1035,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [728. Self Dividing Numbers](./problems/728/Solution.cs)
 - [725. Split Linked List in Parts](./problems/725/Solution.cs)
 - [724. Find Pivot Index](./problems/724/Solution.cs)
+- [720. Longest Word in Dictionary](./problems/720/Solution.cs)
 - [717. 1-bit and 2-bit Characters](./problems/717/Solution.cs)
 - [714. Best Time to Buy and Sell Stock with Transaction Fee](./problems/714/Solution.cs)
 - [712. Minimum ASCII Delete Sum for Two Strings](./problems/712/Solution.cs)
