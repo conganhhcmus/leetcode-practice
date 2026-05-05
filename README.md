@@ -847,6 +847,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1594. Maximum Non Negative Product in a Matrix](./problems/1594/Solution.cs)
 - [1593. Split a String Into the Max Number of Unique Substrings](./problems/1593/Solution.cs)
 - [1590. Make Sum Divisible by P](./problems/1590/Solution.cs)
+- [1584. Min Cost to Connect All Points](./problems/1584/Solution.cs)
 - [1582. Special Positions in a Binary Matrix](./problems/1582/Solution.cs)
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](./problems/1579/Solution.cs)
 - [1578. Minimum Time to Make Rope Colorful](./problems/1578/Solution.cs)
