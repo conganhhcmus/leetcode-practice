@@ -3,34 +3,31 @@ namespace Library;
 public class UnionFind
 {
     private readonly int[] parent;
-    private readonly int[] rank;
+    private readonly int[] size;
 
     public UnionFind(int n)
     {
         parent = new int[n];
-        rank = new int[n];
+        size = new int[n];
         for (int i = 0; i < n; i++)
         {
             parent[i] = i;
+            size[i] = 1;
         }
     }
 
     public bool Union(int x, int y)
     {
-        int rootX = Find(x);
-        int rootY = Find(y);
+        int pX = Find(x);
+        int pY = Find(y);
 
-        if (rootX == rootY) return false;
-        if (rank[rootX] <= rank[rootY])
+        if (pX == pY) return false;
+        if (size[pX] < size[pY])
         {
-            parent[rootX] = rootY;
-            rank[rootY]++;
+            (pX, pY) = (pY, pX);
         }
-        else if (rank[rootX] > rank[rootY])
-        {
-            parent[rootY] = rootX;
-            rank[rootX]++;
-        }
+        parent[pY] = pX;
+        size[pX] += size[pY];
         return true;
     }
 
