@@ -764,6 +764,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1984. Minimum Difference Between Highest and Lowest of K Scores](./problems/1984/Solution.cs)
 - [1981. Minimize the Difference Between Target and Chosen Elements](./problems/1981/Solution.cs)
 - [1980. Find Unique Binary String](./problems/1980/Solution.cs)
+- [1979. Find Greatest Common Divisor of Array](./problems/1979/Solution.cs)
 - [1976. Number of Ways to Arrive at Destination](./problems/1976/Solution.cs)
 - [1975. Maximum Matrix Sum](./problems/1975/Solution.cs)
 - [1974. Minimum Time to Type Word Using Special Typewriter](./problems/1974/Solution.cs)
