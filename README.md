@@ -486,6 +486,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3133. Minimum Array End](./problems/3133/Solution.cs)
 - [3130. Find All Possible Stable Binary Arrays II](./problems/3130/Solution.cs)
 - [3129. Find All Possible Stable Binary Arrays I](./problems/3129/Solution.cs)
+- [3115. Maximum Prime Difference](./problems/3115/Solution.cs)
 - [3108. Minimum Cost Walk in Weighted Graph](./problems/3108/Solution.cs)
 - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](./problems/3105/Solution.cs)
 - [3100. Water Bottles II](./problems/3100/Solution.cs)
