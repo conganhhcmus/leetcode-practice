@@ -941,6 +941,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1209. Remove All Adjacent Duplicates in String II](./problems/1209/Solution.cs)
 - [1207. Unique Number of Occurrences](./problems/1207/Solution.cs)
 - [1200. Minimum Absolute Difference](./problems/1200/Solution.cs)
+- [1191. K-Concatenation Maximum Sum](./problems/1191/Solution.cs)
 - [1161. Maximum Level Sum of a Binary Tree](./problems/1161/Solution.cs)
 - [1157. Online Majority Element In Subarray](./problems/1157/Solution.cs)
 - [1143. Longest Common Subsequence](./problems/1143/Solution.cs)
