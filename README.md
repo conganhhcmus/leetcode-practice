@@ -993,6 +993,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [921. Minimum Add to Make Parentheses Valid](./problems/921/Solution.cs)
 - [918. Maximum Sum Circular Subarray](./problems/918/Solution.cs)
 - [916. Word Subsets](./problems/916/Solution.cs)
+- [913. Cat and Mouse](./problems/913/Solution.cs)
 - [912. Sort an Array](./problems/912/Solution.cs)
 - [909. Snakes and Ladders](./problems/909/Solution.cs)
 - [904. Fruit Into Baskets](./problems/904/Solution.cs)
