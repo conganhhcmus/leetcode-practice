@@ -60,7 +60,7 @@ def update_readme(readme_path, contest_type, contest_number):
 def update_readme_problem(readme_path: str, problem_id: str, title: str) -> None:
     section_header = "## 💡 Problem Solutions"
     anchor = "<summary>Click to expand</summary>"
-    new_entry = f"\n- [{problem_id}. {title}](./problems/{problem_id}/Solution.cs)"
+    new_entry = f"- [{problem_id}. {title}](./problems/{problem_id}/Solution.cs)\n"
 
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()

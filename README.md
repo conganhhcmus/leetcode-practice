@@ -1153,6 +1153,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [396. Rotate Function](./problems/396/Solution.cs)
 - [394. Decode String](./problems/394/Solution.cs)
 - [392. Is Subsequence](./problems/392/Solution.cs)
+- [389. Find the Difference](./problems/389/Solution.cs)
 - [387. First Unique Character in a String](./problems/387/Solution.cs)
 - [386. Lexicographical Numbers](./problems/386/Solution.cs)
 - [383. Ransom Note](./problems/383/Solution.cs)
