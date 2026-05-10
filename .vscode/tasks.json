@@ -8,13 +8,13 @@
     "problemMatcher": [],
     "tasks": [
         {
-            "label": "LeetCode: Generate Contest",
+            "label": "LeetCode: Fetch Contest",
             "type": "shell",
             "command": "python3",
             "windows": {
                 "command": "py"
             },
-            "args": ["${workspaceFolder}/scripts/genc.py", "${input:contest_name}"],
+            "args": ["${workspaceFolder}/scripts/lc.py", "${input:contest_url}"],
             "options": {
                 "env": {
                     "LEETCODE_EDITOR": "code"
@@ -22,13 +22,13 @@
             }
         },
         {
-            "label": "LeetCode: Generate Problem",
+            "label": "LeetCode: Fetch Problem",
             "type": "shell",
             "command": "python3",
             "windows": {
                 "command": "py"
             },
-            "args": ["${workspaceFolder}/scripts/genp.py", "${input:problem_name}"],
+            "args": ["${workspaceFolder}/scripts/lc.py", "${input:problem_url}"],
             "options": {
                 "env": {
                     "LEETCODE_EDITOR": "code"
@@ -38,14 +38,14 @@
     ],
     "inputs": [
         {
-            "id": "contest_name",
+            "id": "contest_url",
             "type": "promptString",
-            "description": "Enter LeetCode contest:"
+            "description": "Enter LeetCode contest URL:"
         },
         {
-            "id": "problem_name",
+            "id": "problem_url",
             "type": "promptString",
-            "description": "Enter LeetCode problem:"
+            "description": "Enter LeetCode problem URL:"
         }
     ]
 }

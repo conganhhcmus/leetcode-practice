@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """LeetCode CLI helper — fetch starter code and test cases from a URL."""
 
+import os
 import re
+import subprocess
 import sys
 import requests
 from pathlib import Path
@@ -79,6 +81,20 @@ def get_csharp_snippet(question: dict) -> str:
     sys.exit(f"No C# snippet for: {question['titleSlug']}")
 
 
+def open_in_editor(paths: list[Path]) -> None:
+    editor = os.environ.get("LEETCODE_EDITOR", "none")
+    if editor == "none":
+        return
+    str_paths = [str(p) for p in paths]
+    try:
+        if editor == "code":
+            subprocess.run(["code", "-r"] + str_paths, check=True)
+        else:
+            subprocess.run([editor] + str_paths, check=True)
+    except Exception as e:
+        print(f"Could not open editor: {e}")
+
+
 def guard_existing_files(paths: list[Path]) -> None:
     """Stop if any of the given paths exist and have content."""
     for p in paths:
@@ -128,6 +144,13 @@ def cmd_fetch_problem(slug: str) -> Path:
     sys.path.insert(0, str(SCRIPT_DIR))
     from genc import update_readme_problem
     update_readme_problem(str(ROOT_DIR / "README.md"), problem_id, question["title"])
+
+    open_in_editor([
+        ROOT_DIR / "README.md",
+        ROOT_DIR / "testcases" / "output.txt",
+        ROOT_DIR / "testcases" / "input.txt",
+        solution_path,
+    ])
 
     print(f"#{problem_id} – {question['title']}")
     print(f"  → {solution_path.relative_to(ROOT_DIR)}")
@@ -179,6 +202,13 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
     sys.path.insert(0, str(SCRIPT_DIR))
     from genc import update_readme
     update_readme(str(ROOT_DIR / "README.md"), contest_type, contest_number)
+
+    open_in_editor([
+        ROOT_DIR / "README.md",
+        ROOT_DIR / "testcases" / "output.txt",
+        ROOT_DIR / "testcases" / "input.txt",
+        *reversed(paths),
+    ])
 
     print(f"\n→ {contest_dir.relative_to(ROOT_DIR)}/  ({len(paths)} problems)")
     print(f"→ testcases/input_1.txt … input_{len(paths)}.txt")
