@@ -57,6 +57,44 @@ def update_readme(readme_path, contest_type, contest_number):
     print(f"Updated README.md with {contest_label} Contest {contest_number}")
 
 
+def update_readme_problem(readme_path: str, problem_id: str, title: str) -> None:
+    section_header = "## 💡 Problem Solutions"
+    anchor = "<summary>Click to expand</summary>"
+    new_entry = f"\n- [{problem_id}. {title}](./problems/{problem_id}/Solution.cs)"
+
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    section_pos = content.find(section_header)
+    if section_pos == -1:
+        print(f"Could not find '{section_header}' in README.md")
+        return
+
+    anchor_pos = content.find(anchor, section_pos)
+    if anchor_pos == -1:
+        print("Could not find expand anchor in README.md")
+        return
+
+    search_start = anchor_pos + len(anchor)
+    section_end_match = re.search(r"\n(##|</details>)", content[search_start:])
+    section_end = search_start + section_end_match.start() if section_end_match else len(content)
+    section_body = content[search_start:section_end]
+
+    entry_pattern = re.compile(r"- \[(\d+)\.")
+    insert_pos = search_start + len(section_body)
+    for m in entry_pattern.finditer(section_body):
+        if int(m.group(1)) < int(problem_id):
+            insert_pos = search_start + m.start()
+            break
+
+    content = content[:insert_pos] + new_entry + content[insert_pos:]
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"Updated README.md with problem #{problem_id}")
+
+
 def main():
     if len(sys.argv) != 2:
         print("Please provide a valid contest number.")

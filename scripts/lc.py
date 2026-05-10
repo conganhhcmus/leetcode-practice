@@ -108,22 +108,30 @@ def cmd_login(cookie: str) -> None:
 
 
 def cmd_fetch_problem(slug: str) -> Path:
-    solution_path = ROOT_DIR / "problems" / slug / "Solution.cs"
-    guard_existing_files([solution_path])
-
     session = get_session()
     question = fetch_question(slug, session)
+    problem_id = question["questionFrontendId"]
+
+    solution_path = ROOT_DIR / "problems" / problem_id / "Solution.cs"
+    guard_existing_files([solution_path])
+
     code = get_csharp_snippet(question)
     testcases: list[str] = question.get("exampleTestcaseList") or []
 
     solution_path.parent.mkdir(parents=True, exist_ok=True)
     solution_path.write_text(code + "\n")
-    (ROOT_DIR / "input.txt").write_text("\n".join(testcases) + "\n")
-    (ROOT_DIR / "output.txt").write_text("")
+    tc = ROOT_DIR / "testcases"
+    tc.mkdir(exist_ok=True)
+    (tc / "input.txt").write_text("\n".join(testcases) + "\n")
+    (tc / "output.txt").write_text("")
 
-    print(f"#{question['questionFrontendId']} – {question['title']}")
+    sys.path.insert(0, str(SCRIPT_DIR))
+    from genc import update_readme_problem
+    update_readme_problem(str(ROOT_DIR / "README.md"), problem_id, question["title"])
+
+    print(f"#{problem_id} – {question['title']}")
     print(f"  → {solution_path.relative_to(ROOT_DIR)}")
-    print(f"  → input.txt  ({len(testcases)} test case(s))")
+    print(f"  → testcases/input.txt  ({len(testcases)} test case(s))")
     return solution_path
 
 
@@ -147,7 +155,6 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
     contest_dir.mkdir(parents=True, exist_ok=True)
 
     paths: list[Path] = []
-    first_testcases: list[str] = []
 
     for i, meta in enumerate(questions_meta, start=1):
         question = fetch_question(meta["titleSlug"], session)
@@ -157,20 +164,24 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
         cs_path = contest_dir / f"Q{i}.cs"
         cs_path.write_text(code + "\n")
         paths.append(cs_path)
-        if i == 1:
-            first_testcases = testcases
+
+        tc = ROOT_DIR / "testcases"
+        tc.mkdir(exist_ok=True)
+        (tc / f"input_{i}.txt").write_text("\n".join(testcases) + "\n")
+        (tc / f"output_{i}.txt").write_text("")
 
         print(f"  Q{i}: #{question['questionFrontendId']} – {question['title']}")
 
-    (ROOT_DIR / "input.txt").write_text("\n".join(first_testcases) + "\n")
-    (ROOT_DIR / "output.txt").write_text("")
+    tc = ROOT_DIR / "testcases"
+    (tc / "input.txt").write_text("")
+    (tc / "output.txt").write_text("")
 
     sys.path.insert(0, str(SCRIPT_DIR))
     from genc import update_readme
     update_readme(str(ROOT_DIR / "README.md"), contest_type, contest_number)
 
     print(f"\n→ {contest_dir.relative_to(ROOT_DIR)}/  ({len(paths)} problems)")
-    print(f"→ input.txt ← Q1 ({len(first_testcases)} test case(s))")
+    print(f"→ testcases/input_1.txt … input_{len(paths)}.txt")
     return paths
 
 

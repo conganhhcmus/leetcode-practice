@@ -401,7 +401,9 @@ public class Program
         ArgumentOutOfRangeException.ThrowIfZero(parameters.Length, nameof(parameters));
 
         var root = FindProjectRoot();
-        List<string> testcases = ReadLines(Path.Combine(root, "input.txt"));
+        string suffix = args.Length > 0 && int.TryParse(args[0], out _) ? "_" + args[0] : "";
+        var testcasesDir = Path.Combine(root, "testcases");
+        List<string> testcases = ReadLines(Path.Combine(testcasesDir, $"input{suffix}.txt"));
         int loop = testcases.Count / parameters.Length, index = 0;
         List<string> output = [];
         List<long> executeTime = [];
@@ -426,7 +428,7 @@ public class Program
             executeTime.Add(watch.ElapsedMilliseconds);
             output.Add(SerializeOutput(key, isReturnVoid ? input[0] : result));
         }
-        List<string> answer = ReadLines(Path.Combine(root, "output.txt"));
+        List<string> answer = ReadLines(Path.Combine(testcasesDir, $"output{suffix}.txt"));
         CheckAnswer(answer, output, executeTime);
     }
 }
