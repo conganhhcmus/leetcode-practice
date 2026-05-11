@@ -620,6 +620,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2559. Count Vowel Strings in Ranges](./problems/2559/Solution.cs)
 - [2558. Take Gifts From the Richest Pile](./problems/2558/Solution.cs)
 - [2554. Maximum Number of Integers to Choose From a Range I](./problems/2554/Solution.cs)
+- [2553. Separate the Digits in an Array](./problems/2553/Solution.cs)
 - [2551. Put Marbles in Bags](./problems/2551/Solution.cs)
 - [2542. Maximum Subsequence Score](./problems/2542/Solution.cs)
 - [2537. Count the Number of Good Subarrays](./problems/2537/Solution.cs)
