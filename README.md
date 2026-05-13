@@ -854,6 +854,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1684. Count the Number of Consistent Strings](./problems/1684/Solution.cs)
 - [1680. Concatenation of Consecutive Binary Numbers](./problems/1680/Solution.cs)
 - [1679. Max Number of K-Sum Pairs](./problems/1679/Solution.cs)
+- [1674. Minimum Moves to Make Array Complementary](./problems/1674/Solution.cs)
 - [1672. Richest Customer Wealth](./problems/1672/Solution.cs)
 - [1671. Minimum Number of Removals to Make Mountain Array](./problems/1671/Solution.cs)
 - [1668. Maximum Repeating Substring](./problems/1668/Solution.cs)
