@@ -5,3 +5,4 @@ obj/*
 .local
 scripts/.lc_session
 __pycache__/
+.venv/

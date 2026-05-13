@@ -28,7 +28,7 @@ def main():
 
     # Close all tabs then open all files in VSCode in one command
     readme_path = os.path.join(current_dir, "README.md")
-    files_to_open = [readme_path, "output.txt", "input.txt", solution_path]
+    files_to_open = [solution_path, "output.txt", "input.txt", readme_path]
     try:
         editor = os.environ.get("LEETCODE_EDITOR", "none")
         if editor == "none":

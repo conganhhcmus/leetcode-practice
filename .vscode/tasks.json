@@ -10,9 +10,9 @@
         {
             "label": "LeetCode: Fetch Contest",
             "type": "shell",
-            "command": "python3",
+            "command": "${workspaceFolder}/.venv/bin/python3",
             "windows": {
-                "command": "py"
+                "command": "${workspaceFolder}/.venv/Scripts/python"
             },
             "args": ["${workspaceFolder}/scripts/lc.py", "${input:contest_url}"],
             "options": {
@@ -24,9 +24,9 @@
         {
             "label": "LeetCode: Fetch Problem",
             "type": "shell",
-            "command": "python3",
+            "command": "${workspaceFolder}/.venv/bin/python3",
             "windows": {
-                "command": "py"
+                "command": "${workspaceFolder}/.venv/Scripts/python"
             },
             "args": ["${workspaceFolder}/scripts/lc.py", "${input:problem_url}"],
             "options": {

@@ -5,7 +5,8 @@
       "Bash(python3:*)",
       "Bash(grep:*)",
       "Bash(find:*)",
-      "Bash(dotnet run:*)"
+      "Bash(dotnet run:*)",
+      "Bash(.venv/bin/pip install *)"
     ]
   }
 }

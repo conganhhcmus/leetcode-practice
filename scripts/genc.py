@@ -132,9 +132,9 @@ def main():
     update_readme(readme_path, contest_type, contest_number)
 
     # Close all tabs then open all files in VSCode in one command
-    files_to_open = [readme_path, "output.txt", "input.txt"] + [
-        os.path.join(target_dir, f"Q{i}.cs") for i in range(4, 0, -1)
-    ]
+    files_to_open = [
+        os.path.join(target_dir, f"Q{i}.cs") for i in range(1, 5)
+    ] + ["output.txt", "input.txt", readme_path]
     try:
         editor = os.environ.get("LEETCODE_EDITOR", "none")
         if editor == "none":
