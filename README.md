@@ -1267,6 +1267,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [162. Find Peak Element](./problems/162/Solution.cs)
 - [160. Intersection of Two Linked Lists](./problems/160/Solution.cs)
 - [155. Min Stack](./problems/155/Solution.cs)
+- [154. Find Minimum in Rotated Sorted Array II](./problems/154/Solution.cs)
 - [153. Find Minimum in Rotated Sorted Array](./problems/153/Solution.cs)
 - [152. Maximum Product Subarray](./problems/152/Solution.cs)
 - [151. Reverse Words in a String](./problems/151/Solution.cs)
