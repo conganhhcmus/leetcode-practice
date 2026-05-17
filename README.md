@@ -945,6 +945,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1352. Product of the Last K Numbers](./problems/1352/Solution.cs)
 - [1351. Count Negative Numbers in a Sorted Matrix](./problems/1351/Solution.cs)
 - [1346. Check If N and Its Double Exist](./problems/1346/Solution.cs)
+- [1345. Jump Game IV](./problems/1345/Solution.cs)
 - [1342. Number of Steps to Reduce a Number to Zero](./problems/1342/Solution.cs)
 - [1339. Maximum Product of Splitted Binary Tree](./problems/1339/Solution.cs)
 - [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](./problems/1334/Solution.cs)
