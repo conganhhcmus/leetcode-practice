@@ -955,6 +955,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1317. Convert Integer to the Sum of Two No-Zero Integers](./problems/1317/Solution.cs)
 - [1311. Get Watched Videos by Your Friends](./problems/1311/Solution.cs)
 - [1310. XOR Queries of a Subarray](./problems/1310/Solution.cs)
+- [1306. Jump Game III](./problems/1306/Solution.cs)
 - [1304. Find N Unique Integers Sum up to Zero](./problems/1304/Solution.cs)
 - [1298. Maximum Candies You Can Get from Boxes](./problems/1298/Solution.cs)
 - [1295. Find Numbers with Even Number of Digits](./problems/1295/Solution.cs)
