@@ -825,6 +825,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1886. Determine Whether Matrix Can Be Obtained By Rotation](./problems/1886/Solution.cs)
 - [1878. Get Biggest Three Rhombus Sums in a Grid](./problems/1878/Solution.cs)
 - [1877. Minimize Maximum Pair Sum in Array](./problems/1877/Solution.cs)
+- [1871. Jump Game VII](./problems/1871/Solution.cs)
 - [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](./problems/1866/Solution.cs)
 - [1865. Finding Pairs With a Certain Sum](./problems/1865/Solution.cs)
 - [1863. Sum of All Subset XOR Totals](./problems/1863/Solution.cs)
