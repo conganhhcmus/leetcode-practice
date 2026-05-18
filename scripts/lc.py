@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """LeetCode CLI helper — fetch starter code and test cases."""
 
+import html
 import os
 import re
 import subprocess
@@ -23,6 +24,7 @@ query questionData($titleSlug: String!) {
     titleSlug
     codeSnippets { langSlug code }
     exampleTestcaseList
+    content
   }
 }
 """
@@ -120,6 +122,21 @@ def open_in_editor(paths: list[Path]) -> None:
             subprocess.run([editor] + str_paths, check=True)
     except Exception as e:
         print(f"Could not open editor: {e}")
+
+
+def parse_outputs(content: str) -> list[str]:
+    if not content:
+        return []
+    text = re.sub(r'<br\s*/?>', '\n', content, flags=re.IGNORECASE)
+    text = re.sub(r'</(p|pre|li)>', '\n', text, flags=re.IGNORECASE)
+    text = re.sub(r'<[^>]+>', '', text)
+    text = html.unescape(text)
+    outputs = []
+    for m in re.finditer(r'\bOutput:\s*([^\n]+)', text):
+        val = m.group(1).strip()
+        if val:
+            outputs.append(val)
+    return outputs
 
 
 def guard_existing_files(paths: list[Path]) -> None:
@@ -263,13 +280,14 @@ def cmd_fetch_problem(slug: str) -> Path:
 
     code = get_csharp_snippet(question)
     testcases: list[str] = question.get("exampleTestcaseList") or []
+    outputs = parse_outputs(question.get("content", ""))
 
     solution_path.parent.mkdir(parents=True, exist_ok=True)
     solution_path.write_text(code + "\n")
     tc = ROOT_DIR / "testcases"
     tc.mkdir(exist_ok=True)
     (tc / "input.txt").write_text("\n".join(testcases) + "\n")
-    (tc / "output.txt").write_text("")
+    (tc / "output.txt").write_text("\n".join(outputs) + "\n" if outputs else "")
 
     update_readme_problem(str(ROOT_DIR / "README.md"), problem_id, question["title"])
 
@@ -313,6 +331,7 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
         question = fetch_question(meta["titleSlug"], session)
         code = get_csharp_snippet(question)
         testcases: list[str] = question.get("exampleTestcaseList") or []
+        outputs = parse_outputs(question.get("content", ""))
 
         cs_path = contest_dir / f"Q{i}.cs"
         cs_path.write_text(code + "\n")
@@ -321,7 +340,7 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
         tc = ROOT_DIR / "testcases"
         tc.mkdir(exist_ok=True)
         (tc / f"input_{i}.txt").write_text("\n".join(testcases) + "\n")
-        (tc / f"output_{i}.txt").write_text("")
+        (tc / f"output_{i}.txt").write_text("\n".join(outputs) + "\n" if outputs else "")
 
         print(f"  Q{i}: #{question['questionFrontendId']} – {question['title']}")
 
