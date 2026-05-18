@@ -857,6 +857,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1717. Maximum Score From Removing Substrings](./problems/1717/Solution.cs)
 - [1716. Calculate Money in Leetcode Bank](./problems/1716/Solution.cs)
 - [1700. Number of Students Unable to Eat Lunch](./problems/1700/Solution.cs)
+- [1696. Jump Game VI](./problems/1696/Solution.cs)
 - [1695. Maximum Erasure Value](./problems/1695/Solution.cs)
 - [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](./problems/1689/Solution.cs)
 - [1684. Count the Number of Consistent Strings](./problems/1684/Solution.cs)
