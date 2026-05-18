@@ -2,6 +2,7 @@
 """LeetCode CLI helper — fetch starter code and test cases."""
 
 import html
+import json
 import os
 import re
 import subprocess
@@ -15,6 +16,7 @@ SCRIPT_DIR = Path(__file__).parent
 ROOT_DIR = SCRIPT_DIR.parent
 SESSION_FILE = SCRIPT_DIR / ".lc_session"
 GRAPHQL_URL = "https://leetcode.com/graphql"
+LC_DIR = ROOT_DIR / ".lc"
 
 QUESTION_QUERY = """
 query questionData($titleSlug: String!) {
@@ -137,6 +139,44 @@ def parse_outputs(content: str) -> list[str]:
         if val:
             outputs.append(val)
     return outputs
+
+
+def lc_save(key: str, inp: list[str], out: list[str]) -> None:
+    LC_DIR.mkdir(exist_ok=True)
+    (LC_DIR / f"{key}.json").write_text(
+        json.dumps({"input": "\n".join(inp), "output": "\n".join(out)}, indent=2) + "\n"
+    )
+    (LC_DIR / ".current").write_text(key)
+
+
+def write_active(inp: list[str], out: list[str]) -> None:
+    (ROOT_DIR / "input.txt").write_text("\n".join(inp) + "\n")
+    (ROOT_DIR / "output.txt").write_text("\n".join(out) + "\n" if out else "")
+
+
+def cmd_load(key: str) -> None:
+    LC_DIR.mkdir(exist_ok=True)
+    (LC_DIR / ".current").write_text(key)
+    path = LC_DIR / f"{key}.json"
+    if not path.exists():
+        print(f"No .lc/{key}.json yet — .current set to '{key}'")
+        return
+    data = json.loads(path.read_text())
+    inp = [l for l in data.get("input",  "").splitlines() if l.strip()]
+    out = [l for l in data.get("output", "").splitlines() if l.strip()]
+    write_active(inp, out)
+    print(f"Loaded ← .lc/{key}.json")
+
+
+def cmd_sync() -> None:
+    current = LC_DIR / ".current"
+    if not current.exists():
+        sys.exit("No active key (.lc/.current missing). Run ':LCR' first.")
+    key = current.read_text().strip()
+    inp = [l for l in (ROOT_DIR / "input.txt").read_text().splitlines()  if l.strip()]
+    out = [l for l in (ROOT_DIR / "output.txt").read_text().splitlines() if l.strip()]
+    lc_save(key, inp, out)
+    print(f"Saved → .lc/{key}.json")
 
 
 def guard_existing_files(paths: list[Path]) -> None:
@@ -284,25 +324,23 @@ def cmd_fetch_problem(slug: str) -> Path:
 
     solution_path.parent.mkdir(parents=True, exist_ok=True)
     solution_path.write_text(code + "\n")
-    tc = ROOT_DIR / "testcases"
-    tc.mkdir(exist_ok=True)
-    (tc / "input.txt").write_text("\n".join(testcases) + "\n")
-    (tc / "output.txt").write_text("\n".join(outputs) + "\n" if outputs else "")
+    write_active(testcases, outputs)
+    lc_save(problem_id, testcases, outputs)
 
     update_readme_problem(str(ROOT_DIR / "README.md"), problem_id, question["title"])
 
     open_in_editor(
         [
             ROOT_DIR / "README.md",
-            ROOT_DIR / "testcases" / "output.txt",
-            ROOT_DIR / "testcases" / "input.txt",
+            ROOT_DIR / "output.txt",
+            ROOT_DIR / "input.txt",
             solution_path,
         ]
     )
 
     print(f"#{problem_id} – {question['title']}")
     print(f"  → {solution_path.relative_to(ROOT_DIR)}")
-    print(f"  → testcases/input.txt  ({len(testcases)} test case(s))")
+    print(f"  → input.txt / output.txt  ({len(testcases)} test case(s))")
     return solution_path
 
 
@@ -326,6 +364,8 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
     contest_dir.mkdir(parents=True, exist_ok=True)
 
     paths: list[Path] = []
+    prefix = "b" if contest_type == "biweekly" else "w"
+    all_tc: dict[int, tuple[list[str], list[str]]] = {}
 
     for i, meta in enumerate(questions_meta, start=1):
         question = fetch_question(meta["titleSlug"], session)
@@ -337,30 +377,28 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
         cs_path.write_text(code + "\n")
         paths.append(cs_path)
 
-        tc = ROOT_DIR / "testcases"
-        tc.mkdir(exist_ok=True)
-        (tc / f"input_{i}.txt").write_text("\n".join(testcases) + "\n")
-        (tc / f"output_{i}.txt").write_text("\n".join(outputs) + "\n" if outputs else "")
+        key = f"{prefix}{contest_number}_Q{i}"
+        lc_save(key, testcases, outputs)
+        all_tc[i] = (testcases, outputs)
 
         print(f"  Q{i}: #{question['questionFrontendId']} – {question['title']}")
 
-    tc = ROOT_DIR / "testcases"
-    (tc / "input.txt").write_text("")
-    (tc / "output.txt").write_text("")
+    first = all_tc.get(1, ([], []))
+    write_active(*first)
 
     update_readme(str(ROOT_DIR / "README.md"), contest_type, contest_number)
 
     open_in_editor(
         [
             ROOT_DIR / "README.md",
-            ROOT_DIR / "testcases" / "output.txt",
-            ROOT_DIR / "testcases" / "input.txt",
+            ROOT_DIR / "output.txt",
+            ROOT_DIR / "input.txt",
             *reversed(paths),
         ]
     )
 
     print(f"\n→ {contest_dir.relative_to(ROOT_DIR)}/  ({len(paths)} problems)")
-    print(f"→ testcases/input_1.txt … input_{len(paths)}.txt")
+    print(f"→ .lc/{prefix}{contest_number}_Q1 … Q{len(paths)}")
     return paths
 
 
@@ -408,6 +446,10 @@ def main() -> None:
     arg = sys.argv[1]
     if arg == "login":
         cmd_login(sys.argv[2] if len(sys.argv) > 2 else "")
+    elif arg == "load" and len(sys.argv) == 3:
+        cmd_load(sys.argv[2])
+    elif arg == "sync":
+        cmd_sync()
     elif arg.startswith("http"):
         dispatch(arg)
     elif re.fullmatch(r"\d+", arg):
