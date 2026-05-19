@@ -638,6 +638,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2553. Separate the Digits in an Array](./problems/2553/Solution.cs)
 - [2551. Put Marbles in Bags](./problems/2551/Solution.cs)
 - [2542. Maximum Subsequence Score](./problems/2542/Solution.cs)
+- [2540. Minimum Common Value](./problems/2540/Solution.cs)
 - [2537. Count the Number of Good Subarrays](./problems/2537/Solution.cs)
 - [2536. Increment Submatrices by One](./problems/25306/Solution.cs)
 - [2530. Maximal Score After Applying K Operations](./problems/2530/Solution.cs)
