@@ -34,6 +34,24 @@
                     "LEETCODE_EDITOR": "code"
                 }
             }
+        },
+        {
+            "label": "LeetCode: Load",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/bin/python3",
+            "windows": {
+                "command": "${workspaceFolder}/.venv/Scripts/python"
+            },
+            "args": ["${workspaceFolder}/scripts/lc.py", "load", "${input:load_key}"]
+        },
+        {
+            "label": "LeetCode: Sync",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/bin/python3",
+            "windows": {
+                "command": "${workspaceFolder}/.venv/Scripts/python"
+            },
+            "args": ["${workspaceFolder}/scripts/lc.py", "sync"]
         }
     ],
     "inputs": [
@@ -46,6 +64,11 @@
             "id": "problem_url",
             "type": "promptString",
             "description": "Enter LeetCode problem URL:"
+        },
+        {
+            "id": "load_key",
+            "type": "promptString",
+            "description": "Enter key to load (e.g. 87, w157_Q2):"
         }
     ]
 }

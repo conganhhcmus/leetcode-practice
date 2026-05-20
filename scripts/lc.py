@@ -331,7 +331,6 @@ def cmd_fetch_problem(slug: str) -> Path:
 
     open_in_editor(
         [
-            ROOT_DIR / "README.md",
             ROOT_DIR / "output.txt",
             ROOT_DIR / "input.txt",
             solution_path,
@@ -390,7 +389,6 @@ def cmd_fetch_contest(contest_slug: str) -> list[Path]:
 
     open_in_editor(
         [
-            ROOT_DIR / "README.md",
             ROOT_DIR / "output.txt",
             ROOT_DIR / "input.txt",
             *reversed(paths),
