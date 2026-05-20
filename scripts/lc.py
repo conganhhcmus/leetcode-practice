@@ -135,7 +135,7 @@ def parse_outputs(content: str) -> list[str]:
     text = html.unescape(text)
     outputs = []
     for m in re.finditer(r'\bOutput:\s*([^\n]+)', text):
-        val = m.group(1).strip()
+        val = re.sub(r',\s+', ',', m.group(1).strip())
         if val:
             outputs.append(val)
     return outputs
