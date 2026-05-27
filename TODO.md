@@ -1,3 +1,3 @@
 # TODO List
 ## Note
-- Sort: 1051
+- Weekly contest: 483
