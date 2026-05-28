@@ -1,3 +1,4 @@
 # TODO List
 ## Note
-- Weekly contest: 483
+- Weekly contest: 482
+- Biweekly contest: 173
