@@ -551,6 +551,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3170. Lexicographically Minimum String After Removing Stars](./problems/3170/Solution.cs)
 - [3169. Count Days Without Meetings](./problems/3169/Solution.cs)
 - [3163. String Compression III](./problems/3163/Solution.cs)
+- [3161. Block Placement Queries](./problems/3161/Solution.cs)
 - [3160. Find the Number of Distinct Colors Among the Balls](./problems/3160/Solution.cs)
 - [3152. Special Array II](./problems/3152/Solution.cs)
 - [3151. Special Array I](./problems/3151/Solution.cs)

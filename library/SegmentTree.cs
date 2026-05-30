@@ -43,15 +43,12 @@ public class SegmentTree
     private long Query(int node, int start, int end, int qStart, int qEnd)
     {
         // if (end < qStart || start > qEnd) return int.MinValue; // return min value;
-        if (end < qStart || start > qEnd)
-            return 0; // return sum value = 0;
-        if (qStart <= start && qEnd >= end)
-            return tree[node];
+        if (end < qStart || start > qEnd) return 0; // return sum value = 0;
+        if (qStart <= start && qEnd >= end) return tree[node];
 
-        int mid = start + (end - start) / 2;
-        PushDown(node);
-
+        PushDown(node, start, end);
         long ans = 0;
+        int mid = start + (end - start) / 2;
         if (qStart <= mid)
         {
             ans += Query(2 * node, start, mid, qStart, qEnd);
@@ -73,8 +70,7 @@ public class SegmentTree
 
     private void Update(int node, int start, int end, int uStart, int uEnd, long value) // update increment or decrement value from l->r
     {
-        if (uStart > end || uEnd < start)
-            return;
+        if (uStart > end || uEnd < start) return;
         if (uStart <= start && uEnd >= end)
         {
             tree[node] += value * (end - start + 1);
@@ -82,14 +78,14 @@ public class SegmentTree
             return;
         }
 
+        PushDown(node, start, end);
         int mid = start + (end - start) / 2;
-        PushDown(node);
         Update(2 * node, start, mid, uStart, uEnd, value);
         Update(2 * node + 1, mid + 1, end, uStart, uEnd, value);
         PushUp(node);
     }
 
-    private void PushDown(int node)
+    private void PushDown(int node, int start, int end)
     {
         if (lazy[node] != 0)
         {
