@@ -799,6 +799,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2131. Longest Palindrome by Concatenating Two Letter Words](./problems/2131/Solution.cs)
 - [2130. Maximum Twin Sum of a Linked List](./problems/2130/Solution.cs)
 - [2127. Maximum Employees to Be Invited to a Meeting](./problems/2127/Solution.cs)
+- [2126. Destroying Asteroids](./problems/2126/Solution.cs)
 - [2125. Number of Laser Beams in a Bank](./problems/2125/Solution.cs)
 - [2121. Intervals Between Identical Elements](./problems/2121/Solution.cs)
 - [2116. Check if a Parentheses String Can Be Valid](./problems/2116/Solution.cs)
