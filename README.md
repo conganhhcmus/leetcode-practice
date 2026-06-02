@@ -462,6 +462,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3643. Flip Square Submatrix Vertically](./problems/3643/Solution.cs)
 - [3640. Trionic Array II](./problems/3640/Solution.cs)
 - [3637. Trionic Array I](./problems/3637/Solution.cs)
+- [3635. Earliest Finish Time for Land and Water Rides II](./problems/3635/Solution.cs)
 - [3634. Minimum Removals to Balance Array](./problems/3634/Solution.cs)
 - [3633. Earliest Finish Time for Land and Water Rides I](./problems/3633/Solution.cs)
 - [3629. Minimum Jumps to Reach End via Prime Teleportation](./problems/3629/Solution.cs)
