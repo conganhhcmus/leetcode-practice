@@ -463,6 +463,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3640. Trionic Array II](./problems/3640/Solution.cs)
 - [3637. Trionic Array I](./problems/3637/Solution.cs)
 - [3634. Minimum Removals to Balance Array](./problems/3634/Solution.cs)
+- [3633. Earliest Finish Time for Land and Water Rides I](./problems/3633/Solution.cs)
 - [3629. Minimum Jumps to Reach End via Prime Teleportation](./problems/3629/Solution.cs)
 - [3625. Count Number of Trapezoids II](./problems/3625/Solution.cs)
 - [3623. Count Number of Trapezoids I](./problems/3623/Solution.cs)
