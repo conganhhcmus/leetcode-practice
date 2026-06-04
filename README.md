@@ -591,6 +591,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3068. Find the Maximum Sum of Node Values](./problems/3068/Solution.cs)
 - [3066. Minimum Operations to Exceed Threshold Value II](./problems/3066/Solution.cs)
 - [3065. Minimum Operations to Exceed Threshold Value I](./problems/3065/Solution.cs)
+- [3049. Earliest Second to Mark Indices II](./problems/3049/Solution.cs)
 - [3048. Earliest Second to Mark Indices I](./problems/3048/Solution.cs)
 - [3047. Find the Largest Area of Square Inside Two Rectangles](./problems/3047/Solution.cs)
 - [3043. Find the Length of the Longest Common Prefix](./problems/3043/Solution.cs)
