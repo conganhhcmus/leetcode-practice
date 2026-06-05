@@ -1104,6 +1104,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [913. Cat and Mouse](./problems/913/Solution.cs)
 - [912. Sort an Array](./problems/912/Solution.cs)
 - [909. Snakes and Ladders](./problems/909/Solution.cs)
+- [908. Smallest Range I](./problems/908/Solution.cs)
 - [904. Fruit Into Baskets](./problems/904/Solution.cs)
 - [902. Numbers At Most N Given Digit Set](./problems/902/Solution.cs)
 - [901. Online Stock Span](./problems/901/Solution.cs)
