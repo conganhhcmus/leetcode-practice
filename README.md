@@ -1510,8 +1510,8 @@ This repository contains my solutions to various LeetCode problems and contests.
 
 <!-- start -->
 ## 🚀 Stats
-- Total Problems Solved: 1048
-- Weekly Contests Participated: 45
+- Total Problems Solved: 1050
+- Weekly Contests Participated: 46
 - Biweekly Contests Participated: 14
 <!-- end -->
 
