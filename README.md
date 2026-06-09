@@ -474,6 +474,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3719. Longest Balanced Subarray I](./problems/3719/Solution.cs)
 - [3714. Longest Balanced Substring II](./problems/3714/Solution.cs)
 - [3713. Longest Balanced Substring I](./problems/3713/Solution.cs)
+- [3689. Maximum Total Subarray Value I](./problems/3689/Solution.cs)
 - [3666. Minimum Operations to Equalize Binary String](./problems/3666/Solution.cs)
 - [3661. Maximum Walls Destroyed by Robots](./problems/3661/Solution.cs)
 - [3660. Jump Game IX](./problems/3660/Solution.cs)
