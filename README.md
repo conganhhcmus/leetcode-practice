@@ -510,6 +510,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3573. Best Time to Buy and Sell Stock V](./problems/3573/Solution.cs)
 - [3567. Minimum Absolute Difference in Sliding Submatrix](./problems/3567/Solution.cs)
 - [3562. Maximum Profit from Trading Stocks with Discounts](./problems/3562/Solution.cs)
+- [3559. Number of Ways to Assign Edge Weights II](./problems/3559/Solution.cs)
 - [3558. Number of Ways to Assign Edge Weights I](./problems/3558/Solution.cs)
 - [3542. Minimum Operations to Convert All Elements to Zero](./problems/3542/Solution.cs)
 - [3541. Find Most Frequent Vowel and Consonant](./problems/3541/Solution.cs)
