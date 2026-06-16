@@ -514,6 +514,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3629. Minimum Jumps to Reach End via Prime Teleportation](./problems/3629/Solution.cs)
 - [3625. Count Number of Trapezoids II](./problems/3625/Solution.cs)
 - [3623. Count Number of Trapezoids I](./problems/3623/Solution.cs)
+- [3614. Process String with Special Operations II](./problems/3614/Solution.cs)
 - [3612. Process String with Special Operations I](./problems/3612/Solution.cs)
 - [3607. Power Grid Maintenance](./problems/3607/Solution.cs)
 - [3606. Coupon Code Validator](./problems/3606/Solution.cs)
