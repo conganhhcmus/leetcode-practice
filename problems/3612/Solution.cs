@@ -5,15 +5,7 @@ public class Solution
         StringBuilder sb = new();
         foreach (char c in s)
         {
-            if (c == '#')
-            {
-                // dup
-                int len = sb.Length;
-                for (int i = 0; i < len; i++)
-                {
-                    sb.Append(sb[i]);
-                }
-            }
+            if (c == '#') sb.Append(sb);
             else if (c == '%')
             {
                 // reverse
@@ -23,14 +15,8 @@ public class Solution
                     (sb[i], sb[len - i - 1]) = (sb[len - i - 1], sb[i]);
                 }
             }
-            else if (c == '*')
-            {
-                if (sb.Length > 0) sb.Length--;
-            }
-            else
-            {
-                sb.Append(c);
-            }
+            else if (c == '*') sb.Length = Math.Max(0, sb.Length - 1);
+            else sb.Append(c);
         }
 
         return sb.ToString();
