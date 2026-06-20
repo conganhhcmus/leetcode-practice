@@ -979,6 +979,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1857. Largest Color Value in a Directed Graph](./problems/1857/Solution.cs)
 - [1855. Maximum Distance Between a Pair of Values](./problems/1855/Solution.cs)
 - [1848. Minimum Distance to the Target Element](./problems/1848/Solution.cs)
+- [1840. Maximum Building Height](./problems/1840/Solution.cs)
 - [1829. Maximum XOR for Each Query](./problems/1829/Solution.cs)
 - [1813. Sentence Similarity III](./problems/1813/Solution.cs)
 - [1800. Maximum Ascending Subarray Sum](./problems/1800/Solution.cs)
