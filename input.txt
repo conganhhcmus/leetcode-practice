@@ -1,3 +1,9 @@
-"nlaebolko"
-"loonbalxballpoon"
-"leetcode"
+10
+15
+1
+201
+204
+2
+15
+147
+7
