@@ -525,6 +525,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 <details>
 <summary>Click to expand</summary>
 
+- [3916. Number of ZigZag Arrays III](./problems/3916/Solution.cs)
 - [3794. Reverse String Prefix](./problems/3794/Solution.cs)
 - [3783. Mirror Distance of an Integer](./problems/3783/Solution.cs)
 - [3761. Minimum Absolute Distance Between Mirror Pairs](./problems/3761/Solution.cs)
