@@ -533,6 +533,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3742. Maximum Path Score in a Grid](./problems/3742/Solution.cs)
 - [3741. Minimum Distance Between Three Equal Elements II](./problems/3741/Solution.cs)
 - [3740. Minimum Distance Between Three Equal Elements I](./problems/3740/Solution.cs)
+- [3737. Count Subarrays With Majority Element I](./problems/3737/Solution.cs)
 - [3721. Longest Balanced Subarray II](./problems/3721/Solution.cs)
 - [3719. Longest Balanced Subarray I](./problems/3719/Solution.cs)
 - [3714. Longest Balanced Substring II](./problems/3714/Solution.cs)
