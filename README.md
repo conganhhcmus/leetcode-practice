@@ -711,6 +711,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3025. Find the Number of Ways to Place People I](./problems/3025/Solution.cs)
 - [3024. Type of Triangle](./problems/3024/Solution.cs)
 - [3021. Alice and Bob Playing Flower Game](./problems/3021/Solution.cs)
+- [3020. Find the Maximum Number of Elements in Subset](./problems/3020/Solution.cs)
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](./problems/3013/Solution.cs)
 - [3011. Find if Array Can Be Sorted](./problems/3011/Solution.cs)
 - [3010. Divide an Array Into Subarrays With Minimum Cost I](./problems/3010/Solution.cs)
