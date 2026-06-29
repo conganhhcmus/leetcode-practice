@@ -1339,6 +1339,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [539. Minimum Time Difference](./problems/539/Solution.cs)
 - [530. Minimum Absolute Difference in BST](./problems/530/Solution.cs)
 - [520. Detect Capital](./problems/520/Solution.cs)
+- [516. Longest Palindromic Subsequence](./problems/516/Solution.cs)
 - [515. Find Largest Value in Each Tree Row](./problems/515/Solution.cs)
 - [509. Fibonacci Number](./problems/509/Solution.cs)
 - [503. Next Greater Element II](./problems/503/Solution.cs)
