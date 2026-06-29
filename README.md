@@ -990,6 +990,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1974. Minimum Time to Type Word Using Special Typewriter](./problems/1974/Solution.cs)
 - [1971. Find if Path Exists in Graph](./problems/1971/Solution.cs)
 - [1970. Last Day Where You Can Still Cross](./problems/1970/Solution.cs)
+- [1967. Number of Strings That Appear as Substrings in Word](./problems/1967/Solution.cs)
 - [1963. Minimum Number of Swaps to Make the String Balanced](./problems/1963/Solution.cs)
 - [1959. Minimum Total Space Wasted With K Resizing Operations](./problems/1959/Solution.cs)
 - [1957. Delete Characters to Make Fancy String](./problems/1957/Solution.cs)
