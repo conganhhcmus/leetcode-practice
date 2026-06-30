@@ -1162,6 +1162,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1320. Minimum Distance to Type a Word Using Two Fingers](./problems/1320/Solution.cs)
 - [1318. Minimum Flips to Make a OR b Equal to c](./problems/1318/Solution.cs)
 - [1317. Convert Integer to the Sum of Two No-Zero Integers](./problems/1317/Solution.cs)
+- [1312. Minimum Insertion Steps to Make a String Palindrome](./problems/1312/Solution.cs)
 - [1311. Get Watched Videos by Your Friends](./problems/1311/Solution.cs)
 - [1310. XOR Queries of a Subarray](./problems/1310/Solution.cs)
 - [1306. Jump Game III](./problems/1306/Solution.cs)
