@@ -1316,6 +1316,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [657. Robot Return to Origin](./problems/657/Solution.cs)
 - [652. Find Duplicate Subtrees](./problems/652/Solution.cs)
 - [649. Dota2 Senate](./problems/649/Solution.cs)
+- [647. Palindromic Substrings](./problems/647/Solution.cs)
 - [645. Set Mismatch](./problems/645/Solution.cs)
 - [643. Maximum Average Subarray I](./problems/643/Solution.cs)
 - [641. Design Circular Deque](./problems/641/Solution.cs)
