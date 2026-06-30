@@ -1406,6 +1406,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [342. Power of Four](./problems/342/Solution.cs)
 - [338. Counting Bits](./problems/338/Solution.cs)
 - [337. House Robber III](./problems/337/Solution.cs)
+- [336. Palindrome Pairs](./problems/336/Solution.cs)
 - [334. Increasing Triplet Subsequence](./problems/334/Solution.cs)
 - [328. Odd Even Linked List](./problems/328/Solution.cs)
 - [326. Power of Three](./problems/326/Solution.cs)
