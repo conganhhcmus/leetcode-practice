@@ -1,3 +1,4 @@
-["abcd","dcba","lls","s","sssll"]
-["bat","tab","cat"]
-["a",""]
+"rabbbit"
+"rabbit"
+"babgbag"
+"bag"
