@@ -1520,6 +1520,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [119. Pascal's Triangle II](./problems/119/Solution.cs)
 - [118. Pascal's Triangle](./problems/118/Solution.cs)
 - [117. Populating Next Right Pointers in Each Node II](./problems/117/Solution.cs)
+- [116. Populating Next Right Pointers in Each Node](./problems/116/Solution.cs)
 - [115. Distinct Subsequences](./problems/115/Solution.cs)
 - [114. Flatten Binary Tree to Linked List](./problems/114/Solution.cs)
 - [113. Path Sum II](./problems/113/Solution.cs)
