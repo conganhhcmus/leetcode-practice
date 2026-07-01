@@ -1506,6 +1506,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [135. Candy](./problems/135/Solution.cs)
 - [134. Gas Station](./problems/134/Solution.cs)
 - [133. Clone Graph](./problems/133/Solution.cs)
+- [132. Palindrome Partitioning II](./problems/132/Solution.cs)
 - [131. Palindrome Partitioning](./problems/131/Solution.cs)
 - [130. Surrounded Regions](./problems/130/Solution.cs)
 - [129. Sum Root to Leaf Numbers](./problems/129/Solution.cs)
