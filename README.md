@@ -663,6 +663,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3300. Minimum Element After Replacement With Digit Sum](./problems/3300/Solution.cs)
 - [3296. Minimum Number of Seconds to Make Mountain Height Zero](./problems/3296/Solution.cs)
 - [3289. The Two Sneaky Numbers of Digitville](./problems/3289/Solution.cs)
+- [3286. Find a Safe Walk Through a Grid](./problems/3286/Solution.cs)
 - [3277. Maximum XOR Score Subarray Queries](./problems/3277/Solution.cs)
 - [3276. Select Cells in Grid With Maximum Score](./problems/3276/Solution.cs)
 - [3275. K-th Nearest Obstacle Queries](./problems/3275/Solution.cs)
