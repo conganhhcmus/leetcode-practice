@@ -1175,6 +1175,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1295. Find Numbers with Even Number of Digits](./problems/1295/Solution.cs)
 - [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](./problems/1292/Solution.cs)
 - [1290. Convert Binary Number in a Linked List to Integer](./problems/1290/Solution.cs)
+- [1288. Remove Covered Intervals](./problems/1288/Solution.cs)
 - [1277. Count Square Submatrices with All Ones](./problems/1277/Solution.cs)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](./problems/1269/Solution.cs)
 - [1268. Search Suggestions System](./problems/1268/Solution.cs)
