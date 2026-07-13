@@ -23,6 +23,13 @@ This repository contains my solutions to various LeetCode problems and contests.
 <details>
 <summary>Click to expand</summary>
 
+- Weekly Contest 510 (
+    [Q1](./contests/weekly/510/Q1.cs),
+    [Q2](./contests/weekly/510/Q2.cs),
+    [Q3](./contests/weekly/510/Q3.cs),
+    [Q4](./contests/weekly/510/Q4.cs)
+  )
+
 - Weekly Contest 509 (
     [Q1](./contests/weekly/509/Q1.cs),
     [Q2](./contests/weekly/509/Q2.cs),
