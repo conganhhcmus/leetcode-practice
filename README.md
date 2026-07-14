@@ -672,6 +672,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3342. Find Minimum Time to Reach Last Room II](./problems/3342/Solution.cs)
 - [3341. Find Minimum Time to Reach Last Room I](./problems/3341/Solution.cs)
 - [3337. Total Characters in String After Transformations II](./problems/3337/Solution.cs)
+- [3336. Find the Number of Subsequences With Equal GCD](./problems/3336/Solution.cs)
 - [3335. Total Characters in String After Transformations I](./problems/3335/Solution.cs)
 - [3333. Find the Original Typed String II](./problems/3333/Solution.cs)
 - [3330. Find the Original Typed String I](./problems/3330/Solution.cs)
