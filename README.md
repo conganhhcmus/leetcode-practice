@@ -681,6 +681,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3318. Find X-Sum of All K-Long Subarrays I](./problems/3318/Solution.cs)
 - [3315. Construct the Minimum Bitwise Array II](./problems/3315/Solution.cs)
 - [3314. Construct the Minimum Bitwise Array I](./problems/3314/Solution.cs)
+- [3312. Sorted GCD Pair Queries](./problems/3312/Solution.cs)
 - [3307. Find the K-th Character in String Game II](./problems/3307/Solution.cs)
 - [3306. Count of Substrings Containing Every Vowel and K Consonants II](./problems/3306/Solution.cs)
 - [3304. Find the K-th Character in String Game I](./problems/3304/Solution.cs)
