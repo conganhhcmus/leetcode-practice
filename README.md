@@ -1456,6 +1456,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [326. Power of Three](./problems/326/Solution.cs)
 - [325. Maximum Size Subarray Sum Equals K](./problems/325/Solution.cs)
 - [322. Coin Change](./problems/322/Solution.cs)
+- [316. Remove Duplicate Letters](./problems/316/Solution.cs)
 - [313. Super Ugly Number](./problems/313/Solution.cs)
 - [309. Best Time to Buy and Sell Stock with Cooldown](./problems/309/Solution.cs)
 - [307. Range Sum Query - Mutable](./problems/307/Solution.cs)
