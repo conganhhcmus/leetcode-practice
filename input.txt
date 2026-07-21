@@ -1,3 +1,4 @@
-["ntgwz","zwntg"]
-["abc","cab","bac","acb","bca","cba"]
-["leet","abb","bab","deed","edde","code","bba"]
+"01"
+"0100"
+"1000100"
+"01010"
