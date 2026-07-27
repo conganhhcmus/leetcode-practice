@@ -23,6 +23,13 @@ This repository contains my solutions to various LeetCode problems and contests.
 <details>
 <summary>Click to expand</summary>
 
+- Weekly Contest 512 (
+    [Q1](./contests/weekly/512/Q1.cs),
+    [Q2](./contests/weekly/512/Q2.cs),
+    [Q3](./contests/weekly/512/Q3.cs),
+    [Q4](./contests/weekly/512/Q4.cs)
+  )
+
 - Weekly Contest 511 (
     [Q1](./contests/weekly/511/Q1.cs),
     [Q2](./contests/weekly/511/Q2.cs),
@@ -1178,6 +1185,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1475. Final Prices With a Special Discount in a Shop](./problems/1475/Solution.cs)
 - [1470. Shuffle the Array](./problems/1470/Solution.cs)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](./problems/1466/Solution.cs)
+- [1464. Maximum Product of Two Elements in an Array](./problems/1464/Solution.cs)
 - [1462. Course Schedule IV](./problems/1462/Solution.cs)
 - [1461. Check If a String Contains All Binary Codes of Size K](./problems/1461/Solution.cs)
 - [1458. Max Dot Product of Two Subsequences](./problems/1458/Solution.cs)
