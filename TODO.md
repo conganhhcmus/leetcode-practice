@@ -1,5 +1,5 @@
 # TODO List
 ## Note
 - Problem: 3049
-- Weekly contest: 473
-- Biweekly contest: 168
+- Weekly contest: 472
+- Biweekly contest: 167
