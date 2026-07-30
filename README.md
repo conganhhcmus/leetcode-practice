@@ -804,6 +804,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3024. Type of Triangle](./problems/3024/Solution.cs)
 - [3021. Alice and Bob Playing Flower Game](./problems/3021/Solution.cs)
 - [3020. Find the Maximum Number of Elements in Subset](./problems/3020/Solution.cs)
+- [3016. Minimum Number of Pushes to Type Word II](./problems/3016/Solution.cs)
 - [3014. Minimum Number of Pushes to Type Word I](./problems/3014/Solution.cs)
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](./problems/3013/Solution.cs)
 - [3011. Find if Array Can Be Sorted](./problems/3011/Solution.cs)
