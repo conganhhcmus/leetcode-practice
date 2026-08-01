@@ -1445,6 +1445,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [498. Diagonal Traverse](./problems/498/Solution.cs)
 - [494. Target Sum](./problems/494/Solution.cs)
 - [493. Reverse Pairs](./problems/493/Solution.cs)
+- [486. Predict the Winner](./problems/486/Solution.cs)
 - [485. Max Consecutive Ones](./problems/485/Solution.cs)
 - [482. License Key Formatting](./problems/482/Solution.cs)
 - [481. Magical String](./problems/481/Solution.cs)
