@@ -1,4 +1,3 @@
-"Bob"
-"Alice"
-"Tie"
-"Tie"
+6
+0
+-1
