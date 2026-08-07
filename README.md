@@ -740,6 +740,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3354. Make Array Elements Equal to Zero](./problems/3354/Solution.cs)
 - [3350. Adjacent Increasing Subarrays Detection II](./problems/3350/Solution.cs)
 - [3349. Adjacent Increasing Subarrays Detection I](./problems/3349/Solution.cs)
+- [3348. Smallest Divisible Digit Product II](./problems/3348/Solution.cs)
 - [3347. Maximum Frequency of an Element After Performing Operations II](./problems/3347/Solution.cs)
 - [3346. Maximum Frequency of an Element After Performing Operations I](./problems/3346/Solution.cs)
 - [3345. Smallest Divisible Digit Product I](./problems/3345/Solution.cs)
