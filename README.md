@@ -1301,6 +1301,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1161. Maximum Level Sum of a Binary Tree](./problems/1161/Solution.cs)
 - [1157. Online Majority Element In Subarray](./problems/1157/Solution.cs)
 - [1143. Longest Common Subsequence](./problems/1143/Solution.cs)
+- [1140. Stone Game II](./problems/1140/Solution.cs)
 - [1137. N-th Tribonacci Number](./problems/1137/Solution.cs)
 - [1129. Shortest Path with Alternating Colors](./problems/1129/Solution.cs)
 - [1128. Number of Equivalent Domino Pairs](./problems/1128/Solution.cs)

@@ -1,12 +1,2 @@
-"vbcca"
-"abc"
-"bacdc"
-"abc"
-"aaaaaa"
-"aaabc"
-"abc"
-"ab"
-"abcdef"
-"abcfg"
-"ghhgghhhhhh"
-"gg"
+[2,7,9,4,4]
+[1,2,3,4,5,100]
