@@ -845,6 +845,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3003. Maximize the Number of Partitions After Operations](./problems/3003/Solution.cs)
 - [3000. Maximum Area of Longest Diagonal Rectangle](./problems/3000/Solution.cs)
 - [2999. Count the Number of Powerful Integers](./problems/2999/Solution.cs)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](./problems/2996/Solution.cs)
 - [2981. Find Longest Special Substring That Occurs Thrice I](./problems/2981/Solution.cs)
 - [2977. Minimum Cost to Convert String II](./problems/2977/Solution.cs)
 - [2976. Minimum Cost to Convert String I](./problems/2976/Solution.cs)
