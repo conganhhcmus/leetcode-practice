@@ -855,6 +855,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2966. Divide Array Into Arrays With Max Difference](./problems/2966/Solution.cs)
 - [2965. Find Missing and Repeated Values](./problems/2965/Solution.cs)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](./problems/2962/Solution.cs)
+- [2958. Length of Longest Subarray With at Most K Frequency](./problems/2958/Solution.cs)
 - [2949. Count Beautiful Substrings II](./problems/2949/Solution.cs)
 - [2948. Make Lexicographically Smallest Array by Swapping Elements](./problems/2948/Solution.cs)
 - [2947. Count Beautiful Substrings I](./problems/2947/Solution.cs)
