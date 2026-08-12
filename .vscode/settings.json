@@ -16,6 +16,15 @@
     "code-runner.saveFileBeforeRun": true,
     "code-runner.clearPreviousOutput": false,
     "code-runner.ignoreSelection": true,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "(input|output)\\.txt$",
+                "isAsync": true,
+                "cmd": "${workspaceFolder}/.venv/bin/python3 ${workspaceFolder}/scripts/lc.py sync"
+            }
+        ]
+    },
     "github.copilot.chat.commitMessageGeneration.instructions": [
         {
             "text": "Use the template \"feat: add solution weekly contest [weekly_contest_id]\" when modifying files in contest/weekly/* folder"

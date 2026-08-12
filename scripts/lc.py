@@ -120,6 +120,10 @@ def open_in_editor(paths: list[Path]) -> None:
     try:
         if editor == "code":
             subprocess.run(["code", "-r"] + str_paths, check=True)
+            # Re-open the last path (the intended target) alone so it ends up
+            # as the focused tab — `code -r` with multiple files doesn't
+            # reliably leave the last one active.
+            subprocess.run(["code", "-r", str_paths[-1]], check=True)
         else:
             subprocess.run([editor] + str_paths, check=True)
     except Exception as e:
@@ -166,6 +170,39 @@ def cmd_load(key: str) -> None:
     out = [l for l in data.get("output", "").splitlines() if l.strip()]
     write_active(inp, out)
     print(f"Loaded ← .lc/{key}.json")
+
+
+def cmd_run(filepath: str) -> None:
+    path = Path(filepath).resolve()
+    if path.suffix != ".cs":
+        sys.exit(
+            f"Not a C# file: {path}\n"
+            "Focus a Solution.cs / Qn.cs file in the editor before running this task."
+        )
+    file = path.name
+    directory = path.parent
+    parts = directory.parts
+
+    key = None
+    if "contests" in parts:
+        idx = parts.index("contests")
+        if len(parts) > idx + 2:
+            contest_type, contest_number = parts[idx + 1], parts[idx + 2]
+            if contest_type in ("weekly", "biweekly") and contest_number.isdigit():
+                prefix = "b" if contest_type == "biweekly" else "w"
+                m = re.match(r"Q(\d+)[_.]", file)
+                n = m.group(1) if m else "1"
+                key = f"{prefix}{contest_number}_Q{n}"
+    elif "problems" in parts:
+        idx = parts.index("problems")
+        if len(parts) > idx + 1 and parts[idx + 1].isdigit():
+            key = parts[idx + 1]
+
+    if key:
+        cmd_load(key)
+
+    result = subprocess.run(["dotnet", "run", file], cwd=directory)
+    sys.exit(result.returncode)
 
 
 def cmd_sync() -> None:
@@ -439,6 +476,7 @@ def main() -> None:
         print("  lc 113       — problem #113")
         print("  lc w113      — weekly contest 113")
         print("  lc b113      — biweekly contest 113")
+        print("  lc run <file> — load testcases for <file> and dotnet run it")
         sys.exit(1)
 
     arg = sys.argv[1]
@@ -446,6 +484,8 @@ def main() -> None:
         cmd_login(sys.argv[2] if len(sys.argv) > 2 else "")
     elif arg == "load" and len(sys.argv) == 3:
         cmd_load(sys.argv[2])
+    elif arg == "run" and len(sys.argv) == 3:
+        cmd_run(sys.argv[2])
     elif arg == "sync":
         cmd_sync()
     elif arg.startswith("http"):

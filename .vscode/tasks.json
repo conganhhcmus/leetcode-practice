@@ -8,27 +8,13 @@
     "problemMatcher": [],
     "tasks": [
         {
-            "label": "LeetCode: Fetch Contest",
+            "label": "LeetCode: Fetch",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/bin/python3",
             "windows": {
                 "command": "${workspaceFolder}/.venv/Scripts/python"
             },
-            "args": ["${workspaceFolder}/scripts/lc.py", "${input:contest_url}"],
-            "options": {
-                "env": {
-                    "LEETCODE_EDITOR": "code"
-                }
-            }
-        },
-        {
-            "label": "LeetCode: Fetch Problem",
-            "type": "shell",
-            "command": "${workspaceFolder}/.venv/bin/python3",
-            "windows": {
-                "command": "${workspaceFolder}/.venv/Scripts/python"
-            },
-            "args": ["${workspaceFolder}/scripts/lc.py", "${input:problem_url}"],
+            "args": ["${workspaceFolder}/scripts/lc.py", "${input:lc_url}"],
             "options": {
                 "env": {
                     "LEETCODE_EDITOR": "code"
@@ -42,7 +28,27 @@
             "windows": {
                 "command": "${workspaceFolder}/.venv/Scripts/python"
             },
-            "args": ["${workspaceFolder}/scripts/lc.py", "load", "${input:load_key}"]
+            "args": ["${workspaceFolder}/scripts/lc.py", "load", "${input:load_key}"],
+            "hide": true
+        },
+        {
+            "label": "LeetCode: Run",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/bin/python3",
+            "windows": {
+                "command": "${workspaceFolder}/.venv/Scripts/python"
+            },
+            "args": ["${workspaceFolder}/scripts/lc.py", "run", "${file}"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "revealProblems": "onProblem",
+                "close": false,
+                "clear": true
+            }
         },
         {
             "label": "LeetCode: Sync",
@@ -51,19 +57,15 @@
             "windows": {
                 "command": "${workspaceFolder}/.venv/Scripts/python"
             },
-            "args": ["${workspaceFolder}/scripts/lc.py", "sync"]
+            "args": ["${workspaceFolder}/scripts/lc.py", "sync"],
+            "hide": true
         }
     ],
     "inputs": [
         {
-            "id": "contest_url",
+            "id": "lc_url",
             "type": "promptString",
-            "description": "Enter LeetCode contest URL:"
-        },
-        {
-            "id": "problem_url",
-            "type": "promptString",
-            "description": "Enter LeetCode problem URL:"
+            "description": "Enter LeetCode URL / problem ID / w113 / b113:"
         },
         {
             "id": "load_key",
