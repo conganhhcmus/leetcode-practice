@@ -119,10 +119,6 @@ def open_in_editor(paths: list[Path]) -> None:
     str_paths = [str(p) for p in paths]
     try:
         if editor == "code":
-            subprocess.run(["code", "-r"] + str_paths, check=True)
-            # Re-open the last path (the intended target) alone so it ends up
-            # as the focused tab — `code -r` with multiple files doesn't
-            # reliably leave the last one active.
             subprocess.run(["code", "-r", str_paths[-1]], check=True)
         else:
             subprocess.run([editor] + str_paths, check=True)
@@ -133,13 +129,13 @@ def open_in_editor(paths: list[Path]) -> None:
 def parse_outputs(content: str) -> list[str]:
     if not content:
         return []
-    text = re.sub(r'<br\s*/?>', '\n', content, flags=re.IGNORECASE)
-    text = re.sub(r'</(p|pre|li)>', '\n', text, flags=re.IGNORECASE)
-    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r"<br\s*/?>", "\n", content, flags=re.IGNORECASE)
+    text = re.sub(r"</(p|pre|li)>", "\n", text, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "", text)
     text = html.unescape(text)
     outputs = []
-    for m in re.finditer(r'\bOutput:\s*([^\n]+)', text):
-        val = re.sub(r',\s+', ',', m.group(1).strip())
+    for m in re.finditer(r"\bOutput:\s*([^\n]+)", text):
+        val = re.sub(r",\s+", ",", m.group(1).strip())
         if val:
             outputs.append(val)
     return outputs
@@ -166,7 +162,7 @@ def cmd_load(key: str) -> None:
         print(f"No .lc/{key}.json yet — .current set to '{key}'")
         return
     data = json.loads(path.read_text())
-    inp = [l for l in data.get("input",  "").splitlines() if l.strip()]
+    inp = [l for l in data.get("input", "").splitlines() if l.strip()]
     out = [l for l in data.get("output", "").splitlines() if l.strip()]
     write_active(inp, out)
     print(f"Loaded ← .lc/{key}.json")
@@ -210,7 +206,7 @@ def cmd_sync() -> None:
     if not current.exists():
         sys.exit("No active key (.lc/.current missing). Run ':LCR' first.")
     key = current.read_text().strip()
-    inp = [l for l in (ROOT_DIR / "input.txt").read_text().splitlines()  if l.strip()]
+    inp = [l for l in (ROOT_DIR / "input.txt").read_text().splitlines() if l.strip()]
     out = [l for l in (ROOT_DIR / "output.txt").read_text().splitlines() if l.strip()]
     lc_save(key, inp, out)
     print(f"Saved → .lc/{key}.json")
