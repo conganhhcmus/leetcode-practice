@@ -673,6 +673,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3719. Longest Balanced Subarray I](./problems/3719/Solution.cs)
 - [3714. Longest Balanced Substring II](./problems/3714/Solution.cs)
 - [3713. Longest Balanced Substring I](./problems/3713/Solution.cs)
+- [3702. Longest Subsequence With Non-Zero Bitwise XOR](./problems/3702/Solution.cs)
 - [3700. Number of ZigZag Arrays II](./problems/3700/Solution.cs)
 - [3699. Number of ZigZag Arrays I](./problems/3699/Solution.cs)
 - [3691. Maximum Total Subarray Value II](./problems/3691/Solution.cs)
