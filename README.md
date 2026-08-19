@@ -484,6 +484,13 @@ This repository contains my solutions to various LeetCode problems and contests.
 <details>
 <summary>Click to expand</summary>
 
+- Biweekly Contest 189 (
+    [Q1](./contests/biweekly/189/Q1.cs),
+    [Q2](./contests/biweekly/189/Q2.cs),
+    [Q3](./contests/biweekly/189/Q3.cs),
+    [Q4](./contests/biweekly/189/Q4.cs)
+  )
+
 - Biweekly Contest 188 (
     [Q1](./contests/biweekly/188/Q1.cs),
     [Q2](./contests/biweekly/188/Q2.cs),
