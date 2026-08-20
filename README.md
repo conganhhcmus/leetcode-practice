@@ -831,6 +831,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3075. Maximize Happiness of Selected Children](./problems/3075/Solution.cs)
 - [3074. Apple Redistribution into Boxes](./problems/3074/Solution.cs)
 - [3070. Count Submatrices with Top-Left Element and Sum Less Than k](./problems/3070/Solution.cs)
+- [3069. Distribute Elements Into Two Arrays I](./problems/3069/Solution.cs)
 - [3068. Find the Maximum Sum of Node Values](./problems/3068/Solution.cs)
 - [3066. Minimum Operations to Exceed Threshold Value II](./problems/3066/Solution.cs)
 - [3065. Minimum Operations to Exceed Threshold Value I](./problems/3065/Solution.cs)
