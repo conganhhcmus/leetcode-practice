@@ -820,6 +820,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3129. Find All Possible Stable Binary Arrays I](./problems/3129/Solution.cs)
 - [3121. Count the Number of Special Characters II](./problems/3121/Solution.cs)
 - [3120. Count the Number of Special Characters I](./problems/3120/Solution.cs)
+- [3116. Kth Smallest Amount With Single Denomination Combination](./problems/3116/Solution.cs)
 - [3115. Maximum Prime Difference](./problems/3115/Solution.cs)
 - [3108. Minimum Cost Walk in Weighted Graph](./problems/3108/Solution.cs)
 - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](./problems/3105/Solution.cs)
