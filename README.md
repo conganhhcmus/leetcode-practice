@@ -882,6 +882,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](./problems/2918/Solution.cs)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](./problems/2914/Solution.cs)
 - [2906. Construct Product Matrix](./problems/2906/Solution.cs)
+- [2904. Shortest and Lexicographically Smallest Beautiful String](./problems/2904/Solution.cs)
 - [2901. Longest Unequal Adjacent Groups Subsequence II](./problems/2901/Solution.cs)
 - [2900. Longest Unequal Adjacent Groups Subsequence I](./problems/2900/Solution.cs)
 - [2894. Divisible and Non-divisible Sums Difference](./problems/2894/Solution.cs)
