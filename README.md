@@ -1098,6 +1098,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2065. Maximum Path Quality of a Graph](./problems/2065/Solution.cs)
 - [2064. Minimized Maximum of Products Distributed to Any Store](./problems/2064/Solution.cs)
 - [2063. Vowels of All Substrings](./problems/2063/Solution.cs)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](./problems/2058/Solution.cs)
 - [2054. Two Best Non-Overlapping Events](./problems/2054/Solution.cs)
 - [2048. Next Greater Numerically Balanced Number](./problems/2048/Solution.cs)
 - [2044. Count Number of Maximum Bitwise-OR Subsets](./problems/2044/Solution.cs)
