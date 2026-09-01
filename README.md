@@ -714,6 +714,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3578. Count Partitions With Max-Min Difference at Most K](./problems/3578/Solution.cs)
 - [3577. Count the Number of Computer Unlocking Permutations](./problems/3577/Solution.cs)
 - [3573. Best Time to Buy and Sell Stock V](./problems/3573/Solution.cs)
+- [3568. Minimum Moves to Clean the Classroom](./problems/3568/Solution.cs)
 - [3567. Minimum Absolute Difference in Sliding Submatrix](./problems/3567/Solution.cs)
 - [3562. Maximum Profit from Trading Stocks with Discounts](./problems/3562/Solution.cs)
 - [3559. Number of Ways to Assign Edge Weights II](./problems/3559/Solution.cs)
