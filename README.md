@@ -1372,6 +1372,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [952. Largest Component Size by Common Factor](./problems/952/Solution.cs)
 - [951. Flip Equivalent Binary Trees](./problems/951/Solution.cs)
 - [944. Delete Columns to Make Sorted](./problems/944/Solution.cs)
+- [940. Distinct Subsequences II](./problems/940/Solution.cs)
 - [933. Number of Recent Calls](./problems/933/Solution.cs)
 - [932. Beautiful Array](./problems/932/Solution.cs)
 - [921. Minimum Add to Make Parentheses Valid](./problems/921/Solution.cs)
