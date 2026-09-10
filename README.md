@@ -1034,6 +1034,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2273. Find Resultant Array After Removing Anagrams](./problems/2273/Solution.cs)
 - [2270. Number of Ways to Split Array](./problems/2270/Solution.cs)
 - [2266. Count Number of Texts](./problems/2266/Solution.cs)
+- [2265. Count Nodes Equal to Average of Subtree](./problems/2265/Solution.cs)
 - [2264. Largest 3-Same-Digit Number in String](./problems/2264/Solution.cs)
 - [2259. Remove Digit From Number to Maximize Result](./problems/2259/Solution.cs)
 - [2257. Count Unguarded Cells in the Grid](./problems/2257/Solution.cs)
