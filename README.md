@@ -1408,6 +1408,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [840. Magic Squares In Grid](./problems/840/Solution.cs)
 - [838. Push Dominoes](./problems/838/Solution.cs)
 - [837. New 21 Game](./problems/837/Solution.cs)
+- [836. Rectangle Overlap](./problems/836/Solution.cs)
 - [835. Image Overlap](./problems/835/Solution.cs)
 - [831. Masking Personal Information](./problems/831/Solution.cs)
 - [827. Making A Large Island](./problems/827/Solution.cs)
