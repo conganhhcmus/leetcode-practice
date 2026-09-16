@@ -1216,6 +1216,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1639. Number of Ways to Form a Target String Given a Dictionary](./problems/1639/Solution.cs)
 - [1625. Lexicographically Smallest String After Applying Operations](./problems/1625/Solution.cs)
 - [1622. Fancy Sequence](./problems/1622/Solution.cs)
+- [1621. Number of Sets of K Non-Overlapping Line Segments](./problems/1621/Solution.cs)
 - [1611. Minimum One Bit Operations to Make Integers Zero](./problems/1611/Solution.cs)
 - [1594. Maximum Non Negative Product in a Matrix](./problems/1594/Solution.cs)
 - [1593. Split a String Into the Max Number of Unique Substrings](./problems/1593/Solution.cs)
