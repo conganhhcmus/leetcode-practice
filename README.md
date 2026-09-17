@@ -1249,6 +1249,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](./problems/1489/Solution.cs)
 - [1488. Avoid Flood in The City](./problems/1488/Solution.cs)
 - [1480. Running Sum of 1d Array](./problems/1480/Solution.cs)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](./problems/1477/Solution.cs)
 - [1475. Final Prices With a Special Discount in a Shop](./problems/1475/Solution.cs)
 - [1470. Shuffle the Array](./problems/1470/Solution.cs)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](./problems/1466/Solution.cs)
