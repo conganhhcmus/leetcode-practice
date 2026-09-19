@@ -1,2 +1,4 @@
-["e","f","ccc"]
-["d","bb","cc"]
+true
+false
+true
+false

@@ -1273,6 +1273,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1406. Stone Game III](./problems/1406/Solution.cs)
 - [1405. Longest Happy String](./problems/1405/Solution.cs)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](./problems/1404/Solution.cs)
+- [1401. Circle and Rectangle Overlapping](./problems/1401/Solution.cs)
 - [1400. Construct K Palindrome Strings](./problems/1400/Solution.cs)
 - [1399. Count Largest Group](./problems/1399/Solution.cs)
 - [1394. Find Lucky Integer in an Array](./problems/1394/Solution.cs)
