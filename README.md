@@ -725,6 +725,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3536. Maximum Product of Two Digits](./problems/3536/Solution.cs)
 - [3501. Maximize Active Section with Trade II](./problems/3501/Solution.cs)
 - [3499. Maximize Active Section with Trade I](./problems/3499/Solution.cs)
+- [3498. Reverse Degree of a String](./problems/3498/Solution.cs)
 - [3454. Separate Squares II](./problems/3454/Solution.cs)
 - [3453. Separate Squares I](./problems/3453/Solution.cs)
 - [3446. Sort Matrix by Diagonals](./problems/3446/Solution.cs)
