@@ -1345,6 +1345,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1128. Number of Equivalent Domino Pairs](./problems/1128/Solution.cs)
 - [1123. Lowest Common Ancestor of Deepest Leaves](./problems/1123/Solution.cs)
 - [1106. Parsing A Boolean Expression](./problems/1106/Solution.cs)
+- [1096. Brace Expansion II](./problems/1096/Solution.cs)
 - [1092. Shortest Common Supersequence ](./problems/1092/Solution.cs)
 - [1081. Smallest Subsequence of Distinct Characters](./problems/1081/Solution.cs)
 - [1079. Letter Tile Possibilities](./problems/1079/Solution.cs)
