@@ -1,2 +1,3 @@
-"{a,b}{c,{d,e}}"
-"{{a,z},a{b,c},{ab,z}}"
+"(abcd)"
+"(u(love)i)"
+"(ed(et(oc))el)"
