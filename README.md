@@ -1034,6 +1034,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2275. Largest Combination With Bitwise AND Greater Than Zero](./problems/2275/Solution.cs)
 - [2273. Find Resultant Array After Removing Anagrams](./problems/2273/Solution.cs)
 - [2270. Number of Ways to Split Array](./problems/2270/Solution.cs)
+- [2267.  Check if There Is a Valid Parentheses String Path](./problems/2267/Solution.cs)
 - [2266. Count Number of Texts](./problems/2266/Solution.cs)
 - [2265. Count Nodes Equal to Average of Subtree](./problems/2265/Solution.cs)
 - [2264. Largest 3-Same-Digit Number in String](./problems/2264/Solution.cs)
