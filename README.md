@@ -1347,6 +1347,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1129. Shortest Path with Alternating Colors](./problems/1129/Solution.cs)
 - [1128. Number of Equivalent Domino Pairs](./problems/1128/Solution.cs)
 - [1123. Lowest Common Ancestor of Deepest Leaves](./problems/1123/Solution.cs)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](./problems/1111/Solution.cs)
 - [1106. Parsing A Boolean Expression](./problems/1106/Solution.cs)
 - [1096. Brace Expansion II](./problems/1096/Solution.cs)
 - [1092. Shortest Common Supersequence ](./problems/1092/Solution.cs)
