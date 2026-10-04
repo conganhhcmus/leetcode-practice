@@ -1474,6 +1474,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [684. Redundant Connection](./problems/684/Solution.cs)
 - [680. Valid Palindrome II](./problems/680/Solution.cs)
 - [679. 24 Game](./problems/679/Solution.cs)
+- [678. Valid Parenthesis String](./problems/678/Solution.cs)
 - [670. Maximum Swap](./problems/670/Solution.cs)
 - [657. Robot Return to Origin](./problems/657/Solution.cs)
 - [652. Find Duplicate Subtrees](./problems/652/Solution.cs)
