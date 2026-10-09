@@ -1235,6 +1235,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1557. Minimum Number of Vertices to Reach All Nodes](./problems/1557/Solution.cs)
 - [1550. Three Consecutive Odds](./problems/1550/Solution.cs)
 - [1545. Find Kth Bit in Nth Binary String](./problems/1545/Solution.cs)
+- [1541. Minimum Insertions to Balance a Parentheses String](./problems/1541/Solution.cs)
 - [1536. Minimum Swaps to Arrange a Binary Grid](./problems/1536/Solution.cs)
 - [1534. Count Good Triplets](./problems/1534/Solution.cs)
 - [1526. Minimum Number of Increments on Subarrays to Form a Target Array](./problems/1526/Solution.cs)
