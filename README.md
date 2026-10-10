@@ -1022,6 +1022,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2337. Move Pieces to Obtain a String](./problems/2337/Solution.cs)
 - [2336. Smallest Number in Infinite Set](./problems/2336/Solution.cs)
 - [2335. Minimum Amount of Time to Fill Cups](./problems/2335/Solution.cs)
+- [2333. Minimum Sum of Squared Difference](./problems/2333/Solution.cs)
 - [2327. Number of People Aware of a Secret](./problems/2327/Solution.cs)
 - [2326. Spiral Matrix IV](./problems/2326/Solution.cs)
 - [2322. Minimum Score After Removals on a Tree](./problems/2322/Solution.cs)
