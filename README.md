@@ -909,6 +909,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2784. Check if Array is Good](./problems/2784/Solution.cs)
 - [2780. Minimum Index of a Valid Split](./problems/2780/Solution.cs)
 - [2779. Maximum Beauty of an Array After Applying Operation](./problems/2779/Solution.cs)
+- [2778. Sum of Squares of Special Elements ](./problems/2778/Solution.cs)
 - [2770. Maximum Number of Jumps to Reach the Last Index](./problems/2770/Solution.cs)
 - [2762. Continuous Subarrays](./problems/2762/Solution.cs)
 - [2751. Robot Collisions](./problems/2751/Solution.cs)
