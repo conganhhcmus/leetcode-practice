@@ -686,6 +686,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3691. Maximum Total Subarray Value II](./problems/3691/Solution.cs)
 - [3689. Maximum Total Subarray Value I](./problems/3689/Solution.cs)
 - [3666. Minimum Operations to Equalize Binary String](./problems/3666/Solution.cs)
+- [3665. Twisted Mirror Path Count](./problems/3665/Solution.cs)
 - [3661. Maximum Walls Destroyed by Robots](./problems/3661/Solution.cs)
 - [3660. Jump Game IX](./problems/3660/Solution.cs)
 - [3658. GCD of Odd and Even Sums](./problems/3658/Solution.cs)
