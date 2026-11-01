@@ -1537,6 +1537,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [459. Repeated Substring Pattern](./problems/459/Solution.cs)
 - [455. Assign Cookies](./problems/455/Solution.cs)
 - [454. 4Sum II](./problems/454/Solution.cs)
+- [453. Minimum Moves to Equal Array Elements](./problems/453/Solution.cs)
 - [452. Minimum Number of Arrows to Burst Balloons](./problems/452/Solution.cs)
 - [451. Sort Characters By Frequency](./problems/451/Solution.cs)
 - [450. Delete Node in a BST](./problems/450/Solution.cs)
