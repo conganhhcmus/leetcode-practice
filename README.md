@@ -920,6 +920,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [2762. Continuous Subarrays](./problems/2762/Solution.cs)
 - [2751. Robot Collisions](./problems/2751/Solution.cs)
 - [2749. Minimum Operations to Make the Integer Zero](./problems/2749/Solution.cs)
+- [2747. Count Zero Request Servers](./problems/2747/Solution.cs)
 - [2707. Extra Characters in a String](./problems/2707/Solution.cs)
 - [2706. Buy Two Chocolates](./problems/2706/Solution.cs)
 - [2698. Find the Punishment Number of an Integer](./problems/2698/Solution.cs)
