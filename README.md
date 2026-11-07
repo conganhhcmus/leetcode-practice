@@ -1298,6 +1298,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [1391. Check if There is a Valid Path in a Grid](./problems/1391/Solution.cs)
 - [1390. Four Divisors](./problems/1390/Solution.cs)
 - [1386. Cinema Seat Allocation](./problems/1386/Solution.cs)
+- [1385. Find the Distance Value Between Two Arrays](./problems/1385/Solution.cs)
 - [1382. Balance a Binary Search Tree](./problems/1382/Solution.cs)
 - [1381. Design a Stack With Increment Operation](./problems/1381/Solution.cs)
 - [1372. Longest ZigZag Path in a Binary Tree](./problems/1372/Solution.cs)
