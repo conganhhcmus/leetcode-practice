@@ -683,6 +683,7 @@ This repository contains my solutions to various LeetCode problems and contests.
 - [3702. Longest Subsequence With Non-Zero Bitwise XOR](./problems/3702/Solution.cs)
 - [3700. Number of ZigZag Arrays II](./problems/3700/Solution.cs)
 - [3699. Number of ZigZag Arrays I](./problems/3699/Solution.cs)
+- [3693. Climbing Stairs II](./problems/3693/Solution.cs)
 - [3691. Maximum Total Subarray Value II](./problems/3691/Solution.cs)
 - [3689. Maximum Total Subarray Value I](./problems/3689/Solution.cs)
 - [3666. Minimum Operations to Equalize Binary String](./problems/3666/Solution.cs)
